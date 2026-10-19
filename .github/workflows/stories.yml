@@ -1,0 +1,42 @@
+name: VELTOR stories
+
+on:
+  schedule:
+    - cron: "7 */2 * * *"   # every 2 hours (UTC), at :07
+  workflow_dispatch: {}      # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veltor-stories
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pillow==11.*
+
+      - name: Fetch new posts and render stories
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python fetch_and_render.py
+
+      - name: Commit results
+        run: |
+          git config user.name "veltor-stories-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state.json queue.json stories || true
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "New stories $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
