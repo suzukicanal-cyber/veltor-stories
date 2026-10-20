@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent
 STATE = ROOT / "state.json"
 QUEUE = ROOT / "queue.json"
 SKIPPED = ROOT / "skipped.json"   # posts that could not become a story, with the reason
+CONFIG = ROOT / "config.json"     # {"deliver_to_chat_ids": [...]}: who receives finished stories
 STORIES = ROOT / "stories"
 TMP = ROOT / "tmp"
 
@@ -43,6 +44,43 @@ def download_photo(file_id, dest):
         dest.write_bytes(r.read())
 
 
+def send_story(chat_id, path, caption):
+    """Send the story as a FILE (sendDocument) so Telegram keeps full 1080x1920 quality."""
+    boundary = "----veltor" + str(int(time.time() * 1000))
+    parts = []
+    for name, value in (("chat_id", str(chat_id)), ("caption", caption)):
+        parts.append(f'--{boundary}\r\nContent-Disposition: form-data; name="{name}"\r\n\r\n{value}\r\n'.encode())
+    parts.append((f'--{boundary}\r\nContent-Disposition: form-data; name="document"; '
+                  f'filename="{Path(path).name}"\r\nContent-Type: image/jpeg\r\n\r\n').encode())
+    parts.append(Path(path).read_bytes())
+    parts.append(f"\r\n--{boundary}--\r\n".encode())
+    req = urllib.request.Request(f"{API}/sendDocument", data=b"".join(parts),
+                                 headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        data = json.load(r)
+    if not data.get("ok"):
+        raise RuntimeError(data)
+
+
+def deliver_pending(queue):
+    """Send every story not yet delivered to the Telegram chats in config.json."""
+    chats = load(CONFIG, {}).get("deliver_to_chat_ids", [])
+    for item in queue:
+        if item.get("status") != "new" or not chats:
+            continue
+        caption = f"{item['title']} — {item['price']}₽\nГотово для сторис: сохраните файл, добавьте музыку и опубликуйте."
+        try:
+            for chat in chats:
+                send_story(chat, ROOT / item["file"], caption)
+            item["status"] = "delivered"
+            item["delivered_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+            item.pop("last_error", None)
+            print(f"delivered {item['file']}")
+        except Exception as e:
+            item["last_error"] = str(e)[:300]
+            print(f"delivery failed for {item['file']}: {e}")
+
+
 def load(p, default):
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else default
 
@@ -55,7 +93,10 @@ def main():
     updates = tg("getUpdates", offset=state["offset"], limit=100, timeout=0,
                  allowed_updates=["message", "channel_post", "edited_message"])
     if not updates:
-        print("no new updates"); return 0
+        print("no new updates")
+        deliver_pending(queue)          # retry earlier failed deliveries, if any
+        QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
+        return 0
 
     # group album parts (media_group_id) together
     posts = {}
@@ -126,6 +167,7 @@ def main():
         new_count += 1
         print(f"rendered {out.name}: {title}")
 
+    deliver_pending(queue)
     state["offset"] = updates[-1]["update_id"] + 1
     STATE.write_text(json.dumps(state, indent=2), encoding="utf-8")
     QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
