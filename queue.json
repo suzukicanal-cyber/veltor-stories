@@ -34,5 +34,15 @@
     "status": "sent",
     "metricool_id": 400714792,
     "sent_at": "2026-10-20T07:28:00+03:00"
+  },
+  {
+    "post_id": 7666,
+    "file": "stories/20261020-1030_7666.jpg",
+    "title": "Harley-Davidson Fat Bob 114",
+    "year": "2022",
+    "mileage": "12’000",
+    "price": "1 420 000",
+    "created": "2026-10-20T10:30:49+00:00",
+    "status": "new"
   }
 ]
