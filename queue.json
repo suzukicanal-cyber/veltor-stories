@@ -43,6 +43,8 @@
     "mileage": "12’000",
     "price": "1 420 000",
     "created": "2026-10-20T10:30:49+00:00",
-    "status": "new"
+    "status": "sent",
+    "metricool_id": 401042754,
+    "sent_at": "2026-10-20T15:28:00+03:00"
   }
 ]
