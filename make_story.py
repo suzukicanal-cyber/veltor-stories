@@ -264,10 +264,14 @@ def parse_post(text):
     lines = [l.strip() for l in text.splitlines() if l.strip()]
     title = lines[0]
     blob = "\n".join(lines[1:])
-    year = re.search(r"Год:\s*(\d{4})", blob).group(1)
-    mileage = re.search(r"Пробег:\s*([\d’'\s.,]+?)\s*km", blob, re.I).group(1).strip()
-    price = re.search(r"Цена под ключ:\s*([\d\s ]+?)\s*₽", blob).group(1).strip()
-    return title, year, mileage, price
+    m_year = re.search(r"Год\s*(?:выпуска)?\s*[:\-–]?\s*(\d{4})", blob, re.I)
+    m_km = re.search(r"Пробег\s*[:\-–]?\s*([\d’'`\s .,]+?)\s*(?:km|км)\b", blob, re.I)
+    m_price = re.search(r"Цена(?:\s+под\s+ключ)?\s*[:\-–]?\s*([\d\s .]+?)\s*(?:₽|руб|р\.|р\b)", blob, re.I)
+    missing = [n for n, m in (("Год", m_year), ("Пробег", m_km), ("Цена", m_price)) if not m]
+    if missing:
+        raise ValueError("нет строк: " + ", ".join(missing))
+    norm = lambda s: re.sub(r"[\s ]+", " ", s).strip()
+    return title, m_year.group(1), norm(m_km.group(1)), norm(m_price.group(1))
 
 
 if __name__ == "__main__":

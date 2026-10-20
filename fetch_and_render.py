@@ -16,6 +16,7 @@ import make_story
 ROOT = Path(__file__).resolve().parent
 STATE = ROOT / "state.json"
 QUEUE = ROOT / "queue.json"
+SKIPPED = ROOT / "skipped.json"   # posts that could not become a story, with the reason
 STORIES = ROOT / "stories"
 TMP = ROOT / "tmp"
 
@@ -70,19 +71,46 @@ def main():
         p["first_id"] = min(p["first_id"], m["message_id"])
         if m.get("photo"):
             p["photos"].append((m["message_id"], m["photo"][-1]["file_id"]))  # largest size
+        doc = m.get("document") or {}
+        if str(doc.get("mime_type", "")).startswith("image/"):          # photo sent "as file"
+            p["photos"].append((m["message_id"], doc["file_id"]))
         if m.get("caption") or m.get("text"):
             p["caption"] = m.get("caption") or m.get("text")
 
+    # Text sent as a separate message right after a photo album without caption:
+    # attach it to that album.
+    ordered = sorted(posts.values(), key=lambda p: p["first_id"])
+    for i, p in enumerate(ordered):
+        if p["photos"] or not p["caption"]:
+            continue
+        for prev in reversed(ordered[:i]):
+            if prev["photos"] and not prev["caption"] and p["first_id"] - prev["first_id"] <= 12:
+                prev["caption"] = p["caption"]; p["caption"] = None
+                break
+
+    skipped = load(SKIPPED, [])
+    def skip(post_id, reason, caption):
+        print(f"skip post {post_id}: {reason}")
+        skipped.append({"post_id": post_id, "reason": reason,
+                        "text": (caption or "")[:300],
+                        "at": datetime.now(timezone.utc).isoformat(timespec="seconds")})
+
     TMP.mkdir(exist_ok=True); STORIES.mkdir(exist_ok=True)
     new_count = 0
-    for key, p in sorted(posts.items(), key=lambda kv: kv[1]["first_id"]):
+    for p in ordered:
         post_id = p["first_id"]
-        if post_id in done_ids or not p["photos"] or not p["caption"]:
+        if post_id in done_ids:
             continue
+        if not p["photos"] and not p["caption"]:
+            continue                                   # service message, sticker, etc.
+        if not p["photos"]:
+            skip(post_id, "нет фото (только текст или видео)", p["caption"]); continue
+        if not p["caption"]:
+            skip(post_id, "нет текста с моделью, годом, пробегом и ценой", None); continue
         try:
             title, year, mileage, price = make_story.parse_post(p["caption"])
         except Exception as e:  # not a sale post in the usual format
-            print(f"skip post {post_id}: cannot parse ({e})"); continue
+            skip(post_id, f"не распознан текст ({e})", p["caption"]); continue
         first_photo = sorted(p["photos"])[0][1]
         src = TMP / f"{post_id}.jpg"
         download_photo(first_photo, src)
@@ -101,6 +129,7 @@ def main():
     state["offset"] = updates[-1]["update_id"] + 1
     STATE.write_text(json.dumps(state, indent=2), encoding="utf-8")
     QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
+    SKIPPED.write_text(json.dumps(skipped[-200:], ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"done: {new_count} new stories")
     return 0
 
