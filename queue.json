@@ -10,5 +10,15 @@
     "status": "sent",
     "metricool_id": 400391941,
     "sent_at": "2026-10-19T22:17:00+03:00"
+  },
+  {
+    "post_id": 7557,
+    "file": "stories/20261020-0041_7557.jpg",
+    "title": "BMW S1000RR M Package",
+    "year": "2026",
+    "mileage": "932",
+    "price": "2 552 000",
+    "created": "2026-10-20T00:41:06+00:00",
+    "status": "new"
   }
 ]
