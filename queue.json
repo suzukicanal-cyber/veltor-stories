@@ -22,5 +22,15 @@
     "status": "sent",
     "metricool_id": 400666535,
     "sent_at": "2026-10-20T05:28:00+03:00"
+  },
+  {
+    "post_id": 7596,
+    "file": "stories/20261020-0230_7596.jpg",
+    "title": "DUCATI MONSTER 821",
+    "year": "2020",
+    "mileage": "17’000",
+    "price": "900 000",
+    "created": "2026-10-20T02:30:04+00:00",
+    "status": "new"
   }
 ]
