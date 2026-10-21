@@ -17,20 +17,27 @@ GROUP_ID = -1003713431807
 MAX_ALBUM = 10
 
 
+FETCH_LOG = []
+
+
 def fetch_album(first_id, via_chat):
     photos, caption, group = [], None, None
+    FETCH_LOG.clear()
     for mid in range(first_id, first_id + MAX_ALBUM):
         try:
             m = f.tg("forwardMessage", chat_id=via_chat, from_chat_id=GROUP_ID,
                      message_id=mid, disable_notification=True)
         except Exception as e:
             print(f"  message {mid}: not available ({e})")
+            FETCH_LOG.append({"mid": mid, "error": str(e)[:200]})
             break
         try:
             f.tg("deleteMessage", chat_id=via_chat, message_id=m["message_id"])
         except Exception:
             pass
         g = m.get("media_group_id")
+        FETCH_LOG.append({"mid": mid, "group": g, "photo": bool(m.get("photo")),
+                          "caption": bool(m.get("caption")), "keys": sorted(k for k in m if k not in ("chat", "from"))[:12]})
         if mid == first_id:
             group = g
         elif not g or g != group:
@@ -75,7 +82,8 @@ def main(ids):
                  "photo_no": n, "title": title, "year": year, "mileage": mileage, "price": price,
                  "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                  "status": "new", "rebuilt": True,
-                 "album_photos": len(photos), "checked": list(f.PICK_LOG)}
+                 "album_photos": len(photos), "checked": list(f.PICK_LOG),
+                 "fetch_log": list(FETCH_LOG)}
         if old:
             queue[queue.index(old)] = entry
         else:
