@@ -318,8 +318,11 @@ def place_collage_cinema(canvas, main_path, back_path):
     return top_main
 
 
-def _card(img, w, radius=28):
+def _card(img, w, radius=28, max_ratio=None):
     card = _fit_w(img, w)
+    if max_ratio and card.height > w * max_ratio:          # tall (portrait) photo: centre crop
+        h = round(w * max_ratio); t = (card.height - h) // 2
+        card = card.crop((0, t, w, t + h))
     mask = Image.new("L", (card.width * 3, card.height * 3), 0)
     ImageDraw.Draw(mask).rounded_rectangle([0, 0, mask.width - 1, mask.height - 1], radius=radius * 3, fill=255)
     return card, mask.resize(card.size, Image.LANCZOS)
@@ -338,22 +341,22 @@ CARD_RADIUS = 28
 
 
 def collage_backdrop(back_path):
-    """Second photo as a dim full-bleed backdrop."""
+    """Main photo as a dim full-bleed backdrop."""
     back_full = load_srgb(back_path)
     bg = back_full.resize((round(back_full.width * H / back_full.height), H), Image.LANCZOS)
     left = (bg.width - W) // 2
     return Image.eval(bg.crop((left, 0, left + W, H)), lambda v: int(v * 0.30))
 
 
-def place_collage_cards(canvas, main_path, back_path):
+def place_collage_cards(canvas, main_path, second_path):
     """Editorial layout: both photos as large rounded cards, staggered
     right/left, over the dim backdrop."""
-    a, am = _card(load_srgb(back_path), 700, CARD_RADIUS)   # upper card, right
-    b, bm = _card(load_srgb(main_path), 800, CARD_RADIUS)   # lower card, left (main)
+    a, am = _card(load_srgb(second_path), 640, CARD_RADIUS, max_ratio=0.72)   # upper card, right (detail)
+    b, bm = _card(load_srgb(main_path), 820, CARD_RADIUS, max_ratio=0.75)   # lower card, left (main)
     ax, ay = W - a.width - 44, INFO_BOTTOM + 70
-    bx, by = 44, H - b.height - 150
-    if by < ay + a.height - 110:                            # keep a pleasant overlap, not more
-        by = ay + a.height - 110
+    bx = 44
+    by = max(H - b.height - 150, ay + a.height - 110)       # pleasant overlap ...
+    by = min(by, H - b.height - 110)                        # ... but stay clear of the bottom
     canvas.paste(a, (ax, ay), am)                           # plain rounded cards:
     canvas.paste(b, (bx, by), bm)                           # no glass, no shadows
     return canvas
@@ -362,7 +365,7 @@ def place_collage_cards(canvas, main_path, back_path):
 def build(args):
     canvas = Image.new("RGB", (W, H), (0, 0, 0))
     if getattr(args, "photo2", None) and getattr(args, "collage_style", "cinema") == "cards":
-        canvas = collage_backdrop(args.photo2)
+        canvas = collage_backdrop(args.photo)
         canvas = dark_overlay(canvas, INFO_BOTTOM, end=INFO_BOTTOM + 160)
         canvas = place_collage_cards(canvas, args.photo, args.photo2)
     elif getattr(args, "photo2", None):

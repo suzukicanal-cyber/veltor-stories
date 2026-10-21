@@ -53,8 +53,8 @@ DEBUG_DIR = None        # set to a Path to keep every candidate photo
 
 def pick_photo(photos, dest, force_collage=False):
     """Photo 1 alone if the bike has room above it. Otherwise (and when the album
-    has a second photo) a glass-card collage: photo 2 as the main lower card,
-    photo 1 as the upper card and backdrop.
+    has a second photo) a card collage: photo 1 as the main lower card and dim
+    backdrop, photo 2 as the smaller upper card.
     Saves the photo(s) next to `dest` and returns a dict for queue.json."""
     PICK_LOG.clear()
     cands = []
@@ -72,10 +72,10 @@ def pick_photo(photos, dest, force_collage=False):
             if margin >= MIN_TOP_MARGIN:
                 break
     if len(cands) >= 2:
-        dest.write_bytes(cands[1].read_bytes())               # main (lower) card
+        dest.write_bytes(cands[0].read_bytes())               # photo 1: main lower card + backdrop
         dest2 = dest.with_name(f"{dest.stem}_2{dest.suffix}")
-        dest2.write_bytes(cands[0].read_bytes())              # upper card + backdrop
-        return {"layout": "collage", "photo_no": [2, 1],
+        dest2.write_bytes(cands[1].read_bytes())              # photo 2: upper card
+        return {"layout": "collage", "photo_no": [1, 2],
                 "source": f"sources/{dest.name}", "source2": f"sources/{dest2.name}"}
     dest.write_bytes(cands[0].read_bytes())
     return {"layout": "single", "photo_no": 1, "source": f"sources/{dest.name}"}
