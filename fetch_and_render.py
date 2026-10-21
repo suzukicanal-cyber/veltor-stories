@@ -46,15 +46,14 @@ def download_photo(file_id, dest):
 
 
 MIN_TOP_MARGIN = 0.06   # share of photo height that must be free above the bike
-MAX_CANDIDATES = 4      # look at the first N photos of an album
+MAX_CANDIDATES = 2      # only photos 1-2: later ones are often close-ups or other bikes
 PICK_LOG = []           # margins of the photos checked for the last post
 DEBUG_DIR = None        # set to a Path to keep every candidate photo
 
 
 def pick_photo(photos, dest):
-    """Use the first album photo where the bike does not touch the top edge.
-    If none qualifies, use the first photo (the bike is then protected from the
-    fade). Returns the 1-based number of the chosen photo."""
+    """Photo 1 if the bike has room above it, otherwise photo 2 (when the album
+    has one). The bike is never faded in either case. Returns the photo number."""
     chosen = None
     PICK_LOG.clear()
     for n, (_, file_id) in enumerate(photos[:MAX_CANDIDATES], start=1):
@@ -71,7 +70,10 @@ def pick_photo(photos, dest):
         if margin >= MIN_TOP_MARGIN:
             chosen = (n, cand)
             break
-    n, path = chosen or (1, first)
+    if not chosen:
+        last = min(len(photos), MAX_CANDIDATES)
+        chosen = (last, TMP / f"cand_{last}.jpg")   # photo 2 when photo 1 is too tight
+    n, path = chosen
     dest.write_bytes(path.read_bytes())
     return n
 
