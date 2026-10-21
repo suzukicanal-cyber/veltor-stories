@@ -2,7 +2,7 @@
 """Rebuild the story for an already-published post (e.g. after a template change).
 
 Usage (GitHub Actions → "Run workflow" → post_ids): python rebuild_post.py 7713 [7708 ...] [--collage]
---collage builds the two-photo collage even when photo 1 alone would do.
+(--collage is accepted for compatibility; the collage is now the default format.)
 
 Bots can't read old messages, so the album is fetched by forwarding each of its
 messages to the first delivery chat (silently) and deleting the forwarded copy
@@ -71,7 +71,7 @@ def main(ids, force_collage=False):
         else:
             print("  no text found, skipped"); continue
         src = f.SOURCES / f"{pid}.jpg"
-        pick = f.pick_photo(photos, src, force_collage)
+        pick = f.pick_photo(photos, src)
         stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M")
         out = f.STORIES / f"{stamp}_{pid}_v2.jpg"
         entry = {"post_id": pid, "file": f"stories/{out.name}", **pick,

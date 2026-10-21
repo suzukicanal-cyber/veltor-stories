@@ -31,7 +31,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install pillow==11.*
+      - run: pip install pillow==11.* numpy onnxruntime
 
       - name: Fetch new posts and render stories
         env:

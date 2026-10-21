@@ -45,40 +45,49 @@ def download_photo(file_id, dest):
         dest.write_bytes(r.read())
 
 
-MIN_TOP_MARGIN = 0.06   # share of photo height that must be free above the bike
-MAX_CANDIDATES = 2      # only photos 1-2: later ones are often close-ups or other bikes
 PICK_LOG = []           # margins of the photos checked for the last post
 DEBUG_DIR = None        # set to a Path to keep every candidate photo
 
 
-def pick_photo(photos, dest, force_collage=False):
-    """Photo 1 alone if the bike has room above it. Otherwise (and when the album
-    has a second photo) a card collage: photo 1 as the main lower card and dim
-    backdrop, photo 2 as the smaller upper card.
-    Saves the photo(s) next to `dest` and returns a dict for queue.json."""
+MAIN_FROM_FIRST = 3      # the main (whole-bike) photo is chosen among the first N
+MAX_ALBUM_PHOTOS = 6     # photos looked at for the detail card
+
+
+def pick_photo(photos, dest, force_collage=True):
+    """Collage is the main format: the lower main card is the photo that shows the
+    whole motorcycle best (among the first 3), the upper card is the most
+    'detail-like' photo of the album (close-up, no whole bike).
+    A post with a single photo gets the single-photo layout."""
+    import detect
     PICK_LOG.clear()
     cands = []
-    for n, (_, file_id) in enumerate(photos[:MAX_CANDIDATES], start=1):
+    for n, (_, file_id) in enumerate(photos[:MAX_ALBUM_PHOTOS], start=1):
         cand = TMP / f"cand_{n}.jpg"
         download_photo(file_id, cand)
-        cands.append(cand)
+        score, _ = detect.whole_score(cand)
+        cands.append((n, cand, score))
+        PICK_LOG.append({"photo": n, "whole_bike": score})
+        print(f"  photo {n}: whole-bike score {score:.2f}")
         if DEBUG_DIR:
             DEBUG_DIR.mkdir(exist_ok=True)
             (DEBUG_DIR / f"{dest.stem}_photo{n}.jpg").write_bytes(cand.read_bytes())
-        if n == 1 and not force_collage:
-            margin = make_story.top_margin_ratio(cand)
-            print(f"  photo 1: top margin {margin:.2f}")
-            PICK_LOG.append({"photo": 1, "margin": round(margin, 3)})
-            if margin >= MIN_TOP_MARGIN:
-                break
-    if len(cands) >= 2:
-        dest.write_bytes(cands[0].read_bytes())               # photo 1: main lower card + backdrop
-        dest2 = dest.with_name(f"{dest.stem}_2{dest.suffix}")
-        dest2.write_bytes(cands[1].read_bytes())              # photo 2: upper card
-        return {"layout": "collage", "photo_no": [1, 2],
-                "source": f"sources/{dest.name}", "source2": f"sources/{dest2.name}"}
-    dest.write_bytes(cands[0].read_bytes())
-    return {"layout": "single", "photo_no": 1, "source": f"sources/{dest.name}"}
+    if len(cands) < 2:
+        dest.write_bytes(cands[0][1].read_bytes())
+        return {"layout": "single", "photo_no": 1, "source": f"sources/{dest.name}", "checked": list(PICK_LOG)}
+    # main: best whole-bike shot; an earlier photo wins unless a later one is clearly better
+    main = cands[0]
+    for c in cands[1:MAIN_FROM_FIRST]:
+        if c[2] > main[2] + 0.12:
+            main = c
+    # detail: the least whole-bike-like of the remaining photos (earliest on ties)
+    rest = [c for c in cands if c is not main]
+    detail = min(rest, key=lambda c: (round(c[2], 2), c[0]))
+    dest.write_bytes(main[1].read_bytes())
+    dest2 = dest.with_name(f"{dest.stem}_2{dest.suffix}")
+    dest2.write_bytes(detail[1].read_bytes())
+    return {"layout": "collage", "photo_no": [main[0], detail[0]],
+            "source": f"sources/{dest.name}", "source2": f"sources/{dest2.name}",
+            "checked": list(PICK_LOG)}
 
 
 def render(entry, out):
