@@ -81,5 +81,60 @@
     "created": "2026-10-21T00:45:02+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-21T00:45:06+00:00"
+  },
+  {
+    "post_id": 7692,
+    "file": "stories/20261021-0124_7692.jpg",
+    "title": "Harley-Davidson Fat Bob 114",
+    "year": "2022",
+    "mileage": "3’040",
+    "price": "2 075 000",
+    "created": "2026-10-21T01:24:19+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-21T01:24:26+00:00"
+  },
+  {
+    "post_id": 7696,
+    "file": "stories/20261021-0124_7696.jpg",
+    "title": "Harley-Davidson Fat Bob 114",
+    "year": "2022",
+    "mileage": "5’135",
+    "price": "1 498 000",
+    "created": "2026-10-21T01:24:20+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-21T01:24:27+00:00"
+  },
+  {
+    "post_id": 7700,
+    "file": "stories/20261021-0124_7700.jpg",
+    "title": "Ducati XDiavel V4",
+    "year": "2026",
+    "mileage": "244",
+    "price": "3 055 000",
+    "created": "2026-10-21T01:24:21+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-21T01:24:28+00:00"
+  },
+  {
+    "post_id": 7704,
+    "file": "stories/20261021-0124_7704.jpg",
+    "title": "Ducati XDiavel V4",
+    "year": "2024",
+    "mileage": "432",
+    "price": "2 256 000",
+    "created": "2026-10-21T01:24:22+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-21T01:24:30+00:00"
+  },
+  {
+    "post_id": 7708,
+    "file": "stories/20261021-0124_7708.jpg",
+    "title": "DUCATI MULTISTRADA 1200 S TOURING",
+    "year": "2016",
+    "mileage": "13’000",
+    "price": "1 025 000",
+    "created": "2026-10-21T01:24:23+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-21T01:24:31+00:00"
   }
 ]
