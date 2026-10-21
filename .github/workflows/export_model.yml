@@ -1,0 +1,31 @@
+name: Export detector model (one-time)
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install ultralytics onnx onnxslim
+      - name: Export YOLO11n to ONNX
+        run: |
+          yolo export model=yolo11n.pt format=onnx imgsz=640 opset=12 simplify=True
+          mkdir -p models && mv yolo11n.onnx models/yolo11n.onnx
+          ls -la models
+      - name: Commit model
+        run: |
+          git config user.name "veltor-stories-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add models/yolo11n.onnx
+          git commit -m "Add YOLO11n ONNX detector (COCO, used to find the motorcycle on photos)"
+          git pull --rebase
+          git push
