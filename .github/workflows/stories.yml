@@ -3,7 +3,12 @@ name: VELTOR stories
 on:
   schedule:
     - cron: "4,19,34,49 * * * *"   # every 15 minutes
-  workflow_dispatch: {}      # manual "Run workflow" button
+  workflow_dispatch:         # manual "Run workflow" button
+    inputs:
+      post_ids:
+        description: "Пересобрать сторис для постов (номера через пробел), пусто = обычная проверка"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -28,6 +33,12 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: python fetch_and_render.py
+
+      - name: Rebuild requested posts
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.post_ids != '' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python rebuild_post.py ${{ inputs.post_ids }}
 
       - name: Commit results
         run: |
