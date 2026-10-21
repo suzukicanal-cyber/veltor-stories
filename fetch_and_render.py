@@ -47,6 +47,8 @@ def download_photo(file_id, dest):
 
 MIN_TOP_MARGIN = 0.06   # share of photo height that must be free above the bike
 MAX_CANDIDATES = 4      # look at the first N photos of an album
+PICK_LOG = []           # margins of the photos checked for the last post
+DEBUG_DIR = None        # set to a Path to keep every candidate photo
 
 
 def pick_photo(photos, dest):
@@ -54,6 +56,7 @@ def pick_photo(photos, dest):
     If none qualifies, use the first photo (the bike is then protected from the
     fade). Returns the 1-based number of the chosen photo."""
     chosen = None
+    PICK_LOG.clear()
     for n, (_, file_id) in enumerate(photos[:MAX_CANDIDATES], start=1):
         cand = TMP / f"cand_{n}.jpg"
         download_photo(file_id, cand)
@@ -61,6 +64,10 @@ def pick_photo(photos, dest):
             first = cand
         margin = make_story.top_margin_ratio(cand)
         print(f"  photo {n}: top margin {margin:.2f}")
+        PICK_LOG.append({"photo": n, "margin": round(margin, 3)})
+        if DEBUG_DIR:
+            DEBUG_DIR.mkdir(exist_ok=True)
+            (DEBUG_DIR / f"{dest.stem}_photo{n}.jpg").write_bytes(cand.read_bytes())
         if margin >= MIN_TOP_MARGIN:
             chosen = (n, cand)
             break

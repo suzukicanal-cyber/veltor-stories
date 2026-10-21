@@ -45,6 +45,7 @@ def fetch_album(first_id, via_chat):
 
 
 def main(ids):
+    f.DEBUG_DIR = f.ROOT / "debug"
     queue = f.load(f.QUEUE, [])
     chats = f.load(f.CONFIG, {}).get("deliver_to_chat_ids", [])
     if not chats:
@@ -53,6 +54,7 @@ def main(ids):
     for pid in ids:
         print(f"post {pid}")
         photos, caption = fetch_album(pid, chats[0])
+        print(f"  album: {len(photos)} photos")
         old = next((i for i in queue if str(i["post_id"]) == str(pid)), None)
         if not photos:
             print("  no photos found, skipped"); continue
@@ -72,7 +74,8 @@ def main(ids):
         entry = {"post_id": pid, "file": f"stories/{out.name}", "source": f"sources/{src.name}",
                  "photo_no": n, "title": title, "year": year, "mileage": mileage, "price": price,
                  "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                 "status": "new", "rebuilt": True}
+                 "status": "new", "rebuilt": True,
+                 "album_photos": len(photos), "checked": list(f.PICK_LOG)}
         if old:
             queue[queue.index(old)] = entry
         else:
