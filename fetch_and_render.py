@@ -19,6 +19,7 @@ QUEUE = ROOT / "queue.json"
 SKIPPED = ROOT / "skipped.json"   # posts that could not become a story, with the reason
 CONFIG = ROOT / "config.json"     # {"deliver_to_chat_ids": [...]}: who receives finished stories
 STORIES = ROOT / "stories"
+SOURCES = ROOT / "sources"       # original photos, kept so stories can be re-rendered
 TMP = ROOT / "tmp"
 
 CHAT_USERNAME = "koreamotocycles_veltor"
@@ -136,7 +137,7 @@ def main():
                         "text": (caption or "")[:300],
                         "at": datetime.now(timezone.utc).isoformat(timespec="seconds")})
 
-    TMP.mkdir(exist_ok=True); STORIES.mkdir(exist_ok=True)
+    TMP.mkdir(exist_ok=True); STORIES.mkdir(exist_ok=True); SOURCES.mkdir(exist_ok=True)
     new_count = 0
     for p in ordered:
         post_id = p["first_id"]
@@ -153,14 +154,15 @@ def main():
         except Exception as e:  # not a sale post in the usual format
             skip(post_id, f"не распознан текст ({e})", p["caption"]); continue
         first_photo = sorted(p["photos"])[0][1]
-        src = TMP / f"{post_id}.jpg"
+        src = SOURCES / f"{post_id}.jpg"
         download_photo(first_photo, src)
         stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M")
         out = STORIES / f"{stamp}_{post_id}.jpg"
         args = type("A", (), dict(photo=str(src), out=str(out), title=title, year=year,
                                   mileage=mileage, price=price, zoom=1.0, focus_x=0.5, bottom=150))
         make_story.build(args)
-        queue.append({"post_id": post_id, "file": f"stories/{out.name}", "title": title,
+        queue.append({"post_id": post_id, "file": f"stories/{out.name}", "source": f"sources/{src.name}",
+                      "title": title,
                       "year": year, "mileage": mileage, "price": price,
                       "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                       "status": "new"})

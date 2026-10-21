@@ -171,45 +171,67 @@ def place_photo(canvas, photo_path, zoom, focus_x, bottom_frac):
     if top < 0:                             # very tall result: crop from the top
         photo = photo.crop((0, -top, W, ph)); ph = photo.height; top = 0
 
-    # Continue the photo's own wall/floor tones past its edges (no generated
-    # content: each column's edge colour is simply carried outward), so the
-    # top is dark-grey studio/showroom instead of flat black.
-    feather = 160
+    # Area above the photo: a smooth vertical gradient from black to ONE tone
+    # taken from the photo's background (no per-column colours, so nothing of
+    # the motorcycle can be smeared upward).
+    tone = background_tone(photo)
+    feather = content_free_rows(photo, tone)      # rows above the bike that may fade
+    feather = int(min(260, max(70, feather)))
     if top > 0:
-        # average a band just inside the top edge, smooth it sideways only
-        strip = photo.crop((0, 12, W, 12 + min(60, ph // 8))).resize((W // 24, 1), Image.BOX)
-        strip = strip.resize((W, 1), Image.BICUBIC)
-        canvas.paste(strip.resize((W, top + feather), Image.BILINEAR), (0, 0))
+        span = top + feather
+        grad = Image.new("RGB", (W, span)); gd = ImageDraw.Draw(grad)
+        for y in range(span):
+            t = smoothstep(y / span) ** 1.3
+            gd.line([(0, y), (W, y)], fill=tuple(int(c * t) for c in tone))
+        canvas.paste(grad, (0, 0))
     mask = Image.new("L", (W, ph), 255)
     md = ImageDraw.Draw(mask)
     for y in range(ph):
         a = 1.0
         if top > 0 and y < feather:
             a = smoothstep(y / feather)
-        if bottom < H and y > ph - 120:            # floor fades softly into black
-            a = min(a, 0.15 + 0.85 * smoothstep((ph - y) / 120))
+        if bottom < H and y > ph - 200:            # floor fades softly into black
+            a = min(a, smoothstep((ph - y) / 200) ** 0.8)
         md.line([(0, y), (W, y)], fill=int(255 * a))
     canvas.paste(photo, (0, top), mask)
-    if bottom < H:                                  # dark floor under the photo
-        fl = photo.crop((0, ph - 8, W, ph)).resize((W // 24, 1), Image.BOX).resize((W, 1), Image.BICUBIC)
-        fl = fl.resize((W, H - bottom), Image.BILINEAR)
-        fade = Image.new("L", fl.size, 0); fd = ImageDraw.Draw(fade)
-        for y in range(fl.height):
-            fd.line([(0, y), (W, y)], fill=int(255 * 0.15 * (1 - y / fl.height)))
-        canvas.paste(fl, (0, bottom), fade)
     return top, bottom
+
+
+def background_tone(photo, bottom=False):
+    """Median colour of a thin band at the photo's top (or bottom) edge."""
+    h = max(8, photo.height // 25)
+    band = photo.crop((0, photo.height - h, photo.width, photo.height) if bottom else (0, 0, photo.width, h))
+    small = band.resize((64, 4), Image.BOX)
+    px = sorted((small.getpixel((x, y)) for y in range(4) for x in range(64)), key=lambda c: sum(c))
+    return px[len(px) // 2]
+
+
+def content_free_rows(photo, tone, thresh=45, frac=0.04):
+    """How many rows from the top contain only background (no bike parts).
+    A row counts as 'content' when more than `frac` of its pixels differ from the
+    background tone by more than `thresh`."""
+    small = photo.resize((160, max(1, photo.height * 160 // photo.width)), Image.BOX)
+    sw, sh = small.size
+    px = small.load()
+    for y in range(sh):
+        diff = sum(1 for x in range(sw)
+                   if sum(abs(px[x, y][i] - tone[i]) for i in range(3)) > thresh * 3)
+        if diff > frac * sw:
+            return y * photo.height / sh
+    return photo.height * 0.4
 
 
 def dark_overlay(canvas, photo_top):
     """Soft black gradient: dark info area at the top, clear photo below."""
-    start = INFO_BOTTOM - 40                       # fully dark down to here
-    end = max(photo_top + 160, INFO_BOTTOM + 320)  # photo clear from here
+    start = INFO_BOTTOM - 60                       # dark behind the text down to here
+    end = max(photo_top + 40, INFO_BOTTOM + 380)   # long, gentle fade; barely touches the photo
     a = Image.new("L", (W, H), 0); d = ImageDraw.Draw(a)
     for y in range(H):
         if y <= start:
-            v = 0.86 + 0.08 * (1 - y / start)       # slightly deeper at the very top
+            v = 0.80 + 0.12 * (1 - y / start)       # slightly deeper at the very top
         elif y < end:
-            v = 0.86 * (1 - smoothstep((y - start) / (end - start)))
+            t = (y - start) / (end - start)
+            v = 0.80 * (0.5 + 0.5 * math.cos(math.pi * t))   # cosine ease: no visible band edge
         else:
             v = 0
         d.line([(0, y), (W, y)], fill=int(255 * v))
