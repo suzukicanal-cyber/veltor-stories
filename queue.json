@@ -139,40 +139,65 @@
   },
   {
     "post_id": 7713,
-    "file": "stories/20261021-1435_7713_v2.jpg",
+    "file": "stories/20261021-1436_7713_v2.jpg",
     "source": "sources/7713.jpg",
     "photo_no": 1,
     "title": "BMW S1000RR Race Package",
     "year": "2022",
     "mileage": "18’000",
     "price": "1 511 000",
-    "created": "2026-10-21T14:35:13+00:00",
+    "created": "2026-10-21T14:36:12+00:00",
     "status": "delivered",
     "rebuilt": true,
-    "album_photos": 1,
+    "album_photos": 4,
     "checked": [
       {
         "photo": 1,
+        "margin": 0.0
+      },
+      {
+        "photo": 2,
+        "margin": 0.0
+      },
+      {
+        "photo": 3,
+        "margin": 0.0
+      },
+      {
+        "photo": 4,
         "margin": 0.0
       }
     ],
     "fetch_log": [
       {
         "mid": 7713,
-        "group": null,
+        "date": 1792587406,
         "photo": true,
-        "caption": false,
-        "keys": [
-          "date",
-          "forward_date",
-          "forward_from_chat",
-          "forward_origin",
-          "forward_signature",
-          "message_id",
-          "photo"
-        ]
+        "caption": false
+      },
+      {
+        "mid": 7714,
+        "date": 1792587406,
+        "photo": true,
+        "caption": false
+      },
+      {
+        "mid": 7715,
+        "date": 1792587406,
+        "photo": true,
+        "caption": false
+      },
+      {
+        "mid": 7716,
+        "date": 1792587406,
+        "photo": true,
+        "caption": true
+      },
+      {
+        "mid": 7717,
+        "error": "HTTP Error 400: Bad Request"
       }
     ],
-    "delivered_at": "2026-10-21T14:35:15+00:00"
+    "delivered_at": "2026-10-21T14:36:14+00:00"
   }
 ]
