@@ -35,19 +35,18 @@ def fetch_album(first_id, via_chat):
             f.tg("deleteMessage", chat_id=via_chat, message_id=m["message_id"])
         except Exception:
             pass
-        g = m.get("media_group_id")
-        FETCH_LOG.append({"mid": mid, "group": g, "photo": bool(m.get("photo")),
-                          "caption": bool(m.get("caption")), "keys": sorted(k for k in m if k not in ("chat", "from"))[:12]})
+        # Forwarded copies lose media_group_id; album items share the same original date.
+        g = (m.get("forward_origin") or {}).get("date") or m.get("forward_date")
+        FETCH_LOG.append({"mid": mid, "date": g, "photo": bool(m.get("photo")),
+                          "caption": bool(m.get("caption"))})
         if mid == first_id:
             group = g
-        elif not g or g != group:
+        elif g != group:
             break                                   # next post started
         if m.get("photo"):
             photos.append((mid, m["photo"][-1]["file_id"]))
         if m.get("caption"):
             caption = m["caption"]
-        if not group:
-            break                                   # single-photo post
     return photos, caption
 
 
