@@ -68,3 +68,23 @@ def whole_score(path):
         return 0.05, b
     size = min(1.0, area / 0.45)                  # big enough bike = 1
     return round(b[4] * size * (1 - 0.3 * edges), 3), b
+
+
+def looks_like_tire(path, score=None):
+    """Close-up of a tyre: no motorcycle found, the frame is almost all dark,
+    colourless rubber. Such photos are never used in a story."""
+    if score is None:
+        score, _ = whole_score(path)
+    if score > 0:
+        return False
+    px = list(Image.open(path).convert("HSV").resize((160, 120)).getdata())
+    dark_gray = sum(1 for h, s, v in px if v < 80 and s < 60) / len(px)
+    gray = sum(1 for h, s, v in px if s < 45) / len(px)
+    return dark_gray >= 0.45 and gray >= 0.88
+
+
+def near_duplicate(path_a, path_b, limit=12.0):
+    """True when two photos are practically the same shot."""
+    a = np.asarray(Image.open(path_a).convert("L").resize((32, 32)), dtype=np.float32)
+    b = np.asarray(Image.open(path_b).convert("L").resize((32, 32)), dtype=np.float32)
+    return float(np.abs(a - b).mean()) < limit

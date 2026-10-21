@@ -54,10 +54,11 @@ MAX_ALBUM_PHOTOS = 6     # photos looked at for the detail card
 
 
 def pick_photo(photos, dest, force_collage=True):
-    """Collage is the main format: the lower main card is the photo that shows the
-    whole motorcycle best (among the first 3), the upper card is the most
-    'detail-like' photo of the album (close-up, no whole bike).
-    A post with a single photo gets the single-photo layout."""
+    """Collage is the main format. Lower main card: the photo that shows the whole
+    motorcycle best (among the first 3). Upper card: another photo of the same bike
+    (other angle or partly in frame), earliest first; a detail without the bike only
+    if there is nothing else. Tyre close-ups and near-duplicates are never used.
+    A post with no usable second photo gets the single-photo layout."""
     import detect
     PICK_LOG.clear()
     cands = []
@@ -71,17 +72,24 @@ def pick_photo(photos, dest, force_collage=True):
         if DEBUG_DIR:
             DEBUG_DIR.mkdir(exist_ok=True)
             (DEBUG_DIR / f"{dest.stem}_photo{n}.jpg").write_bytes(cand.read_bytes())
-    if len(cands) < 2:
-        dest.write_bytes(cands[0][1].read_bytes())
-        return {"layout": "single", "photo_no": 1, "source": f"sources/{dest.name}", "checked": list(PICK_LOG)}
+    for c in cands:
+        if detect.looks_like_tire(c[1], c[2]):
+            PICK_LOG[c[0] - 1]["tire"] = True
+    usable = [c for c in cands if not PICK_LOG[c[0] - 1].get("tire")] or cands[:1]
     # main: best whole-bike shot; an earlier photo wins unless a later one is clearly better
-    main = cands[0]
-    for c in cands[1:MAIN_FROM_FIRST]:
+    first3 = [c for c in usable if c[0] <= MAIN_FROM_FIRST] or usable[:1]
+    main = first3[0]
+    for c in first3[1:]:
         if c[2] > main[2] + 0.12:
             main = c
-    # detail: the least whole-bike-like of the remaining photos (earliest on ties)
-    rest = [c for c in cands if c is not main]
-    detail = min(rest, key=lambda c: (round(c[2], 2), c[0]))
+    rest = [c for c in usable if c is not main and not detect.near_duplicate(c[1], main[1])]
+    with_bike = [c for c in rest if c[2] > 0]          # the same bike from another angle
+    second = (with_bike or rest or [None])[0]           # earliest; detail only as a fallback
+    if second is None:
+        dest.write_bytes(main[1].read_bytes())
+        return {"layout": "single", "photo_no": main[0], "source": f"sources/{dest.name}",
+                "checked": list(PICK_LOG)}
+    detail = second
     dest.write_bytes(main[1].read_bytes())
     dest2 = dest.with_name(f"{dest.stem}_2{dest.suffix}")
     dest2.write_bytes(detail[1].read_bytes())
