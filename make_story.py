@@ -267,7 +267,7 @@ def dark_overlay(canvas, photo_top, end=None):
     return Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), canvas, a)
 
 
-COLLAGE_GAP = 8   # thin dark line between the two photos
+COLLAGE_BLEND = 240   # height of the soft cross-fade between the two photos
 
 
 def load_srgb(path):
@@ -279,33 +279,91 @@ def load_srgb(path):
     return src.convert("RGB")
 
 
-def place_collage(canvas, path1, path2, bottom_gap):
-    """Two album photos stacked full width: photo 1 (main) at the bottom,
-    photo 2 directly above it; photo 2's upper part runs under the text and is
-    darkened by the overlay, like the showroom behind the text in the reference."""
-    p1 = load_srgb(path1); p1 = p1.resize((W, round(p1.height * W / p1.width)), Image.LANCZOS)
-    p2 = load_srgb(path2); p2 = p2.resize((W, round(p2.height * W / p2.width)), Image.LANCZOS)
-    bottom = H - int(bottom_gap)
-    top1 = bottom - p1.height
-    top2 = top1 - COLLAGE_GAP - p2.height
-    m2 = Image.new("L", p2.size, 255); md2 = ImageDraw.Draw(m2)
-    fade_from = max(0, -top2)                            # visible top of photo 2
-    for y in range(fade_from, min(p2.height, fade_from + 240)):   # upper edge melts into black
-        md2.line([(0, y), (W, y)], fill=int(255 * smoothstep((y - fade_from) / 240)))
-    canvas.paste(p2, (0, top2), m2)
-    canvas.paste((0, 0, 0), (0, top1 - COLLAGE_GAP, W, top1))
-    m = Image.new("L", p1.size, 255); md = ImageDraw.Draw(m)
-    for y in range(p1.height - 200, p1.height):          # floor fades softly into black
-        md.line([(0, y), (W, y)], fill=int(255 * smoothstep((p1.height - y) / 200) ** 0.8))
-    canvas.paste(p1, (0, top1), m)
-    return top1
+def _fit_w(img, w):
+    return img.resize((w, round(img.height * w / img.width)), Image.LANCZOS)
+
+
+def _vignette(canvas, strength=0.35):
+    """Soft darkening towards the left/right edges and corners (cinematic look)."""
+    small = Image.new("L", (108, 192), 0); px = small.load()
+    for y in range(192):
+        for x in range(108):
+            dx, dy = (x - 53.5) / 54, (y - 95.5) / 96
+            px[x, y] = int(255 * strength * min(1, max(0, (dx * dx * 1.3 + dy * dy * 0.6) - 0.25) / 0.9))
+    m = small.resize((W, H), Image.BICUBIC)
+    return Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), canvas, m)
+
+
+def place_collage_cinema(canvas, main_path, back_path):
+    """Main photo full width, flush with the bottom edge. The second photo sits
+    behind the text area and melts into the main one through a long soft
+    cross-fade: no lines, no black band at the bottom."""
+    main = _fit_w(load_srgb(main_path), W)
+    back = _fit_w(load_srgb(back_path), W)
+    back = Image.eval(back, lambda v: int(v * 0.72))          # keep the main photo dominant
+    top_main = H - main.height
+    back_bottom = top_main + COLLAGE_BLEND
+    top_back = back_bottom - back.height
+    if top_back > 0:                                          # short photo: top melts into black
+        mb = Image.new("L", back.size, 255); d = ImageDraw.Draw(mb)
+        for y in range(min(back.height, 260)):
+            d.line([(0, y), (W, y)], fill=int(255 * smoothstep(y / 260)))
+        canvas.paste(back, (0, top_back), mb)
+    else:
+        canvas.paste(back.crop((0, -top_back, W, back.height)), (0, 0))
+    mm = Image.new("L", main.size, 255); d = ImageDraw.Draw(mm)
+    for y in range(COLLAGE_BLEND):
+        d.line([(0, y), (W, y)], fill=int(255 * smoothstep(y / COLLAGE_BLEND) ** 1.2))
+    canvas.paste(main, (0, top_main), mm)
+    return top_main
+
+
+def _card(img, w, radius=28):
+    card = _fit_w(img, w)
+    mask = Image.new("L", (card.width * 3, card.height * 3), 0)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, mask.width - 1, mask.height - 1], radius=radius * 3, fill=255)
+    return card, mask.resize(card.size, Image.LANCZOS)
+
+
+def _shadow(canvas, box, radius=28, blur=34, offset=22, opacity=0.65):
+    from PIL import ImageFilter
+    sh = Image.new("L", (W, H), 0)
+    x0, y0, x1, y1 = box
+    ImageDraw.Draw(sh).rounded_rectangle([x0, y0 + offset, x1, y1 + offset], radius=radius, fill=int(255 * opacity))
+    sh = sh.filter(ImageFilter.GaussianBlur(blur))
+    return Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), canvas, sh)
+
+
+def place_collage_cards(canvas, main_path, back_path):
+    """Editorial layout: the second photo as a dim full-bleed backdrop, both photos
+    as large rounded cards with soft shadows, staggered right/left."""
+    back_full = load_srgb(back_path)
+    bg = back_full.resize((round(back_full.width * H / back_full.height), H), Image.LANCZOS)
+    left = (bg.width - W) // 2
+    bg = Image.eval(bg.crop((left, 0, left + W, H)), lambda v: int(v * 0.30))
+    canvas.paste(bg, (0, 0))
+    a, am = _card(back_full, 700)                  # upper card, right
+    b, bm = _card(load_srgb(main_path), 800)       # lower card, left (main)
+    ax, ay = W - a.width - 44, INFO_BOTTOM + 70
+    bx, by = 44, H - b.height - 150
+    if by < ay + a.height - 110:                   # keep a pleasant overlap, not more
+        by = ay + a.height - 110
+    canvas = _shadow(canvas, (ax, ay, ax + a.width, ay + a.height))
+    canvas.paste(a, (ax, ay), am)
+    canvas = _shadow(canvas, (bx, by, bx + b.width, by + b.height))
+    canvas.paste(b, (bx, by), bm)
+    return canvas
 
 
 def build(args):
     canvas = Image.new("RGB", (W, H), (0, 0, 0))
-    if getattr(args, "photo2", None):
-        top1 = place_collage(canvas, args.photo, args.photo2, args.bottom)
-        canvas = dark_overlay(canvas, top1, end=min(top1 - COLLAGE_GAP, INFO_BOTTOM + 260))
+    if getattr(args, "photo2", None) and getattr(args, "collage_style", "cinema") == "cards":
+        canvas = place_collage_cards(canvas, args.photo, args.photo2)
+        canvas = dark_overlay(canvas, INFO_BOTTOM, end=INFO_BOTTOM + 120)
+    elif getattr(args, "photo2", None):
+        top_main = place_collage_cinema(canvas, args.photo, args.photo2)
+        canvas = dark_overlay(canvas, top_main, end=min(top_main + 60, INFO_BOTTOM + 300))
+        canvas = _vignette(canvas)
     else:
         top, _ = place_photo(canvas, args.photo, args.zoom, args.focus_x, args.bottom)
         canvas = dark_overlay(canvas, top)
