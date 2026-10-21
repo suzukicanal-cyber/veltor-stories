@@ -249,10 +249,11 @@ def content_free_rows(photo, tone, thresh=45, frac=0.04):
     return photo.height * 0.4
 
 
-def dark_overlay(canvas, photo_top):
+def dark_overlay(canvas, photo_top, end=None):
     """Soft black gradient: dark info area at the top, clear photo below."""
     start = INFO_BOTTOM - 60                       # dark behind the text down to here
-    end = max(photo_top + 40, INFO_BOTTOM + 380)   # long, gentle fade; barely touches the photo
+    if end is None:
+        end = max(photo_top + 40, INFO_BOTTOM + 380)   # long, gentle fade; barely touches the photo
     a = Image.new("L", (W, H), 0); d = ImageDraw.Draw(a)
     for y in range(H):
         if y <= start:
@@ -266,10 +267,48 @@ def dark_overlay(canvas, photo_top):
     return Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), canvas, a)
 
 
+COLLAGE_GAP = 8   # thin dark line between the two photos
+
+
+def load_srgb(path):
+    src = Image.open(path)
+    if src.info.get("icc_profile"):
+        return ImageCms.profileToProfile(src, ImageCms.getOpenProfile(
+            __import__("io").BytesIO(src.info["icc_profile"])), ImageCms.createProfile("sRGB"),
+            outputMode="RGB")
+    return src.convert("RGB")
+
+
+def place_collage(canvas, path1, path2, bottom_gap):
+    """Two album photos stacked full width: photo 1 (main) at the bottom,
+    photo 2 directly above it; photo 2's upper part runs under the text and is
+    darkened by the overlay, like the showroom behind the text in the reference."""
+    p1 = load_srgb(path1); p1 = p1.resize((W, round(p1.height * W / p1.width)), Image.LANCZOS)
+    p2 = load_srgb(path2); p2 = p2.resize((W, round(p2.height * W / p2.width)), Image.LANCZOS)
+    bottom = H - int(bottom_gap)
+    top1 = bottom - p1.height
+    top2 = top1 - COLLAGE_GAP - p2.height
+    m2 = Image.new("L", p2.size, 255); md2 = ImageDraw.Draw(m2)
+    fade_from = max(0, -top2)                            # visible top of photo 2
+    for y in range(fade_from, min(p2.height, fade_from + 240)):   # upper edge melts into black
+        md2.line([(0, y), (W, y)], fill=int(255 * smoothstep((y - fade_from) / 240)))
+    canvas.paste(p2, (0, top2), m2)
+    canvas.paste((0, 0, 0), (0, top1 - COLLAGE_GAP, W, top1))
+    m = Image.new("L", p1.size, 255); md = ImageDraw.Draw(m)
+    for y in range(p1.height - 200, p1.height):          # floor fades softly into black
+        md.line([(0, y), (W, y)], fill=int(255 * smoothstep((p1.height - y) / 200) ** 0.8))
+    canvas.paste(p1, (0, top1), m)
+    return top1
+
+
 def build(args):
     canvas = Image.new("RGB", (W, H), (0, 0, 0))
-    top, _ = place_photo(canvas, args.photo, args.zoom, args.focus_x, args.bottom)
-    canvas = dark_overlay(canvas, top)
+    if getattr(args, "photo2", None):
+        top1 = place_collage(canvas, args.photo, args.photo2, args.bottom)
+        canvas = dark_overlay(canvas, top1, end=min(top1 - COLLAGE_GAP, INFO_BOTTOM + 260))
+    else:
+        top, _ = place_photo(canvas, args.photo, args.zoom, args.focus_x, args.bottom)
+        canvas = dark_overlay(canvas, top)
 
     brand, model = split_title(args.title)
     # brand line
