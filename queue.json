@@ -139,13 +139,16 @@
   },
   {
     "post_id": 7713,
-    "file": "stories/20261021-1311_7713.jpg",
+    "file": "stories/20261021-1349_7713_v2.jpg",
+    "source": "sources/7713.jpg",
+    "photo_no": 1,
     "title": "BMW S1000RR Race Package",
     "year": "2022",
     "mileage": "18’000",
     "price": "1 511 000",
-    "created": "2026-10-21T13:11:04+00:00",
+    "created": "2026-10-21T13:49:43+00:00",
     "status": "delivered",
-    "delivered_at": "2026-10-21T13:11:06+00:00"
+    "rebuilt": true,
+    "delivered_at": "2026-10-21T13:49:45+00:00"
   }
 ]
