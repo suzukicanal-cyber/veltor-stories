@@ -51,7 +51,6 @@ def fetch_album(first_id, via_chat):
 
 
 def main(ids):
-    f.DEBUG_DIR = f.ROOT / "debug"
     queue = f.load(f.QUEUE, [])
     chats = f.load(f.CONFIG, {}).get("deliver_to_chat_ids", [])
     if not chats:
@@ -71,23 +70,19 @@ def main(ids):
         else:
             print("  no text found, skipped"); continue
         src = f.SOURCES / f"{pid}.jpg"
-        n = f.pick_photo(photos, src)
+        pick = f.pick_photo(photos, src)
         stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M")
         out = f.STORIES / f"{stamp}_{pid}_v2.jpg"
-        args = type("A", (), dict(photo=str(src), out=str(out), title=title, year=year,
-                                  mileage=mileage, price=price, zoom=1.0, focus_x=0.5, bottom=150))
-        make_story.build(args)
-        entry = {"post_id": pid, "file": f"stories/{out.name}", "source": f"sources/{src.name}",
-                 "photo_no": n, "title": title, "year": year, "mileage": mileage, "price": price,
+        entry = {"post_id": pid, "file": f"stories/{out.name}", **pick,
+                 "title": title, "year": year, "mileage": mileage, "price": price,
                  "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                 "status": "new", "rebuilt": True,
-                 "album_photos": len(photos), "checked": list(f.PICK_LOG),
-                 "fetch_log": list(FETCH_LOG)}
+                 "status": "new", "rebuilt": True, "album_photos": len(photos)}
+        f.render(entry, out)
         if old:
             queue[queue.index(old)] = entry
         else:
             queue.append(entry)
-        print(f"  rebuilt {out.name} from photo {n}")
+        print(f"  rebuilt {out.name} ({pick['layout']})")
     f.deliver_pending(queue)
     f.QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
 

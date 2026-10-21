@@ -52,30 +52,43 @@ DEBUG_DIR = None        # set to a Path to keep every candidate photo
 
 
 def pick_photo(photos, dest):
-    """Photo 1 if the bike has room above it, otherwise photo 2 (when the album
-    has one). The bike is never faded in either case. Returns the photo number."""
-    chosen = None
+    """Photo 1 alone if the bike has room above it. Otherwise (and when the album
+    has a second photo) a glass-card collage: photo 2 as the main lower card,
+    photo 1 as the upper card and backdrop.
+    Saves the photo(s) next to `dest` and returns a dict for queue.json."""
     PICK_LOG.clear()
+    cands = []
     for n, (_, file_id) in enumerate(photos[:MAX_CANDIDATES], start=1):
         cand = TMP / f"cand_{n}.jpg"
         download_photo(file_id, cand)
-        if n == 1:
-            first = cand
-        margin = make_story.top_margin_ratio(cand)
-        print(f"  photo {n}: top margin {margin:.2f}")
-        PICK_LOG.append({"photo": n, "margin": round(margin, 3)})
+        cands.append(cand)
         if DEBUG_DIR:
             DEBUG_DIR.mkdir(exist_ok=True)
             (DEBUG_DIR / f"{dest.stem}_photo{n}.jpg").write_bytes(cand.read_bytes())
-        if margin >= MIN_TOP_MARGIN:
-            chosen = (n, cand)
-            break
-    if not chosen:
-        last = min(len(photos), MAX_CANDIDATES)
-        chosen = (last, TMP / f"cand_{last}.jpg")   # photo 2 when photo 1 is too tight
-    n, path = chosen
-    dest.write_bytes(path.read_bytes())
-    return n
+        if n == 1:
+            margin = make_story.top_margin_ratio(cand)
+            print(f"  photo 1: top margin {margin:.2f}")
+            PICK_LOG.append({"photo": 1, "margin": round(margin, 3)})
+            if margin >= MIN_TOP_MARGIN:
+                break
+    if len(cands) >= 2:
+        dest.write_bytes(cands[1].read_bytes())               # main (lower) card
+        dest2 = dest.with_name(f"{dest.stem}_2{dest.suffix}")
+        dest2.write_bytes(cands[0].read_bytes())              # upper card + backdrop
+        return {"layout": "collage", "photo_no": [2, 1],
+                "source": f"sources/{dest.name}", "source2": f"sources/{dest2.name}"}
+    dest.write_bytes(cands[0].read_bytes())
+    return {"layout": "single", "photo_no": 1, "source": f"sources/{dest.name}"}
+
+
+def render(entry, out):
+    """Build the story image for a queue entry (single photo or collage)."""
+    args = type("A", (), dict(photo=str(ROOT / entry["source"]), out=str(out),
+                              photo2=str(ROOT / entry["source2"]) if entry.get("source2") else None,
+                              collage_style="cards", title=entry["title"], year=entry["year"],
+                              mileage=entry["mileage"], price=entry["price"],
+                              zoom=1.0, focus_x=0.5, bottom=150))
+    make_story.build(args)
 
 
 def send_story(chat_id, path, caption):
@@ -187,17 +200,15 @@ def main():
         except Exception as e:  # not a sale post in the usual format
             skip(post_id, f"не распознан текст ({e})", p["caption"]); continue
         src = SOURCES / f"{post_id}.jpg"
-        photo_no = pick_photo(sorted(p["photos"]), src)
+        pick = pick_photo(sorted(p["photos"]), src)
         stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M")
         out = STORIES / f"{stamp}_{post_id}.jpg"
-        args = type("A", (), dict(photo=str(src), out=str(out), title=title, year=year,
-                                  mileage=mileage, price=price, zoom=1.0, focus_x=0.5, bottom=150))
-        make_story.build(args)
-        queue.append({"post_id": post_id, "file": f"stories/{out.name}", "source": f"sources/{src.name}", "photo_no": photo_no,
-                      "title": title,
-                      "year": year, "mileage": mileage, "price": price,
-                      "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                      "status": "new"})
+        entry = {"post_id": post_id, "file": f"stories/{out.name}", **pick,
+                 "title": title, "year": year, "mileage": mileage, "price": price,
+                 "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                 "status": "new"}
+        render(entry, out)
+        queue.append(entry)
         new_count += 1
         print(f"rendered {out.name}: {title}")
 
