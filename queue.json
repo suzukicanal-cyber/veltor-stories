@@ -95,11 +95,11 @@
   },
   {
     "post_id": 7696,
-    "file": "stories/20261021-1607_7696_v2.jpg",
+    "file": "stories/20261021-1610_7696_v2.jpg",
     "layout": "collage",
     "photo_no": [
-      2,
-      1
+      1,
+      2
     ],
     "source": "sources/7696.jpg",
     "source2": "sources/7696_2.jpg",
@@ -107,19 +107,19 @@
     "year": "2022",
     "mileage": "5’135",
     "price": "1 498 000",
-    "created": "2026-10-21T16:07:48+00:00",
+    "created": "2026-10-21T16:10:05+00:00",
     "status": "delivered",
     "rebuilt": true,
     "album_photos": 4,
-    "delivered_at": "2026-10-21T16:08:23+00:00"
+    "delivered_at": "2026-10-21T16:10:39+00:00"
   },
   {
     "post_id": 7700,
-    "file": "stories/20261021-1607_7700_v2.jpg",
+    "file": "stories/20261021-1610_7700_v2.jpg",
     "layout": "collage",
     "photo_no": [
-      2,
-      1
+      1,
+      2
     ],
     "source": "sources/7700.jpg",
     "source2": "sources/7700_2.jpg",
@@ -127,19 +127,19 @@
     "year": "2026",
     "mileage": "244",
     "price": "3 055 000",
-    "created": "2026-10-21T16:07:59+00:00",
+    "created": "2026-10-21T16:10:18+00:00",
     "status": "delivered",
     "rebuilt": true,
     "album_photos": 4,
-    "delivered_at": "2026-10-21T16:08:25+00:00"
+    "delivered_at": "2026-10-21T16:10:42+00:00"
   },
   {
     "post_id": 7704,
-    "file": "stories/20261021-1608_7704_v2.jpg",
+    "file": "stories/20261021-1610_7704_v2.jpg",
     "layout": "collage",
     "photo_no": [
-      2,
-      1
+      1,
+      2
     ],
     "source": "sources/7704.jpg",
     "source2": "sources/7704_2.jpg",
@@ -147,19 +147,19 @@
     "year": "2024",
     "mileage": "432",
     "price": "2 256 000",
-    "created": "2026-10-21T16:08:10+00:00",
+    "created": "2026-10-21T16:10:27+00:00",
     "status": "delivered",
     "rebuilt": true,
     "album_photos": 4,
-    "delivered_at": "2026-10-21T16:08:26+00:00"
+    "delivered_at": "2026-10-21T16:10:44+00:00"
   },
   {
     "post_id": 7708,
-    "file": "stories/20261021-1608_7708_v2.jpg",
+    "file": "stories/20261021-1610_7708_v2.jpg",
     "layout": "collage",
     "photo_no": [
-      2,
-      1
+      1,
+      2
     ],
     "source": "sources/7708.jpg",
     "source2": "sources/7708_2.jpg",
@@ -167,11 +167,11 @@
     "year": "2016",
     "mileage": "13’000",
     "price": "1 025 000",
-    "created": "2026-10-21T16:08:20+00:00",
+    "created": "2026-10-21T16:10:37+00:00",
     "status": "delivered",
     "rebuilt": true,
     "album_photos": 4,
-    "delivered_at": "2026-10-21T16:08:28+00:00"
+    "delivered_at": "2026-10-21T16:10:46+00:00"
   },
   {
     "post_id": 7713,
