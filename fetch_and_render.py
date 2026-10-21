@@ -45,6 +45,30 @@ def download_photo(file_id, dest):
         dest.write_bytes(r.read())
 
 
+MIN_TOP_MARGIN = 0.06   # share of photo height that must be free above the bike
+MAX_CANDIDATES = 4      # look at the first N photos of an album
+
+
+def pick_photo(photos, dest):
+    """Use the first album photo where the bike does not touch the top edge.
+    If none qualifies, use the first photo (the bike is then protected from the
+    fade). Returns the 1-based number of the chosen photo."""
+    chosen = None
+    for n, (_, file_id) in enumerate(photos[:MAX_CANDIDATES], start=1):
+        cand = TMP / f"cand_{n}.jpg"
+        download_photo(file_id, cand)
+        if n == 1:
+            first = cand
+        margin = make_story.top_margin_ratio(cand)
+        print(f"  photo {n}: top margin {margin:.2f}")
+        if margin >= MIN_TOP_MARGIN:
+            chosen = (n, cand)
+            break
+    n, path = chosen or (1, first)
+    dest.write_bytes(path.read_bytes())
+    return n
+
+
 def send_story(chat_id, path, caption):
     """Send the story as a FILE (sendDocument) so Telegram keeps full 1080x1920 quality."""
     boundary = "----veltor" + str(int(time.time() * 1000))
@@ -153,15 +177,14 @@ def main():
             title, year, mileage, price = make_story.parse_post(p["caption"])
         except Exception as e:  # not a sale post in the usual format
             skip(post_id, f"не распознан текст ({e})", p["caption"]); continue
-        first_photo = sorted(p["photos"])[0][1]
         src = SOURCES / f"{post_id}.jpg"
-        download_photo(first_photo, src)
+        photo_no = pick_photo(sorted(p["photos"]), src)
         stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M")
         out = STORIES / f"{stamp}_{post_id}.jpg"
         args = type("A", (), dict(photo=str(src), out=str(out), title=title, year=year,
                                   mileage=mileage, price=price, zoom=1.0, focus_x=0.5, bottom=150))
         make_story.build(args)
-        queue.append({"post_id": post_id, "file": f"stories/{out.name}", "source": f"sources/{src.name}",
+        queue.append({"post_id": post_id, "file": f"stories/{out.name}", "source": f"sources/{src.name}", "photo_no": photo_no,
                       "title": title,
                       "year": year, "mileage": mileage, "price": price,
                       "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),

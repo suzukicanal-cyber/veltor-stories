@@ -175,8 +175,8 @@ def place_photo(canvas, photo_path, zoom, focus_x, bottom_frac):
     # taken from the photo's background (no per-column colours, so nothing of
     # the motorcycle can be smeared upward).
     tone = background_tone(photo)
-    feather = content_free_rows(photo, tone)      # rows above the bike that may fade
-    feather = int(min(260, max(70, feather)))
+    free = content_free_rows(photo, tone)         # rows above the bike that may fade
+    feather = int(min(260, max(70, free)))
     if top > 0:
         span = top + feather
         grad = Image.new("RGB", (W, span)); gd = ImageDraw.Draw(grad)
@@ -193,8 +193,33 @@ def place_photo(canvas, photo_path, zoom, focus_x, bottom_frac):
         if bottom < H and y > ph - 200:            # floor fades softly into black
             a = min(a, smoothstep((ph - y) / 200) ** 0.8)
         md.line([(0, y), (W, y)], fill=int(255 * a))
+    if top > 0 and free < feather:
+        # The bike reaches into the fade zone: only the background fades there,
+        # the bike itself (handlebar, mirrors, screen) stays fully visible.
+        keep = bike_mask(photo.crop((0, 0, W, feather)), tone)
+        top_part = ImageChops.lighter(mask.crop((0, 0, W, feather)), keep)
+        mask.paste(top_part, (0, 0))
     canvas.paste(photo, (0, top), mask)
     return top, bottom
+
+
+def bike_mask(region, tone, thresh=45):
+    """White where pixels differ clearly from the background tone (= bike parts)."""
+    from PIL import ImageFilter
+    w, h = region.size
+    soft = region.filter(ImageFilter.GaussianBlur(4))            # ignore fine wall texture
+    bg = region.resize((6, h), Image.BOX).resize((w, h), Image.BILINEAR)   # row-wise background
+    diff = ImageChops.difference(soft, bg).convert("L")
+    m = diff.point(lambda v: 255 if v > thresh else 0)
+    return m.filter(ImageFilter.MaxFilter(7)).filter(ImageFilter.GaussianBlur(4))
+
+
+def top_margin_ratio(photo_path):
+    """Share of the photo height above the bike that is pure background.
+    Small values mean the bike touches (or almost touches) the top edge."""
+    im = Image.open(photo_path).convert("RGB")
+    im = im.resize((W, round(im.height * W / im.width)), Image.BOX)
+    return content_free_rows(im, background_tone(im)) / im.height
 
 
 def background_tone(photo, bottom=False):
@@ -212,10 +237,13 @@ def content_free_rows(photo, tone, thresh=45, frac=0.04):
     background tone by more than `thresh`."""
     small = photo.resize((160, max(1, photo.height * 160 // photo.width)), Image.BOX)
     sw, sh = small.size
-    px = small.load()
+    # Background model: each row smoothed only horizontally, so slow lighting
+    # changes (vignettes, gradients on the wall) are not mistaken for the bike.
+    bg = small.resize((6, sh), Image.BOX).resize((sw, sh), Image.BILINEAR)
+    px, bx = small.load(), bg.load()
     for y in range(sh):
         diff = sum(1 for x in range(sw)
-                   if sum(abs(px[x, y][i] - tone[i]) for i in range(3)) > thresh * 3)
+                   if sum(abs(px[x, y][i] - bx[x, y][i]) for i in range(3)) > thresh * 3)
         if diff > frac * sw:
             return y * photo.height / sh
     return photo.height * 0.4
