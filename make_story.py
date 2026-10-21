@@ -334,54 +334,7 @@ def _shadow(canvas, box, radius=28, blur=34, offset=22, opacity=0.65):
     return Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), canvas, sh)
 
 
-GLASS_PAD = 16       # width of the frosted-glass rim around each photo
 CARD_RADIUS = 28
-
-
-def _glass_panel(canvas, box, radius):
-    """Frosted glass (glassmorphism) plate: blurred backdrop + light tint, a soft
-    diagonal sheen and a thin bright rim that fades from top-left to bottom-right."""
-    from PIL import ImageFilter
-    x0, y0, x1, y1 = box
-    w, h = x1 - x0, y1 - y0
-    plate = canvas.crop(box).filter(ImageFilter.GaussianBlur(22))
-    plate = Image.blend(plate, Image.new("RGB", (w, h), (255, 255, 255)), 0.14)
-    sheen = Image.new("L", (w, h), 0); sp = ImageDraw.Draw(sheen)
-    for i in range(w + h):                                   # diagonal light falloff
-        t = i / (w + h)
-        sp.line([(i, 0), (i - h, h)], fill=int(255 * 0.22 * max(0.0, 1 - t * 1.8)))
-    plate = Image.composite(Image.new("RGB", (w, h), (255, 255, 255)), plate, sheen)
-    big = Image.new("L", (w * 3, h * 3), 0)
-    ImageDraw.Draw(big).rounded_rectangle([0, 0, w * 3 - 1, h * 3 - 1], radius=radius * 3, fill=255)
-    shape = big.resize((w, h), Image.LANCZOS)
-    canvas.paste(plate, (x0, y0), shape)
-    # rim: 2px light line, brighter at the top-left
-    rim_big = Image.new("L", (w * 3, h * 3), 0)
-    ImageDraw.Draw(rim_big).rounded_rectangle([2, 2, w * 3 - 3, h * 3 - 3], radius=radius * 3,
-                                              outline=255, width=6)
-    rim = rim_big.resize((w, h), Image.LANCZOS)
-    fade = Image.linear_gradient("L").rotate(45, expand=True).resize((w, h))
-    fade = Image.eval(fade, lambda v: int(70 + (255 - v) * 0.55))   # 70..210 alpha
-    rim = ImageChops.multiply(rim, fade)
-    canvas.paste((255, 255, 255), (x0, y0), rim)
-    return canvas
-
-
-def _glass_card(canvas, img, w, x, y):
-    """Photo as a rounded card sitting inside a frosted glass plate with a shadow."""
-    card, cm = _card(img, w, CARD_RADIUS)
-    p = GLASS_PAD
-    box = (x - p, y - p, x + card.width + p, y + card.height + p)
-    canvas = _shadow(canvas, box, radius=CARD_RADIUS + p, blur=38, offset=26, opacity=0.7)
-    canvas = _glass_panel(canvas, box, CARD_RADIUS + p)
-    canvas.paste(card, (x, y), cm)
-    # very thin inner highlight on the photo edge, like light catching a glass edge
-    hl_big = Image.new("L", (card.width * 3, card.height * 3), 0)
-    ImageDraw.Draw(hl_big).rounded_rectangle([1, 1, card.width * 3 - 2, card.height * 3 - 2],
-                                             radius=CARD_RADIUS * 3, outline=255, width=3)
-    hl = Image.eval(hl_big.resize(card.size, Image.LANCZOS), lambda v: int(v * 0.35))
-    canvas.paste((255, 255, 255), (x, y), hl)
-    return canvas
 
 
 def collage_backdrop(back_path):
@@ -393,17 +346,16 @@ def collage_backdrop(back_path):
 
 
 def place_collage_cards(canvas, main_path, back_path):
-    """Editorial layout: both photos as large rounded cards in frosted-glass plates
-    with soft shadows, staggered right/left, over the dim backdrop."""
-    a_img, b_img = load_srgb(back_path), load_srgb(main_path)
-    aw, bw = 680, 790
-    ah, bh = round(a_img.height * aw / a_img.width), round(b_img.height * bw / b_img.width)
-    ax, ay = W - aw - 50, INFO_BOTTOM + 80                  # upper card, right
-    bx, by = 50, H - bh - 160                               # lower card, left (main)
-    if by < ay + ah - 110:                                  # keep a pleasant overlap, not more
-        by = ay + ah - 110
-    canvas = _glass_card(canvas, a_img, aw, ax, ay)
-    canvas = _glass_card(canvas, b_img, bw, bx, by)
+    """Editorial layout: both photos as large rounded cards, staggered
+    right/left, over the dim backdrop."""
+    a, am = _card(load_srgb(back_path), 700, CARD_RADIUS)   # upper card, right
+    b, bm = _card(load_srgb(main_path), 800, CARD_RADIUS)   # lower card, left (main)
+    ax, ay = W - a.width - 44, INFO_BOTTOM + 70
+    bx, by = 44, H - b.height - 150
+    if by < ay + a.height - 110:                            # keep a pleasant overlap, not more
+        by = ay + a.height - 110
+    canvas.paste(a, (ax, ay), am)                           # plain rounded cards:
+    canvas.paste(b, (bx, by), bm)                           # no glass, no shadows
     return canvas
 
 
