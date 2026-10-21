@@ -9,6 +9,10 @@ on:
         description: "Пересобрать сторис для постов (номера через пробел), пусто = обычная проверка"
         required: false
         default: ""
+      layout:
+        description: "Формат пересборки: auto (как обычно) или collage (всегда коллаж)"
+        required: false
+        default: "auto"
 
 permissions:
   contents: write
@@ -38,7 +42,7 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.post_ids != '' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        run: python rebuild_post.py ${{ inputs.post_ids }}
+        run: python rebuild_post.py ${{ inputs.post_ids }} ${{ inputs.layout == 'collage' && '--collage' || '' }}
 
       - name: Commit results
         run: |

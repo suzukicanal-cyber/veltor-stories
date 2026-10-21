@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Rebuild the story for an already-published post (e.g. after a template change).
 
-Usage (GitHub Actions → "Run workflow" → post_ids): python rebuild_post.py 7713 [7708 ...]
+Usage (GitHub Actions → "Run workflow" → post_ids): python rebuild_post.py 7713 [7708 ...] [--collage]
+--collage builds the two-photo collage even when photo 1 alone would do.
 
 Bots can't read old messages, so the album is fetched by forwarding each of its
 messages to the first delivery chat (silently) and deleting the forwarded copy
@@ -50,7 +51,7 @@ def fetch_album(first_id, via_chat):
     return photos, caption
 
 
-def main(ids):
+def main(ids, force_collage=False):
     queue = f.load(f.QUEUE, [])
     chats = f.load(f.CONFIG, {}).get("deliver_to_chat_ids", [])
     if not chats:
@@ -70,7 +71,7 @@ def main(ids):
         else:
             print("  no text found, skipped"); continue
         src = f.SOURCES / f"{pid}.jpg"
-        pick = f.pick_photo(photos, src)
+        pick = f.pick_photo(photos, src, force_collage)
         stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M")
         out = f.STORIES / f"{stamp}_{pid}_v2.jpg"
         entry = {"post_id": pid, "file": f"stories/{out.name}", **pick,
@@ -88,4 +89,5 @@ def main(ids):
 
 
 if __name__ == "__main__":
-    main([int(x) for x in " ".join(sys.argv[1:]).replace(",", " ").split()])
+    argv = " ".join(a for a in sys.argv[1:] if a != "--collage")
+    main([int(x) for x in argv.replace(",", " ").split()], force_collage="--collage" in sys.argv)

@@ -51,7 +51,7 @@ PICK_LOG = []           # margins of the photos checked for the last post
 DEBUG_DIR = None        # set to a Path to keep every candidate photo
 
 
-def pick_photo(photos, dest):
+def pick_photo(photos, dest, force_collage=False):
     """Photo 1 alone if the bike has room above it. Otherwise (and when the album
     has a second photo) a glass-card collage: photo 2 as the main lower card,
     photo 1 as the upper card and backdrop.
@@ -65,7 +65,7 @@ def pick_photo(photos, dest):
         if DEBUG_DIR:
             DEBUG_DIR.mkdir(exist_ok=True)
             (DEBUG_DIR / f"{dest.stem}_photo{n}.jpg").write_bytes(cand.read_bytes())
-        if n == 1:
+        if n == 1 and not force_collage:
             margin = make_story.top_margin_ratio(cand)
             print(f"  photo 1: top margin {margin:.2f}")
             PICK_LOG.append({"photo": 1, "margin": round(margin, 3)})
