@@ -95,67 +95,121 @@
   },
   {
     "post_id": 7696,
-    "file": "stories/20261021-1610_7696_v2.jpg",
+    "file": "stories/20261021-1625_7696_v2.jpg",
     "layout": "collage",
     "photo_no": [
-      1,
-      2
+      2,
+      3
     ],
     "source": "sources/7696.jpg",
     "source2": "sources/7696_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.629
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.784
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.862
+      }
+    ],
     "title": "Harley-Davidson Fat Bob 114",
     "year": "2022",
     "mileage": "5’135",
     "price": "1 498 000",
-    "created": "2026-10-21T16:10:05+00:00",
+    "created": "2026-10-21T16:25:31+00:00",
     "status": "delivered",
     "rebuilt": true,
     "album_photos": 4,
-    "delivered_at": "2026-10-21T16:10:39+00:00"
+    "delivered_at": "2026-10-21T16:26:10+00:00"
   },
   {
     "post_id": 7700,
-    "file": "stories/20261021-1610_7700_v2.jpg",
+    "file": "stories/20261021-1625_7700_v2.jpg",
     "layout": "collage",
     "photo_no": [
-      1,
+      3,
       2
     ],
     "source": "sources/7700.jpg",
     "source2": "sources/7700_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.356
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.652
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
     "title": "Ducati XDiavel V4",
     "year": "2026",
     "mileage": "244",
     "price": "3 055 000",
-    "created": "2026-10-21T16:10:18+00:00",
+    "created": "2026-10-21T16:25:40+00:00",
     "status": "delivered",
     "rebuilt": true,
     "album_photos": 4,
-    "delivered_at": "2026-10-21T16:10:42+00:00"
+    "delivered_at": "2026-10-21T16:26:11+00:00"
   },
   {
     "post_id": 7704,
-    "file": "stories/20261021-1610_7704_v2.jpg",
+    "file": "stories/20261021-1625_7704_v2.jpg",
     "layout": "collage",
     "photo_no": [
       1,
-      2
+      4
     ],
     "source": "sources/7704.jpg",
     "source2": "sources/7704_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.621
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.485
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
     "title": "Ducati XDiavel V4",
     "year": "2024",
     "mileage": "432",
     "price": "2 256 000",
-    "created": "2026-10-21T16:10:27+00:00",
+    "created": "2026-10-21T16:25:49+00:00",
     "status": "delivered",
     "rebuilt": true,
     "album_photos": 4,
-    "delivered_at": "2026-10-21T16:10:44+00:00"
+    "delivered_at": "2026-10-21T16:26:15+00:00"
   },
   {
     "post_id": 7708,
-    "file": "stories/20261021-1610_7708_v2.jpg",
+    "file": "stories/20261021-1625_7708_v2.jpg",
     "layout": "collage",
     "photo_no": [
       1,
@@ -163,34 +217,70 @@
     ],
     "source": "sources/7708.jpg",
     "source2": "sources/7708_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.645
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.633
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.515
+      }
+    ],
     "title": "DUCATI MULTISTRADA 1200 S TOURING",
     "year": "2016",
     "mileage": "13’000",
     "price": "1 025 000",
-    "created": "2026-10-21T16:10:37+00:00",
+    "created": "2026-10-21T16:25:58+00:00",
     "status": "delivered",
     "rebuilt": true,
     "album_photos": 4,
-    "delivered_at": "2026-10-21T16:10:46+00:00"
+    "delivered_at": "2026-10-21T16:26:17+00:00"
   },
   {
     "post_id": 7713,
-    "file": "stories/20261021-1536_7713_v2.jpg",
+    "file": "stories/20261021-1626_7713_v2.jpg",
     "layout": "collage",
     "photo_no": [
-      2,
-      1
+      1,
+      3
     ],
     "source": "sources/7713.jpg",
     "source2": "sources/7713_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.484
+      }
+    ],
     "title": "BMW S1000RR Race Package",
     "year": "2022",
     "mileage": "18’000",
     "price": "1 511 000",
-    "created": "2026-10-21T15:36:27+00:00",
+    "created": "2026-10-21T16:26:07+00:00",
     "status": "delivered",
     "rebuilt": true,
     "album_photos": 4,
-    "delivered_at": "2026-10-21T15:36:29+00:00"
+    "delivered_at": "2026-10-21T16:26:18+00:00"
   }
 ]
