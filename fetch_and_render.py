@@ -145,6 +145,19 @@ def deliver_pending(queue):
             print(f"delivery failed for {item['file']}: {e}")
 
 
+SEEN = ROOT / "seen_chats.json"   # other chats that wrote to the bot (to find a group's chat_id)
+
+
+def remember_chat(chat, m):
+    seen = load(SEEN, {})
+    key = str(chat.get("id"))
+    if key not in seen:
+        seen[key] = {"title": chat.get("title") or chat.get("username") or chat.get("first_name"),
+                     "type": chat.get("type"), "first_text": (m.get("text") or "")[:60],
+                     "at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+        SEEN.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def load(p, default):
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else default
 
@@ -169,7 +182,10 @@ def main():
         if not m:
             continue
         chat = m.get("chat", {})
-        if chat.get("username", "").lower() != CHAT_USERNAME or m.get("message_thread_id") != TOPIC_ID:
+        if chat.get("username", "").lower() != CHAT_USERNAME:
+            remember_chat(chat, m)              # e.g. a work group where the bot was added
+            continue
+        if m.get("message_thread_id") != TOPIC_ID:
             continue
         key = m.get("media_group_id") or f"single-{m['message_id']}"
         p = posts.setdefault(key, {"photos": [], "caption": None, "first_id": m["message_id"]})

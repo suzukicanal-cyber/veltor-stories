@@ -5,7 +5,8 @@ Usage (GitHub Actions → "Run workflow" → post_ids): python rebuild_post.py 7
 (--collage is accepted for compatibility; the collage is now the default format.)
 
 Bots can't read old messages, so the album is fetched by forwarding each of its
-messages to the first delivery chat (silently) and deleting the forwarded copy
+messages to `forward_via_chat_id` (the owner's private chat with the bot, silently)
+and deleting the forwarded copy
 right away. The new story replaces the old entry in queue.json and is delivered.
 """
 import json, sys
@@ -53,13 +54,14 @@ def fetch_album(first_id, via_chat):
 
 def main(ids, force_collage=False):
     queue = f.load(f.QUEUE, [])
-    chats = f.load(f.CONFIG, {}).get("deliver_to_chat_ids", [])
-    if not chats:
-        sys.exit("no delivery chat in config.json")
+    cfg = f.load(f.CONFIG, {})
+    via = cfg.get("forward_via_chat_id") or (cfg.get("deliver_to_chat_ids") or [None])[0]
+    if not via:
+        sys.exit("no chat to fetch albums through (forward_via_chat_id in config.json)")
     f.TMP.mkdir(exist_ok=True); f.SOURCES.mkdir(exist_ok=True); f.STORIES.mkdir(exist_ok=True)
     for pid in ids:
         print(f"post {pid}")
-        photos, caption = fetch_album(pid, chats[0])
+        photos, caption = fetch_album(pid, via)
         print(f"  album: {len(photos)} photos")
         old = next((i for i in queue if str(i["post_id"]) == str(pid)), None)
         if not photos:

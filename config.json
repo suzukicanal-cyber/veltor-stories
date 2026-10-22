@@ -1,3 +1,4 @@
 {
-  "deliver_to_chat_ids": [922889444]
+  "deliver_to_chat_ids": [922889444],
+  "forward_via_chat_id": 922889444
 }
