@@ -392,5 +392,150 @@
     "created": "2026-10-22T00:12:30+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-22T00:12:35+00:00"
+  },
+  {
+    "post_id": 7730,
+    "file": "stories/20261022-0104_7730.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7730.jpg",
+    "source2": "sources/7730_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.634
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.439
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.579
+      }
+    ],
+    "title": "BMW S1000RR Race Package",
+    "year": "2024",
+    "mileage": "6’500",
+    "price": "1 904 000",
+    "created": "2026-10-22T01:04:16+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T01:04:34+00:00"
+  },
+  {
+    "post_id": 7735,
+    "file": "stories/20261022-0104_7735.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7735.jpg",
+    "source2": "sources/7735_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.915
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.147
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.825
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0,
+        "tire": true
+      }
+    ],
+    "title": "BMW M1000R",
+    "year": "2023",
+    "mileage": "21’886",
+    "price": "1 637 000",
+    "created": "2026-10-22T01:04:20+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T01:04:35+00:00"
+  },
+  {
+    "post_id": 7739,
+    "file": "stories/20261022-0104_7739.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7739.jpg",
+    "source2": "sources/7739_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.894
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.634
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.646
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.37
+      }
+    ],
+    "title": "Yamaha XSR900",
+    "year": "2025",
+    "mileage": "2’500",
+    "price": "1 218 000",
+    "created": "2026-10-22T01:04:25+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T01:04:36+00:00"
+  },
+  {
+    "post_id": 7743,
+    "file": "stories/20261022-0104_7743.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7743.jpg",
+    "source2": "sources/7743_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.84
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.428
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.476
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.857
+      }
+    ],
+    "title": "Yamaha Niken GT",
+    "year": "2018",
+    "mileage": "21’204",
+    "price": "1 059 000",
+    "created": "2026-10-22T01:04:31+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T01:04:38+00:00"
   }
 ]
