@@ -537,5 +537,41 @@
     "created": "2026-10-22T01:04:31+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-22T01:04:38+00:00"
+  },
+  {
+    "post_id": 7747,
+    "file": "stories/20261022-0414_7747.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7747.jpg",
+    "source2": "sources/7747_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.594
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.578
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.603
+      }
+    ],
+    "title": "BMW S1000XR",
+    "year": "2021",
+    "mileage": "17’433",
+    "price": "1 587 000",
+    "created": "2026-10-22T04:14:08+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T04:14:10+00:00"
   }
 ]
