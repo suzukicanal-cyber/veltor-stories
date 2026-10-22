@@ -283,5 +283,114 @@
     "rebuilt": true,
     "album_photos": 4,
     "delivered_at": "2026-10-21T16:31:20+00:00"
+  },
+  {
+    "post_id": 7718,
+    "file": "stories/20261022-0012_7718.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/7718.jpg",
+    "source2": "sources/7718_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.356
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.785
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.695
+      }
+    ],
+    "title": "BMW R1300GS Adventure",
+    "year": "2026",
+    "mileage": "7’000",
+    "price": "2 772 000",
+    "created": "2026-10-22T00:12:19+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T00:12:32+00:00"
+  },
+  {
+    "post_id": 7722,
+    "file": "stories/20261022-0012_7722.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7722.jpg",
+    "source2": "sources/7722_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.825
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.152
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.915
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0,
+        "tire": true
+      }
+    ],
+    "title": "BMW M1000R",
+    "year": "2023",
+    "mileage": "21’886",
+    "price": "1 637 000",
+    "created": "2026-10-22T00:12:25+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T00:12:33+00:00"
+  },
+  {
+    "post_id": 7726,
+    "file": "stories/20261022-0012_7726.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7726.jpg",
+    "source2": "sources/7726_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.925
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.809
+      }
+    ],
+    "title": "BMW S1000RR Race Package",
+    "year": "2025",
+    "mileage": "13’000",
+    "price": "1 925 000",
+    "created": "2026-10-22T00:12:30+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T00:12:35+00:00"
   }
 ]
