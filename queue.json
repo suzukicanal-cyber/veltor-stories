@@ -573,5 +573,41 @@
     "created": "2026-10-22T04:14:08+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-22T04:14:10+00:00"
+  },
+  {
+    "post_id": 7761,
+    "file": "stories/20261022-0454_7761.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7761.jpg",
+    "source2": "sources/7761_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.9
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.545
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.302
+      }
+    ],
+    "title": "BMW F800R",
+    "year": "2012",
+    "mileage": "58’000",
+    "price": "527 000",
+    "created": "2026-10-22T04:54:48+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T04:54:51+00:00"
   }
 ]
