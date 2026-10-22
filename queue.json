@@ -609,5 +609,185 @@
     "created": "2026-10-22T04:54:48+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-22T04:54:51+00:00"
+  },
+  {
+    "post_id": 7765,
+    "file": "stories/20261022-1135_7765.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/7765.jpg",
+    "source2": "sources/7765_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.577
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.371
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.112
+      }
+    ],
+    "title": "BMW R1300RS",
+    "year": "2026",
+    "mileage": "2’142",
+    "price": "2 142 000",
+    "created": "2026-10-22T11:35:22+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T11:35:46+00:00"
+  },
+  {
+    "post_id": 7769,
+    "file": "stories/20261022-1135_7769.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7769.jpg",
+    "source2": "sources/7769_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.928
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.905
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2024",
+    "mileage": "17’000",
+    "price": "1 908 000",
+    "created": "2026-10-22T11:35:27+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T11:35:47+00:00"
+  },
+  {
+    "post_id": 7773,
+    "file": "stories/20261022-1135_7773.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7773.jpg",
+    "source2": "sources/7773_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.807
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.318
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW R1300GS",
+    "year": "2026",
+    "mileage": "6’950",
+    "price": "2 147 000",
+    "created": "2026-10-22T11:35:32+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T11:35:49+00:00"
+  },
+  {
+    "post_id": 7779,
+    "file": "stories/20261022-1135_7779.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7779.jpg",
+    "source2": "sources/7779_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.611
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.508
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.337
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Honda Gold Wing Tour DCT Airbag",
+    "year": "2020",
+    "mileage": "9’035",
+    "price": "2 366 000",
+    "created": "2026-10-22T11:35:38+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T11:35:50+00:00"
+  },
+  {
+    "post_id": 7783,
+    "file": "stories/20261022-1135_7783.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/7783.jpg",
+    "source2": "sources/7783_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.343
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.843
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.36
+      }
+    ],
+    "title": "Suzuki GSX-8R",
+    "year": "2024",
+    "mileage": "2’374",
+    "price": "1 006 000",
+    "created": "2026-10-22T11:35:44+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T11:35:51+00:00"
   }
 ]
