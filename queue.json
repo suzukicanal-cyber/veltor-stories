@@ -789,5 +789,41 @@
     "created": "2026-10-22T11:35:44+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-22T11:35:51+00:00"
+  },
+  {
+    "post_id": 7791,
+    "file": "stories/20261022-1139_7791.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/7791.jpg",
+    "source2": "sources/7791_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.803
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.629
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Rewaco RF1 GT Turbo",
+    "year": "2016",
+    "mileage": "53",
+    "price": "2 987 000",
+    "created": "2026-10-22T11:39:48+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T11:39:49+00:00"
   }
 ]
