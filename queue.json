@@ -893,5 +893,41 @@
     "rebuilt": true,
     "album_photos": 4,
     "delivered_at": "2026-10-22T11:42:06+00:00"
+  },
+  {
+    "post_id": 7795,
+    "file": "stories/20261022-1359_7795.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7795.jpg",
+    "source2": "sources/7795_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.803
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.612
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.6
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.344
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2021",
+    "mileage": "8’500",
+    "price": "1 711 000",
+    "created": "2026-10-22T13:59:49+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-22T13:59:51+00:00"
   }
 ]
