@@ -402,7 +402,8 @@ def build(args):
     lf = ImageFont.truetype(F_LABEL, LABEL_SIZE)
     vf = ImageFont.truetype(F_VALUE, VALUE_SIZE)
     rows = [("Год:", args.year, icon_calendar()),
-            ("Пробег:", f"{args.mileage} km", icon_speedometer()),
+            ("Пробег:", f"{args.mileage} km" if args.mileage[:1].isdigit() else args.mileage.upper(),
+             icon_speedometer()),
             ("Цена под ключ:", f"{args.price}₽", icon_tag())]
     for (label, value, icon), top in zip(rows, ROW_TOPS):
         paste_icon(canvas, icon, ICON_X, top + 2)
@@ -420,7 +421,8 @@ def parse_post(text):
     title = lines[0]
     blob = "\n".join(lines[1:])
     m_year = re.search(r"Год\s*(?:выпуска)?\s*[:\-–]?\s*(\d{4})", blob, re.I)
-    m_km = re.search(r"Пробег\s*[:\-–]?\s*([\d’'`\s .,]+?)\s*(?:km|км)\b", blob, re.I)
+    m_km = re.search(r"Пробег\s*[:\-–]?\s*([\d’'`\s .,]+?)\s*(?:km|км)\b", blob, re.I) \
+        or re.search(r"Пробег\s*[:\-–]?\s*(NEW|нов(?:ый|ая)?)\b", blob, re.I)     # brand-new bike
     m_price = re.search(r"Цена(?:\s+под\s+ключ)?\s*[:\-–]?\s*([\d\s .]+?)\s*(?:₽|руб|р\.|р\b)", blob, re.I)
     missing = [n for n, m in (("Год", m_year), ("Пробег", m_km), ("Цена", m_price)) if not m]
     if missing:
