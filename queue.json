@@ -825,5 +825,73 @@
     "created": "2026-10-22T11:39:48+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-22T11:39:49+00:00"
+  },
+  {
+    "post_id": 7777,
+    "file": "stories/20261022-1141_7777_v2.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7777.jpg",
+    "source2": "sources/7777_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.6
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Honda CBR1000RR-R Fireblade SP",
+    "year": "2026",
+    "mileage": "NEW",
+    "price": "2 382 000",
+    "created": "2026-10-22T11:41:53+00:00",
+    "status": "delivered",
+    "rebuilt": true,
+    "album_photos": 2,
+    "delivered_at": "2026-10-22T11:42:05+00:00"
+  },
+  {
+    "post_id": 7787,
+    "file": "stories/20261022-1142_7787_v2.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/7787.jpg",
+    "source2": "sources/7787_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.83
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.848
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.47
+      }
+    ],
+    "title": "Rewaco GT Touring 140 Turbo",
+    "year": "2025",
+    "mileage": "NEW",
+    "price": "7 016 000",
+    "created": "2026-10-22T11:42:04+00:00",
+    "status": "delivered",
+    "rebuilt": true,
+    "album_photos": 4,
+    "delivered_at": "2026-10-22T11:42:06+00:00"
   }
 ]
