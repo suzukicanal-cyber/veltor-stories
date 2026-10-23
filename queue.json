@@ -929,5 +929,113 @@
     "created": "2026-10-22T13:59:49+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-22T13:59:51+00:00"
+  },
+  {
+    "post_id": 7810,
+    "file": "stories/20261023-0000_7810.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7810.jpg",
+    "source2": "sources/7810_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.877
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.737
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.927
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.867
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2020",
+    "mileage": "14’999",
+    "price": "1 485 000",
+    "created": "2026-10-23T00:00:29+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-23T00:00:52+00:00"
+  },
+  {
+    "post_id": 7814,
+    "file": "stories/20261023-0000_7814.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/7814.jpg",
+    "source2": "sources/7814_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.474
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.778
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.636
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2025",
+    "mileage": "9’000",
+    "price": "2 190 000",
+    "created": "2026-10-23T00:00:40+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-23T00:00:53+00:00"
+  },
+  {
+    "post_id": 7818,
+    "file": "stories/20261023-0000_7818.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/7818.jpg",
+    "source2": "sources/7818_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.58
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.814
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.773
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R1250GS Adventure",
+    "year": "2024",
+    "mileage": "7’000",
+    "price": "1 989 000",
+    "created": "2026-10-23T00:00:49+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-23T00:00:55+00:00"
   }
 ]
