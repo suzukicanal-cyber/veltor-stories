@@ -1365,5 +1365,41 @@
     "created": "2026-10-23T07:09:32+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-23T07:09:36+00:00"
+  },
+  {
+    "post_id": 7878,
+    "file": "stories/20261023-1008_7878.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/7878.jpg",
+    "source2": "sources/7878_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.338
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.294
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.629
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.579
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2022",
+    "mileage": "14’000",
+    "price": "1 645 000",
+    "created": "2026-10-23T10:08:56+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-23T10:08:58+00:00"
   }
 ]
