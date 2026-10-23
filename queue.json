@@ -1185,5 +1185,113 @@
     "created": "2026-10-23T00:46:54+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-23T00:47:02+00:00"
+  },
+  {
+    "post_id": 7856,
+    "file": "stories/20261023-0127_7856.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/7856.jpg",
+    "source2": "sources/7856_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.474
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.778
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.636
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2025",
+    "mileage": "9’000",
+    "price": "2 190 000",
+    "created": "2026-10-23T01:27:33+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-23T01:27:47+00:00"
+  },
+  {
+    "post_id": 7860,
+    "file": "stories/20261023-0127_7860.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7860.jpg",
+    "source2": "sources/7860_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.301
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW F 900 GS Adventure",
+    "year": "2025",
+    "mileage": "2’667",
+    "price": "1 437 000",
+    "created": "2026-10-23T01:27:40+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-23T01:27:49+00:00"
+  },
+  {
+    "post_id": 7864,
+    "file": "stories/20261023-0127_7864.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7864.jpg",
+    "source2": "sources/7864_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.301
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW F 900 GS Adventure",
+    "year": "2025",
+    "mileage": "2’667",
+    "price": "1 437 000",
+    "created": "2026-10-23T01:27:45+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-23T01:27:50+00:00"
   }
 ]
