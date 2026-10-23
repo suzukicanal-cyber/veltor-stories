@@ -1473,5 +1473,77 @@
     "created": "2026-10-23T13:59:32+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-23T13:59:35+00:00"
+  },
+  {
+    "post_id": 7892,
+    "file": "stories/20261023-1521_7892.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7892.jpg",
+    "source2": "sources/7892_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.857
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.583
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.582
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.636
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2024",
+    "mileage": "6’128",
+    "price": "2 291 000",
+    "created": "2026-10-23T15:21:00+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-23T15:21:09+00:00"
+  },
+  {
+    "post_id": 7896,
+    "file": "stories/20261023-1521_7896.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/7896.jpg",
+    "source2": "sources/7896_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.523
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.542
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.735
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.553
+      }
+    ],
+    "title": "Yamaha YZF-R9",
+    "year": "2026",
+    "mileage": "3’397",
+    "price": "1 418 000",
+    "created": "2026-10-23T15:21:06+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-23T15:21:10+00:00"
   }
 ]
