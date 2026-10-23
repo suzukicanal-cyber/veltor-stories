@@ -1401,5 +1401,77 @@
     "created": "2026-10-23T10:08:56+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-23T10:08:58+00:00"
+  },
+  {
+    "post_id": 7882,
+    "file": "stories/20261023-1359_7882.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7882.jpg",
+    "source2": "sources/7882_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.933
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.638
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.547
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.627
+      }
+    ],
+    "title": "BMW R 1250 GS Adventure",
+    "year": "2023",
+    "mileage": "4’800",
+    "price": "2 114 000",
+    "created": "2026-10-23T13:59:26+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-23T13:59:34+00:00"
+  },
+  {
+    "post_id": 7886,
+    "file": "stories/20261023-1359_7886.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7886.jpg",
+    "source2": "sources/7886_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.871
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.37
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.582
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R 1250 GS Adventure",
+    "year": "2023",
+    "mileage": "2’623",
+    "price": "2 120 000",
+    "created": "2026-10-23T13:59:32+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-23T13:59:35+00:00"
   }
 ]
