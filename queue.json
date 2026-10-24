@@ -1689,5 +1689,113 @@
     "created": "2026-10-24T02:09:38+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-24T02:09:45+00:00"
+  },
+  {
+    "post_id": 7928,
+    "file": "stories/20261024-0451_7928.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/7928.jpg",
+    "source2": "sources/7928_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.351
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.614
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Suzuki GSX-S1000GT",
+    "year": "2023",
+    "mileage": "280",
+    "price": "1 397 000",
+    "created": "2026-10-24T04:51:51+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-24T04:52:04+00:00"
+  },
+  {
+    "post_id": 7932,
+    "file": "stories/20261024-0451_7932.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/7932.jpg",
+    "source2": "sources/7932_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.705
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.838
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.562
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.347
+      }
+    ],
+    "title": "BMW R1200RT",
+    "year": "2017",
+    "mileage": "32’178",
+    "price": "1 193 000",
+    "created": "2026-10-24T04:51:57+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-24T04:52:06+00:00"
+  },
+  {
+    "post_id": 7936,
+    "file": "stories/20261024-0452_7936.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7936.jpg",
+    "source2": "sources/7936_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.768
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.819
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.77
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW R1250RT",
+    "year": "2019",
+    "mileage": "22’600",
+    "price": "1 398 000",
+    "created": "2026-10-24T04:52:02+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-24T04:52:08+00:00"
   }
 ]
