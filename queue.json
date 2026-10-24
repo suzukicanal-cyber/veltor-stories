@@ -1797,5 +1797,113 @@
     "created": "2026-10-24T04:52:02+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-24T04:52:08+00:00"
+  },
+  {
+    "post_id": 7944,
+    "file": "stories/20261024-0725_7944.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7944.jpg",
+    "source2": "sources/7944_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.346
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Kawasaki Ninja 1000SX",
+    "year": "2023",
+    "mileage": "22’718",
+    "price": "1 261 000",
+    "created": "2026-10-24T07:25:00+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-24T07:25:14+00:00"
+  },
+  {
+    "post_id": 7948,
+    "file": "stories/20261024-0725_7948.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7948.jpg",
+    "source2": "sources/7948_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.638
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.357
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.361
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000XR",
+    "year": "2021",
+    "mileage": "17’433",
+    "price": "1 636 000",
+    "created": "2026-10-24T07:25:06+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-24T07:25:15+00:00"
+  },
+  {
+    "post_id": 7952,
+    "file": "stories/20261024-0725_7952.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/7952.jpg",
+    "source2": "sources/7952_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.585
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.497
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.852
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.841
+      }
+    ],
+    "title": "BMW R1250RT",
+    "year": "2022",
+    "mileage": "29’700",
+    "price": "1 793 000",
+    "created": "2026-10-24T07:25:12+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-24T07:25:17+00:00"
   }
 ]
