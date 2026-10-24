@@ -1905,5 +1905,41 @@
     "created": "2026-10-24T07:25:12+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-24T07:25:17+00:00"
+  },
+  {
+    "post_id": 7956,
+    "file": "stories/20261024-0803_7956.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7956.jpg",
+    "source2": "sources/7956_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.64
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.633
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.362
+      }
+    ],
+    "title": "Suzuki GSX-R1000R",
+    "year": "2020",
+    "mileage": "23’000",
+    "price": "1 261 000",
+    "created": "2026-10-24T08:03:28+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-24T08:03:30+00:00"
   }
 ]
