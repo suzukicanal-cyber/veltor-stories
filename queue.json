@@ -1941,5 +1941,77 @@
     "created": "2026-10-24T08:03:28+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-24T08:03:30+00:00"
+  },
+  {
+    "post_id": 7964,
+    "file": "stories/20261024-1133_7964.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7964.jpg",
+    "source2": "sources/7964_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.476
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.364
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.459
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.566
+      }
+    ],
+    "title": "BMW M 1000 RR Competition",
+    "year": "2024",
+    "mileage": "4’000",
+    "price": "2 382 000",
+    "created": "2026-10-24T11:33:17+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-24T11:33:24+00:00"
+  },
+  {
+    "post_id": 7968,
+    "file": "stories/20261024-1133_7968.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7968.jpg",
+    "source2": "sources/7968_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.633
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.328
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.354
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.372
+      }
+    ],
+    "title": "BMW R1300GS Option 719",
+    "year": "2024",
+    "mileage": "14’000",
+    "price": "1 991 000",
+    "created": "2026-10-24T11:33:21+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-24T11:33:25+00:00"
   }
 ]
