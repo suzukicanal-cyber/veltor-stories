@@ -2013,5 +2013,77 @@
     "created": "2026-10-24T11:33:21+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-24T11:33:25+00:00"
+  },
+  {
+    "post_id": 7972,
+    "file": "stories/20261024-1204_7972.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7972.jpg",
+    "source2": "sources/7972_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.829
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.525
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.341
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.843
+      }
+    ],
+    "title": "Kawasaki Z H2 SE ABS",
+    "year": "2023",
+    "mileage": "645",
+    "price": "2 316 000",
+    "created": "2026-10-24T12:04:02+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-24T12:04:12+00:00"
+  },
+  {
+    "post_id": 7976,
+    "file": "stories/20261024-1204_7976.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7976.jpg",
+    "source2": "sources/7976_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.774
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.82
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.886
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.755
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2024",
+    "mileage": "17’600",
+    "price": "1 871 000",
+    "created": "2026-10-24T12:04:10+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-24T12:04:14+00:00"
   }
 ]
