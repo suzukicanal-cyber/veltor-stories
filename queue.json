@@ -2193,5 +2193,41 @@
     "created": "2026-10-24T14:00:53+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-24T14:00:57+00:00"
+  },
+  {
+    "post_id": 7996,
+    "file": "stories/20261024-1431_7996.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/7996.jpg",
+    "source2": "sources/7996_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.876
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.524
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.856
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.666
+      }
+    ],
+    "title": "BMW S1000R",
+    "year": "2024",
+    "mileage": "12’000",
+    "price": "1 470 000",
+    "created": "2026-10-24T14:31:26+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-24T14:31:29+00:00"
   }
 ]
