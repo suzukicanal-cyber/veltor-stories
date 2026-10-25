@@ -2913,5 +2913,41 @@
     "created": "2026-10-25T07:53:15+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-25T07:53:22+00:00"
+  },
+  {
+    "post_id": 8084,
+    "file": "stories/20261025-0905_8084.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8084.jpg",
+    "source2": "sources/8084_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.617
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.657
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Suzuki GSX-S1000GT",
+    "year": "2022",
+    "mileage": "12’000",
+    "price": "1 017 000",
+    "created": "2026-10-25T09:05:24+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-25T09:05:27+00:00"
   }
 ]
