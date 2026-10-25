@@ -3093,5 +3093,77 @@
     "created": "2026-10-25T09:51:30+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-25T09:51:38+00:00"
+  },
+  {
+    "post_id": 8104,
+    "file": "stories/20261025-1400_8104.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8104.jpg",
+    "source2": "sources/8104_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.724
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.901
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Sportster S",
+    "year": "2021",
+    "mileage": "12’000",
+    "price": "1 189 000",
+    "created": "2026-10-25T14:00:34+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-25T14:00:45+00:00"
+  },
+  {
+    "post_id": 8108,
+    "file": "stories/20261025-1400_8108.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8108.jpg",
+    "source2": "sources/8108_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.599
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.844
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.616
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Harley-Davidson Sportster S",
+    "year": "2023",
+    "mileage": "10’166",
+    "price": "1 190 000",
+    "created": "2026-10-25T14:00:43+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-25T14:00:47+00:00"
   }
 ]
