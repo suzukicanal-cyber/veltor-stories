@@ -3165,5 +3165,41 @@
     "created": "2026-10-25T14:00:43+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-25T14:00:47+00:00"
+  },
+  {
+    "post_id": 8112,
+    "file": "stories/20261025-1431_8112.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8112.jpg",
+    "source2": "sources/8112_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.605
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.895
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha YZF-R1",
+    "year": "2022",
+    "mileage": "17’000",
+    "price": "1 598 000",
+    "created": "2026-10-25T14:31:23+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-25T14:31:27+00:00"
   }
 ]
