@@ -2949,5 +2949,149 @@
     "created": "2026-10-25T09:05:24+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-25T09:05:27+00:00"
+  },
+  {
+    "post_id": 8088,
+    "file": "stories/20261025-0951_8088.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      4
+    ],
+    "source": "sources/8088.jpg",
+    "source2": "sources/8088_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.584
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.643
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2026",
+    "mileage": "972",
+    "price": "2 414 000",
+    "created": "2026-10-25T09:51:11+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-25T09:51:33+00:00"
+  },
+  {
+    "post_id": 8092,
+    "file": "stories/20261025-0951_8092.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8092.jpg",
+    "source2": "sources/8092_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.889
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000R M Package",
+    "year": "2026",
+    "mileage": "2’973",
+    "price": "2 030 000",
+    "created": "2026-10-25T09:51:18+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-25T09:51:35+00:00"
+  },
+  {
+    "post_id": 8096,
+    "file": "stories/20261025-0951_8096.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/8096.jpg",
+    "source2": "sources/8096_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.603
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.62
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.662
+      }
+    ],
+    "title": "BMW R 12 nineT Option 719",
+    "year": "2026",
+    "mileage": "1’012",
+    "price": "1 848 000",
+    "created": "2026-10-25T09:51:24+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-25T09:51:36+00:00"
+  },
+  {
+    "post_id": 8100,
+    "file": "stories/20261025-0951_8100.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/8100.jpg",
+    "source2": "sources/8100_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.575
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.595
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.513
+      }
+    ],
+    "title": "BMW R1300RT Option 719",
+    "year": "2026",
+    "mileage": "6’058",
+    "price": "2 422 000",
+    "created": "2026-10-25T09:51:30+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-25T09:51:38+00:00"
   }
 ]
