@@ -2373,5 +2373,149 @@
     "created": "2026-10-25T01:34:35+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-25T01:34:43+00:00"
+  },
+  {
+    "post_id": 8019,
+    "file": "stories/20261025-0207_8019.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8019.jpg",
+    "source2": "sources/8019_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.866
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.835
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.782
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Harley-Davidson Sportster S",
+    "year": "2021",
+    "mileage": "1’216",
+    "price": "1 118 000",
+    "created": "2026-10-25T02:07:38+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-25T02:07:52+00:00"
+  },
+  {
+    "post_id": 8023,
+    "file": "stories/20261025-0207_8023.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8023.jpg",
+    "source2": "sources/8023_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.606
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.194
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.328
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.019
+      }
+    ],
+    "title": "BMW R 1250 RT",
+    "year": "2023",
+    "mileage": "11’100",
+    "price": "1 871 000",
+    "created": "2026-10-25T02:07:42+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-25T02:07:53+00:00"
+  },
+  {
+    "post_id": 8027,
+    "file": "stories/20261025-0207_8027.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8027.jpg",
+    "source2": "sources/8027_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.802
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.869
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.86
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R 1250 GS Adventure",
+    "year": "2023",
+    "mileage": "18’000",
+    "price": "2 035 000",
+    "created": "2026-10-25T02:07:46+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-25T02:07:55+00:00"
+  },
+  {
+    "post_id": 8031,
+    "file": "stories/20261025-0207_8031.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8031.jpg",
+    "source2": "sources/8031_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.544
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.883
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.341
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.204
+      }
+    ],
+    "title": "Suzuki GSX-R1000",
+    "year": "2019",
+    "mileage": "14’728",
+    "price": "987 000",
+    "created": "2026-10-25T02:07:50+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-25T02:07:56+00:00"
   }
 ]
