@@ -160,7 +160,7 @@ def place_photo(canvas, photo_path, zoom, focus_x, bottom_frac):
     src = ImageCms.profileToProfile(src, ImageCms.getOpenProfile(
         __import__("io").BytesIO(src.info["icc_profile"])), ImageCms.createProfile("sRGB"),
         outputMode="RGB") if src.info.get("icc_profile") else src.convert("RGB")
-    src = enhance(src)
+    src = enhance(restore_if_on(src))
     scale = W / src.width * zoom
     pw, ph = round(src.width * scale), round(src.height * scale)
     photo = src.resize((pw, ph), Image.LANCZOS)
@@ -384,12 +384,22 @@ def _focus_on_bike(img, box, strength=0.14):
 RESTORE = False   # Real-ESRGAN restoration (upscale.py) before the colour work; set from config
 
 
-def prepare_photo(path):
-    img = load_srgb(path)
+_PREPARED = {}
+
+
+def restore_if_on(img):
     if RESTORE:
         import upscale
         img = upscale.restore(img)
-    return enhance(img)
+    return img
+
+
+def prepare_photo(path):
+    """Restoration (if on) + colour work; cached so the video reuses the result."""
+    key = (str(path), RESTORE)
+    if key not in _PREPARED:
+        _PREPARED[key] = enhance(restore_if_on(load_srgb(path)))
+    return _PREPARED[key].copy()
 
 
 def card_spec(path, w, max_h):

@@ -108,6 +108,7 @@ def story_args(entry, out):
 
 def render(entry, out):
     """Build the story image for a queue entry (single photo or collage)."""
+    make_story.RESTORE = bool(load(CONFIG, {}).get("restore_photos", False))
     make_story.build(story_args(entry, out))
 
 
