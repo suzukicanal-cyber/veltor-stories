@@ -1,0 +1,66 @@
+name: VELTOR leads
+
+on:
+  schedule:
+    - cron: "23 * * * *"     # every hour
+  workflow_dispatch:         # manual "Run workflow" button
+    inputs:
+      mode:
+        description: "run — обычная проверка; test — тестовая карточка; find_chats — список мото-чатов для читателя"
+        type: choice
+        options: [run, test, find_chats]
+        default: run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veltor-leads
+  cancel-in-progress: false
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TG_API_ID: ${{ secrets.TG_API_ID }}
+      TG_API_HASH: ${{ secrets.TG_API_HASH }}
+      TG_SESSION: ${{ secrets.TG_SESSION }}
+      VK_SERVICE_TOKEN: ${{ secrets.VK_SERVICE_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install "telethon==1.*"
+
+      - name: Send a test card
+        if: ${{ inputs.mode == 'test' }}
+        run: python leads/hunter.py --test
+
+      - name: Find moto chats for the reader
+        if: ${{ inputs.mode == 'find_chats' }}
+        run: python leads/hunter.py --find-chats
+
+      - name: Find leads and send them to Telegram
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'run' }}
+        run: python leads/hunter.py
+
+      - name: Save state (hashes and message numbers only)
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'run' }}
+        run: |
+          git config user.name "veltor-stories-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add leads/seen.json
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "Leads check $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep 7
+          done
+          exit 1
