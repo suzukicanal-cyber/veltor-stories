@@ -160,6 +160,7 @@ def place_photo(canvas, photo_path, zoom, focus_x, bottom_frac):
     src = ImageCms.profileToProfile(src, ImageCms.getOpenProfile(
         __import__("io").BytesIO(src.info["icc_profile"])), ImageCms.createProfile("sRGB"),
         outputMode="RGB") if src.info.get("icc_profile") else src.convert("RGB")
+    src = enhance(src)
     scale = W / src.width * zoom
     pw, ph = round(src.width * scale), round(src.height * scale)
     photo = src.resize((pw, ph), Image.LANCZOS)
@@ -348,26 +349,117 @@ def collage_backdrop(back_path):
     return Image.eval(bg.crop((left, 0, left + W, H)), lambda v: int(v * 0.30))
 
 
-def place_collage_cards(canvas, main_path, second_path):
-    """Editorial layout: both photos as large rounded cards, staggered
-    right/left, over the dim backdrop."""
-    a, am = _card(load_srgb(second_path), 640, CARD_RADIUS, max_ratio=0.72)   # upper card, right (detail)
-    b, bm = _card(load_srgb(main_path), 820, CARD_RADIUS, max_ratio=0.75)   # lower card, left (main)
-    ax, ay = W - a.width - 44, INFO_BOTTOM + 70
-    bx = 44
-    by = max(H - b.height - 150, ay + a.height - 110)       # pleasant overlap ...
-    by = min(by, H - b.height - 110)                        # ... but stay clear of the bottom
-    canvas.paste(a, (ax, ay), am)                           # plain rounded cards:
-    canvas.paste(b, (bx, by), bm)                           # no glass, no shadows
+CARD_MARGIN = 48        # left/right margin of the cards
+CARD_GAP = 26           # space between the two cards
+CARDS_BOTTOM = H - 118  # keep clear of Instagram's reply bar
+
+
+def _focus_y(path):
+    """Vertical centre of the motorcycle on the photo (0..1), for smart cropping."""
+    try:
+        import detect
+        boxes = detect.motorcycle_boxes(path)
+        if boxes:
+            b = max(boxes, key=lambda b: (b[2] - b[0]) * (b[3] - b[1]) * b[4])
+            return (b[1] + b[3]) / 2
+    except Exception:
+        pass
+    return 0.5
+
+
+def _card_box(path, w, max_h):
+    """Photo scaled to width w; if taller than max_h, cropped around the bike."""
+    img = enhance(load_srgb(path))
+    card = _fit_w(img, w)
+    if card.height > max_h:
+        fy = _focus_y(path)
+        t = int(min(max(0, fy * card.height - max_h / 2), card.height - max_h))
+        card = card.crop((0, t, w, t + max_h))
+    mask = Image.new("L", (card.width * 3, card.height * 3), 0)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, mask.width - 1, mask.height - 1],
+                                           radius=CARD_RADIUS * 3, fill=255)
+    return card, mask.resize(card.size, Image.LANCZOS)
+
+
+def place_collage_cards(canvas, main_path, second_path, top=None):
+    """Two photos as full-width rounded cards stacked one under the other, no
+    overlap: the second photo on top, the main (whole bike) photo below."""
+    top = top or (INFO_BOTTOM + 44)
+    w = W - 2 * CARD_MARGIN
+    max_h = (CARDS_BOTTOM - top - CARD_GAP) // 2
+    a, am = _card_box(second_path, w, max_h)
+    b, bm = _card_box(main_path, w, max_h)
+    spare = (CARDS_BOTTOM - top) - (a.height + b.height + CARD_GAP)
+    ay = top + spare // 3                     # spread any spare space evenly
+    by = ay + a.height + CARD_GAP + spare // 3
+    canvas.paste(a, (CARD_MARGIN, ay), am)
+    canvas.paste(b, (CARD_MARGIN, by), bm)
     return canvas
+
+
+COLLAGE_TEXT_SCALE = 0.74     # smaller text block in the collage, so two photos fit
+COLLAGE_TEXT_TOP = 170        # brand cap top in the collage (clear of Instagram's top bar)
+
+
+def info_bottom(scale=1.0, top=BRAND_CAP_TOP):
+    return round(top + (INFO_BOTTOM - BRAND_CAP_TOP) * scale)
+
+
+def draw_info(canvas, args, scale=1.0, top=BRAND_CAP_TOP):
+    """Title + three info rows + tricolour stripe. `scale` shrinks the whole block
+    proportionally; `top` is where the brand line starts."""
+    Y = lambda y: round(top + (y - BRAND_CAP_TOP) * scale)
+    X = lambda x: round(X0 + (x - X0) * scale)
+    brand, model = split_title(args.title)
+    bcap = round(BRAND_CAP_H * scale)
+    bf = font_for_cap(F_BRAND, bcap)
+    while text_width(brand.upper(), bf, 3) > TITLE_MAX_W and bf.size > 20:
+        bf = ImageFont.truetype(F_BRAND, bf.size - 2)
+    draw_text_cap(canvas, (X0, Y(BRAND_CAP_TOP)), brand.upper(), bf, (255, 255, 255), tracking=round(3 * scale))
+    if model:
+        mcap0 = round(MODEL_CAP_H * scale); mcap = mcap0
+        mf = font_for_cap(F_MODEL, mcap)
+        while text_width(model.upper(), mf, 2) > TITLE_MAX_W and mcap > 20:
+            mcap -= 2; mf = font_for_cap(F_MODEL, mcap)
+        layer = silver_text_layer(model.upper(), mf, mcap, 2)
+        canvas.paste(layer, (X0 - 10, Y(MODEL_CAP_TOP) + (mcap0 - mcap) - 20), layer)
+    d = ImageDraw.Draw(canvas)
+    y0, y1 = Y(ROW_TOPS[0]), Y(INFO_BOTTOM - 6)
+    seg = (y1 - y0) / 3
+    sw = max(4, round(STRIPE_W * scale))
+    for k, col in enumerate((BLUE, WHITE, RED)):
+        d.rectangle([STRIPE_X, round(y0 + k * seg), STRIPE_X + sw - 1, round(y0 + (k + 1) * seg) - 1], fill=col)
+    lf = ImageFont.truetype(F_LABEL, round(LABEL_SIZE * scale))
+    vf = ImageFont.truetype(F_VALUE, round(VALUE_SIZE * scale))
+    mileage = f"{args.mileage} km" if args.mileage[:1].isdigit() else args.mileage.upper()
+    rows = [("Год:", args.year, icon_calendar()),
+            ("Пробег:", mileage, icon_speedometer()),
+            ("Цена под ключ:", f"{args.price}₽", icon_tag())]
+    isz = round(ICON_S * scale)
+    for (label, value, icon), rt in zip(rows, ROW_TOPS):
+        ty = Y(rt)
+        small = icon.resize((isz, isz), Image.LANCZOS)
+        canvas.paste((255, 255, 255), (X(ICON_X), ty + 2, X(ICON_X) + isz, ty + 2 + isz), small)
+        draw_text_cap(canvas, (X(TEXT_X), ty + 2), label, lf, (235, 235, 235))
+        draw_text_cap(canvas, (X(TEXT_X), ty + 2 + round(LABEL_TO_VALUE * scale)), value, vf, (255, 255, 255))
+
+
+def enhance(img):
+    """A touch brighter and more saturated: sells better, still natural."""
+    from PIL import ImageEnhance
+    img = ImageEnhance.Color(img).enhance(1.20)
+    img = ImageEnhance.Contrast(img).enhance(1.06)
+    return ImageEnhance.Brightness(img).enhance(1.05)
 
 
 def build(args):
     canvas = Image.new("RGB", (W, H), (0, 0, 0))
-    if getattr(args, "photo2", None) and getattr(args, "collage_style", "cinema") == "cards":
+    collage_cards = bool(getattr(args, "photo2", None)) and getattr(args, "collage_style", "cinema") == "cards"
+    if collage_cards:
+        ib = info_bottom(COLLAGE_TEXT_SCALE, COLLAGE_TEXT_TOP)
         canvas = collage_backdrop(args.photo)
-        canvas = dark_overlay(canvas, INFO_BOTTOM, end=INFO_BOTTOM + 160)
-        canvas = place_collage_cards(canvas, args.photo, args.photo2)
+        canvas = dark_overlay(canvas, ib, end=ib + 160)
+        canvas = place_collage_cards(canvas, args.photo, args.photo2, top=ib + 44)
     elif getattr(args, "photo2", None):
         top_main = place_collage_cinema(canvas, args.photo, args.photo2)
         canvas = dark_overlay(canvas, top_main, end=min(top_main + 60, INFO_BOTTOM + 300))
@@ -376,39 +468,10 @@ def build(args):
         top, _ = place_photo(canvas, args.photo, args.zoom, args.focus_x, args.bottom)
         canvas = dark_overlay(canvas, top)
 
-    brand, model = split_title(args.title)
-    # brand line
-    bf = font_for_cap(F_BRAND, BRAND_CAP_H)
-    while text_width(brand.upper(), bf, 3) > TITLE_MAX_W and bf.size > 30:
-        bf = ImageFont.truetype(F_BRAND, bf.size - 2)
-    draw_text_cap(canvas, (X0, BRAND_CAP_TOP), brand.upper(), bf, (255, 255, 255), tracking=3)
-    # model line (silver italic)
-    if model:
-        mcap = MODEL_CAP_H
-        mf = font_for_cap(F_MODEL, mcap)
-        while text_width(model.upper(), mf, 2) > TITLE_MAX_W and mcap > 30:
-            mcap -= 2; mf = font_for_cap(F_MODEL, mcap)
-        layer = silver_text_layer(model.upper(), mf, mcap, 2)
-        canvas.paste(layer, (X0 - 10, MODEL_CAP_TOP + (MODEL_CAP_H - mcap) - 20), layer)
-
-    # stripe
-    d = ImageDraw.Draw(canvas)
-    y0, y1 = ROW_TOPS[0], INFO_BOTTOM - 6
-    seg = (y1 - y0) / 3
-    for i, col in enumerate((BLUE, WHITE, RED)):
-        d.rectangle([STRIPE_X, round(y0 + i * seg), STRIPE_X + STRIPE_W - 1, round(y0 + (i + 1) * seg) - 1], fill=col)
-
-    # rows
-    lf = ImageFont.truetype(F_LABEL, LABEL_SIZE)
-    vf = ImageFont.truetype(F_VALUE, VALUE_SIZE)
-    rows = [("Год:", args.year, icon_calendar()),
-            ("Пробег:", f"{args.mileage} km" if args.mileage[:1].isdigit() else args.mileage.upper(),
-             icon_speedometer()),
-            ("Цена под ключ:", f"{args.price}₽", icon_tag())]
-    for (label, value, icon), top in zip(rows, ROW_TOPS):
-        paste_icon(canvas, icon, ICON_X, top + 2)
-        draw_text_cap(canvas, (TEXT_X, top + 2), label, lf, (235, 235, 235))
-        draw_text_cap(canvas, (TEXT_X, top + 2 + LABEL_TO_VALUE), value, vf, (255, 255, 255))
+    if collage_cards:
+        draw_info(canvas, args, scale=COLLAGE_TEXT_SCALE, top=COLLAGE_TEXT_TOP)
+    else:
+        draw_info(canvas, args)
 
     srgb = ImageCms.ImageCmsProfile(ImageCms.createProfile("sRGB")).tobytes()
     canvas.save(args.out, quality=95, subsampling=0, icc_profile=srgb)
