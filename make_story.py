@@ -354,46 +354,72 @@ CARD_GAP = 26           # space between the two cards
 CARDS_BOTTOM = H - 118  # keep clear of Instagram's reply bar
 
 
-def _focus_y(path):
-    """Vertical centre of the motorcycle on the photo (0..1), for smart cropping."""
+def _bike_box(path):
+    """Largest motorcycle box on the photo (0..1 coords) or None."""
     try:
         import detect
         boxes = detect.motorcycle_boxes(path)
         if boxes:
-            b = max(boxes, key=lambda b: (b[2] - b[0]) * (b[3] - b[1]) * b[4])
-            return (b[1] + b[3]) / 2
+            return max(boxes, key=lambda b: (b[2] - b[0]) * (b[3] - b[1]) * b[4])
     except Exception:
         pass
-    return 0.5
+    return None
 
 
-def _card_box(path, w, max_h):
-    """Photo scaled to width w; if taller than max_h, cropped around the bike."""
-    img = enhance(load_srgb(path))
-    card = _fit_w(img, w)
-    if card.height > max_h:
-        fy = _focus_y(path)
-        t = int(min(max(0, fy * card.height - max_h / 2), card.height - max_h))
-        card = card.crop((0, t, w, t + max_h))
-    mask = Image.new("L", (card.width * 3, card.height * 3), 0)
-    ImageDraw.Draw(mask).rounded_rectangle([0, 0, mask.width - 1, mask.height - 1],
-                                           radius=CARD_RADIUS * 3, fill=255)
-    return card, mask.resize(card.size, Image.LANCZOS)
+def _focus_on_bike(img, box, strength=0.14):
+    """Gently darken the surroundings so the eye goes to the motorcycle."""
+    from PIL import ImageFilter
+    if not box:
+        return img
+    w, h = img.size
+    x0, y0, x1, y1 = box[0] * w, box[1] * h, box[2] * w, box[3] * h
+    ex, ey = (x1 - x0) * 0.22, (y1 - y0) * 0.22
+    m = Image.new("L", (w // 4, h // 4), 0)
+    ImageDraw.Draw(m).ellipse([(x0 - ex) / 4, (y0 - ey) / 4, (x1 + ex) / 4, (y1 + ey) / 4], fill=255)
+    m = m.filter(ImageFilter.GaussianBlur(max(w, h) / 4 / 10)).resize((w, h), Image.BILINEAR)
+    m = m.point(lambda v: int(255 * (1 - strength) + v * strength))   # 1-strength .. 1
+    return ImageChops.multiply(img, Image.merge("RGB", (m, m, m)))
+
+
+def card_spec(path, w, max_h):
+    """Everything needed to draw one card (also animated): the enhanced photo at
+    card width, the visible window inside it, and the bike focus point."""
+    box = _bike_box(path)
+    full = _fit_w(_focus_on_bike(enhance(load_srgb(path)), box), w)
+    fy = ((box[1] + box[3]) / 2) if box else 0.5
+    h = min(full.height, max_h)
+    t = int(min(max(0, fy * full.height - h / 2), full.height - h))
+    mask = Image.new("L", (w * 3, h * 3), 0)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, w * 3 - 1, h * 3 - 1], radius=CARD_RADIUS * 3, fill=255)
+    return {"full": full, "w": w, "h": h, "top": t, "focus_y": fy * full.height,
+            "mask": mask.resize((w, h), Image.LANCZOS)}
+
+
+def card_image(spec, zoom=1.0):
+    """Card content; zoom > 1 pushes in slowly towards the bike (Ken Burns)."""
+    full, w, h, t = spec["full"], spec["w"], spec["h"], spec["top"]
+    if zoom <= 1.0001:
+        return full.crop((0, t, w, t + h))
+    cw, ch = w / zoom, h / zoom
+    cx, cy = w / 2, min(max(spec["focus_y"], t + ch / 2), t + h - ch / 2)
+    return full.resize((w, h), Image.BILINEAR, box=(cx - cw / 2, cy - ch / 2, cx + cw / 2, cy + ch / 2))
+
+
+def collage_cards_layout(main_path, second_path, top):
+    """Two full-width rounded cards stacked one under the other, no overlap:
+    second photo on top, main (whole bike) photo below. Returns [(spec, x, y), ...]."""
+    w = W - 2 * CARD_MARGIN
+    max_h = (CARDS_BOTTOM - top - CARD_GAP) // 2
+    a, b = card_spec(second_path, w, max_h), card_spec(main_path, w, max_h)
+    spare = (CARDS_BOTTOM - top) - (a["h"] + b["h"] + CARD_GAP)
+    ay = top + spare // 3                     # spread any spare space evenly
+    by = ay + a["h"] + CARD_GAP + spare // 3
+    return [(a, CARD_MARGIN, ay), (b, CARD_MARGIN, by)]
 
 
 def place_collage_cards(canvas, main_path, second_path, top=None):
-    """Two photos as full-width rounded cards stacked one under the other, no
-    overlap: the second photo on top, the main (whole bike) photo below."""
-    top = top or (INFO_BOTTOM + 44)
-    w = W - 2 * CARD_MARGIN
-    max_h = (CARDS_BOTTOM - top - CARD_GAP) // 2
-    a, am = _card_box(second_path, w, max_h)
-    b, bm = _card_box(main_path, w, max_h)
-    spare = (CARDS_BOTTOM - top) - (a.height + b.height + CARD_GAP)
-    ay = top + spare // 3                     # spread any spare space evenly
-    by = ay + a.height + CARD_GAP + spare // 3
-    canvas.paste(a, (CARD_MARGIN, ay), am)
-    canvas.paste(b, (CARD_MARGIN, by), bm)
+    for spec, x, y in collage_cards_layout(main_path, second_path, top or (INFO_BOTTOM + 44)):
+        canvas.paste(card_image(spec), (x, y), spec["mask"])
     return canvas
 
 
@@ -445,34 +471,57 @@ def draw_info(canvas, args, scale=1.0, top=BRAND_CAP_TOP):
 
 
 def enhance(img):
-    """A touch brighter and more saturated: sells better, still natural."""
-    from PIL import ImageEnhance
-    img = ImageEnhance.Color(img).enhance(1.20)
-    img = ImageEnhance.Contrast(img).enhance(1.06)
-    return ImageEnhance.Brightness(img).enhance(1.05)
+    """Sales-friendly but natural photo processing:
+    gentle auto white balance and levels, more colour, local contrast ("clarity")
+    and a light sharpen to undo Telegram's compression. No HDR look."""
+    import numpy as np
+    from PIL import ImageEnhance, ImageFilter
+    a = np.asarray(img.convert("RGB"), dtype=np.float32)
+    # white balance (gray world, half strength, limited)
+    means = a.reshape(-1, 3).mean(0) + 1e-6
+    gains = np.clip(1 + 0.5 * (means.mean() / means - 1), 0.88, 1.12)
+    a = a * gains
+    # levels: stretch 0.5..99.5 percentiles, 60 % strength
+    lo, hi = np.percentile(a, 0.5), np.percentile(a, 99.5)
+    if hi - lo > 40:
+        a = 0.4 * a + 0.6 * (a - lo) * (255.0 / (hi - lo))
+    img = Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
+    img = ImageEnhance.Color(img).enhance(1.18)
+    img = ImageEnhance.Brightness(img).enhance(1.06)
+    img = img.filter(ImageFilter.UnsharpMask(radius=max(img.size) // 40, percent=22, threshold=0))  # clarity
+    img = img.filter(ImageFilter.UnsharpMask(radius=1.4, percent=65, threshold=3))                  # sharpness
+    return img
 
 
-def build(args):
+def compose(args):
+    """Story parts. Returns (base, cards): base = background + overlay + text,
+    cards = [(spec, x, y)] to draw on top (empty for non-card layouts, where the
+    photo is already part of base)."""
     canvas = Image.new("RGB", (W, H), (0, 0, 0))
+    cards = []
     collage_cards = bool(getattr(args, "photo2", None)) and getattr(args, "collage_style", "cinema") == "cards"
     if collage_cards:
         ib = info_bottom(COLLAGE_TEXT_SCALE, COLLAGE_TEXT_TOP)
         canvas = collage_backdrop(args.photo)
         canvas = dark_overlay(canvas, ib, end=ib + 160)
-        canvas = place_collage_cards(canvas, args.photo, args.photo2, top=ib + 44)
+        cards = collage_cards_layout(args.photo, args.photo2, ib + 44)
+        draw_info(canvas, args, scale=COLLAGE_TEXT_SCALE, top=COLLAGE_TEXT_TOP)
     elif getattr(args, "photo2", None):
         top_main = place_collage_cinema(canvas, args.photo, args.photo2)
         canvas = dark_overlay(canvas, top_main, end=min(top_main + 60, INFO_BOTTOM + 300))
         canvas = _vignette(canvas)
+        draw_info(canvas, args)
     else:
         top, _ = place_photo(canvas, args.photo, args.zoom, args.focus_x, args.bottom)
         canvas = dark_overlay(canvas, top)
-
-    if collage_cards:
-        draw_info(canvas, args, scale=COLLAGE_TEXT_SCALE, top=COLLAGE_TEXT_TOP)
-    else:
         draw_info(canvas, args)
+    return canvas, cards
 
+
+def build(args):
+    canvas, cards = compose(args)
+    for spec, x, y in cards:
+        canvas.paste(card_image(spec), (x, y), spec["mask"])
     srgb = ImageCms.ImageCmsProfile(ImageCms.createProfile("sRGB")).tobytes()
     canvas.save(args.out, quality=95, subsampling=0, icc_profile=srgb)
     return args.out

@@ -33,6 +33,8 @@ jobs:
 
       - run: pip install pillow==11.* numpy onnxruntime
 
+      - run: which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+
       - name: Fetch new posts and render stories
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

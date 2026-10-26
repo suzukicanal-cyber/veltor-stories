@@ -98,48 +98,72 @@ def pick_photo(photos, dest, force_collage=True):
             "checked": list(PICK_LOG)}
 
 
-def render(entry, out):
-    """Build the story image for a queue entry (single photo or collage)."""
-    args = type("A", (), dict(photo=str(ROOT / entry["source"]), out=str(out),
+def story_args(entry, out):
+    return type("A", (), dict(photo=str(ROOT / entry["source"]), out=str(out) if out else None,
                               photo2=str(ROOT / entry["source2"]) if entry.get("source2") else None,
                               collage_style="cards", title=entry["title"], year=entry["year"],
                               mileage=entry["mileage"], price=entry["price"],
                               zoom=1.0, focus_x=0.5, bottom=150))
-    make_story.build(args)
 
 
-def send_story(chat_id, path, caption):
-    """Send the story as a FILE (sendDocument) so Telegram keeps full 1080x1920 quality."""
+def render(entry, out):
+    """Build the story image for a queue entry (single photo or collage)."""
+    make_story.build(story_args(entry, out))
+
+
+def send_file(chat_id, path, caption, method="sendDocument", field="document", ctype="image/jpeg"):
+    """Upload a file to a chat. Stories go as documents so Telegram keeps the full
+    1080x1920 quality; videos go with sendVideo so they play right in the chat."""
     boundary = "----veltor" + str(int(time.time() * 1000))
     parts = []
-    for name, value in (("chat_id", str(chat_id)), ("caption", caption)):
+    fields = [("chat_id", str(chat_id)), ("caption", caption)]
+    if method == "sendVideo":
+        fields += [("supports_streaming", "true"), ("width", "1080"), ("height", "1920")]
+    for name, value in fields:
         parts.append(f'--{boundary}\r\nContent-Disposition: form-data; name="{name}"\r\n\r\n{value}\r\n'.encode())
-    parts.append((f'--{boundary}\r\nContent-Disposition: form-data; name="document"; '
-                  f'filename="{Path(path).name}"\r\nContent-Type: image/jpeg\r\n\r\n').encode())
+    parts.append((f'--{boundary}\r\nContent-Disposition: form-data; name="{field}"; '
+                  f'filename="{Path(path).name}"\r\nContent-Type: {ctype}\r\n\r\n').encode())
     parts.append(Path(path).read_bytes())
     parts.append(f"\r\n--{boundary}--\r\n".encode())
-    req = urllib.request.Request(f"{API}/sendDocument", data=b"".join(parts),
+    req = urllib.request.Request(f"{API}/{method}", data=b"".join(parts),
                                  headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
-    with urllib.request.urlopen(req, timeout=120) as r:
+    with urllib.request.urlopen(req, timeout=300) as r:
         data = json.load(r)
     if not data.get("ok"):
         raise RuntimeError(data)
 
 
+def send_story(chat_id, path, caption):
+    send_file(chat_id, path, caption)
+
+
 def deliver_pending(queue):
-    """Send every story not yet delivered to the Telegram chats in config.json."""
+    """Send every story not yet delivered to the Telegram chats in config.json:
+    the picture (file) and, for collages, an 8-second animated MP4 version."""
     chats = load(CONFIG, {}).get("deliver_to_chat_ids", [])
     for item in queue:
         if item.get("status") != "new" or not chats:
             continue
         caption = f"{item['title']} — {item['price']}₽\nГотово для сторис: сохраните файл, добавьте музыку и опубликуйте."
         try:
+            video_path = None
+            if item.get("layout") == "collage":
+                try:
+                    import video
+                    TMP.mkdir(exist_ok=True)
+                    video_path = video.render_video(story_args(item, None), TMP / f"{Path(item['file']).stem}.mp4")
+                except Exception as e:
+                    print(f"video failed for {item['file']}: {e}")
             for chat in chats:
                 send_story(chat, ROOT / item["file"], caption)
+                if video_path:
+                    send_file(chat, video_path, f"{item['title']} — видео-версия сторис",
+                              method="sendVideo", field="video", ctype="video/mp4")
             item["status"] = "delivered"
+            item["video"] = bool(video_path)
             item["delivered_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
             item.pop("last_error", None)
-            print(f"delivered {item['file']}")
+            print(f"delivered {item['file']}" + (" + video" if video_path else ""))
         except Exception as e:
             item["last_error"] = str(e)[:300]
             print(f"delivery failed for {item['file']}: {e}")
