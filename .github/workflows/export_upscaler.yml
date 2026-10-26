@@ -1,0 +1,54 @@
+name: Export upscaler model (one-time)
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install onnx
+      - name: Export Real-ESRGAN realesr-general-x4v3 to ONNX
+        run: |
+          curl -sL -o w.pth https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth
+          python - <<'PY'
+          import torch, torch.nn as nn, torch.nn.functional as F
+          class SRVGGNetCompact(nn.Module):
+              def __init__(s, num_in_ch=3, num_out_ch=3, num_feat=64, num_conv=32, upscale=4):
+                  super().__init__()
+                  s.upscale = upscale
+                  s.body = nn.ModuleList([nn.Conv2d(num_in_ch, num_feat, 3, 1, 1), nn.PReLU(num_parameters=num_feat)])
+                  for _ in range(num_conv):
+                      s.body.append(nn.Conv2d(num_feat, num_feat, 3, 1, 1)); s.body.append(nn.PReLU(num_parameters=num_feat))
+                  s.body.append(nn.Conv2d(num_feat, num_out_ch * upscale * upscale, 3, 1, 1))
+                  s.upsampler = nn.PixelShuffle(upscale)
+              def forward(s, x):
+                  out = x
+                  for layer in s.body:
+                      out = layer(out)
+                  return s.upsampler(out) + F.interpolate(x, scale_factor=s.upscale, mode="nearest")
+          m = SRVGGNetCompact()
+          sd = torch.load("w.pth", map_location="cpu")
+          m.load_state_dict(sd.get("params", sd)); m.eval()
+          x = torch.rand(1, 3, 64, 64)
+          torch.onnx.export(m, x, "models/realesr-general-x4v3.onnx", opset_version=17,
+                            input_names=["input"], output_names=["output"],
+                            dynamic_axes={"input": {2: "h", 3: "w"}, "output": {2: "H", 3: "W"}}, dynamo=False)
+          PY
+          ls -la models
+      - name: Commit model
+        run: |
+          git config user.name "veltor-stories-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add models/realesr-general-x4v3.onnx
+          git commit -m "Add Real-ESRGAN realesr-general-x4v3 ONNX (photo restoration, BSD-3)"
+          git pull --rebase
+          git push
