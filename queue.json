@@ -3424,5 +3424,42 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-26T14:13:02+00:00"
+  },
+  {
+    "post_id": 8142,
+    "file": "stories/20261026-2351_8142.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8142.jpg",
+    "source2": "sources/8142_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.895
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.873
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW M1000RR",
+    "year": "2026",
+    "mileage": "6’450",
+    "price": "2 920 000",
+    "created": "2026-10-26T23:51:00+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-26T23:51:38+00:00"
   }
 ]
