@@ -3273,5 +3273,77 @@
     "created": "2026-10-26T09:20:05+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-26T09:20:07+00:00"
+  },
+  {
+    "post_id": 8124,
+    "file": "stories/20261026-1147_8124.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8124.jpg",
+    "source2": "sources/8124_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.577
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.64
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.55
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW CE 04",
+    "year": "2025",
+    "mileage": "984",
+    "price": "1 334 000",
+    "created": "2026-10-26T11:47:51+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-26T11:47:59+00:00"
+  },
+  {
+    "post_id": 8128,
+    "file": "stories/20261026-1147_8128.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8128.jpg",
+    "source2": "sources/8128_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.741
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.858
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.366
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.703
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2026",
+    "mileage": "2’900",
+    "price": "2 855 000",
+    "created": "2026-10-26T11:47:57+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-26T11:48:01+00:00"
   }
 ]
