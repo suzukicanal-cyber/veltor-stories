@@ -792,7 +792,7 @@
   },
   {
     "post_id": 7791,
-    "file": "stories/20261022-1139_7791.jpg",
+    "file": "stories/20261026-1153_7791_v2.jpg",
     "layout": "collage",
     "photo_no": [
       1,
@@ -822,13 +822,16 @@
     "year": "2016",
     "mileage": "53",
     "price": "2 987 000",
-    "created": "2026-10-22T11:39:48+00:00",
+    "created": "2026-10-26T11:53:12+00:00",
     "status": "delivered",
-    "delivered_at": "2026-10-22T11:39:49+00:00"
+    "rebuilt": true,
+    "album_photos": 4,
+    "video": true,
+    "delivered_at": "2026-10-26T11:53:43+00:00"
   },
   {
     "post_id": 7777,
-    "file": "stories/20261022-1141_7777_v2.jpg",
+    "file": "stories/20261026-1153_7777_v2.jpg",
     "layout": "collage",
     "photo_no": [
       1,
@@ -850,15 +853,16 @@
     "year": "2026",
     "mileage": "NEW",
     "price": "2 382 000",
-    "created": "2026-10-22T11:41:53+00:00",
+    "created": "2026-10-26T11:53:30+00:00",
     "status": "delivered",
     "rebuilt": true,
     "album_photos": 2,
-    "delivered_at": "2026-10-22T11:42:05+00:00"
+    "video": true,
+    "delivered_at": "2026-10-26T11:53:53+00:00"
   },
   {
     "post_id": 7787,
-    "file": "stories/20261022-1142_7787_v2.jpg",
+    "file": "stories/20261026-1153_7787_v2.jpg",
     "layout": "collage",
     "photo_no": [
       1,
@@ -888,11 +892,12 @@
     "year": "2025",
     "mileage": "NEW",
     "price": "7 016 000",
-    "created": "2026-10-22T11:42:04+00:00",
+    "created": "2026-10-26T11:53:23+00:00",
     "status": "delivered",
     "rebuilt": true,
     "album_photos": 4,
-    "delivered_at": "2026-10-22T11:42:06+00:00"
+    "video": true,
+    "delivered_at": "2026-10-26T11:54:03+00:00"
   },
   {
     "post_id": 7795,
