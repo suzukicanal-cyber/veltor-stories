@@ -56,5 +56,11 @@ jobs:
             echo "nothing to commit"
           else
             git commit -m "New stories $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            # the leads workflow commits to this repo too: catch up before pushing
+            pushed=0
+            for i in 1 2 3; do
+              if git pull --rebase && git push; then pushed=1; break; fi
+              sleep 7
+            done
+            [ "$pushed" = 1 ]
           fi
