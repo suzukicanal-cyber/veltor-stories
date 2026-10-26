@@ -3201,5 +3201,41 @@
     "created": "2026-10-25T14:31:23+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-25T14:31:27+00:00"
+  },
+  {
+    "post_id": 8116,
+    "file": "stories/20261026-0006_8116.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8116.jpg",
+    "source2": "sources/8116_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.925
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.763
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.893
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.933
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2024",
+    "mileage": "17’600",
+    "price": "1 876 000",
+    "created": "2026-10-26T00:06:05+00:00",
+    "status": "delivered",
+    "delivered_at": "2026-10-26T00:06:07+00:00"
   }
 ]
