@@ -99,6 +99,7 @@ def pick_photo(photos, dest, force_collage=True):
 
 
 def story_args(entry, out):
+    make_story.RESTORE = bool(load(CONFIG, {}).get("restore_photos", False))
     return type("A", (), dict(photo=str(ROOT / entry["source"]), out=str(out) if out else None,
                               photo2=str(ROOT / entry["source2"]) if entry.get("source2") else None,
                               collage_style="cards", title=entry["title"], year=entry["year"],
@@ -108,7 +109,6 @@ def story_args(entry, out):
 
 def render(entry, out):
     """Build the story image for a queue entry (single photo or collage)."""
-    make_story.RESTORE = bool(load(CONFIG, {}).get("restore_photos", False))
     make_story.build(story_args(entry, out))
 
 
