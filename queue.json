@@ -3350,5 +3350,79 @@
     "created": "2026-10-26T11:47:57+00:00",
     "status": "delivered",
     "delivered_at": "2026-10-26T11:48:01+00:00"
+  },
+  {
+    "post_id": 8132,
+    "file": "stories/20261026-1412_8132.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8132.jpg",
+    "source2": "sources/8132_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.835
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.796
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.673
+      }
+    ],
+    "title": "Yamaha MT-09 SP",
+    "year": "2026",
+    "mileage": "800",
+    "price": "1 366 000",
+    "created": "2026-10-26T14:12:26+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-26T14:12:49+00:00"
+  },
+  {
+    "post_id": 8136,
+    "file": "stories/20261026-1412_8136.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8136.jpg",
+    "source2": "sources/8136_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.606
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.608
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.887
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Suzuki Hayabusa",
+    "year": "2026",
+    "mileage": "200",
+    "price": "1 712 000",
+    "created": "2026-10-26T14:12:34+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-26T14:13:02+00:00"
   }
 ]
