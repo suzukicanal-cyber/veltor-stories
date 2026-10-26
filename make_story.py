@@ -381,11 +381,22 @@ def _focus_on_bike(img, box, strength=0.14):
     return ImageChops.multiply(img, Image.merge("RGB", (m, m, m)))
 
 
+RESTORE = False   # Real-ESRGAN restoration (upscale.py) before the colour work; set from config
+
+
+def prepare_photo(path):
+    img = load_srgb(path)
+    if RESTORE:
+        import upscale
+        img = upscale.restore(img)
+    return enhance(img)
+
+
 def card_spec(path, w, max_h):
     """Everything needed to draw one card (also animated): the enhanced photo at
     card width, the visible window inside it, and the bike focus point."""
     box = _bike_box(path)
-    full = _fit_w(_focus_on_bike(enhance(load_srgb(path)), box), w)
+    full = _fit_w(_focus_on_bike(prepare_photo(path), box), w)
     fy = ((box[1] + box[3]) / 2) if box else 0.5
     h = min(full.height, max_h)
     t = int(min(max(0, fy * full.height - h / 2), full.height - h))
