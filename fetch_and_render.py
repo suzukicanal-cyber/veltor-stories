@@ -182,6 +182,16 @@ def remember_chat(chat, m):
         SEEN.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def delete_service_message(chat_id, message_id):
+    """Remove a boost ("голос за группу") notice. Needs the bot to be a group admin
+    with the "Delete messages" right; a failure must not stop the stories run."""
+    try:
+        tg("deleteMessage", chat_id=chat_id, message_id=message_id)
+        print(f"deleted boost notice {message_id}")
+    except Exception as e:
+        print(f"could not delete boost notice {message_id}: {e}")
+
+
 def load(p, default):
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else default
 
@@ -208,6 +218,9 @@ def main():
         chat = m.get("chat", {})
         if chat.get("username", "").lower() != CHAT_USERNAME:
             remember_chat(chat, m)              # e.g. a work group where the bot was added
+            continue
+        if m.get("boost_added"):                # "X проголосовал(а) за группу" service message
+            delete_service_message(chat["id"], m["message_id"])
             continue
         if m.get("message_thread_id") != TOPIC_ID:
             continue
