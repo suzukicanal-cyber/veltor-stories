@@ -3827,5 +3827,42 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-27T03:41:44+00:00"
+  },
+  {
+    "post_id": 8217,
+    "file": "stories/20261027-1002_8217.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8217.jpg",
+    "source2": "sources/8217_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.842
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.791
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2025",
+    "mileage": "7’948",
+    "price": "2 095 000",
+    "created": "2026-10-27T10:02:09+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-27T10:02:57+00:00"
   }
 ]
