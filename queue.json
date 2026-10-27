@@ -3901,5 +3901,116 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-27T11:23:53+00:00"
+  },
+  {
+    "post_id": 8235,
+    "file": "stories/20261027-1443_8235.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8235.jpg",
+    "source2": "sources/8235_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.349
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.509
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2023",
+    "mileage": "15’000",
+    "price": "1 642 000",
+    "created": "2026-10-27T14:43:04+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-27T14:44:23+00:00"
+  },
+  {
+    "post_id": 8239,
+    "file": "stories/20261027-1443_8239.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8239.jpg",
+    "source2": "sources/8239_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.64
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.307
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000RR Race Package",
+    "year": "2025",
+    "mileage": "14’000",
+    "price": "2 324 000",
+    "created": "2026-10-27T14:43:29+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-27T14:44:35+00:00"
+  },
+  {
+    "post_id": 8244,
+    "file": "stories/20261027-1443_8244.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8244.jpg",
+    "source2": "sources/8244_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.878
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.886
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.369
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW F900R",
+    "year": "2021",
+    "mileage": "6’526",
+    "price": "873 000",
+    "created": "2026-10-27T14:43:52+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-27T14:44:48+00:00"
   }
 ]
