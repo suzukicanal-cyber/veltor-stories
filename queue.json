@@ -3461,5 +3461,79 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-26T23:51:38+00:00"
+  },
+  {
+    "post_id": 8156,
+    "file": "stories/20261027-0043_8156.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8156.jpg",
+    "source2": "sources/8156_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.872
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.627
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.604
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.642
+      }
+    ],
+    "title": "Harley-Davidson Sportster S",
+    "year": "2024",
+    "mileage": "800",
+    "price": "1 356 000",
+    "created": "2026-10-27T00:43:50+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-27T00:45:17+00:00"
+  },
+  {
+    "post_id": 8170,
+    "file": "stories/20261027-0044_8170.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8170.jpg",
+    "source2": "sources/8170_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.633
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.797
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.893
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.63
+      }
+    ],
+    "title": "Yamaha YZF-R1",
+    "year": "2020",
+    "mileage": "7’145",
+    "price": "1 540 000",
+    "created": "2026-10-27T00:44:28+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-27T00:45:32+00:00"
   }
 ]
