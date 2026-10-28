@@ -4345,5 +4345,42 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-28T11:27:19+00:00"
+  },
+  {
+    "post_id": 8294,
+    "file": "stories/20261028-1322_8294.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8294.jpg",
+    "source2": "sources/8294_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.494
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.255
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.322
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.677
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2023",
+    "mileage": "17’000",
+    "price": "1 839 000",
+    "created": "2026-10-28T13:22:47+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-28T13:23:52+00:00"
   }
 ]
