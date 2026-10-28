@@ -197,6 +197,34 @@ def load(p, default):
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else default
 
 
+PHOTOS = ROOT / "photos.json"   # every photo of the group (all topics) → used by the site veltor-site for full-size catalog photos
+
+
+def record_photos(updates):
+    """Remember the largest photo of every group message (file_id stays valid for this bot).
+    The site (repo veltor-site) reads this file and downloads the originals with the same bot token,
+    so it never calls getUpdates itself and never takes updates away from the stories."""
+    photos = load(PHOTOS, {})
+    added = 0
+    for u in updates:
+        m = u.get("message") or u.get("channel_post")
+        if not m or m.get("chat", {}).get("username", "").lower() != CHAT_USERNAME:
+            continue
+        f = None
+        if m.get("photo"):
+            big = max(m["photo"], key=lambda x: x.get("width", 0) * x.get("height", 0))
+            f, w = big["file_id"], big.get("width")
+        elif str((m.get("document") or {}).get("mime_type", "")).startswith("image/"):
+            f, w = m["document"]["file_id"], None
+        if f:
+            photos[str(m["message_id"])] = {"g": m.get("media_group_id"), "f": f, "w": w, "t": m.get("message_thread_id")}
+            added += 1
+    if added:
+        keep = sorted(photos, key=int)[-4000:]
+        PHOTOS.write_text(json.dumps({k: photos[k] for k in keep}, separators=(",", ":")), encoding="utf-8")
+        print(f"photos.json: +{added}")
+
+
 def main():
     state = load(STATE, {"offset": 0})
     queue = load(QUEUE, [])
@@ -204,6 +232,7 @@ def main():
 
     updates = tg("getUpdates", offset=state["offset"], limit=100, timeout=0,
                  allowed_updates=["message", "channel_post", "edited_message"])
+    record_photos(updates)
     if not updates:
         print("no new updates")
         deliver_pending(queue)          # retry earlier failed deliveries, if any
