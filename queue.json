@@ -4308,5 +4308,42 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-28T06:53:21+00:00"
+  },
+  {
+    "post_id": 8290,
+    "file": "stories/20261028-1126_8290.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/8290.jpg",
+    "source2": "sources/8290_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.829
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.544
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R 1300 GS",
+    "year": "2025",
+    "mileage": "8’320",
+    "price": "2 225 000",
+    "created": "2026-10-28T11:26:43+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-28T11:27:19+00:00"
   }
 ]
