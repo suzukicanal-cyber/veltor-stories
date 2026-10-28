@@ -4382,5 +4382,42 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-28T13:23:52+00:00"
+  },
+  {
+    "post_id": 8308,
+    "file": "stories/20261028-1426_8308.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8308.jpg",
+    "source2": "sources/8308_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.934
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.903
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.906
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.923
+      }
+    ],
+    "title": "Yamaha YZF-R7",
+    "year": "2022",
+    "mileage": "8’000",
+    "price": "941 000",
+    "created": "2026-10-28T14:26:29+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-28T14:27:27+00:00"
   }
 ]
