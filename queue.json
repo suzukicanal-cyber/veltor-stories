@@ -4456,5 +4456,79 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-29T02:25:20+00:00"
+  },
+  {
+    "post_id": 8337,
+    "file": "stories/20261029-0824_8337.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8337.jpg",
+    "source2": "sources/8337_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.788
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.732
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.867
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.193
+      }
+    ],
+    "title": "BMW S1000R M Package",
+    "year": "2026",
+    "mileage": "2’500",
+    "price": "1 937 000",
+    "created": "2026-10-29T08:24:50+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-29T08:26:41+00:00"
+  },
+  {
+    "post_id": 8341,
+    "file": "stories/20261029-0825_8341.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8341.jpg",
+    "source2": "sources/8341_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.71
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.728
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.857
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.848
+      }
+    ],
+    "title": "Honda CBR600RR",
+    "year": "2025",
+    "mileage": "5’323",
+    "price": "1 310 000",
+    "created": "2026-10-29T08:25:41+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-29T08:26:57+00:00"
   }
 ]
