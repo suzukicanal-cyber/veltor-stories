@@ -4530,5 +4530,42 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-29T08:26:57+00:00"
+  },
+  {
+    "post_id": 8346,
+    "file": "stories/20261029-1119_8346.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8346.jpg",
+    "source2": "sources/8346_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.917
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.36
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.764
+      }
+    ],
+    "title": "BMW S1000RR Race Package",
+    "year": "2025",
+    "mileage": "743",
+    "price": "1 878 000",
+    "created": "2026-10-29T11:19:04+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-29T11:19:49+00:00"
   }
 ]
