@@ -4567,5 +4567,153 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-29T11:19:49+00:00"
+  },
+  {
+    "post_id": 8351,
+    "file": "stories/20261029-1526_8351.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8351.jpg",
+    "source2": "sources/8351_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.327
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.737
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.822
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R1250GS Adventure HP",
+    "year": "2021",
+    "mileage": "13’900",
+    "price": "1 891 000",
+    "created": "2026-10-29T15:26:39+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-29T15:28:30+00:00"
+  },
+  {
+    "post_id": 8355,
+    "file": "stories/20261029-1527_8355.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8355.jpg",
+    "source2": "sources/8355_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.854
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.81
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.544
+      }
+    ],
+    "title": "BMW R1250GS Adventure",
+    "year": "2022",
+    "mileage": "14’722",
+    "price": "1 904 000",
+    "created": "2026-10-29T15:27:03+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-29T15:28:42+00:00"
+  },
+  {
+    "post_id": 8359,
+    "file": "stories/20261029-1527_8359.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8359.jpg",
+    "source2": "sources/8359_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.327
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.637
+      }
+    ],
+    "title": "BMW R1250RT",
+    "year": "2022",
+    "mileage": "25’000",
+    "price": "1 871 000",
+    "created": "2026-10-29T15:27:26+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-29T15:28:54+00:00"
+  },
+  {
+    "post_id": 8363,
+    "file": "stories/20261029-1527_8363.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8363.jpg",
+    "source2": "sources/8363_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.943
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.326
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.527
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.337
+      }
+    ],
+    "title": "Yamaha YZF-R3",
+    "year": "2020",
+    "mileage": "18’479",
+    "price": "626 000",
+    "created": "2026-10-29T15:27:50+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-29T15:29:09+00:00"
   }
 ]
