@@ -4419,5 +4419,42 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-28T14:27:27+00:00"
+  },
+  {
+    "post_id": 8324,
+    "file": "stories/20261029-0224_8324.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8324.jpg",
+    "source2": "sources/8324_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.622
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.881
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.63
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.628
+      }
+    ],
+    "title": "BMW R1300GS Adventure Option 719",
+    "year": "2026",
+    "mileage": "626",
+    "price": "3 054 000",
+    "created": "2026-10-29T02:24:30+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-29T02:25:20+00:00"
   }
 ]
