@@ -4715,5 +4715,301 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-29T15:29:09+00:00"
+  },
+  {
+    "post_id": 8369,
+    "file": "stories/20261030-0008_8369.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8369.jpg",
+    "source2": "sources/8369_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.816
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.56
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R1250RS Triple Black",
+    "year": "2024",
+    "mileage": "12’459",
+    "price": "1 478 000",
+    "created": "2026-10-30T00:08:00+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T00:10:43+00:00"
+  },
+  {
+    "post_id": 8373,
+    "file": "stories/20261030-0008_8373.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8373.jpg",
+    "source2": "sources/8373_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.892
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.37
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R1300RT Clutch",
+    "year": "2026",
+    "mileage": "1",
+    "price": "2 690 000",
+    "created": "2026-10-30T00:08:19+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T00:10:52+00:00"
+  },
+  {
+    "post_id": 8377,
+    "file": "stories/20261030-0008_8377.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8377.jpg",
+    "source2": "sources/8377_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.904
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.635
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.63
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.307
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2022",
+    "mileage": "6’700",
+    "price": "2 035 000",
+    "created": "2026-10-30T00:08:37+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T00:11:03+00:00"
+  },
+  {
+    "post_id": 8381,
+    "file": "stories/20261030-0008_8381.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8381.jpg",
+    "source2": "sources/8381_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.612
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.884
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.873
+      }
+    ],
+    "title": "Ducati Monster 937",
+    "year": "2024",
+    "mileage": "1’429",
+    "price": "1 047 000",
+    "created": "2026-10-30T00:08:59+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T00:11:12+00:00"
+  },
+  {
+    "post_id": 8385,
+    "file": "stories/20261030-0009_8385.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8385.jpg",
+    "source2": "sources/8385_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.143
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.21
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.454
+      }
+    ],
+    "title": "Ducati Multistrada V4RS",
+    "year": "2024",
+    "mileage": "2’100",
+    "price": "3 420 000",
+    "created": "2026-10-30T00:09:18+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T00:11:22+00:00"
+  },
+  {
+    "post_id": 8389,
+    "file": "stories/20261030-0009_8389.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8389.jpg",
+    "source2": "sources/8389_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.358
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.358
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.36
+      }
+    ],
+    "title": "Ducati Diavel V4",
+    "year": "2024",
+    "mileage": "5’700",
+    "price": "2 100 000",
+    "created": "2026-10-30T00:09:39+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T00:11:34+00:00"
+  },
+  {
+    "post_id": 8393,
+    "file": "stories/20261030-0009_8393.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8393.jpg",
+    "source2": "sources/8393_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.593
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.303
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.274
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.432
+      }
+    ],
+    "title": "Ducati Panigale V2 Bayliss 1st Championship 20th Anniversary",
+    "year": "2025",
+    "mileage": "2’400",
+    "price": "2 593 000",
+    "created": "2026-10-30T00:09:56+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T00:11:44+00:00"
+  },
+  {
+    "post_id": 8397,
+    "file": "stories/20261030-0010_8397.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8397.jpg",
+    "source2": "sources/8397_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.544
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.265
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.875
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Ducati Panigale V2 Bayliss 1st Championship 20th Anniversary",
+    "year": "2025",
+    "mileage": "NEW",
+    "price": "2 673 000",
+    "created": "2026-10-30T00:10:17+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T00:11:53+00:00"
   }
 ]
