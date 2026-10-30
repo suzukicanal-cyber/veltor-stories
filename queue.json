@@ -5011,5 +5011,256 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-30T00:11:53+00:00"
+  },
+  {
+    "post_id": 8405,
+    "file": "stories/20261030-0125_8405.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8405.jpg",
+    "source2": "sources/8405_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.819
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.763
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.829
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.902
+      }
+    ],
+    "title": "Ducati SuperSport 950 S",
+    "year": "2022",
+    "mileage": "1’486",
+    "price": "1 110 000",
+    "created": "2026-10-30T01:25:50+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T01:30:23+00:00"
+  },
+  {
+    "post_id": 8409,
+    "file": "stories/20261030-0126_8409.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8409.jpg",
+    "source2": "sources/8409_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.847
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.88
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.554
+      }
+    ],
+    "title": "Ducati Panigale V4 S",
+    "year": "2025",
+    "mileage": "2’918",
+    "price": "4 230 000",
+    "created": "2026-10-30T01:26:15+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T01:30:39+00:00"
+  },
+  {
+    "post_id": 8413,
+    "file": "stories/20261030-0126_8413.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8413.jpg",
+    "source2": "sources/8413_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.609
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.358
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha MT-09 SP",
+    "year": "2026",
+    "mileage": "NEW",
+    "price": "1 475 000",
+    "created": "2026-10-30T01:26:55+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T01:30:53+00:00"
+  },
+  {
+    "post_id": 8417,
+    "file": "stories/20261030-0127_8417.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8417.jpg",
+    "source2": "sources/8417_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.844
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.368
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.504
+      }
+    ],
+    "title": "Yamaha MT-09 SP",
+    "year": "2026",
+    "mileage": "NEW",
+    "price": "1 465 000",
+    "created": "2026-10-30T01:27:34+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T01:31:05+00:00"
+  },
+  {
+    "post_id": 8421,
+    "file": "stories/20261030-0128_8421.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8421.jpg",
+    "source2": "sources/8421_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.797
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.377
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2025",
+    "mileage": "2’126",
+    "price": "2 493 000",
+    "created": "2026-10-30T01:28:03+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T01:31:17+00:00"
+  },
+  {
+    "post_id": 8426,
+    "file": "stories/20261030-0128_8426.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8426.jpg",
+    "source2": "sources/8426_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.883
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.913
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.313
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.906
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2024",
+    "mileage": "11’797",
+    "price": "1 904 000",
+    "created": "2026-10-30T01:28:48+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T01:31:31+00:00"
+  },
+  {
+    "post_id": 8430,
+    "file": "stories/20261030-0129_8430.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8430.jpg",
+    "source2": "sources/8430_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.887
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.256
+      }
+    ],
+    "title": "BMW S1000R M Package",
+    "year": "2026",
+    "mileage": "500",
+    "price": "2 067 000",
+    "created": "2026-10-30T01:29:22+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T01:31:46+00:00"
   }
 ]
