@@ -5262,5 +5262,42 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-30T01:31:46+00:00"
+  },
+  {
+    "post_id": 8432,
+    "file": "stories/20261030-0221_8432.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/8432.jpg",
+    "source2": "sources/8432_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.877
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.627
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.884
+      }
+    ],
+    "title": "BMW M1000R",
+    "year": "2025",
+    "mileage": "1’900",
+    "price": "2 330 000",
+    "created": "2026-10-30T02:21:09+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T02:22:16+00:00"
   }
 ]
