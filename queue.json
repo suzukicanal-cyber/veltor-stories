@@ -5299,5 +5299,116 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-30T02:22:16+00:00"
+  },
+  {
+    "post_id": 8437,
+    "file": "stories/20261030-0724_8437.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8437.jpg",
+    "source2": "sources/8437_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.352
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.364
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.254
+      }
+    ],
+    "title": "BMW R1200RT",
+    "year": "2017",
+    "mileage": "19’000",
+    "price": "1 391 000",
+    "created": "2026-10-30T07:24:24+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T07:26:05+00:00"
+  },
+  {
+    "post_id": 8441,
+    "file": "stories/20261030-0724_8441.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8441.jpg",
+    "source2": "sources/8441_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.674
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.601
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Honda CBR600RR",
+    "year": "2025",
+    "mileage": "9’100",
+    "price": "1 674 000",
+    "created": "2026-10-30T07:24:54+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T07:26:22+00:00"
+  },
+  {
+    "post_id": 8445,
+    "file": "stories/20261030-0725_8445.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8445.jpg",
+    "source2": "sources/8445_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.818
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.848
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW R1250RT",
+    "year": "2022",
+    "mileage": "161",
+    "price": "1 937 000",
+    "created": "2026-10-30T07:25:22+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-30T07:26:37+00:00"
   }
 ]
