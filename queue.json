@@ -5780,5 +5780,301 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-31T13:30:16+00:00"
+  },
+  {
+    "post_id": 8492,
+    "file": "stories/20261031-1414_8492.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8492.jpg",
+    "source2": "sources/8492_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.367
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.349
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.37
+      }
+    ],
+    "title": "Indian 101 Scout",
+    "year": "2025",
+    "mileage": "11’000",
+    "price": "1 927 000",
+    "created": "2026-10-31T14:14:34+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-31T14:19:59+00:00"
+  },
+  {
+    "post_id": 8506,
+    "file": "stories/20261031-1415_8506.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8506.jpg",
+    "source2": "sources/8506_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.877
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Ducati Diavel 1200",
+    "year": "2013",
+    "mileage": "14’226",
+    "price": "839 000",
+    "created": "2026-10-31T14:15:04+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-31T14:20:24+00:00"
+  },
+  {
+    "post_id": 8510,
+    "file": "stories/20261031-1415_8510.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8510.jpg",
+    "source2": "sources/8510_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.885
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.345
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.813
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.866
+      }
+    ],
+    "title": "Ducati Multistrada V4 S",
+    "year": "2022",
+    "mileage": "10’094",
+    "price": "1 728 000",
+    "created": "2026-10-31T14:15:38+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-31T14:20:44+00:00"
+  },
+  {
+    "post_id": 8524,
+    "file": "stories/20261031-1416_8524.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8524.jpg",
+    "source2": "sources/8524_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.897
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.869
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.817
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Triumph Bonneville T120 Black",
+    "year": "2023",
+    "mileage": "8’049",
+    "price": "1 363 000",
+    "created": "2026-10-31T14:16:11+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-31T14:21:04+00:00"
+  },
+  {
+    "post_id": 8528,
+    "file": "stories/20261031-1416_8528.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8528.jpg",
+    "source2": "sources/8528_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.601
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.634
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000RR Race Package",
+    "year": "2021",
+    "mileage": "22’427",
+    "price": "1 439 000",
+    "created": "2026-10-31T14:16:42+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-31T14:21:26+00:00"
+  },
+  {
+    "post_id": 8532,
+    "file": "stories/20261031-1417_8532.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8532.jpg",
+    "source2": "sources/8532_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.858
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.329
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.363
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2025",
+    "mileage": "4’000",
+    "price": "2 072 000",
+    "created": "2026-10-31T14:17:20+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-31T14:21:43+00:00"
+  },
+  {
+    "post_id": 8546,
+    "file": "stories/20261031-1418_8546.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8546.jpg",
+    "source2": "sources/8546_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.879
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.353
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.494
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.717
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2017",
+    "mileage": "25’000",
+    "price": "1 123 000",
+    "created": "2026-10-31T14:18:07+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-31T14:22:01+00:00"
+  },
+  {
+    "post_id": 8550,
+    "file": "stories/20261031-1418_8550.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8550.jpg",
+    "source2": "sources/8550_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.883
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.303
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.78
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.493
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2025",
+    "mileage": "2’126",
+    "price": "2 449 000",
+    "created": "2026-10-31T14:18:55+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-31T14:22:29+00:00"
   }
 ]
