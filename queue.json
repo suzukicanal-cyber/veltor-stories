@@ -5447,5 +5447,42 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-10-30T14:00:55+00:00"
+  },
+  {
+    "post_id": 8455,
+    "file": "stories/20261031-1054_8455.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8455.jpg",
+    "source2": "sources/8455_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.897
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.624
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.592
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.785
+      }
+    ],
+    "title": "BMW S1000R",
+    "year": "2019",
+    "mileage": "14’200",
+    "price": "1 110 000",
+    "created": "2026-10-31T10:54:21+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-10-31T10:54:50+00:00"
   }
 ]
