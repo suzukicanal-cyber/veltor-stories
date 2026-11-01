@@ -6113,5 +6113,80 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-11-01T03:24:26+00:00"
+  },
+  {
+    "post_id": 8601,
+    "file": "stories/20261101-0728_8601.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/8601.jpg",
+    "source2": "sources/8601_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.915
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.533
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.552
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2025",
+    "mileage": "2’126",
+    "price": "2 494 000",
+    "created": "2026-11-01T07:28:18+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-01T07:29:15+00:00"
+  },
+  {
+    "post_id": 8605,
+    "file": "stories/20261101-0728_8605.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8605.jpg",
+    "source2": "sources/8605_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.816
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.63
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0,
+        "tire": true
+      }
+    ],
+    "title": "BMW R1300GS Triple Black",
+    "year": "2024",
+    "mileage": "12’300",
+    "price": "2 055 000",
+    "created": "2026-11-01T07:28:44+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-01T07:29:26+00:00"
   }
 ]
