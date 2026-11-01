@@ -6299,5 +6299,116 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-11-01T08:24:43+00:00"
+  },
+  {
+    "post_id": 8631,
+    "file": "stories/20261101-0920_8631.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8631.jpg",
+    "source2": "sources/8631_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.386
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Softail Slim 107",
+    "year": "2020",
+    "mileage": "16’000",
+    "price": "1 328 000",
+    "created": "2026-11-01T09:20:08+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-01T09:22:15+00:00"
+  },
+  {
+    "post_id": 8635,
+    "file": "stories/20261101-0920_8635.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8635.jpg",
+    "source2": "sources/8635_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.906
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.917
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.649
+      }
+    ],
+    "title": "Harley-Davidson Softail Slim",
+    "year": "2018",
+    "mileage": "28’317",
+    "price": "1 249 000",
+    "created": "2026-11-01T09:20:45+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-01T09:22:28+00:00"
+  },
+  {
+    "post_id": 8639,
+    "file": "stories/20261101-0921_8639.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8639.jpg",
+    "source2": "sources/8639_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.92
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.361
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.918
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.639
+      }
+    ],
+    "title": "Harley-Davidson Softail Slim 107",
+    "year": "2020",
+    "mileage": "5’900",
+    "price": "1 297 000",
+    "created": "2026-11-01T09:21:21+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-01T09:22:40+00:00"
   }
 ]
