@@ -6188,5 +6188,116 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-11-01T07:29:26+00:00"
+  },
+  {
+    "post_id": 8619,
+    "file": "stories/20261101-0821_8619.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8619.jpg",
+    "source2": "sources/8619_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.902
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.894
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.632
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.268
+      }
+    ],
+    "title": "Suzuki GSX-R1000R",
+    "year": "2020",
+    "mileage": "38’000",
+    "price": "1 073 000",
+    "created": "2026-11-01T08:21:40+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-01T08:24:15+00:00"
+  },
+  {
+    "post_id": 8623,
+    "file": "stories/20261101-0822_8623.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8623.jpg",
+    "source2": "sources/8623_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.874
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.826
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.887
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha YZF-R1",
+    "year": "2022",
+    "mileage": "14’000",
+    "price": "1 708 000",
+    "created": "2026-11-01T08:22:33+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-01T08:24:30+00:00"
+  },
+  {
+    "post_id": 8627,
+    "file": "stories/20261101-0823_8627.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8627.jpg",
+    "source2": "sources/8627_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.898
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.359
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.123
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.349
+      }
+    ],
+    "title": "Harley-Davidson Softail Slim 107",
+    "year": "2020",
+    "mileage": "11’900",
+    "price": "1 391 000",
+    "created": "2026-11-01T08:23:24+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-01T08:24:43+00:00"
   }
 ]
