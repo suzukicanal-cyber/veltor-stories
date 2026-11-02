@@ -6743,5 +6743,153 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-11-02T12:33:46+00:00"
+  },
+  {
+    "post_id": 8686,
+    "file": "stories/20261102-1345_8686.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8686.jpg",
+    "source2": "sources/8686_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.614
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.862
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.342
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha YZF-R6",
+    "year": "2020",
+    "mileage": "28’400",
+    "price": "1 076 000",
+    "created": "2026-11-02T13:45:33+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-02T13:49:35+00:00"
+  },
+  {
+    "post_id": 8690,
+    "file": "stories/20261102-1346_8690.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8690.jpg",
+    "source2": "sources/8690_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.912
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.842
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.049
+      }
+    ],
+    "title": "Yamaha YZF-R1",
+    "year": "2020",
+    "mileage": "12’500",
+    "price": "1 516 000",
+    "created": "2026-11-02T13:46:35+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-02T13:49:49+00:00"
+  },
+  {
+    "post_id": 8694,
+    "file": "stories/20261102-1347_8694.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8694.jpg",
+    "source2": "sources/8694_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.879
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.879
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.713
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Kawasaki Ninja ZX-6R",
+    "year": "2015",
+    "mileage": "14’664",
+    "price": "1 014 000",
+    "created": "2026-11-02T13:47:33+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-02T13:50:03+00:00"
+  },
+  {
+    "post_id": 8698,
+    "file": "stories/20261102-1348_8698.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8698.jpg",
+    "source2": "sources/8698_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.338
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.805
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha YZF-R6",
+    "year": "2020",
+    "mileage": "13’012",
+    "price": "1 330 000",
+    "created": "2026-11-02T13:48:42+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-02T13:50:16+00:00"
   }
 ]
