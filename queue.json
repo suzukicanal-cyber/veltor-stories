@@ -6558,5 +6558,190 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-11-02T10:32:56+00:00"
+  },
+  {
+    "post_id": 8664,
+    "file": "stories/20261102-1228_8664.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8664.jpg",
+    "source2": "sources/8664_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.363
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.599
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.366
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.352
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2023",
+    "mileage": "12’000",
+    "price": "1 699 000",
+    "created": "2026-11-02T12:28:55+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-02T12:32:45+00:00"
+  },
+  {
+    "post_id": 8668,
+    "file": "stories/20261102-1229_8668.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8668.jpg",
+    "source2": "sources/8668_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.366
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.599
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.352
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.555
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2023",
+    "mileage": "12’000",
+    "price": "1 699 000",
+    "created": "2026-11-02T12:29:32+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-02T12:33:01+00:00"
+  },
+  {
+    "post_id": 8672,
+    "file": "stories/20261102-1230_8672.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8672.jpg",
+    "source2": "sources/8672_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.616
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.657
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.883
+      }
+    ],
+    "title": "BMW S1000RR RACE PACK",
+    "year": "2024",
+    "mileage": "6’500",
+    "price": "1 750 000",
+    "created": "2026-11-02T12:30:17+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-02T12:33:15+00:00"
+  },
+  {
+    "post_id": 8676,
+    "file": "stories/20261102-1231_8676.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8676.jpg",
+    "source2": "sources/8676_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.459
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.593
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.484
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.351
+      }
+    ],
+    "title": "BMW M1000RR Competition",
+    "year": "2024",
+    "mileage": "4,000",
+    "price": "2 363 000",
+    "created": "2026-11-02T12:31:06+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-02T12:33:31+00:00"
+  },
+  {
+    "post_id": 8680,
+    "file": "stories/20261102-1231_8680.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8680.jpg",
+    "source2": "sources/8680_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.901
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.873
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW S1000RR Race Package",
+    "year": "2023",
+    "mileage": "6’250",
+    "price": "1 911 000",
+    "created": "2026-11-02T12:31:55+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-02T12:33:46+00:00"
   }
 ]
