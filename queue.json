@@ -6484,5 +6484,79 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-11-01T23:53:45+00:00"
+  },
+  {
+    "post_id": 8656,
+    "file": "stories/20261102-1030_8656.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8656.jpg",
+    "source2": "sources/8656_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.877
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.608
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.716
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.854
+      }
+    ],
+    "title": "BMW S1000RR Race Pack",
+    "year": "2024",
+    "mileage": "6’500",
+    "price": "1 732 000",
+    "created": "2026-11-02T10:30:51+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-02T10:32:42+00:00"
+  },
+  {
+    "post_id": 8660,
+    "file": "stories/20261102-1031_8660.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8660.jpg",
+    "source2": "sources/8660_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.913
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.911
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.65
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Softail Slim",
+    "year": "2018",
+    "mileage": "28’317",
+    "price": "1 199 000",
+    "created": "2026-11-02T10:31:47+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-02T10:32:56+00:00"
   }
 ]
