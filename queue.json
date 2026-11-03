@@ -7520,5 +7520,79 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-11-03T12:42:07+00:00"
+  },
+  {
+    "post_id": 8782,
+    "file": "stories/20261103-1552_8782.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8782.jpg",
+    "source2": "sources/8782_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.646
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.625
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha MT-09 SP",
+    "year": "2023",
+    "mileage": "27’025",
+    "price": "988 000",
+    "created": "2026-11-03T15:52:46+00:00",
+    "status": "delivered",
+    "video": false,
+    "delivered_at": "2026-11-03T15:53:51+00:00"
+  },
+  {
+    "post_id": 8786,
+    "file": "stories/20261103-1553_8786.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8786.jpg",
+    "source2": "sources/8786_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.897
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.911
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.906
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.912
+      }
+    ],
+    "title": "Yamaha MT-09",
+    "year": "2017",
+    "mileage": "17’000",
+    "price": "797 000",
+    "created": "2026-11-03T15:53:13+00:00",
+    "status": "delivered",
+    "video": false,
+    "delivered_at": "2026-11-03T15:53:54+00:00"
   }
 ]
