@@ -7261,5 +7261,79 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-11-03T02:35:56+00:00"
+  },
+  {
+    "post_id": 8749,
+    "file": "stories/20261103-0328_8749.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8749.jpg",
+    "source2": "sources/8749_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.333
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.824
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.842
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000XR Triple Black",
+    "year": "2019",
+    "mileage": "19'000",
+    "price": "1 200 000",
+    "created": "2026-11-03T03:28:31+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T03:30:07+00:00"
+  },
+  {
+    "post_id": 8753,
+    "file": "stories/20261103-0329_8753.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8753.jpg",
+    "source2": "sources/8753_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.65
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.617
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.792
+      }
+    ],
+    "title": "BMW S1000XR",
+    "year": "2016",
+    "mileage": "23'818",
+    "price": "1 070 000",
+    "created": "2026-11-03T03:29:08+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T03:30:27+00:00"
   }
 ]
