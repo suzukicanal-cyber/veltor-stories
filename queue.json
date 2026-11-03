@@ -7335,5 +7335,42 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-11-03T03:30:27+00:00"
+  },
+  {
+    "post_id": 8758,
+    "file": "stories/20261103-0940_8758.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8758.jpg",
+    "source2": "sources/8758_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.845
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.869
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.905
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.899
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2022",
+    "mileage": "21’415",
+    "price": "1 480 000",
+    "created": "2026-11-03T09:40:38+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T09:41:15+00:00"
   }
 ]
