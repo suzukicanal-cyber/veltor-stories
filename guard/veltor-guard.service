@@ -1,0 +1,14 @@
+[Unit]
+Description=VELTOR guard (boost notices + instant stories build)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+EnvironmentFile=/etc/veltor-guard.env
+ExecStart=/usr/bin/python3 /opt/veltor-guard/guard.py
+Restart=always
+RestartSec=10
+DynamicUser=yes
+
+[Install]
+WantedBy=multi-user.target

@@ -23,3 +23,10 @@
 `TELEGRAM_BOT_TOKEN` и в репозитории не виден.
 
 Шрифты: Inter (SIL Open Font License) и TeX Gyre Heros (GUST Font License), см. `fonts/`.
+
+## Сторож на сервере (`guard/`)
+
+Постоянно работающий скрипт на VPS под @VELTOR_moderator_bot: удаляет уведомления
+«проголосовал(а) за группу» за секунды и сразу запускает сборку сторис, когда в «Мото»
+появляется пост. Установка (под root): `curl -fsSL https://raw.githubusercontent.com/suzukicanal-cyber/veltor-stories/main/guard/install.sh | bash`.
+Журнал: `journalctl -u veltor-guard -f`.
