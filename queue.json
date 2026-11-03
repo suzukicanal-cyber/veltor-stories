@@ -7187,5 +7187,79 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-11-03T01:50:37+00:00"
+  },
+  {
+    "post_id": 8741,
+    "file": "stories/20261103-0233_8741.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/8741.jpg",
+    "source2": "sources/8741_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.353
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Honda CBR1000RR",
+    "year": "2019",
+    "mileage": "22'040",
+    "price": "1 126 000",
+    "created": "2026-11-03T02:33:48+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T02:35:42+00:00"
+  },
+  {
+    "post_id": 8745,
+    "file": "stories/20261103-0234_8745.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8745.jpg",
+    "source2": "sources/8745_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.868
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.61
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2017",
+    "mileage": "15'000",
+    "price": "1 218 000",
+    "created": "2026-11-03T02:34:41+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T02:35:56+00:00"
   }
 ]
