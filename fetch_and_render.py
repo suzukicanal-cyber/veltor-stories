@@ -183,14 +183,38 @@ def remember_chat(chat, m):
         SEEN.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+DIAG = ROOT / "diag.json"   # bot rights in the group + last boost-notice deletions
+
+
+def diag_note(key, value):
+    d = load(DIAG, {})
+    if key == "boost":
+        d.setdefault("boost", []).append(value); d["boost"] = d["boost"][-20:]
+    else:
+        d[key] = value
+    DIAG.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def check_rights():
+    try:
+        me = tg("getMe")
+        cm = tg("getChatMember", chat_id=f"@{CHAT_USERNAME}", user_id=me["id"])
+        diag_note("bot_rights", {"status": cm.get("status"), "can_delete_messages": cm.get("can_delete_messages"),
+                                 "checked": datetime.now(timezone.utc).isoformat(timespec="seconds")})
+    except Exception as e:
+        diag_note("bot_rights", {"error": str(e)[:200]})
+
+
 def delete_service_message(chat_id, message_id):
     """Remove a boost ("голос за группу") notice. Needs the bot to be a group admin
     with the "Delete messages" right; a failure must not stop the stories run."""
     try:
         tg("deleteMessage", chat_id=chat_id, message_id=message_id)
         print(f"deleted boost notice {message_id}")
+        diag_note("boost", {"id": message_id, "ok": True})
     except Exception as e:
         print(f"could not delete boost notice {message_id}: {e}")
+        diag_note("boost", {"id": message_id, "ok": False, "error": str(e)[:200]})
 
 
 def load(p, default):
@@ -233,6 +257,11 @@ def main():
     updates = tg("getUpdates", offset=state["offset"], limit=100, timeout=0,
                  allowed_updates=["message", "channel_post", "edited_message"])
     record_photos(updates)
+    check_rights()
+    service = sorted({k for u in updates for k in (u.get("message") or {}) if k in (
+        "boost_added", "new_chat_members", "left_chat_member", "pinned_message", "forum_topic_created")})
+    if service:
+        diag_note("service_seen", service)
     if not updates:
         print("no new updates")
         deliver_pending(queue)          # retry earlier failed deliveries, if any
