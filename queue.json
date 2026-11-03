@@ -6891,5 +6891,301 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-11-02T13:50:16+00:00"
+  },
+  {
+    "post_id": 8708,
+    "file": "stories/20261103-0142_8708.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8708.jpg",
+    "source2": "sources/8708_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.895
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.729
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.602
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.897
+      }
+    ],
+    "title": "BMW S1000XR",
+    "year": "2020",
+    "mileage": "13’000",
+    "price": "1 356 000",
+    "created": "2026-11-03T01:42:36+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T01:48:50+00:00"
+  },
+  {
+    "post_id": 8712,
+    "file": "stories/20261103-0143_8712.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8712.jpg",
+    "source2": "sources/8712_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.654
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.358
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW S1000XR",
+    "year": "2019",
+    "mileage": "20’757",
+    "price": "1 138 000",
+    "created": "2026-11-03T01:43:45+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T01:49:05+00:00"
+  },
+  {
+    "post_id": 8716,
+    "file": "stories/20261103-0144_8716.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8716.jpg",
+    "source2": "sources/8716_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.361
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.894
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.362
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2022",
+    "mileage": "13’667",
+    "price": "1 735 000",
+    "created": "2026-11-03T01:44:15+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T01:49:21+00:00"
+  },
+  {
+    "post_id": 8720,
+    "file": "stories/20261103-0145_8720.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8720.jpg",
+    "source2": "sources/8720_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.342
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.631
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.863
+      }
+    ],
+    "title": "BMW S1000R",
+    "year": "2026",
+    "mileage": "410",
+    "price": "1 800 000",
+    "created": "2026-11-03T01:45:21+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T01:49:36+00:00"
+  },
+  {
+    "post_id": 8724,
+    "file": "stories/20261103-0146_8724.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8724.jpg",
+    "source2": "sources/8724_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.556
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.79
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW S1000R",
+    "year": "2026",
+    "mileage": "2'600",
+    "price": "1 991 000",
+    "created": "2026-11-03T01:46:12+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T01:49:51+00:00"
+  },
+  {
+    "post_id": 8728,
+    "file": "stories/20261103-0146_8728.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/8728.jpg",
+    "source2": "sources/8728_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.847
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.812
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.208
+      }
+    ],
+    "title": "BMW R1250GS Adventure",
+    "year": "2022",
+    "mileage": "14'722",
+    "price": "1 815 000",
+    "created": "2026-11-03T01:46:53+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T01:50:08+00:00"
+  },
+  {
+    "post_id": 8732,
+    "file": "stories/20261103-0147_8732.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8732.jpg",
+    "source2": "sources/8732_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.915
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.346
+      }
+    ],
+    "title": "Honda CB1000R",
+    "year": "2019",
+    "mileage": "651",
+    "price": "1 107 000",
+    "created": "2026-11-03T01:47:42+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T01:50:23+00:00"
+  },
+  {
+    "post_id": 8736,
+    "file": "stories/20261103-0148_8736.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8736.jpg",
+    "source2": "sources/8736_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.904
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.924
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.614
+      }
+    ],
+    "title": "Honda Gold Wing Tour DCT Airbag",
+    "year": "2024",
+    "mileage": "2'573",
+    "price": "2 816 000",
+    "created": "2026-11-03T01:48:11+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T01:50:37+00:00"
   }
 ]
