@@ -7372,5 +7372,79 @@
     "status": "delivered",
     "video": true,
     "delivered_at": "2026-11-03T09:41:15+00:00"
+  },
+  {
+    "post_id": 8762,
+    "file": "stories/20261103-1041_8762.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8762.jpg",
+    "source2": "sources/8762_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.892
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.904
+      }
+    ],
+    "title": "Kawasaki Z650 ABS",
+    "year": "2018",
+    "mileage": "13’000",
+    "price": "672 000",
+    "created": "2026-11-03T10:41:38+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T10:43:16+00:00"
+  },
+  {
+    "post_id": 8766,
+    "file": "stories/20261103-1042_8766.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8766.jpg",
+    "source2": "sources/8766_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.91
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.875
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.216
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.835
+      }
+    ],
+    "title": "Kawasaki Z650",
+    "year": "2017",
+    "mileage": "17’998",
+    "price": "635 000",
+    "created": "2026-11-03T10:42:16+00:00",
+    "status": "delivered",
+    "video": true,
+    "delivered_at": "2026-11-03T10:43:31+00:00"
   }
 ]
