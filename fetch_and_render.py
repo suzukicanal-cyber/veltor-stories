@@ -148,7 +148,7 @@ def deliver_pending(queue):
         caption = f"{item['title']} — {item['price']}₽\nГотово для сторис: сохраните файл, добавьте музыку и опубликуйте."
         try:
             video_path = None
-            if item.get("layout") == "collage":
+            if item.get("layout") == "collage" and load(CONFIG, {}).get("send_video", False):
                 try:
                     import video
                     TMP.mkdir(exist_ok=True)

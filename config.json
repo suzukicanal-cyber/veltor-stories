@@ -3,5 +3,6 @@
     -5170079498
   ],
   "forward_via_chat_id": 922889444,
-  "restore_photos": true
+  "restore_photos": true,
+  "send_video": false
 }
