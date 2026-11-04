@@ -1,0 +1,41 @@
+name: Publish story to the VELTOR group
+
+on:
+  workflow_dispatch:
+    inputs:
+      post_id:
+        description: "Номер поста, сторис которого опубликовать"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veltor-stories
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow==11.* numpy onnxruntime telethon
+      - run: which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Publish
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_SESSION: ${{ secrets.TG_SESSION }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+        run: python publish.py "${{ inputs.post_id }}"
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "veltor-stories-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add queue.json
+          git commit -m "Story published: post ${{ inputs.post_id }}" || exit 0
+          git pull --rebase && git push

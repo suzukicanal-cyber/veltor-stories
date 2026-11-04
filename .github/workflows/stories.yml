@@ -38,12 +38,14 @@ jobs:
       - name: Fetch new posts and render stories
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          PUBLISH_KEY: ${{ secrets.PUBLISH_KEY }}
         run: python fetch_and_render.py
 
       - name: Rebuild requested posts
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.post_ids != '' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          PUBLISH_KEY: ${{ secrets.PUBLISH_KEY }}
         run: python rebuild_post.py ${{ inputs.post_ids }} ${{ inputs.layout == 'collage' && '--collage' || '' }}
 
       - name: Commit results

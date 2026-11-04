@@ -1,7 +1,9 @@
 // VELTOR guard — Cloudflare Worker version (runs outside Russia, free plan).
 // Telegram sends every group event of @VELTOR_moderator_bot here (webhook):
 //  1. "X проголосовал(а) за группу" (boost) notices are deleted at once;
-//  2. a post with text in the "Мото" topic starts the stories build on GitHub.
+//  2. a post with text in the "Мото" topic starts the stories build on GitHub;
+//  3. /publish?id=<post>&sig=<signature> (button «Опубликовать» in «Сторисы») starts
+//     publish.yml, which posts the story with music to the group's stories.
 //
 // Secrets (Worker → Settings → Variables and Secrets, type "Secret"):
 //   BOT_TOKEN       token of @VELTOR_moderator_bot (group admin with "Delete messages")
@@ -24,6 +26,36 @@ async function tg(env, method, params) {
     body: JSON.stringify(params),
   });
   return r.json();
+}
+
+async function dispatch(env, workflow, inputs) {
+  const r = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${workflow}/dispatches`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${env.GITHUB_TOKEN}`,
+      Accept: "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28",
+      "User-Agent": "veltor-guard",
+    },
+    body: JSON.stringify(inputs ? { ref: "main", inputs } : { ref: "main" }),
+  });
+  return r.status;
+}
+
+async function signature(env, id) {
+  const key = await crypto.subtle.importKey("raw", new TextEncoder().encode(env.WEBHOOK_SECRET),
+    { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  const mac = await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(`pub:${id}`));
+  return [...new Uint8Array(mac)].map((b) => b.toString(16).padStart(2, "0")).join("").slice(0, 24);
+}
+
+function page(title, text) {
+  return new Response(`<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${title}</title><body style="margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+background:#0d0d0f;color:#fff;font:18px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;text-align:center;padding:24px">
+<div><div style="letter-spacing:.35em;font-size:14px;opacity:.6;margin-bottom:18px">VELTOR</div>
+<div style="font-size:24px;font-weight:600;margin-bottom:10px">${title}</div><div style="opacity:.75">${text}</div></div>`,
+    { headers: { "Content-Type": "text/html; charset=utf-8" } });
 }
 
 async function startBuild(env) {
@@ -56,6 +88,16 @@ export default {
       });
       return new Response(JSON.stringify({ bot: me.result && me.result.username, webhook: res }, null, 2),
         { headers: { "Content-Type": "application/json; charset=utf-8" } });
+    }
+
+    if (url.pathname === "/publish") {
+      const id = url.searchParams.get("id") || "";
+      if (!/^\d+$/.test(id) || url.searchParams.get("sig") !== (await signature(env, id)))
+        return page("Ссылка недействительна", "Откройте кнопку из группы «Сторисы» ещё раз.");
+      const status = await dispatch(env, "publish.yml", { post_id: id });
+      return status === 204
+        ? page("Сторис публикуется", "Через 1–2 минуты она появится в сторис группы VELTOR, а сообщение в «Сторисах» отметится ✅. Окно можно закрыть.")
+        : page("Не получилось запустить", `GitHub ответил ${status}. Попробуйте ещё раз через минуту.`);
     }
 
     if (url.pathname !== "/hook" || request.method !== "POST") return new Response("VELTOR guard is running");

@@ -137,7 +137,8 @@ def render(entry, out):
                       entry["year"], entry["mileage"], entry["price"], out, description=entry.get("description", ""))
 
 
-def send_file(chat_id, path, caption, method="sendDocument", field="document", ctype="image/jpeg"):
+def send_file(chat_id, path, caption, method="sendDocument", field="document", ctype="image/jpeg",
+              reply_markup=None):
     """Upload a file to a chat. Stories go as documents so Telegram keeps the full
     1080x1920 quality; videos go with sendVideo so they play right in the chat."""
     boundary = "----veltor" + str(int(time.time() * 1000))
@@ -145,6 +146,8 @@ def send_file(chat_id, path, caption, method="sendDocument", field="document", c
     fields = [("chat_id", str(chat_id)), ("caption", caption)]
     if method == "sendVideo":
         fields += [("supports_streaming", "true"), ("width", "1080"), ("height", "1920")]
+    if reply_markup:
+        fields.append(("reply_markup", json.dumps(reply_markup)))
     for name, value in fields:
         parts.append(f'--{boundary}\r\nContent-Disposition: form-data; name="{name}"\r\n\r\n{value}\r\n'.encode())
     parts.append((f'--{boundary}\r\nContent-Disposition: form-data; name="{field}"; '
@@ -157,10 +160,24 @@ def send_file(chat_id, path, caption, method="sendDocument", field="document", c
         data = json.load(r)
     if not data.get("ok"):
         raise RuntimeError(data)
+    return data["result"]
 
 
-def send_story(chat_id, path, caption):
-    send_file(chat_id, path, caption)
+def send_story(chat_id, path, caption, reply_markup=None):
+    return send_file(chat_id, path, caption, reply_markup=reply_markup)
+
+
+def publish_button(post_id):
+    """URL button «Опубликовать»: opens the Cloudflare worker, which starts publish.yml.
+    The link is signed with PUBLISH_KEY (same value as the worker's WEBHOOK_SECRET)."""
+    import hmac, hashlib
+    cfg = load(CONFIG, {}).get("publish") or {}
+    key = os.environ.get("PUBLISH_KEY", "")
+    if not cfg.get("enabled") or not key:
+        return None
+    sig = hmac.new(key.encode(), f"pub:{post_id}".encode(), hashlib.sha256).hexdigest()[:24]
+    url = f"{cfg['worker'].rstrip('/')}/publish?id={post_id}&sig={sig}"
+    return {"inline_keyboard": [[{"text": "📲 Опубликовать в сторис VELTOR", "url": url}]]}
 
 
 def deliver_format_b(queue):
@@ -201,7 +218,10 @@ def deliver_pending(queue):
     for item in queue:
         if item.get("status") != "new" or not chats:
             continue
-        caption = f"{item['title']} — {item['price']}₽\nГотово для сторис: сохраните файл, добавьте музыку и опубликуйте."
+        button = publish_button(item["post_id"])
+        caption = f"{item['title']} — {item['price']}₽\n" + (
+            "Нажмите кнопку — сторис с музыкой выйдет в группе VELTOR." if button else
+            "Готово для сторис: сохраните файл, добавьте музыку и опубликуйте.")
         try:
             video_path = None
             if item.get("layout") == "collage" and load(CONFIG, {}).get("send_video", False):
@@ -212,7 +232,9 @@ def deliver_pending(queue):
                 except Exception as e:
                     print(f"video failed for {item['file']}: {e}")
             for chat in chats:
-                send_story(chat, ROOT / item["file"], caption)
+                msg = send_story(chat, ROOT / item["file"], caption, reply_markup=button)
+                if button:
+                    item["tg_message"] = {"chat_id": chat, "message_id": msg["message_id"]}
                 if video_path:
                     send_file(chat, video_path, f"{item['title']} — видео-версия сторис",
                               method="sendVideo", field="video", ctype="video/mp4")

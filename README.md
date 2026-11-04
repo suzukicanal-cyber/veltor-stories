@@ -39,3 +39,12 @@
 Рабочий вариант сторожа — Cloudflare Worker `veltor-guard` (`guard/cloudflare-worker.js`,
 https://veltor-guard.suzuki-canal.workers.dev), вебхук @VELTOR_moderator_bot. Секреты BOT_TOKEN,
 GITHUB_TOKEN, WEBHOOK_SECRET хранятся в настройках Worker. С VPS FirstVDS Telegram недоступен.
+
+## Публикация в сторис группы (кнопка «Опубликовать»)
+
+Под каждой сторис в «Сторисах» бот ставит кнопку. Она открывает Worker (`/publish?id=…&sig=…`,
+подпись HMAC ключом `PUBLISH_KEY` = `WEBHOOK_SECRET` воркера), тот запускает `publish.yml`:
+`publish.py` делает видео (картинка без движения + мелодия из `music/`, `publish.seconds` секунд)
+и публикует его в сторис группы от аккаунта владельца (Telethon). Секреты GitHub: `PUBLISH_KEY`,
+`TG_API_ID`, `TG_API_HASH` (my.telegram.org), `TG_SESSION` (создаётся `guard/make_session.py`
+на своём компьютере). Без `PUBLISH_KEY` кнопка не показывается.
