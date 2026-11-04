@@ -1,0 +1,23 @@
+name: Send format B test (one-time)
+on:
+  workflow_dispatch: {}
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow==11.* numpy onnxruntime
+      - env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          python - <<'PY'
+          import fetch_and_render as f
+          chats = f.load(f.CONFIG, {})["format_b"]["deliver_to_chat_ids"]
+          for c in chats:
+              f.send_story(c, f.ROOT / "stories_b/test_8830.jpg",
+                           "BMW R1250GS Adventure — 2 078 000₽ (с ЭПТС)\n\n(Пробная отправка: сюда будут приходить сторис нового формата)")
+              print("sent to", c)
+          PY
