@@ -7890,5 +7890,42 @@
     "status": "delivered",
     "video": false,
     "delivered_at": "2026-11-04T13:57:50+00:00"
+  },
+  {
+    "post_id": 8846,
+    "file": "stories/20261104-1457_8846.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8846.jpg",
+    "source2": "sources/8846_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.669
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.92
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.892
+      }
+    ],
+    "title": "Yamaha R7",
+    "year": "2022",
+    "mileage": "8’400",
+    "price": "920 000",
+    "created": "2026-11-04T14:57:32+00:00",
+    "status": "delivered",
+    "video": false,
+    "delivered_at": "2026-11-04T14:57:52+00:00"
   }
 ]
