@@ -7631,5 +7631,264 @@
     "status": "delivered",
     "video": false,
     "delivered_at": "2026-11-04T03:54:45+00:00"
+  },
+  {
+    "post_id": 8818,
+    "file": "stories/20261104-1354_8818.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8818.jpg",
+    "source2": "sources/8818_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.786
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.917
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.852
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.91
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2023",
+    "mileage": "16’857",
+    "price": "1 806 000",
+    "created": "2026-11-04T13:54:45+00:00",
+    "status": "delivered",
+    "video": false,
+    "delivered_at": "2026-11-04T13:57:41+00:00"
+  },
+  {
+    "post_id": 8822,
+    "file": "stories/20261104-1355_8822.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8822.jpg",
+    "source2": "sources/8822_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.599
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.856
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.894
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.412
+      }
+    ],
+    "title": "BMW R 1250 GS Adventure",
+    "year": "2023",
+    "mileage": "2’623",
+    "price": "2 028 000",
+    "created": "2026-11-04T13:55:12+00:00",
+    "status": "delivered",
+    "video": false,
+    "delivered_at": "2026-11-04T13:57:42+00:00"
+  },
+  {
+    "post_id": 8826,
+    "file": "stories/20261104-1355_8826.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8826.jpg",
+    "source2": "sources/8826_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.632
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.923
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW S1000R",
+    "year": "2026",
+    "mileage": "410",
+    "price": "1 800 000",
+    "created": "2026-11-04T13:55:34+00:00",
+    "status": "delivered",
+    "video": false,
+    "delivered_at": "2026-11-04T13:57:44+00:00"
+  },
+  {
+    "post_id": 8830,
+    "file": "stories/20261104-1356_8830.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8830.jpg",
+    "source2": "sources/8830_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.599
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.856
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.412
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.894
+      }
+    ],
+    "title": "BMW R1250GS Adventure",
+    "year": "2023",
+    "mileage": "2’623",
+    "price": "2 028 000",
+    "created": "2026-11-04T13:56:01+00:00",
+    "status": "delivered",
+    "video": false,
+    "delivered_at": "2026-11-04T13:57:46+00:00"
+  },
+  {
+    "post_id": 8834,
+    "file": "stories/20261104-1356_8834.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8834.jpg",
+    "source2": "sources/8834_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.355
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.868
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.873
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.532
+      }
+    ],
+    "title": "BMW S1000R",
+    "year": "2023",
+    "mileage": "7’300",
+    "price": "1 475 000",
+    "created": "2026-11-04T13:56:22+00:00",
+    "status": "delivered",
+    "video": false,
+    "delivered_at": "2026-11-04T13:57:47+00:00"
+  },
+  {
+    "post_id": 8838,
+    "file": "stories/20261104-1356_8838.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8838.jpg",
+    "source2": "sources/8838_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.893
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.88
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.913
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.874
+      }
+    ],
+    "title": "Harley-Davidson Fat Bob 114",
+    "year": "2021",
+    "mileage": "6’300",
+    "price": "1 422 000",
+    "created": "2026-11-04T13:56:46+00:00",
+    "status": "delivered",
+    "video": false,
+    "delivered_at": "2026-11-04T13:57:49+00:00"
+  },
+  {
+    "post_id": 8842,
+    "file": "stories/20261104-1357_8842.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8842.jpg",
+    "source2": "sources/8842_2.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.893
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.88
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.913
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.874
+      }
+    ],
+    "title": "Harley-Davidson Fat Bob 114",
+    "year": "2021",
+    "mileage": "6’300",
+    "price": "1 422 000",
+    "created": "2026-11-04T13:57:15+00:00",
+    "status": "delivered",
+    "video": false,
+    "delivered_at": "2026-11-04T13:57:50+00:00"
   }
 ]
