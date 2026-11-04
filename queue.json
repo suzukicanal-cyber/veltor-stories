@@ -7893,7 +7893,7 @@
   },
   {
     "post_id": 8846,
-    "file": "stories/20261104-1457_8846.jpg",
+    "file": "stories/20261104-2117_8846_v2.jpg",
     "layout": "collage",
     "photo_no": [
       3,
@@ -7901,6 +7901,12 @@
     ],
     "source": "sources/8846.jpg",
     "source2": "sources/8846_2.jpg",
+    "gallery": [
+      "sources/8846_g1.jpg",
+      "sources/8846_g2.jpg",
+      "sources/8846_g3.jpg",
+      "sources/8846_g4.jpg"
+    ],
     "checked": [
       {
         "photo": 1,
@@ -7923,9 +7929,13 @@
     "year": "2022",
     "mileage": "8’400",
     "price": "920 000",
-    "created": "2026-11-04T14:57:32+00:00",
+    "created": "2026-11-04T21:17:38+00:00",
     "status": "delivered",
+    "rebuilt": true,
+    "album_photos": 4,
+    "description": "Yamaha R7\nГод: 2022 (выпуск 2025)\nПробег: 8’400 km\nЦена под ключ:\n920 000₽\n\nYamaha R7 в отличном состоянии, без ДТП и падений. С первого владельца, своевременно обслуживался и бережно эксплуатировался. Установлены слайдеры рамы Evotech, защита радиатора Evotech, крышка двигателя GB Racing, оригинальный Quick Shifter Yamaha, защита бака TechSpec, видеорегистратор 2CH и USB-порт.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
     "video": false,
-    "delivered_at": "2026-11-04T14:57:52+00:00"
+    "delivered_at": "2026-11-04T21:18:36+00:00",
+    "status_b": "delivered"
   }
 ]
