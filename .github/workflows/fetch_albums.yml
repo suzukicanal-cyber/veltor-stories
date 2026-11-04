@@ -1,0 +1,42 @@
+name: Fetch full albums (for design work)
+on:
+  workflow_dispatch:
+    inputs:
+      post_ids:
+        description: "Номера постов через пробел"
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: veltor-stories
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow==11.* numpy onnxruntime
+      - env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          python - ${{ inputs.post_ids }} <<'PY'
+          import sys, fetch_and_render as f, rebuild_post as r
+          from pathlib import Path
+          via = f.load(f.CONFIG, {})["forward_via_chat_id"]
+          out = Path("albums"); out.mkdir(exist_ok=True)
+          for pid in map(int, sys.argv[1:]):
+              photos, caption = r.fetch_album(pid, via)
+              for n, (_, fid) in enumerate(photos, 1):
+                  f.download_photo(fid, out / f"{pid}_{n}.jpg")
+              (out / f"{pid}.txt").write_text(caption or "", encoding="utf-8")
+              print(pid, len(photos), "photos")
+          PY
+      - run: |
+          git config user.name "veltor-stories-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add albums
+          git commit -m "Albums for design work" || exit 0
+          git pull --rebase && git push
