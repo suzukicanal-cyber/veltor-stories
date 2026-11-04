@@ -124,8 +124,17 @@ def story_args(entry, out):
 
 
 def render(entry, out):
-    """Build the story image for a queue entry (single photo or collage)."""
-    make_story.build(story_args(entry, out))
+    """Build the story image for a queue entry. With "format_a" in config.json the
+    selling design (story_a2.py) is used, otherwise the older collage (make_story.py)."""
+    fa = load(CONFIG, {}).get("format_a")
+    if not fa:
+        make_story.build(story_args(entry, out)); return
+    import story_a2
+    story_args(entry, None)                                  # applies the photo-restoration setting
+    photos = [str(ROOT / g) for g in entry.get("gallery") or []] or \
+             [str(ROOT / entry[k]) for k in ("source", "source2") if entry.get(k)]
+    story_a2.build_a2(fa.get("variant", "3_column"), fa.get("glow", "white"), photos, entry["title"],
+                      entry["year"], entry["mileage"], entry["price"], out, description=entry.get("description", ""))
 
 
 def send_file(chat_id, path, caption, method="sendDocument", field="document", ctype="image/jpeg"):

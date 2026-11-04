@@ -11,6 +11,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 import make_story as ms
 import story_b as sb
+import features
 
 W, H = ms.W, ms.H
 FD = Path(__file__).resolve().parent / "fonts"
@@ -112,18 +113,37 @@ def specs(c, d, y, center=False, col=WHITE, sub=SOFT):
     return y + 96
 
 
-def facts(c, d, y, center=False, col=WHITE, line=(110, 110, 116)):
-    items = d.get("facts", [])[:3] or ["Из Южной Кореи"]
-    f = F(M5, 28); h = 58; pad = 24; gap = 12
-    ws = [tw(s, f) + 2 * pad for s in items]
-    while sum(ws) + gap * (len(ws) - 1) > R - L:
-        items.pop(); ws.pop()
-    x = (W - sum(ws) - gap * (len(ws) - 1)) // 2 if center else L
+def fill_row(items, max_w, sizes=(28, 27, 26, 25, 24, 23, 22), pad=22, gap=12, need=3):
+    """Pick selling points (priority order) so that at least `need` fit on ONE line,
+    using the largest font that allows it; skipped long ones make room for shorter ones."""
+    best = None
+    for size in sizes:
+        f = F(M5, size); used, pick = 0, []
+        for s in items:
+            w = tw(s, f) + 2 * pad
+            if used + w + (gap if pick else 0) <= max_w:
+                used += w + (gap if pick else 0); pick.append((s, w))
+        if len(pick) >= min(need, len(items)):
+            return f, pick, used
+        best = best or (f, pick, used)
+    return best
+
+
+def facts(c, d, y, center=False, col=WHITE, line=(110, 110, 116), h=58, gap=12):
+    """One full-width row of outlined chips: at least 3 selling points, never a second line."""
+    items = list(d.get("facts") or [])
+    for extra in ("Из Южной Кореи", "Цена под ключ"):
+        if len(items) < 3 and extra not in items:
+            items.append(extra)
+    f, pick, used = fill_row(items, R - L, gap=gap)
+    extra = (R - L - used) / max(1, len(pick))             # stretch chips to fill the line
+    x = float(L)
     dr = ImageDraw.Draw(c)
-    for s, w in zip(items, ws):
-        dr.rounded_rectangle([x, y, x + w, y + h], radius=h // 2, outline=line, width=2)
-        dr.text((x + pad, y + 13), s, font=f, fill=col)
-        x += w + gap
+    for s, w in pick:
+        w2 = w + extra
+        dr.rounded_rectangle([round(x), y, round(x + w2), y + h], radius=h // 2, outline=line, width=2)
+        dr.text((round(x + (w2 - tw(s, f)) / 2), y + (h - f.size) // 2 - 2), s, font=f, fill=col)
+        x += w2 + gap
     return y + h
 
 
@@ -197,15 +217,18 @@ def a2_grid(d, glow):
 
 
 def a3_column(d, glow):
+    """Chosen VELTOR format: tall main photo, up to three photos in a column on the right."""
     c, _ = background(glow, "ellipse", center=0.45, share=0.33)
     wordmark(c); corner_tag(c)
     y = title(c, d, 300)
-    ph = sb._gallery(d, 4)
-    top = y + 26; hh = 780; bw = 620
+    ph = [p for p in (d.get("photos") or [d["main"], d.get("second")]) if p][:4]
+    top = y + 26; hh = 780; bw = 620 if len(ph) > 1 else R - L
     sb._pic(c, ph[0], (L, top, L + bw, top + hh), 28)
-    sh = (hh - 2 * 14) // 3
-    for k in range(3):
-        sb._pic(c, ph[k + 1], (L + bw + 14, top + k * (sh + 14), R, top + k * (sh + 14) + sh), 22)
+    side = ph[1:]
+    if side:
+        sh = (hh - 14 * (len(side) - 1)) // len(side)
+        for k, p in enumerate(side):
+            sb._pic(c, p, (L + bw + 14, top + k * (sh + 14), R, top + k * (sh + 14) + sh), 22)
     y = top + hh
     y = specs(c, d, y + 40)
     y = facts(c, d, y + 22)
@@ -257,7 +280,7 @@ VARIANTS = {"1_showcase": a1_showcase, "2_grid": a2_grid, "3_column": a3_column,
 def build_a2(variant, glow, photos, title_, year, mileage, price_, out, description=""):
     d = {"main": photos[0], "second": photos[1] if len(photos) > 1 else None, "photos": photos,
          "title": title_, "year": year, "mileage": mileage, "price": price_,
-         "facts": sb.facts_from(description)}
+         "facts": features.extract(description)}
     img = VARIANTS[variant](d, glow)
     img.save(out, quality=95, subsampling=0)
     return out
