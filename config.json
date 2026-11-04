@@ -7,7 +7,9 @@
   "send_video": false,
   "format_b": {
     "variant": "2_light",
-    "deliver_to_chat_ids": [],
+    "deliver_to_chat_ids": [
+      -5232919083
+    ],
     "since": "2026-11-04T19:40:00+00:00"
   }
 }
