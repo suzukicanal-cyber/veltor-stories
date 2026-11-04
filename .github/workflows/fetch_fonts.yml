@@ -1,0 +1,23 @@
+name: Fetch fonts (one-time)
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  fonts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          set -e
+          base=https://raw.githubusercontent.com/google/fonts/main/ofl
+          curl -fsSL -o "fonts/Montserrat-VF.ttf" "$base/montserrat/Montserrat%5Bwght%5D.ttf"
+          curl -fsSL -o "fonts/LICENSE-Montserrat.txt" "$base/montserrat/OFL.txt"
+          curl -fsSL -o "fonts/Manrope-VF.ttf" "$base/manrope/Manrope%5Bwght%5D.ttf"
+          curl -fsSL -o "fonts/LICENSE-Manrope.txt" "$base/manrope/OFL.txt"
+          curl -fsSL -o "fonts/Unbounded-VF.ttf" "$base/unbounded/Unbounded%5Bwght%5D.ttf" || true
+          ls -la fonts
+          git config user.name "veltor-stories-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add fonts
+          git commit -m "Fonts: Montserrat, Manrope (OFL)" || exit 0
+          git pull --rebase && git push
