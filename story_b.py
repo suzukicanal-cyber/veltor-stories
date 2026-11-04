@@ -5,6 +5,7 @@ the chosen one is set in config.json ("format_b": {"variant": "..."}).
 Format A (make_story.py) is not touched.
 """
 import re
+from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -73,6 +74,19 @@ def _icon(canvas, icon4x, x, y, size, color=(255, 255, 255)):
     canvas.paste(color, (x, y, x + size, y + size), icon4x.resize((size, size), Image.LANCZOS))
 
 
+LOGO = Path(__file__).resolve().parent / "brand" / "da_motors_dark.png"
+
+
+def _logo(canvas, right, cy, max_w, width=400):
+    """DA Motors logo (dark version for the light design), right-aligned."""
+    if not LOGO.exists():
+        return
+    lg = Image.open(LOGO).convert("RGBA")
+    w = int(min(width, max_w))
+    lg = lg.resize((w, round(lg.height * w / lg.width)), Image.LANCZOS)
+    canvas.paste(lg, (right - lg.width, cy - lg.height // 2), lg)
+
+
 # ---------------------------------------------------------------- variants
 def v1_hero(d):
     """Full-screen hero photo, info at the bottom on a dark gradient, big price."""
@@ -118,6 +132,7 @@ def v2_light(d):
     dr.text((64, 1520), "Цена под ключ с ЭПТС", font=_font(F_REG, 36), fill=(110, 110, 116))
     dr.rounded_rectangle([64, 1570, 64 + tw + 72, 1690], radius=60, fill=ACCENT)
     dr.text((100, 1584), txt, font=pf, fill="white")
+    _logo(c, right=W - 64, cy=1630, max_w=W - 64 - (64 + tw + 72) - 48)
     return c
 
 
