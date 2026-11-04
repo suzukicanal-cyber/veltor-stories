@@ -30,3 +30,7 @@
 «проголосовал(а) за группу» за секунды и сразу запускает сборку сторис, когда в «Мото»
 появляется пост. Установка (под root): `curl -fsSL https://raw.githubusercontent.com/suzukicanal-cyber/veltor-stories/main/guard/install.sh | bash`.
 Журнал: `journalctl -u veltor-guard -f`.
+
+Рабочий вариант сторожа — Cloudflare Worker `veltor-guard` (`guard/cloudflare-worker.js`,
+https://veltor-guard.suzuki-canal.workers.dev), вебхук @VELTOR_moderator_bot. Секреты BOT_TOKEN,
+GITHUB_TOKEN, WEBHOOK_SECRET хранятся в настройках Worker. С VPS FirstVDS Telegram недоступен.
