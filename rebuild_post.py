@@ -79,7 +79,8 @@ def main(ids, force_collage=False):
         entry = {"post_id": pid, "file": f"stories/{out.name}", **pick,
                  "title": title, "year": year, "mileage": mileage, "price": price,
                  "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                 "status": "new", "rebuilt": True, "album_photos": len(photos)}
+                 "status": "new", "rebuilt": True, "album_photos": len(photos),
+                 "description": (caption or (old or {}).get("description") or "")[:1500]}
         f.render(entry, out)
         if old:
             queue[queue.index(old)] = entry

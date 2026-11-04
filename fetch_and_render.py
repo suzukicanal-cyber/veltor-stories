@@ -91,11 +91,27 @@ def pick_photo(photos, dest, force_collage=True):
                 "checked": list(PICK_LOG)}
     detail = second
     dest.write_bytes(main[1].read_bytes())
+    gallery = save_gallery(main, rest, dest)
     dest2 = dest.with_name(f"{dest.stem}_2{dest.suffix}")
     dest2.write_bytes(detail[1].read_bytes())
     return {"layout": "collage", "photo_no": [main[0], detail[0]],
             "source": f"sources/{dest.name}", "source2": f"sources/{dest2.name}",
-            "checked": list(PICK_LOG)}
+            "gallery": gallery, "checked": list(PICK_LOG)}
+
+
+GALLERY_SIZE = 4   # photos for format B: the main one, other angles of the bike, then details
+
+
+def save_gallery(main, rest, dest):
+    """Format B uses more photos: main first, then the bike from other angles, then details
+    (tyres and near-duplicates are already excluded). Format A does not use these files."""
+    order = [main] + [c for c in rest if c[2] > 0] + [c for c in rest if c[2] <= 0]
+    out = []
+    for k, c in enumerate(order[:GALLERY_SIZE], start=1):
+        g = dest.with_name(f"{dest.stem}_g{k}{dest.suffix}")
+        g.write_bytes(c[1].read_bytes())
+        out.append(f"sources/{g.name}")
+    return out
 
 
 def story_args(entry, out):
@@ -155,7 +171,9 @@ def deliver_format_b(queue):
             out = out_dir / Path(item["file"]).name
             story_b.build_b(cfg.get("variant", "2_light"), str(ROOT / item["source"]),
                             str(ROOT / item["source2"]) if item.get("source2") else None,
-                            item["title"], item["year"], item["mileage"], item["price"], out)
+                            item["title"], item["year"], item["mileage"], item["price"], out,
+                            photos=[str(ROOT / g) for g in item.get("gallery") or []] or None,
+                            description=item.get("description", ""), post_id=item.get("post_id", 0))
             caption = f"{item['title']} — {story_b.price_plus(item['price'])}₽ (с ЭПТС)"
             for chat in chats:
                 send_story(chat, out, caption)
@@ -365,7 +383,7 @@ def main():
         entry = {"post_id": post_id, "file": f"stories/{out.name}", **pick,
                  "title": title, "year": year, "mileage": mileage, "price": price,
                  "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                 "status": "new"}
+                 "status": "new", "description": (p["caption"] or "")[:1500]}
         render(entry, out)
         queue.append(entry)
         new_count += 1

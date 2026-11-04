@@ -204,8 +204,10 @@ GREY = (112, 112, 118)
 BG = (244, 243, 240)
 CARD = (255, 255, 255)
 BENEFITS = [("globe", "Из Южной Кореи"), ("doc", "Растаможка и ЭПТС включены"),
-            ("truck", "Доставка до Москвы включена"), ("clock", "Доставка до 45 дней")]
-CTA = "Пишите в Direct"
+            ("truck", "Доставка до Москвы/Санкт-Петербурга включена"), ("clock", "Доставка до 45 дней")]
+CTA = "Хочу этот мотоцикл"
+# CTA phrases rotate by post number so a row of stories does not repeat one line
+CTAS = ["Хочу этот мотоцикл", "Забронировать мотоцикл", "Узнать подробности", "Оставить заявку"]
 
 FACT_RULES = [(r"без\s+дтп", "Без ДТП"), (r"падени", "Без падений"),
               (r"перв\w*\s+владел|1\s*владел|один\s+владел", "1 владелец"),
@@ -345,8 +347,8 @@ def _spec_cards(c, x0, y, x1, items, h=128):
     for k, (lab, val) in enumerate(items):
         x = x0 + k * (w + gap)
         _rr(c, (x, y, x + w, y + h), 26, CARD)
-        dr.text((x + 28, y + 20), lab, font=_font(F_REG, 30), fill=GREY)
-        dr.text((x + 28, y + 60), val, font=_fit(val, F_BOLD, 46, w - 56), fill=INK)
+        dr.text((x + 28, y + 14), lab, font=_font(F_REG, 30), fill=GREY)
+        dr.text((x + 28, y + 50), val, font=_fit(val, F_BOLD, 46, w - 56), fill=INK)
     return y + h
 
 
@@ -372,11 +374,11 @@ def v5_catalog(d):
         _pic(c, ph[k + 1], (L + k * (tw + 16), y + 536, L + k * (tw + 16) + tw, y + 706), 24)
     y = _spec_cards(c, L, y + 726, R, [("Год", d["year"]), ("Пробег", mileage_text(d["mileage"])), ("Срок", "до 45 дней")], h=112)
     y += 22
-    for k, txt in enumerate(["Растаможка и ЭПТС включены", "Доставка до Москвы включена"] + d.get("facts", [])[:1]):
+    for k, txt in enumerate(["Растаможка и ЭПТС включены", "Доставка до Москвы/Санкт-Петербурга включена"] + d.get("facts", [])[:1]):
         _rr(c, (L, y + 4, L + 44, y + 48), 22, ACCENT); _put_icon(c, "check", L + 6, y + 10, 32, (255, 255, 255))
-        dr.text((L + 64, y + 4), txt, font=_font(F_BOLD, 36), fill=INK); y += 56
+        dr.text((L + 64, y + 4), txt, font=_fit(txt, F_BOLD, 36, R - L - 64), fill=INK); y += 56
     px, py = _price_block(c, L, y + 14, d, size=76)
-    _cta(c, (L, py + 24, R, py + 124), size=42)
+    _cta(c, (L, py + 24, R, py + 124), text=d.get("cta") or CTA, size=42)
     return c
 
 
@@ -511,9 +513,10 @@ VARIANTS.update({"5_catalog": v5_catalog, "6_sheet": v6_sheet, "7_tiles": v7_til
                  "8_offer": v8_offer, "9_panel": v9_panel})
 
 
-def build_b(variant, main, second, title, year, mileage, price_in_group, out, photos=None, description=""):
+def build_b(variant, main, second, title, year, mileage, price_in_group, out, photos=None, description="", post_id=0):
     d = {"main": main, "second": second, "title": title, "year": year, "mileage": mileage,
-         "price": price_plus(price_in_group), "photos": photos, "facts": facts_from(description)}
+         "price": price_plus(price_in_group), "photos": photos, "facts": facts_from(description),
+         "cta": CTAS[int(post_id or 0) % len(CTAS)]}
     img = VARIANTS[variant](d)
     img.save(out, quality=95, subsampling=0)
     return out
