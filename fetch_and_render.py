@@ -138,6 +138,35 @@ def send_story(chat_id, path, caption):
     send_file(chat_id, path, caption)
 
 
+def deliver_format_b(queue):
+    """Format B (story_b.py): same posts, price +50 000 ₽, own design, own chats.
+    Only for posts created after format_b.since; format A is not affected."""
+    cfg = load(CONFIG, {}).get("format_b") or {}
+    chats, since = cfg.get("deliver_to_chat_ids") or [], cfg.get("since", "")
+    if not chats:
+        return
+    import story_b
+    out_dir = ROOT / "stories_b"; out_dir.mkdir(exist_ok=True)
+    for item in queue:
+        if item.get("status_b") == "delivered" or item.get("created", "") < since or not item.get("source"):
+            continue
+        try:
+            story_args(item, None)                       # applies the photo-restoration setting
+            out = out_dir / Path(item["file"]).name
+            story_b.build_b(cfg.get("variant", "2_light"), str(ROOT / item["source"]),
+                            str(ROOT / item["source2"]) if item.get("source2") else None,
+                            item["title"], item["year"], item["mileage"], item["price"], out)
+            caption = f"{item['title']} — {story_b.price_plus(item['price'])}₽ (с ЭПТС)"
+            for chat in chats:
+                send_story(chat, out, caption)
+            item["status_b"] = "delivered"
+            item.pop("last_error_b", None)
+            print(f"format B delivered {out.name}")
+        except Exception as e:
+            item["last_error_b"] = str(e)[:300]
+            print(f"format B failed for {item['file']}: {e}")
+
+
 def deliver_pending(queue):
     """Send every story not yet delivered to the Telegram chats in config.json:
     the picture (file) and, for collages, an 8-second animated MP4 version."""
@@ -265,6 +294,7 @@ def main():
     if not updates:
         print("no new updates")
         deliver_pending(queue)          # retry earlier failed deliveries, if any
+        deliver_format_b(queue)
         QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
         return 0
 
@@ -342,6 +372,7 @@ def main():
         print(f"rendered {out.name}: {title}")
 
     deliver_pending(queue)
+    deliver_format_b(queue)
     state["offset"] = updates[-1]["update_id"] + 1
     STATE.write_text(json.dumps(state, indent=2), encoding="utf-8")
     QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -4,5 +4,10 @@
   ],
   "forward_via_chat_id": 922889444,
   "restore_photos": true,
-  "send_video": false
+  "send_video": false,
+  "format_b": {
+    "variant": "2_light",
+    "deliver_to_chat_ids": [],
+    "since": "2026-11-04T19:40:00+00:00"
+  }
 }

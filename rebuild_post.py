@@ -87,6 +87,7 @@ def main(ids, force_collage=False):
             queue.append(entry)
         print(f"  rebuilt {out.name} ({pick['layout']})")
     f.deliver_pending(queue)
+    f.deliver_format_b(queue)
     f.QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
 
 

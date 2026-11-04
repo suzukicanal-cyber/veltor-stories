@@ -115,7 +115,7 @@ def v2_light(d):
     pf = _font(F_BOLD, 76)
     txt = f"{d['price']} ₽"
     tw = ms.text_width(txt, pf)
-    dr.text((64, 1520), "Цена под ключ", font=_font(F_REG, 36), fill=(110, 110, 116))
+    dr.text((64, 1520), "Цена под ключ с ЭПТС", font=_font(F_REG, 36), fill=(110, 110, 116))
     dr.rounded_rectangle([64, 1570, 64 + tw + 72, 1690], radius=60, fill=ACCENT)
     dr.text((100, 1584), txt, font=pf, fill="white")
     return c
