@@ -13,7 +13,7 @@
     "since": "2026-11-04T19:40:00+00:00"
   },
   "format_a": {
-    "variant": "3_column",
+    "variant": "s3_price_pill",
     "glow": "white"
   },
   "publish": {
