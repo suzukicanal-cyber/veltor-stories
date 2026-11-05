@@ -8242,5 +8242,50 @@
     "video": false,
     "delivered_at": "2026-11-05T00:54:09+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8884,
+    "file": "stories/20261105-0056_8884.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8884.jpg",
+    "source2": "sources/8884_2.jpg",
+    "gallery": [
+      "sources/8884_g1.jpg",
+      "sources/8884_g2.jpg",
+      "sources/8884_g3.jpg",
+      "sources/8884_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.866
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.893
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.888
+      }
+    ],
+    "title": "Indian Scout Bobber Twenty",
+    "year": "2021",
+    "mileage": "14’353",
+    "price": "1 045 000",
+    "created": "2026-11-05T00:56:46+00:00",
+    "status": "delivered",
+    "description": "Indian Scout Bobber Twenty\nГод: 2021\nПробег: 14’353 km\nЦена под ключ:\n1 045 000₽\n\nДвигатель V-Twin, объём 1133 cc.\n\nТюнингованный выхлоп.\nВыхлопная система с оформленным изменением конструкции.\nПассажирская спинка.\nВетровое стекло.\nЗащита двигателя.\nБоковые кофры.\n\nВсе проверки пройдены.\nДвигатель работает ровно, посторонних шумов нет.\nХодовые качества и баланс в норме.\nТехническое состояние отличное, полностью готов к эксплуатации.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-05T00:57:17+00:00",
+    "status_b": "delivered"
   }
 ]
