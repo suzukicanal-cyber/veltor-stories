@@ -8017,5 +8017,50 @@
     "video": false,
     "delivered_at": "2026-11-05T00:29:21+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8864,
+    "file": "stories/20261105-0036_8864.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/8864.jpg",
+    "source2": "sources/8864_2.jpg",
+    "gallery": [
+      "sources/8864_g1.jpg",
+      "sources/8864_g2.jpg",
+      "sources/8864_g3.jpg",
+      "sources/8864_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.627
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.628
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha Tracer 9",
+    "year": "2021",
+    "mileage": "18’193",
+    "price": "920 000",
+    "created": "2026-11-05T00:36:08+00:00",
+    "status": "delivered",
+    "description": "Yamaha Tracer 9\nГод: 2021\nПробег: 18’193 km\nЦена под ключ:\n920 000₽\n\nДвигатель 890 cc.\nТуристический мотоцикл Yamaha Tracer 9.\n\nОригинальный топкейс Yamaha.\nОригинальный топливный бак.\nБоковая подставка с увеличенной площадкой.\nДержатель телефона RAM Mount.\nДвухканальный Black Box.\nОригинальный демпфер рулевого управления.\nЗащита двигателя.\nБоковые защитные элементы двигателя.\nЗащита радиатора.\nДополнительные туристические аксессуары.\n\nБез ДТП.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-05T00:36:59+00:00",
+    "status_b": "delivered"
   }
 ]
