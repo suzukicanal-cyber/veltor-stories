@@ -8817,5 +8817,50 @@
     "video": false,
     "delivered_at": "2026-11-05T10:01:53+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8948,
+    "file": "stories/20261105-1233_8948.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8948.jpg",
+    "source2": "sources/8948_2.jpg",
+    "gallery": [
+      "sources/8948_g1.jpg",
+      "sources/8948_g2.jpg",
+      "sources/8948_g3.jpg",
+      "sources/8948_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.33
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.35
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.364
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Ducati XDiavel S",
+    "year": "2017",
+    "mileage": "22’000",
+    "price": "1 133 000",
+    "created": "2026-11-05T12:33:55+00:00",
+    "status": "delivered",
+    "description": "Ducati XDiavel S\nГод: 2017\nПробег: 22’000 km\nЦена под ключ:\n1 133 000₽\n\nДвигатель Testastretta DVT, V-Twin, 1262 cc.\n\nКомплектация и дополнительное оборудование:\n\nВерсия S\nПолная выхлопная система Termignoni\nКарбоновые элементы\nСпинка пассажира\nДвухканальный видеорегистратор\nSP Connect\nУдлинённое ветровое стекло\n\nСостояние и обслуживание:\n\nБез ДТП\nИзменение конструкции выхлопной системы официально оформлено\nРасходные материалы с хорошим остатком\nПодтёков масла нет\nАккуратное внешнее состояние\n\nПиши @VELTOR_KOR — организуем доставку под ключ 🔑\n*12",
+    "video": false,
+    "delivered_at": "2026-11-05T12:35:12+00:00",
+    "status_b": "delivered"
   }
 ]
