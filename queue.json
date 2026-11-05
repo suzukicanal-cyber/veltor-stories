@@ -8287,5 +8287,140 @@
     "video": false,
     "delivered_at": "2026-11-05T00:57:17+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8888,
+    "file": "stories/20261105-0110_8888.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8888.jpg",
+    "source2": "sources/8888_2.jpg",
+    "gallery": [
+      "sources/8888_g1.jpg",
+      "sources/8888_g2.jpg",
+      "sources/8888_g3.jpg",
+      "sources/8888_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.615
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Ducati Monster 1200S",
+    "year": "2020",
+    "mileage": "12’326",
+    "price": "1 293 000",
+    "created": "2026-11-05T01:10:19+00:00",
+    "status": "delivered",
+    "description": "Ducati Monster 1200S\nГод: 2020\nПробег: 12’326 km\nЦена под ключ:\n1 293 000₽\n\nДвигатель 1198 cc.\nВыхлоп Termignoni с изменённой конструкцией.\nСпортивный воздушный фильтр.\nПрозрачная крышка сцепления.\nРычаг Easy Clutch.\nРуль Rizoma.\nКомфортное высокое сиденье.\nОригинальное ветровое стекло Ducati.\nПодогрев ручек.\nКарбоновые детали Ilmberger.\nКарбоновая защита одностороннего маятника.\nОригинальные карбоновые детали Akrapovič.\nКомплект Evotech: задний фонарь и крепление номерного знака.\nДвухканальный видеорегистратор.\nДемпфер рулевого управления Öhlins.\nПодставка для одностороннего маятника не входит в комплект.\nОригинальные заводские детали в наличии.\n\nПередняя шина Pirelli Diablo Rosso IV — новая.\nЗадняя шина — остаток 80%.\n\nБез ДТП и падений.\nАккуратная эксплуатация, без царапин.\nЗамена масла ежегодно независимо от пробега.\nЗимой мотоцикл не эксплуатировался, хранился на подземном паркинге.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-05T01:14:17+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 8892,
+    "file": "stories/20261105-0111_8892.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8892.jpg",
+    "source2": "sources/8892_2.jpg",
+    "gallery": [
+      "sources/8892_g1.jpg",
+      "sources/8892_g2.jpg",
+      "sources/8892_g3.jpg",
+      "sources/8892_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Ducati Multistrada V4 Pikes Peak",
+    "year": "2022",
+    "mileage": "12’805",
+    "price": "2 453 000",
+    "created": "2026-11-05T01:11:33+00:00",
+    "status": "delivered",
+    "description": "Ducati Multistrada V4 Pikes Peak\nГод: 2022\nПробег: 12’805 km\nЦена под ключ:\n2 453 000₽\n\nДвигатель 1158 cc.\nВерсия Pikes Peak.\nПолный тюнинг.\nДополнительное оборудование и доработки.\nБез ДТП.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-05T01:14:19+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 8896,
+    "file": "stories/20261105-0113_8896.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8896.jpg",
+    "source2": "sources/8896_2.jpg",
+    "gallery": [
+      "sources/8896_g1.jpg",
+      "sources/8896_g2.jpg",
+      "sources/8896_g3.jpg",
+      "sources/8896_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.604
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.032
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.301
+      }
+    ],
+    "title": "Ducati Diavel",
+    "year": "2017",
+    "mileage": "17’349",
+    "price": "1 231 000",
+    "created": "2026-11-05T01:13:20+00:00",
+    "status": "delivered",
+    "description": "Ducati Diavel\nГод: 2017\nПробег: 17’349 km\nЦена под ключ:\n1 231 000₽ \n\nДвигатель 1198 cc.\nЦвет: чёрный.\nБез ДТП.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-05T01:14:21+00:00",
+    "status_b": "delivered"
   }
 ]
