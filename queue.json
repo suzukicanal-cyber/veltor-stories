@@ -8727,5 +8727,50 @@
     "video": false,
     "delivered_at": "2026-11-05T09:16:07+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8929,
+    "file": "stories/20261105-0919_8929.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8929.jpg",
+    "source2": "sources/8929_2.jpg",
+    "gallery": [
+      "sources/8929_g1.jpg",
+      "sources/8929_g2.jpg",
+      "sources/8929_g3.jpg",
+      "sources/8929_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.605
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.347
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.92
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.453
+      }
+    ],
+    "title": "Yamaha MT-10",
+    "year": "2021",
+    "mileage": "16’000",
+    "price": "1 166 000",
+    "created": "2026-11-05T09:19:54+00:00",
+    "status": "delivered",
+    "description": "Yamaha MT-10\nГод: 2021\nПробег: 16’000 km\nЦена под ключ:\n1 166 000₽\n\nБез ДТП, без падений\nТюнинг:\nВыхлоп Akrapovič (слип-он, сейчас стоит полная система)\n2-канальный видеорегистратор German Eye\nЗащита GB Racing\nЗащита маслорадиатора и радиатора\nНаколенные накладки на бак\nКрепление SP Connect с антивибратором и беспроводной зарядкой\nСлайдеры на оси колёс спереди и сзади\nКарбоновая защита рычагов\nМагниевые складные рычаги тормоза и сцепления\nПодогрев ручек\nБоковые кофры Yamaha\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*12,9",
+    "video": false,
+    "delivered_at": "2026-11-05T09:21:17+00:00",
+    "status_b": "delivered"
   }
 ]
