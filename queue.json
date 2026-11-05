@@ -8772,5 +8772,50 @@
     "video": false,
     "delivered_at": "2026-11-05T09:21:17+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8943,
+    "file": "stories/20261105-1001_8943.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/8943.jpg",
+    "source2": "sources/8943_2.jpg",
+    "gallery": [
+      "sources/8943_g1.jpg",
+      "sources/8943_g2.jpg",
+      "sources/8943_g3.jpg",
+      "sources/8943_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.631
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.817
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.867
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.351
+      }
+    ],
+    "title": "Harley-Davidson Low Rider S 117",
+    "year": "2025",
+    "mileage": "368",
+    "price": "1 970 000",
+    "created": "2026-11-05T10:01:07+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Low Rider S 117\nГод: 2025\nПробег: 368 km\nЦена под ключ:\n1 970 000₽\n\nТюнинг: 2-канальный видеорегистратор, держатель телефона Alus с беспроводной зарядкой\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*25,5",
+    "video": false,
+    "delivered_at": "2026-11-05T10:01:53+00:00",
+    "status_b": "delivered"
   }
 ]
