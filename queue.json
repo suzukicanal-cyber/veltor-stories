@@ -8637,5 +8637,50 @@
     "video": false,
     "delivered_at": "2026-11-05T05:07:21+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8919,
+    "file": "stories/20261105-0515_8919.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8919.jpg",
+    "source2": "sources/8919_2.jpg",
+    "gallery": [
+      "sources/8919_g1.jpg",
+      "sources/8919_g2.jpg",
+      "sources/8919_g3.jpg",
+      "sources/8919_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.857
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.902
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.37
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.611
+      }
+    ],
+    "title": "Aprilia RS660",
+    "year": "2023",
+    "mileage": "2’600",
+    "price": "1 312 000",
+    "created": "2026-11-05T05:15:23+00:00",
+    "status": "delivered",
+    "description": "Aprilia RS660\nГод: 2023\nПробег: 2’600 km\nЦена под ключ:\n1 312 000₽\n\nОбъём двигателя: 659 см³. Двухцилиндровый рядный двигатель Parallel-Twin, 4-тактный, DOHC, жидкостное охлаждение.\n\nМотоцикл без ДТП по заявлению продавца. Обслуживался в официальном Motoplex. Продавец отмечает удобную посадку, сочетающую спортивный характер и комфорт для повседневной езды.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*15.3",
+    "video": false,
+    "delivered_at": "2026-11-05T05:16:30+00:00",
+    "status_b": "delivered"
   }
 ]
