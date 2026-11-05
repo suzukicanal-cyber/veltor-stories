@@ -8862,5 +8862,95 @@
     "video": false,
     "delivered_at": "2026-11-05T12:35:12+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8952,
+    "file": "stories/20261105-1243_8952.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8952.jpg",
+    "source2": "sources/8952_2.jpg",
+    "gallery": [
+      "sources/8952_g1.jpg",
+      "sources/8952_g2.jpg",
+      "sources/8952_g3.jpg",
+      "sources/8952_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.924
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.907
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.933
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.317
+      }
+    ],
+    "title": "Ducati XDiavel S",
+    "year": "2020",
+    "mileage": "10’400",
+    "price": "1 324 000",
+    "created": "2026-11-05T12:43:50+00:00",
+    "status": "delivered",
+    "description": "Ducati XDiavel S\nГод: 2020\nПробег: 10’400 km\nЦена под ключ:\n1 324 000₽\n\nДвигатель Testastretta DVT, V-Twin, 1262 cc. Версия S. Один владелец, мотоцикл на постоянном обслуживании. Установлены передний и задний видеорегистраторы, ветровое стекло и защита рамы Frame Slider. Общее состояние хорошее, расходные материалы в хорошем состоянии. Имеются небольшие царапины на обоих зеркалах.\n\nПиши @VELTOR_KOR — организуем доставку под ключ 🔑",
+    "video": false,
+    "delivered_at": "2026-11-05T12:45:31+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 8956,
+    "file": "stories/20261105-1244_8956.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8956.jpg",
+    "source2": "sources/8956_2.jpg",
+    "gallery": [
+      "sources/8956_g1.jpg",
+      "sources/8956_g2.jpg",
+      "sources/8956_g3.jpg",
+      "sources/8956_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.809
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.634
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.648
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.514
+      }
+    ],
+    "title": "BMW R1300GS OPTION 719",
+    "year": "2024",
+    "mileage": "800",
+    "price": "2 519 000",
+    "created": "2026-11-05T12:44:41+00:00",
+    "status": "delivered",
+    "description": "BMW R1300GS OPTION 719\nГод: 2024\nПервая регистрация: 02.2025\nПробег: 800 km\nЦена под ключ:\n2 519 000₽\n\nКомплектация Option 719. Установлена полная выхлопная система Akrapovič Double Black с официальным оформлением защита двигателя и радиатора Touratech, защита руля Hepco & Becker, защита фары, расширитель боковой подставки, беспроводная зарядка и зарядное устройство аккумулятора. Установлен двухканальный видеорегистратор GNET Pro. В комплекте оригинальные три кофра BMW. По заявлению продавца, мотоцикл без ДТП и падений, состояние практически нового.\n\n\nПиши @VELTOR_KOR — организуем доставку под ключ 🔑",
+    "video": false,
+    "delivered_at": "2026-11-05T12:45:33+00:00",
+    "status_b": "delivered"
   }
 ]
