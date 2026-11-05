@@ -8107,5 +8107,50 @@
     "video": false,
     "delivered_at": "2026-11-05T00:40:26+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8872,
+    "file": "stories/20261105-0041_8872.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8872.jpg",
+    "source2": "sources/8872_2.jpg",
+    "gallery": [
+      "sources/8872_g1.jpg",
+      "sources/8872_g2.jpg",
+      "sources/8872_g3.jpg",
+      "sources/8872_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.892
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.54
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.852
+      }
+    ],
+    "title": "Suzuki Hayabusa",
+    "year": "2025",
+    "mileage": "NEW",
+    "price": "1 912 000",
+    "created": "2026-11-05T00:41:52+00:00",
+    "status": "delivered",
+    "description": "Suzuki Hayabusa\nГод: 2025\nПробег: NEW 🥹\nЦена под ключ:\n1 912 000₽\n\nНовый Suzuki Hayabusa.\nДвигатель 1340 cc.\nЦвет — чёрный.\nВ подарок — двухканальный видеорегистратор Jinet.\n20% скидка на оригинальные аксессуары Suzuki (установка оплачивается отдельно)\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-05T00:42:52+00:00",
+    "status_b": "delivered"
   }
 ]
