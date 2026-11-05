@@ -8152,5 +8152,50 @@
     "video": false,
     "delivered_at": "2026-11-05T00:42:52+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8876,
+    "file": "stories/20261105-0049_8876.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8876.jpg",
+    "source2": "sources/8876_2.jpg",
+    "gallery": [
+      "sources/8876_g1.jpg",
+      "sources/8876_g2.jpg",
+      "sources/8876_g3.jpg",
+      "sources/8876_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.319
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Softail Slim",
+    "year": "2020",
+    "mileage": "9’750",
+    "price": "1 539 000",
+    "created": "2026-11-05T00:49:54+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Softail Slim\nГод: 2020\nПробег: 9’750 km\nЦена под ключ:\n1 539 000₽ \n\nДвигатель Milwaukee-Eight 107, объём 1746 cc.\n\nРуль 14 дюймов (изменение конструкции официально зарегистрировано).\nДоработанный впуск.\nЗащитные дуги.\nЗащита двигателя.\nВетровое стекло.\nБоковые кожаные кофры.\nПодножки Kuryakyn Multi-Peg.\nСиденье Saddlemen.\nСумка на руль.\nПровода зажигания Screamin’ Eagle.\nПятка-переключатель передач Heel-Toe Shifter.\nДержатель телефона.\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-05T00:51:01+00:00",
+    "status_b": "delivered"
   }
 ]
