@@ -284,3 +284,138 @@ def build_a2(variant, glow, photos, title_, year, mileage, price_, out, descript
     img = VARIANTS[variant](d, glow)
     img.save(out, quality=95, subsampling=0)
     return out
+
+
+# ---------------------------------------------------- whole bike on the main photo
+def main_score(path):
+    """Prefer the photo where ONE motorcycle is large and NOT cut by the frame."""
+    import detect
+    boxes = detect.motorcycle_boxes(path)
+    if not boxes:
+        return 0.0, None
+    b = max(boxes, key=lambda b: (b[2] - b[0]) * (b[3] - b[1]) * b[4])
+    cut = sum([b[0] < 0.01, b[1] < 0.01, b[2] > 0.99, b[3] > 0.99])
+    area = (b[2] - b[0]) * (b[3] - b[1])
+    return b[4] * min(1.0, area / 0.35) * (0.35 ** cut), b
+
+
+def order_for_main(photos):
+    """Main photo = the one showing the whole bike best (an earlier one wins a near tie)."""
+    scored = [(p, main_score(p)[0]) for p in photos]
+    best = scored[0]
+    for s in scored[1:]:
+        if s[1] > best[1] + 0.08:
+            best = s
+    return [best[0]] + [p for p, _ in scored if p != best[0]]
+
+
+def photo_whole(path, w, h_min, h_max, margin=0.06):
+    """Crop around the WHOLE motorcycle (never cut it): returns (image, height).
+    The card gets taller (up to h_max) when the bike needs it; if the photo still can't
+    hold the bike with the margin, the missing strip is filled with a blurred copy."""
+    from PIL import ImageFilter
+    img = ms.prepare_photo(path)
+    iw, ih = img.size
+    box = ms._bike_box(path)
+    if not box:
+        p = sb._photo(path, w, h_min, focus=False); return p, h_min
+    bx0, by0, bx1, by1 = box[0] * iw, box[1] * ih, box[2] * iw, box[3] * ih
+    mx, my = (bx1 - bx0) * margin, (by1 - by0) * margin
+    bx0, bx1, by0, by1 = bx0 - mx, bx1 + mx, by0 - my, by1 + my
+    bw, bh = bx1 - bx0, by1 - by0
+    cx, cy = (bx0 + bx1) / 2, (by0 + by1) / 2
+    for h in range(h_min, h_max + 1, 10):
+        a = w / h
+        rw = max(bw, bh * a); rh = rw / a
+        if rw <= iw and rh <= ih:
+            break
+    a = w / h
+    rw = max(bw, bh * a); rh = rw / a
+    if rw <= iw and rh <= ih:
+        x = min(max(0, cx - rw / 2), iw - rw); y = min(max(0, cy - rh / 2), ih - rh)
+        return img.crop((round(x), round(y), round(x + rw), round(y + rh))).resize((w, h), Image.LANCZOS), h
+    # the region is larger than the photo: blurred fill around the real picture
+    rw, rh = round(rw), round(rh)
+    s = max(rw / iw, rh / ih)
+    fill = img.resize((round(iw * s), round(ih * s)), Image.LANCZOS).filter(ImageFilter.GaussianBlur(28))
+    fill = fill.crop(((fill.width - rw) // 2, (fill.height - rh) // 2, (fill.width - rw) // 2 + rw,
+                      (fill.height - rh) // 2 + rh))
+    x = round(min(max(cx - rw / 2, iw - rw), 0)) if rw > iw else round(min(max(0, cx - rw / 2), iw - rw))
+    y = round(min(max(cy - rh / 2, ih - rh), 0)) if rh > ih else round(min(max(0, cy - rh / 2), ih - rh))
+    part = img.crop((max(0, x), max(0, y), min(iw, x + rw), min(ih, y + rh)))
+    fill.paste(part, (max(0, -x), max(0, -y)))
+    return fill.resize((w, h), Image.LANCZOS), h
+
+
+def main_card(c, path, y, h_min, h_max, r=30):
+    p, h = photo_whole(path, R - L, h_min, h_max)
+    c.paste(p, (L, y), sb._round(p, r))
+    return y + h
+
+
+# ---------------------------------------------------- showcase without the button
+HANDLE = "@VELTOR_KOR"
+
+
+def _showcase_top(d, glow, h_min, h_max, thumb_h=190):
+    c, _ = background(glow, "band", center=0.47)
+    wordmark(c); corner_tag(c)
+    y = title(c, d, 300)
+    ph = order_for_main([p for p in (d.get("photos") or [d["main"]]) if p][:4])
+    y = main_card(c, ph[0], y + 24, h_min, h_max)
+    if len(ph) > 1:
+        y = thumbs(c, ph[1:4], y + 16, thumb_h)
+    y = specs(c, d, y + 40)
+    y = facts(c, d, y + 22)
+    return c, y
+
+
+def s1_clean(d, glow):
+    """No button: bigger price, the photo gets the space."""
+    c, y = _showcase_top(d, glow, 620, 700)
+    price(c, d, y + 40, size=112)
+    return c
+
+
+def s2_contact(d, glow):
+    """Instead of the button: an outlined line with the manager's contact."""
+    c, y = _showcase_top(d, glow, 580, 660)
+    y = price(c, d, y + 34, size=96)
+    h = 92
+    dr = ImageDraw.Draw(c)
+    dr.rounded_rectangle([L, y + 18, R, y + 18 + h], radius=h // 2, outline=(150, 150, 156), width=2)
+    a, b = "НАПИСАТЬ МЕНЕДЖЕРУ", HANDLE
+    fa, fb = F(M5, 26), F(M6, 36)
+    wa, wb = tw(a, fa, 5), tw(b, fb)
+    x = (W - wa - 28 - wb) // 2
+    text(c, (x, y + 18 + (h - 26) // 2 - 4), a, fa, SOFT, tracking=5)
+    text(c, (x + wa + 28, y + 18 + (h - 36) // 2 - 6), b, fb, WHITE)
+    return c
+
+
+def s3_price_pill(d, glow):
+    """The light pill now holds the price itself."""
+    c, y = _showcase_top(d, glow, 600, 680)
+    y += 40
+    text(c, (L, y), "ЦЕНА ПОД КЛЮЧ", F(M5, 26), SOFT, tracking=6)
+    h = 132
+    sb._rr(c, (L, y + 44, R, y + 44 + h), h // 2, (246, 246, 244) if glow == "white" else GLOWS["red"])
+    s = f"{d['price']} ₽"
+    f = fit(s, M7, 92, R - L - 80)
+    text(c, (L, y + 44 + (h - f.size) // 2 - 10), s, f, (14, 14, 16) if glow == "white" else WHITE, center=True)
+    return c
+
+
+def s4_slogan(d, glow):
+    """Price, then a thin rule and a quiet line from VELTOR's own posts."""
+    c, y = _showcase_top(d, glow, 600, 680)
+    y = price(c, d, y + 34, size=104)
+    dr = ImageDraw.Draw(c)
+    dr.line([(L, y + 22), (R, y + 22)], fill=(70, 70, 76), width=2)
+    s = "ОРГАНИЗУЕМ ДОСТАВКУ ПОД КЛЮЧ"
+    text(c, (L, y + 50), s, fit(s, M5, 28, R - L, tracking=7), SOFT, tracking=7)
+    return c
+
+
+VARIANTS.update({"s1_clean": s1_clean, "s2_contact": s2_contact,
+                 "s3_price_pill": s3_price_pill, "s4_slogan": s4_slogan})
