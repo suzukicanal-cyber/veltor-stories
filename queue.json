@@ -8197,5 +8197,50 @@
     "video": false,
     "delivered_at": "2026-11-05T00:51:01+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8880,
+    "file": "stories/20261105-0053_8880.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8880.jpg",
+    "source2": "sources/8880_2.jpg",
+    "gallery": [
+      "sources/8880_g1.jpg",
+      "sources/8880_g2.jpg",
+      "sources/8880_g3.jpg",
+      "sources/8880_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.641
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.914
+      }
+    ],
+    "title": "Harley-Davidson Softail Low Rider S",
+    "year": "2024",
+    "mileage": "5’173",
+    "price": "1 735 000",
+    "created": "2026-11-05T00:53:35+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Softail Low Rider S\nГод: 2024\nПробег: 5’173 km\nЦена под ключ:\n1 735 000₽\n\nБез ДТП, падений и скольжений.\nИстория эксплуатации прозрачная.\n\nДвухканальный видеорегистратор Jinet.\nПередняя крышка оси.\nЗащита рамы.\nЗащита глушителя.\nЗащита катушки зажигания.\nРучки руля.\nБеспроводной зарядный держатель Alus.\nРазъём CTEK.\nВетровое стекло.\nКожаный чехол для смарт-ключа на шнурке.\n\nВ комплекте один смарт-ключ.\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-05T00:54:09+00:00",
+    "status_b": "delivered"
   }
 ]
