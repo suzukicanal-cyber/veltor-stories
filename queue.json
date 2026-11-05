@@ -8422,5 +8422,50 @@
     "video": false,
     "delivered_at": "2026-11-05T01:14:21+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8900,
+    "file": "stories/20261105-0430_8900.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8900.jpg",
+    "source2": "sources/8900_2.jpg",
+    "gallery": [
+      "sources/8900_g1.jpg",
+      "sources/8900_g2.jpg",
+      "sources/8900_g3.jpg",
+      "sources/8900_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.846
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.168
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW K1600GT",
+    "year": "2021",
+    "mileage": "13’167",
+    "price": "2 061 000",
+    "created": "2026-11-05T04:30:23+00:00",
+    "status": "delivered",
+    "description": "BMW K1600GT\nГод: 2021\nПробег: 13’167 km\nЦена под ключ:\n2 061 000₽\n\nДвигатель: рядный 6-цилиндровый, 1649 cc\nВыхлоп Remus (регистрация изменений конструкции)\nЗащитная плёнка PPF\nДержатель телефона с USB-C\nУвеличитель боковой подножки\nСумка на руль\nДополнительная розетка\nПередняя и задняя шины — остаток 98%, заменены неделю назад\n\nБез ДТП по заявлению продавца. Мотоцикл проходил регулярное обслуживание.\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*27",
+    "video": false,
+    "delivered_at": "2026-11-05T04:30:58+00:00",
+    "status_b": "delivered"
   }
 ]
