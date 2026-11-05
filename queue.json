@@ -8062,5 +8062,50 @@
     "video": false,
     "delivered_at": "2026-11-05T00:36:59+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8868,
+    "file": "stories/20261105-0039_8868.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/8868.jpg",
+    "source2": "sources/8868_2.jpg",
+    "gallery": [
+      "sources/8868_g1.jpg",
+      "sources/8868_g2.jpg",
+      "sources/8868_g3.jpg",
+      "sources/8868_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.623
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.912
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.201
+      }
+    ],
+    "title": "Suzuki GSX-S1000GT",
+    "year": "2026",
+    "mileage": "NEW",
+    "price": "1 646 000",
+    "created": "2026-11-05T00:39:47+00:00",
+    "status": "delivered",
+    "description": "Suzuki GSX-S1000GT\nГод: 2026\nПробег: NEW 🥹\nЦена под ключ:\n1 646 000₽\n\nНовый мотоцикл Suzuki GSX-S1000GT.\nДвигатель 999 cc.\nЦвет — чёрный.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-05T00:40:26+00:00",
+    "status_b": "delivered"
   }
 ]
