@@ -8592,5 +8592,50 @@
     "video": false,
     "delivered_at": "2026-11-05T04:45:19+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8915,
+    "file": "stories/20261105-0506_8915.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      4
+    ],
+    "source": "sources/8915.jpg",
+    "source2": "sources/8915_2.jpg",
+    "gallery": [
+      "sources/8915_g1.jpg",
+      "sources/8915_g2.jpg",
+      "sources/8915_g3.jpg",
+      "sources/8915_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.319
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.317
+      }
+    ],
+    "title": "BMW R1300RT",
+    "year": "2026",
+    "mileage": "8’000",
+    "price": "2 583 000",
+    "created": "2026-11-05T05:06:14+00:00",
+    "status": "delivered",
+    "description": "BMW R1300RT\nГод: 2026\nПробег: 8’000 km\nЦена под ключ:\n2 583 000₽\n\nCHIGEE AIO-6\nВидеорегистратор\nВетровое стекло Wunderlich\nУвеличитель боковой подножки Wunderlich\nLED-подсветка кофра\nОригинальная защита двигателя\nUSB-C зарядка и розетка\n\nПервое ТО на 1 000 км с заменой масел проведено в Dongseong Motorrad. На 5 100 км выполнена замена моторного масла и техническая проверка. Гарантия действует до февраля 2029 года. Использовался только высокооктановый бензин. Мотоцикл хранился в подземном паркинге, под дождём не эксплуатировался. По заявлению продавца, без ДТП, падений и скольжений.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑в любой город России.\n*35",
+    "video": false,
+    "delivered_at": "2026-11-05T05:07:21+00:00",
+    "status_b": "delivered"
   }
 ]
