@@ -8952,5 +8952,45 @@
     "video": false,
     "delivered_at": "2026-11-05T12:45:33+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8960,
+    "file": "stories/20261105-1308_8960.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8960.jpg",
+    "source2": "sources/8960_2.jpg",
+    "gallery": [
+      "sources/8960_g1.jpg",
+      "sources/8960_g2.jpg",
+      "sources/8960_g3.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.736
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.498
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.615
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2022",
+    "mileage": "13’000",
+    "price": "1 656 000",
+    "created": "2026-11-05T13:08:47+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR M Package\nГод: 2022\nПробег: 13’000 km\nЦена под ключ:\n1 656 000₽\n\nДвигатель: 999 cc, рядный 4-цилиндровый.\n\nКомплектация M Package. Установлены выхлопная система Akrapovič Slip-on, защита двигателя GB Racing, рычаги M, спортивные подножки, передний и задний видеорегистраторы, слайдеры Gilles. Мотоцикл снят с регистрации, находится на обслуживании. По словам продавца, пробег небольшой для своего года, техническое состояние хорошее.\n\nПиши @VELTOR_KOR — организуем доставку под ключ 🔑",
+    "video": false,
+    "delivered_at": "2026-11-05T13:09:52+00:00",
+    "status_b": "delivered"
   }
 ]
