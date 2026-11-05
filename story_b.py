@@ -367,12 +367,18 @@ def v5_catalog(d):
     _logo_top(c, d, y=200, width=280)
     _chip(c, R - 330, 196, "из Южной Кореи", size=28, icon="globe", h=58, pad=20)
     y = _title(c, d, L, 290, size=60)
+    import story_a2                                     # whole-bike crop, shared with VELTOR
     ph = _gallery(d, 4)
-    _pic(c, ph[0], (L, y + 10, R, y + 520), 34)
+    uniq = list(dict.fromkeys(ph))
+    ph = story_a2.order_for_main(uniq) + ph[len(uniq):]
+    p, mh = story_a2.photo_whole(ph[0], R - L, 510, 550)     # taller card only if the bike needs it
+    c.paste(p, (L, y + 10), _round(p, 34))
+    th = 170 - (mh - 510)                                    # thumbnails give the extra height back
+    y0 = y + 10 + mh + 16
     tw = (R - L - 2 * 16) // 3
     for k in range(3):
-        _pic(c, ph[k + 1], (L + k * (tw + 16), y + 536, L + k * (tw + 16) + tw, y + 706), 24)
-    y = _spec_cards(c, L, y + 726, R, [("Год", d["year"]), ("Пробег", mileage_text(d["mileage"])), ("Срок", "до 45 дней")], h=112)
+        _pic(c, ph[k + 1], (L + k * (tw + 16), y0, L + k * (tw + 16) + tw, y0 + th), 24)
+    y = _spec_cards(c, L, y0 + th + 20, R, [("Год", d["year"]), ("Пробег", mileage_text(d["mileage"])), ("Срок", "до 45 дней")], h=112)
     y += 22
     for k, txt in enumerate(["Растаможка и ЭПТС включены", "Доставка до Москвы/Санкт-Петербурга включена"] + d.get("facts", [])[:1]):
         _rr(c, (L, y + 4, L + 44, y + 48), 22, ACCENT); _put_icon(c, "check", L + 6, y + 10, 32, (255, 255, 255))
