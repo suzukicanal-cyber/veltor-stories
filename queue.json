@@ -8682,5 +8682,50 @@
     "video": false,
     "delivered_at": "2026-11-05T05:16:30+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8925,
+    "file": "stories/20261105-0915_8925.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/8925.jpg",
+    "source2": "sources/8925_2.jpg",
+    "gallery": [
+      "sources/8925_g1.jpg",
+      "sources/8925_g2.jpg",
+      "sources/8925_g3.jpg",
+      "sources/8925_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.884
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.857
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha MT-10 SP",
+    "year": "2022",
+    "mileage": "18’224",
+    "price": "1 410 000",
+    "created": "2026-11-05T09:15:39+00:00",
+    "status": "delivered",
+    "description": "Yamaha MT-10 SP\nГод: 2022\nПробег: 18’224 km\nЦена под ключ:\n1 410 000₽\n\nОдин владелец, без ДТП\nТюнинг:\nОригинальный титановый слип-он Akrapovič (+ средняя труба Akrapovič)\nОригинальный рулевой демпфер Öhlins Black\nПодножки Gilles\nЗащитные крышки двигателя\nМного карбоновых деталей Fullsix\n2-канальный видеорегистратор G-Net\nВсе стоковые детали в комплекте\nОбслуживается у официального дилера Yamaha с момента покупки нового\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*16,8",
+    "video": false,
+    "delivered_at": "2026-11-05T09:16:07+00:00",
+    "status_b": "delivered"
   }
 ]
