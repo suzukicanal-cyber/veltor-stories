@@ -1,8 +1,6 @@
 {
   "bot_rights": {
-    "status": "administrator",
-    "can_delete_messages": true,
-    "checked": "2026-11-06T07:58:40+00:00"
+    "error": "<urlopen error [Errno 104] Connection reset by peer>"
   },
   "service_seen": [
     "new_chat_members"
