@@ -2,7 +2,7 @@
   "bot_rights": {
     "status": "administrator",
     "can_delete_messages": true,
-    "checked": "2026-11-06T14:17:26+00:00"
+    "checked": "2026-11-06T15:08:14+00:00"
   },
   "service_seen": [
     "boost_added"
@@ -49,6 +49,10 @@
       "id": 8975,
       "ok": false,
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "id": 8998,
+      "ok": true
     }
   ]
 }
