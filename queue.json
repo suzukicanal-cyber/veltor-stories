@@ -9037,5 +9037,50 @@
     "video": false,
     "delivered_at": "2026-11-06T00:03:39+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 8969,
+    "file": "stories/20261106-0227_8969.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/8969.jpg",
+    "source2": "sources/8969_2.jpg",
+    "gallery": [
+      "sources/8969_g1.jpg",
+      "sources/8969_g2.jpg",
+      "sources/8969_g3.jpg",
+      "sources/8969_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.352
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.294
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW R1300R Performance",
+    "year": "2026",
+    "mileage": "11’800",
+    "price": "2 094 000",
+    "created": "2026-11-06T02:27:32+00:00",
+    "status": "delivered",
+    "description": "BMW R1300R Performance\nГод: 2026\nПробег: 11’800 km\nЦена под ключ:\n2 094 000₽\n\nBMW R 1300 R в исполнении Performance с системой ASA (Automated Shift Assistant), позволяющей переключать передачи без использования рычага сцепления. Двигатель Boxer 1300 см³.\n\nУстановлен выхлоп Akrapovič, изменение конструкции выхлопной системы официально оформлено. Передний золотистый перевёрнутый амортизатор USD, ветровое стекло, защитные наклейки, кофры Hepco & Becker, двухканальный видеорегистратор, крышка пассажирского сиденья и защитные кожухи головок цилиндров.\n\nЯркое исполнение M Performance с эксклюзивной графикой и спортивными элементами. Оснащение подходит как для динамичной езды, так и для дальних поездок.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-06T02:28:44+00:00",
+    "status_b": "delivered"
   }
 ]
