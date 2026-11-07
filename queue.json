@@ -9262,5 +9262,50 @@
     "video": false,
     "delivered_at": "2026-11-07T04:18:51+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9006,
+    "file": "stories/20261107-0419_9006.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9006.jpg",
+    "source2": "sources/9006_2.jpg",
+    "gallery": [
+      "sources/9006_g1.jpg",
+      "sources/9006_g2.jpg",
+      "sources/9006_g3.jpg",
+      "sources/9006_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.383
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.539
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2023",
+    "mileage": "17’500",
+    "price": "1 865 000",
+    "created": "2026-11-07T04:19:59+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR\nГод: 2023\nПробег: 17’500 km\nЦена под ключ:\n1 865 000₽\n\nBMW S1000RR в красном цвете, 3-й владелец. По заявлению продавца, мотоцикл без ДТП, падений и скольжений.\n\nУстановлено дополнительное оборудование: оригинальный радиатор BMW, комплект защиты масляного радиатора, слайдеры Evotech (рамные, передние и задние), Evotech Hook Bolt, защита двигателя GB Racing, широкие зеркала Black Hall, видеорегистратор INNOV K3 Blackbox, накладки на рукоятки TechSpec, держатель Quad Lock, модуль настройки Master Adjustable Module с возможностью изменения открытия клапана в зависимости от оборотов двигателя, индивидуальный нижний обтекатель, задний фонарь Alite TNT, кронштейн Alite Hook Strap, чёрное ветровое стекло Alite.\n\nУстановлен выпускной глушитель Austin Racing Slip-on Имеются оригинальный глушитель Akrapovič и оригинальные запчасти.\n\nПродавец сообщает, что видимые на фотографиях царапины связаны с особенностями камеры телефона. Посторонних звуков в работе двигателя нет.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-07T04:21:37+00:00",
+    "status_b": "delivered"
   }
 ]
