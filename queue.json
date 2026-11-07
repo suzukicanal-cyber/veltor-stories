@@ -9442,5 +9442,50 @@
     "video": false,
     "delivered_at": "2026-11-07T04:52:09+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9026,
+    "file": "stories/20261107-0456_9026.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9026.jpg",
+    "source2": "sources/9026_2.jpg",
+    "gallery": [
+      "sources/9026_g1.jpg",
+      "sources/9026_g2.jpg",
+      "sources/9026_g3.jpg",
+      "sources/9026_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.335
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "YAMAHA YZF R1",
+    "year": "2012",
+    "mileage": "330",
+    "price": "1 666 000",
+    "created": "2026-11-07T04:56:08+00:00",
+    "status": "delivered",
+    "description": "YAMAHA YZF R1\nГод: 2012\nПробег: 330 km\nЦена под ключ:\n1 666 000₽\n\nYamaha YZF R1 объёмом 998 cc. Мотоцикл в серебристом цвете, выставлен на продажу официальным дилером Yamaha. Установлена подвеска Öhlins спереди и сзади, титановая полная выхлопная система LeoVince, армированные тормозные шланги Goodridge, кованые тормозные суппорты Brembo и передние волнообразные тормозные диски Braking. Дополнительно установлены Power Commander V, Auto Tune, Quickshifter, переключатель двух режимов карт двигателя, защита двигателя, датчик температуры шин, заднее карбоновое крыло, кованые алюминиевые диски Gale Speed, задняя звезда Gale Speed и задние подножки Vortex.\n\nМотоцикл прошёл проверку и находится в выставочном зале. Заявлен как безаварийный \n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-07T04:56:44+00:00",
+    "status_b": "delivered"
   }
 ]
