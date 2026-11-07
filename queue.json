@@ -9577,5 +9577,50 @@
     "video": false,
     "delivered_at": "2026-11-07T05:04:14+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9040,
+    "file": "stories/20261107-0859_9040.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9040.jpg",
+    "source2": "sources/9040_2.jpg",
+    "gallery": [
+      "sources/9040_g1.jpg",
+      "sources/9040_g2.jpg",
+      "sources/9040_g3.jpg",
+      "sources/9040_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.653
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.624
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.337
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2025",
+    "mileage": "1’262",
+    "price": "2 061 000",
+    "created": "2026-11-07T08:59:19+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR\nГод: 2025\nПробег: 1’262 km\nЦена под ключ:\n2 061 000₽\n\nBMW S1000RR, двигатель 999 cc. Один владелец, без ДТП и падений. Пройдено первое ТО на 1’000 km, масло заменено. По заявлению продавца, расходные материалы в хорошем состоянии, двигатель и коробка передач работают отлично. Остаток заводской гарантии\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-07T09:00:09+00:00",
+    "status_b": "delivered"
   }
 ]
