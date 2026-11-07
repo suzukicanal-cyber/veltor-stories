@@ -9307,5 +9307,50 @@
     "video": false,
     "delivered_at": "2026-11-07T04:21:37+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9010,
+    "file": "stories/20261107-0423_9010.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/9010.jpg",
+    "source2": "sources/9010_2.jpg",
+    "gallery": [
+      "sources/9010_g1.jpg",
+      "sources/9010_g2.jpg",
+      "sources/9010_g3.jpg",
+      "sources/9010_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.471
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.686
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.32
+      }
+    ],
+    "title": "BMW R1300RT Triple Black",
+    "year": "2026",
+    "mileage": "11’100",
+    "price": "2 529 000",
+    "created": "2026-11-07T04:23:46+00:00",
+    "status": "delivered",
+    "description": "BMW R1300RT Triple Black\nГод: 2026\nПробег: 11’100 km\nЦена под ключ:\n2 529 000₽\n\nBMW R1300RT в цвете Triple Black. BMW Certified Used (сертифицированный подержанный мотоцикл), продаётся официальным дилером BMW Motorrad Seoul.\n\nОбъём двигателя: 1 300 cc. Цвет: чёрный.\n\nДополнительное оснащение: оригинальные боковые кофры, центральный кофр с LED стоп-сигналом, защитные дуги двигателя, беспроводная зарядка и держатель телефона, ветровое стекло, декоративные наклейки на боковые кофры.\n\nПо информации дилера, мотоцикл без ДТП.\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-07T04:24:58+00:00",
+    "status_b": "delivered"
   }
 ]
