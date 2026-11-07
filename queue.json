@@ -9397,5 +9397,50 @@
     "video": false,
     "delivered_at": "2026-11-07T04:27:09+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9022,
+    "file": "stories/20261107-0451_9022.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9022.jpg",
+    "source2": "sources/9022_2.jpg",
+    "gallery": [
+      "sources/9022_g1.jpg",
+      "sources/9022_g2.jpg",
+      "sources/9022_g3.jpg",
+      "sources/9022_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.821
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.804
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.841
+      }
+    ],
+    "title": "BMW S1000RR MPackage",
+    "year": "2023",
+    "mileage": "16’857",
+    "price": "1 800 000",
+    "created": "2026-11-07T04:51:03+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR MPackage\nГод: 2023\nПробег: 16’857 km\nЦена под ключ:\n1 800 000₽\n\nBMW S1000RR в комплектации M Package. Установлен выхлоп Austin Slip-On, двухканальный видеорегистратор Black Box, защита двигателя GB Racing, карбоновые детали ST и слайдеры рамы Frame Slider.\n\nНедавно заменены шины Michelin Power 2. Проведена полная диагностика с помощью Texas Scanner, техническая проверка завершена. Мотоцикл готов к регистрации, дополнительная подготовка не требуется.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-07T04:52:09+00:00",
+    "status_b": "delivered"
   }
 ]
