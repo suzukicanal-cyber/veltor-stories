@@ -9802,5 +9802,50 @@
     "video": false,
     "delivered_at": "2026-11-08T05:46:28+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9107,
+    "file": "stories/20261108-0549_9107.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9107.jpg",
+    "source2": "sources/9107_2.jpg",
+    "gallery": [
+      "sources/9107_g1.jpg",
+      "sources/9107_g2.jpg",
+      "sources/9107_g3.jpg",
+      "sources/9107_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.857
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.291
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.863
+      }
+    ],
+    "title": "BMW R 1250 GS Adventure 40th Anniversary",
+    "year": "2021",
+    "mileage": "6’512",
+    "price": "2 251 000",
+    "created": "2026-11-08T05:49:06+00:00",
+    "status": "delivered",
+    "description": "BMW R 1250 GS Adventure 40th Anniversary\nГод: 2021\nПробег: 6’512 km\nЦена под ключ:\n2 251 000₽\n\nBMW R 1250 GS Adventure в юбилейной расцветке 40 Years Edition. Выпуск и передача первым владельцу в мае 2021 года через официальный дилерский центр Namseoul.\n\nМотоцикл с небольшим пробегом, по заявлению владельца — без ДТП, падений и скользящих повреждений.\n\nДополнительное оснащение:\nСиденье Wunderlich, кофры BMW (боковые и центральный на фотографиях), дополнительное туристическое оборудование.\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-08T05:50:28+00:00",
+    "status_b": "delivered"
   }
 ]
