@@ -10332,5 +10332,50 @@
     "video": false,
     "delivered_at": "2026-11-08T23:53:54+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9168,
+    "file": "stories/20261108-2357_9168.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9168.jpg",
+    "source2": "sources/9168_2.jpg",
+    "gallery": [
+      "sources/9168_g1.jpg",
+      "sources/9168_g2.jpg",
+      "sources/9168_g3.jpg",
+      "sources/9168_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.62
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.612
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.054
+      }
+    ],
+    "title": "BMW F900GS",
+    "year": "2024",
+    "mileage": "648",
+    "price": "1 462 000",
+    "created": "2026-11-08T23:57:05+00:00",
+    "status": "delivered",
+    "description": "BMW F900GS\nГод: 2024 \nПробег: 648 km \nЦена под ключ: \n1 462 000₽\n\nПервый владелец, практически новый мотоцикл BMW F900GS в чёрном цвете. Объём двигателя 895 см³. Без ДТП и падений, состояние близкое к новому. Первая регистрация — 21.05.2025.\n\nУстановленное оборудование и тюнинг:\n\nОригинальное увеличенное ветровое стекло BMW Motorrad\n\nОригинальное низкое сиденье BMW Motorrad (в комплекте также штатное сиденье)\n\nЗащитные дуги GIVI TN5145\n\nКомплект занижения подвески Hyperpro 40 мм (передняя и задняя подвеска)\n\nБагажная система Jetkit MVR G1 Pro\n\nUSB-разъём Comine USB1 Type-A\n\nШины Michelin Anakee Wild (передняя и задняя)\n\nЗащита рук Barkbusters\n\nДополнительные зеркала Double Take\n\nПроставки руля\n\nОригинальное сиденье и комплект шин Bridgestone Adventure Cross AX41 (новые, без пробега)\n\nОригинальные зеркала отсутствуют.\n\nОбщая стоимость дополнительного оборудования и тюнинга — около 4’000’000 KRW.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-08T23:58:14+00:00",
+    "status_b": "delivered"
   }
 ]
