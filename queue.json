@@ -10107,5 +10107,50 @@
     "video": false,
     "delivered_at": "2026-11-08T09:01:29+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9146,
+    "file": "stories/20261108-1341_9146.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9146.jpg",
+    "source2": "sources/9146_2.jpg",
+    "gallery": [
+      "sources/9146_g1.jpg",
+      "sources/9146_g2.jpg",
+      "sources/9146_g3.jpg",
+      "sources/9146_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.928
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.923
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Harley-Davidson Road Glide",
+    "year": "2025",
+    "mileage": "0",
+    "price": "2 756 000",
+    "created": "2026-11-08T13:41:59+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Road Glide\nГод: 2025\nПробег: 0 km\nЦена под ключ:\n2 756 000₽\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*37,5",
+    "video": false,
+    "delivered_at": "2026-11-08T13:43:14+00:00",
+    "status_b": "delivered"
   }
 ]
