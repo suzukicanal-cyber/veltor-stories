@@ -10027,5 +10027,40 @@
     "video": false,
     "delivered_at": "2026-11-08T06:04:38+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9130,
+    "file": "stories/20261108-0836_9130.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9130.jpg",
+    "source2": "sources/9130_2.jpg",
+    "gallery": [
+      "sources/9130_g1.jpg",
+      "sources/9130_g2.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.367
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.345
+      }
+    ],
+    "title": "BMW S1000R M Package",
+    "year": "2026",
+    "mileage": "750",
+    "price": "2 061 000",
+    "created": "2026-11-08T08:36:20+00:00",
+    "status": "delivered",
+    "description": "BMW S1000R M Package\nГод: 2026\nПробег: 750 km\nЦена под ключ:\n2 061 000₽\n\nBMW S1000R в заводской комплектации M Package.\n\nКованые диски M Forged Wheels.\nСпортивное сиденье M.\nОблегчённая батарея M.\nЦепь M Endurance.\nСпортивный глушитель Akrapovič.\nM Quick Action Throttle.\n\nДополнительно установлены:\nЗащита радиатора BMW.\nСлайдеры R&G на раму, вилку и маятник.\nТопливная крышка Bonamici.\nДержатель SP Connect.\nUSB-C.\nКонтроллер Healtech.\n\nПервое ТО пройдено на 750 км, масло и фильтр заменены.\nДТП, падений и скольжений не было.\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-08T08:37:13+00:00",
+    "status_b": "delivered"
   }
 ]
