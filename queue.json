@@ -10152,5 +10152,50 @@
     "video": false,
     "delivered_at": "2026-11-08T13:43:14+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9150,
+    "file": "stories/20261108-1347_9150.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9150.jpg",
+    "source2": "sources/9150_2.jpg",
+    "gallery": [
+      "sources/9150_g1.jpg",
+      "sources/9150_g2.jpg",
+      "sources/9150_g3.jpg",
+      "sources/9150_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.839
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.883
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Street Glide Ultra",
+    "year": "2025",
+    "mileage": "456",
+    "price": "2 979 000",
+    "created": "2026-11-08T13:47:35+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Street Glide Ultra\nГод: 2025\nПробег: 456 km\nЦена под ключ:\n2 979 000₽\n\nБез ДТП\nДемо-мотоцикл официального дилера Harley-Davidson, состояние нового\nТюнинг:\nДвойной рычаг переключения передач (heel-toe)\nДержатель телефона Aluss с беспроводной зарядкой\nВидеорегистратор Zinet на 2 камеры\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*40,9",
+    "video": false,
+    "delivered_at": "2026-11-08T13:48:42+00:00",
+    "status_b": "delivered"
   }
 ]
