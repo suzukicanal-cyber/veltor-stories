@@ -10242,5 +10242,50 @@
     "video": false,
     "delivered_at": "2026-11-08T23:26:52+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9160,
+    "file": "stories/20261108-2347_9160.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9160.jpg",
+    "source2": "sources/9160_2.jpg",
+    "gallery": [
+      "sources/9160_g1.jpg",
+      "sources/9160_g2.jpg",
+      "sources/9160_g3.jpg",
+      "sources/9160_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.573
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000RR Race Package",
+    "year": "2022",
+    "mileage": "6’700",
+    "price": "1 996 000",
+    "created": "2026-11-08T23:47:26+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR Race Package\nГод: 2022 \nПробег: 6’700 km \nЦена под ключ:\n1 996 000₽\n\nЦвет Mineral Grey. Комплектация Race Package, кованые диски и цепь M.\n\nУстановленное оборудование и тюнинг:\n\nПолная титановая выхлопная система Akrapovič Evolution (стоимость около 4,6 млн ₩)\n\nКарбоновая защита выхлопа Akrapovič\n\nКарбоновая крышка выхлопной системы Akrapovič\n\nДемпфер рулевого управления Matris\n\nВоздушный фильтр SF\n\nОтменитель сервопривода выхлопа HealTech\n\nПодножки Bonamici\n\nКарбоновая крышка приборной панели Bonamici\n\nРулевые ручки Bonamici\n\nЦепеуловитель Bonamici\n\nКрышка топливной горловины Bonamici\n\nРычаг сцепления Bonamici\n\nТормозной мастер-цилиндр Brembo 19RCS Corsa Corta\n\nКарбоновая защита нижней части двигателя\n\nКарбоновые элементы RCM\n\nКарбоновый маятник RCM\n\nКарбоновые боковые панели RCM\n\nКарбоновая центральная панель хвоста RCM\n\nПередний картридж Öhlins\n\nЗадний амортизатор Öhlins TTX\n\nСиденье M\n\nВетровое стекло Puig\n\nЗащита рук Gilles Tooling\n\nСлайдеры рамы Gilles Tooling\n\nСлайдеры Jetprime\n\nОригинальный задний фонарь TFT Stealth\n\nДополнительная защита двигателя GB Racing\n\nСостояние:\n\nБыло падение на правую сторону. Имеются следы на правом слайдере. По словам продавца, серьёзных повреждений нет, замена слайдера возможна без повреждения рамы.\n\nВ настоящее время установлен оригинальный выхлоп Akrapovič. Полная титановая система Evolution передаётся отдельно.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-08T23:48:01+00:00",
+    "status_b": "delivered"
   }
 ]
