@@ -10287,5 +10287,50 @@
     "video": false,
     "delivered_at": "2026-11-08T23:48:01+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9164,
+    "file": "stories/20261108-2352_9164.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9164.jpg",
+    "source2": "sources/9164_2.jpg",
+    "gallery": [
+      "sources/9164_g1.jpg",
+      "sources/9164_g2.jpg",
+      "sources/9164_g3.jpg",
+      "sources/9164_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.345
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.52
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.35
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha YZF-R1",
+    "year": "2026",
+    "mileage": "1’000",
+    "price": "2 322 000",
+    "created": "2026-11-08T23:52:40+00:00",
+    "status": "delivered",
+    "description": "Yamaha YZF-R1\nГод: 2026 \nПробег: 1’000 km\nЦена под ключ:\n2 322 000₽\n\nМотоцикл Yamaha YZF-R1 в чёрном цвете. Полный тюнинг премиальными компонентами. Общая стоимость установленного тюнинга — около 13,4 млн ₩.\n\nУстановленное оборудование и тюнинг:\n\nКарбоновые аэродинамические крылышки Fullsix\n\nКарбоновые воздуховоды Fullsix\n\nКарбоновая крышка приборной панели Fullsix\n\nКарбоновые накладки рамы Fullsix\n\nКарбоновая защита двигателя Fullsix\n\nКарбоновая нижняя защита двигателя Fullsix\n\nКрепёжные болты LighTech\n\nСлайдеры передней вилки LighTech\n\nСлайдеры рамы LighTech\n\nФрезерованные крышки двигателя LighTech\n\nБалансиры руля LighTech\n\nРычаг сцепления LighTech\n\nКомплект защиты колёс LighTech\n\nКомплект для установки без заднего крыла LighTech\n\nКрышка тормозного бачка LighTech\n\nКрышка маслозаливной горловины LighTech\n\nКарбоновые задние подножки R-Version LighTech\n\nГлавный тормозной цилиндр Brembo\n\nТормозные суппорты Accossato\n\nБлок управления газом Jetprime\n\nРучки Domino A450\n\nВыхлопная система SC Project CR-T\n\nСредняя секция выхлопа Termignoni\n\nКарбоновая теплозащита выхлопа Termignoni\n\nБоковые зеркала Rizoma\n\nЗащита радиатора CNC Racing\n\nБеспроводной держатель с зарядкой Highstyle\n\nНакладки на бак TechSpec\n\nВетровое стекло Puig\n\nЗащитная плёнка PPF на переднем обтекателе и других элементах\n\nОклейка дневных ходовых огней\n\nТехническое состояние и обслуживание:\n\nОсновной тюнинг установлен при покупке нового мотоцикла.\n\nПервое ТО пройдено у официального дилера Yamaha на пробеге 1’000 km.\n\n",
+    "video": false,
+    "delivered_at": "2026-11-08T23:53:54+00:00",
+    "status_b": "delivered"
   }
 ]
