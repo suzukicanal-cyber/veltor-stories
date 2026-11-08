@@ -9712,5 +9712,50 @@
     "video": false,
     "delivered_at": "2026-11-08T04:45:58+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9099,
+    "file": "stories/20261108-0541_9099.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/9099.jpg",
+    "source2": "sources/9099_2.jpg",
+    "gallery": [
+      "sources/9099_g1.jpg",
+      "sources/9099_g2.jpg",
+      "sources/9099_g3.jpg",
+      "sources/9099_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.646
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.912
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Aprilia RS 660 Track Full Tuning",
+    "year": "2023",
+    "mileage": "3’126",
+    "price": "2 608 000",
+    "created": "2026-11-08T05:41:19+00:00",
+    "status": "delivered",
+    "description": "Aprilia RS 660 Track Full Tuning\nГод: 2023\nПробег: 3’126 km\nЦена под ключ:\n2 608 000₽\n\nТрековая Aprilia RS 660 с масштабным профессиональным тюнингом. По заявлению продавца, стоимость установленных компонентов превышает 60 000 000₩.\n\nSC Project Full System, Öhlins Rear Shock, Öhlins Front Cartridge, Marchesini Forged Wheels, Brembo GP4 RX Calipers, Brembo T-Drive Discs, Brembo 17RCS Master Cylinder, Brembo Clutch Lever, SIXFIBER Racing Complete FRP, Gabro Racing Airbox, Jetprime Quick Throttle, Jetprime Racing Switch, Puig Racing Screen, Spider Racing Rearsets, Spider Engine Slider, Spider Handlebar, Spider Top Bridge, Spider Brake Lever Guard, R&G Radiator Guard, CNC Swingarm Spools, CNC Fuel Cap, Carbon Front Mudguard, Carbon Rear Mudguard, Sprint Racing Air Filter, IMU Bracket, Mride Accelerator Module, Slipper Clutch.\n\nБез ДТП по информации продавца.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-08T05:42:11+00:00",
+    "status_b": "delivered"
   }
 ]
