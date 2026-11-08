@@ -10062,5 +10062,50 @@
     "video": false,
     "delivered_at": "2026-11-08T08:37:13+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9132,
+    "file": "stories/20261108-0900_9132.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9132.jpg",
+    "source2": "sources/9132_2.jpg",
+    "gallery": [
+      "sources/9132_g1.jpg",
+      "sources/9132_g2.jpg",
+      "sources/9132_g3.jpg",
+      "sources/9132_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.495
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.255
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.324
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.676
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2023",
+    "mileage": "17’000",
+    "price": "1 839 000",
+    "created": "2026-11-08T09:00:26+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR\nГод: 2023\nПробег: 17’000 km\nЦена под ключ:\n1 839 000₽\n\nВ отличном  состоянии — без ДТП, без падений и без окрасов, ничем,Тюнинг: рычаги M Gilles с обеих сторон, защита рычагов M с обеих сторон, крышки двигателя GB Racing, видеорегистратор на 2 камеры (спереди и сзади), fender eliminator kit, ветровое стекло Puig, крепление для телефона SP Connect, USB-зарядка, подогрев ручек, защита двигателя, слайдеры на вилку и раму. Шины спереди и сзади новые \n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-08T09:01:29+00:00",
+    "status_b": "delivered"
   }
 ]
