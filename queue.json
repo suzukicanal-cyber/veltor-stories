@@ -10197,5 +10197,50 @@
     "video": false,
     "delivered_at": "2026-11-08T13:48:42+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9156,
+    "file": "stories/20261108-2325_9156.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9156.jpg",
+    "source2": "sources/9156_2.jpg",
+    "gallery": [
+      "sources/9156_g1.jpg",
+      "sources/9156_g2.jpg",
+      "sources/9156_g3.jpg",
+      "sources/9156_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.891
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.887
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2016",
+    "mileage": "17’500",
+    "price": "1 235 000",
+    "created": "2026-11-08T23:25:22+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR\nГод: 2016\nПробег: 17’500 km\nЦена под ключ:\n1 235 000₽\n\nБез ДТП, повреждений нет, только лёгкие потёртости на левом слайдере\nТюнинг:\nОригинальный полный выхлоп Arrow\nНижний обтекатель\nТонированное ветровое стекло MRA\nСлайдеры Lightech на вилку, раму и заднюю ось\nДержатель телефона с беспроводной зарядкой\nЗащита двигателя GB Racing\nВидеорегистратор на 2 камеры (вперёд и назад)\nПодогрев ручек руля\nUSB-зарядка\nКомплектация:\nКвикшифтер (вверх и вниз)\nABS Pro\nТрекшн-контроль\nЭлектронная подвеска\n2 оригинальных ключа\nШины Michelin Power GP2, остаток 60–70%\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*14",
+    "video": false,
+    "delivered_at": "2026-11-08T23:26:52+00:00",
+    "status_b": "delivered"
   }
 ]
