@@ -9667,5 +9667,50 @@
     "video": false,
     "delivered_at": "2026-11-08T02:36:20+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9095,
+    "file": "stories/20261108-0445_9095.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/9095.jpg",
+    "source2": "sources/9095_2.jpg",
+    "gallery": [
+      "sources/9095_g1.jpg",
+      "sources/9095_g2.jpg",
+      "sources/9095_g3.jpg",
+      "sources/9095_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.331
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Yamaha YZF-R1",
+    "year": "2012",
+    "mileage": "330",
+    "price": "1 609 000",
+    "created": "2026-11-08T04:45:14+00:00",
+    "status": "delivered",
+    "description": "Yamaha YZF-R1\nГод: 2012\nПробег: 330 km\nЦена под ключ:\n1 609 000₽\n\nБез ДТП\nТюнинг:\nПередняя вилка Öhlins\nЗадний амортизатор Öhlins\nПолная титановая выхлопная система LeoVince\nАрмированные тормозные шланги Goodridge спереди\nКованые суппорты Brembo\nПередние волновые тормозные диски Braking\nPower Commander V\nAuto Tune\nКвикшифтер\nПереключатель двух карт двигателя\nЗащита двигателя\nДатчики температуры шин\nЗадний карбоновый брызговик\nКованые алюминиевые диски Gale Speed\nЗадняя звезда Gale Speed\nПодножки Vortex\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*20",
+    "video": false,
+    "delivered_at": "2026-11-08T04:45:58+00:00",
+    "status_b": "delivered"
   }
 ]
