@@ -9622,5 +9622,50 @@
     "video": false,
     "delivered_at": "2026-11-07T09:00:09+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9070,
+    "file": "stories/20261108-0235_9070.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9070.jpg",
+    "source2": "sources/9070_2.jpg",
+    "gallery": [
+      "sources/9070_g1.jpg",
+      "sources/9070_g2.jpg",
+      "sources/9070_g3.jpg",
+      "sources/9070_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.643
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.875
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.908
+      }
+    ],
+    "title": "Harley-Davidson Softail Low Rider S",
+    "year": "2024",
+    "mileage": "5’173",
+    "price": "1 755 000",
+    "created": "2026-11-08T02:35:40+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Softail Low Rider S\nГод: 2024\nПробег: 5’173 км\nЦена под ключ:\n1 755 000₽\n\nHarley-Davidson Low Rider S, двигатель Milwaukee-Eight 117, объём 1 923 см³. Один владелец с момента покупки. Приобретён новым, продажа в связи с окончанием лизинга. Без ДТП, падений и скользящих повреждений. Прозрачная история эксплуатации, дополнительных замечаний нет.\n\nДополнительно установлены передний и задний видеорегистраторы, защита передней оси, рамы и глушителя, алюминиевый держатель с беспроводной зарядкой, рукоятки руля, разъём CTEK. В комплекте спинка пассажира Sissy Bar, чехол для Smart Key и один смарт-ключ.\n\n\nПиши @VELTOR_KOR — организуем доставку под ключ 🔑",
+    "video": false,
+    "delivered_at": "2026-11-08T02:36:20+00:00",
+    "status_b": "delivered"
   }
 ]
