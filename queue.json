@@ -9757,5 +9757,50 @@
     "video": false,
     "delivered_at": "2026-11-08T05:42:11+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9103,
+    "file": "stories/20261108-0545_9103.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9103.jpg",
+    "source2": "sources/9103_2.jpg",
+    "gallery": [
+      "sources/9103_g1.jpg",
+      "sources/9103_g2.jpg",
+      "sources/9103_g3.jpg",
+      "sources/9103_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.906
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.817
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.856
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.867
+      }
+    ],
+    "title": "Triumph Rocket3R",
+    "year": "2023",
+    "mileage": "14’511",
+    "price": "1 683 000",
+    "created": "2026-11-08T05:45:29+00:00",
+    "status": "delivered",
+    "description": "Triumph Rocket3R\nГод: 2023\nПробег: 14’511 km\nЦена под ключ:\n1 683 000₽\n\nМощный круизер Triumph Rocket 3 R с трёхцилиндровым двигателем объёмом 2 458 cc. Матовый серый цвет, эффектный внешний вид и богатое оснащение.\n\nДополнительное оборудование:\nQuickshifter, боковые кофры, двухканальный видеорегистратор, USB-порт, держатель телефона, бар-энд зеркала, переднее мини-ветровое стекло.\n\nПо информации продавца, проведена проверка на отсутствие ДТП, общее состояние мотоцикла хорошее.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-08T05:46:28+00:00",
+    "status_b": "delivered"
   }
 ]
