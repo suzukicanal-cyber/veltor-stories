@@ -50,6 +50,12 @@ jobs:
           PUBLISH_KEY: ${{ secrets.PUBLISH_KEY }}
         run: python rebuild_post.py ${{ inputs.post_ids }} ${{ inputs.layout == 'collage' && '--collage' || '' }}
 
+      - name: VK market products
+        continue-on-error: true
+        env:
+          VK_TOKEN: ${{ secrets.VK_TOKEN }}
+        run: python vk_market.py
+
       - name: Commit results
         run: |
           git config user.name "veltor-stories-bot"

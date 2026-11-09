@@ -367,8 +367,10 @@ def main():
         if m.get("message_thread_id") != TOPIC_ID:
             continue
         key = m.get("media_group_id") or f"single-{m['message_id']}"
-        p = posts.setdefault(key, {"photos": [], "caption": None, "first_id": m["message_id"]})
+        p = posts.setdefault(key, {"photos": [], "caption": None, "first_id": m["message_id"], "date": m.get("date")})
         p["first_id"] = min(p["first_id"], m["message_id"])
+        if m.get("date"):
+            p["date"] = min(p["date"] or m["date"], m["date"])      # when the post appeared in Telegram
         if m.get("photo"):
             p["photos"].append((m["message_id"], m["photo"][-1]["file_id"]))  # largest size
         doc = m.get("document") or {}
@@ -418,6 +420,7 @@ def main():
         entry = {"post_id": post_id, "file": f"stories/{out.name}", **pick,
                  "title": title, "year": year, "mileage": mileage, "price": price,
                  "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                 "posted": datetime.fromtimestamp(p["date"], timezone.utc).isoformat(timespec="seconds") if p.get("date") else None,
                  "status": "new", "description": (p["caption"] or "")[:1500]}
         render(entry, out)
         queue.append(entry)

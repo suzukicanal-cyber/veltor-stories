@@ -21,5 +21,12 @@
     "peer": "koreamotocycles_veltor",
     "seconds": 12,
     "worker": "https://veltor-guard.suzuki-canal.workers.dev"
+  },
+  "vk_market": {
+    "enabled": true,
+    "group": "moto_liis",
+    "album": "Мотоциклы",
+    "since": "2026-11-09T00:00:00+00:00",
+    "per_run": 10
   }
 }
