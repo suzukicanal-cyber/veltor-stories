@@ -10422,5 +10422,50 @@
     "video": false,
     "delivered_at": "2026-11-09T00:04:27+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9196,
+    "file": "stories/20261109-0611_9196.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9196.jpg",
+    "source2": "sources/9196_2.jpg",
+    "gallery": [
+      "sources/9196_g1.jpg",
+      "sources/9196_g2.jpg",
+      "sources/9196_g3.jpg",
+      "sources/9196_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.637
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.845
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.895
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.825
+      }
+    ],
+    "title": "BMW S1000RR Race Package",
+    "year": "2024",
+    "mileage": "6’250",
+    "price": "1 919 000",
+    "created": "2026-11-09T06:11:39+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR Race Package\nГод: 2024\nПробег: 6’250 km\nЦена под ключ:\n1 919 000₽\n\n \n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*25",
+    "video": false,
+    "delivered_at": "2026-11-09T06:12:20+00:00",
+    "status_b": "delivered"
   }
 ]
