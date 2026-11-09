@@ -24,8 +24,11 @@ def _sess():
     return _session
 
 
-def motorcycle_boxes(path):
-    """Motorcycle boxes as (x0, y0, x1, y1, conf) in 0..1 image coordinates."""
+CAR = 2                 # COCO class id
+
+
+def motorcycle_boxes(path, cls=MOTORCYCLE):
+    """Boxes of one COCO class (motorcycle by default) as (x0, y0, x1, y1, conf), 0..1 coords."""
     im = Image.open(path).convert("RGB")
     w, h = im.size
     s = 640 / max(w, h)
@@ -35,7 +38,7 @@ def motorcycle_boxes(path):
     canvas.paste(im.resize((nw, nh), Image.BILINEAR), (px, py))
     x = np.asarray(canvas, dtype=np.float32).transpose(2, 0, 1)[None] / 255.0
     out = _sess().run(None, {_sess().get_inputs()[0].name: x})[0][0]   # (84, 8400)
-    scores = out[4 + MOTORCYCLE]
+    scores = out[4 + cls]
     keep = scores > CONF
     boxes = []
     for (cx, cy, bw, bh), c in zip(out[:4, keep].T, scores[keep]):
@@ -88,3 +91,7 @@ def near_duplicate(path_a, path_b, limit=12.0):
     a = np.asarray(Image.open(path_a).convert("L").resize((32, 32)), dtype=np.float32)
     b = np.asarray(Image.open(path_b).convert("L").resize((32, 32)), dtype=np.float32)
     return float(np.abs(a - b).mean()) < limit
+
+
+def car_boxes(path):
+    return motorcycle_boxes(path, CAR)

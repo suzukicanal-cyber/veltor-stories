@@ -316,14 +316,14 @@ def order_for_main(photos):
     return [best[0]] + [p for p, _ in scored if p != best[0]]
 
 
-def photo_whole(path, w, h_min, h_max, margin=0.06):
+def photo_whole(path, w, h_min, h_max, margin=0.06, box="bike"):
     """Crop around the WHOLE motorcycle (never cut it): returns (image, height).
     The card gets taller (up to h_max) when the bike needs it; if the photo still can't
     hold the bike with the margin, the missing strip is filled with a blurred copy."""
     from PIL import ImageFilter
     img = ms.prepare_photo(path)
     iw, ih = img.size
-    box = ms._bike_box(path)
+    box = ms._bike_box(path) if box == "bike" else box     # or a ready (x0, y0, x1, y1) box
     if not box:
         p = sb._photo(path, w, h_min, focus=False); return p, h_min
     bx0, by0, bx1, by1 = box[0] * iw, box[1] * ih, box[2] * iw, box[3] * ih
