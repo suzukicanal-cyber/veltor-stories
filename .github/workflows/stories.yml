@@ -26,6 +26,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main          # latest state (a queued run would otherwise start from an old commit)
 
       - uses: actions/setup-python@v5
         with:
@@ -60,5 +62,5 @@ jobs:
             echo "nothing to commit"
           else
             git commit -m "New stories $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
           fi
