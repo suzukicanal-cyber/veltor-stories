@@ -9,7 +9,7 @@ messages to `forward_via_chat_id` (the owner's private chat with the bot, silent
 and deleting the forwarded copy
 right away. The new story replaces the old entry in queue.json and is delivered.
 """
-import json, sys
+import json, re, sys
 from datetime import datetime, timezone
 
 import fetch_and_render as f
@@ -66,6 +66,15 @@ def main(ids, force_collage=False):
         old = next((i for i in queue if str(i["post_id"]) == str(pid)), None)
         if not photos:
             print("  no photos found, skipped"); continue
+        if caption and (old or {}).get("kind") == "auto" or (caption and re.search(r"л\.?\s*с|под\s+ключ\s+в\s+москв", caption, re.I)):
+            entry = f.auto_entry(pid, photos, caption)
+            entry["rebuilt"] = True
+            if old:
+                queue[queue.index(old)] = entry
+            else:
+                queue.append(entry)
+            print(f"  rebuilt {entry['file']} (авто)")
+            continue
         if caption:
             title, year, mileage, price = make_story.parse_post(caption)
         elif old:

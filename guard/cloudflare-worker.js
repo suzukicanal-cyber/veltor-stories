@@ -16,6 +16,7 @@
 
 const GROUP = "koreamotocycles_veltor";
 const MOTO_TOPIC_ID = 8;
+const AUTO_TOPIC_ID = 7;
 const REPO = "suzukicanal-cyber/veltor-stories";
 const WORKFLOW = "stories.yml";
 
@@ -111,7 +112,7 @@ export default {
     if (m.boost_added) {
       const res = await tg(env, "deleteMessage", { chat_id: m.chat.id, message_id: m.message_id });
       console.log("boost notice", m.message_id, res.ok ? "deleted" : JSON.stringify(res));
-    } else if (m.message_thread_id === MOTO_TOPIC_ID && m.caption && update.message) {
+    } else if ((m.message_thread_id === MOTO_TOPIC_ID || m.message_thread_id === AUTO_TOPIC_ID) && m.caption && update.message) {
       ctx.waitUntil(startBuild(env));   // one build per post (the album caption)
     }
     return new Response("ok");

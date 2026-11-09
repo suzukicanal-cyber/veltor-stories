@@ -28,5 +28,9 @@
     "album": "Мотоциклы",
     "since": "2026-11-09T00:00:00+00:00",
     "per_run": 10
+  },
+  "format_auto": {
+    "variant": "c5_details",
+    "glow": "white"
   }
 }

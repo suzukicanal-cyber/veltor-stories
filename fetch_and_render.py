@@ -24,6 +24,7 @@ TMP = ROOT / "tmp"
 
 CHAT_USERNAME = "koreamotocycles_veltor"
 TOPIC_ID = 8            # "Мото" topic (message_thread_id)
+AUTO_TOPIC_ID = 7       # "Авто" topic: car stories (story_auto.py), group «Сторисы» only
 
 TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 API = f"https://api.telegram.org/bot{TOKEN}"
@@ -118,6 +119,38 @@ def save_gallery(main, rest, dest):
     return out
 
 
+AUTO_ALBUM_PHOTOS = 10
+
+
+def auto_entry(post_id, photos, caption, date=None):
+    """Car post («Авто»): parse the text, download the album, keep the main exterior photo
+    first (whole car) plus a few more, render with story_auto.py."""
+    import story_auto
+    d = story_auto.parse_car(caption)                      # raises if year/mileage/price are missing
+    TMP.mkdir(exist_ok=True); SOURCES.mkdir(exist_ok=True); STORIES.mkdir(exist_ok=True)
+    cands = []
+    for n, (_, file_id) in enumerate(photos[:AUTO_ALBUM_PHOTOS], start=1):
+        cand = TMP / f"auto_{post_id}_{n}.jpg"
+        download_photo(file_id, cand)
+        cands.append(str(cand))
+    order, _ = story_auto.pick(cands)
+    gallery = []
+    for k, c in enumerate(order[:4], start=1):
+        g = SOURCES / f"{post_id}_a{k}.jpg"
+        g.write_bytes(Path(c).read_bytes())
+        gallery.append(f"sources/{g.name}")
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M")
+    out = STORIES / f"{stamp}_{post_id}_auto.jpg"
+    entry = {"post_id": post_id, "kind": "auto", "file": f"stories/{out.name}", "gallery": gallery,
+             "source": gallery[0], "title": d["title"], "year": d["year"], "mileage": d["mileage"],
+             "price": d["price"], "hp": d.get("hp"),
+             "created": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+             "posted": datetime.fromtimestamp(date, timezone.utc).isoformat(timespec="seconds") if date else None,
+             "status": "new", "description": caption[:3000]}
+    render(entry, out)
+    return entry
+
+
 def story_args(entry, out):
     make_story.RESTORE = bool(load(CONFIG, {}).get("restore_photos", False))
     return type("A", (), dict(photo=str(ROOT / entry["source"]), out=str(out) if out else None,
@@ -130,6 +163,13 @@ def story_args(entry, out):
 def render(entry, out):
     """Build the story image for a queue entry. With "format_a" in config.json the
     selling design (story_a2.py) is used, otherwise the older collage (make_story.py)."""
+    if entry.get("kind") == "auto":
+        import story_auto
+        story_args(entry, None)                              # applies the photo-restoration setting
+        cfg = load(CONFIG, {}).get("format_auto") or {}
+        story_auto.build_auto(cfg.get("variant", "c5_details"), [str(ROOT / g) for g in entry["gallery"]],
+                              entry.get("description", ""), out, glow=cfg.get("glow", "white"))
+        return
     fa = load(CONFIG, {}).get("format_a")
     if not fa:
         make_story.build(story_args(entry, out)); return
@@ -194,7 +234,8 @@ def deliver_format_b(queue):
     import story_b
     out_dir = ROOT / "stories_b"; out_dir.mkdir(exist_ok=True)
     for item in queue:
-        if item.get("status_b") == "delivered" or item.get("created", "") < since or not item.get("source"):
+        if item.get("kind") == "auto" or item.get("status_b") == "delivered" or \
+                item.get("created", "") < since or not item.get("source"):
             continue
         try:
             story_args(item, None)                       # applies the photo-restoration setting
@@ -364,10 +405,12 @@ def main():
         if m.get("boost_added"):                # "X проголосовал(а) за группу" service message
             delete_service_message(chat["id"], m["message_id"])
             continue
-        if m.get("message_thread_id") != TOPIC_ID:
+        topic = m.get("message_thread_id")
+        if topic not in (TOPIC_ID, AUTO_TOPIC_ID):
             continue
         key = m.get("media_group_id") or f"single-{m['message_id']}"
-        p = posts.setdefault(key, {"photos": [], "caption": None, "first_id": m["message_id"], "date": m.get("date")})
+        p = posts.setdefault(key, {"photos": [], "caption": None, "first_id": m["message_id"], "date": m.get("date"),
+                                   "topic": topic})
         p["first_id"] = min(p["first_id"], m["message_id"])
         if m.get("date"):
             p["date"] = min(p["date"] or m["date"], m["date"])      # when the post appeared in Telegram
@@ -409,6 +452,14 @@ def main():
             skip(post_id, "нет фото (только текст или видео)", p["caption"]); continue
         if not p["caption"]:
             skip(post_id, "нет текста с моделью, годом, пробегом и ценой", None); continue
+        if p.get("topic") == AUTO_TOPIC_ID:
+            try:
+                entry = auto_entry(post_id, sorted(p["photos"]), p["caption"], p.get("date"))
+            except Exception as e:
+                skip(post_id, f"авто: не распознан текст ({e})", p["caption"]); continue
+            queue.append(entry); new_count += 1
+            print(f"rendered {entry['file']}: {entry['title']} (авто)")
+            continue
         try:
             title, year, mileage, price = make_story.parse_post(p["caption"])
         except Exception as e:  # not a sale post in the usual format
