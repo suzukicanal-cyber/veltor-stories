@@ -551,8 +551,47 @@ def v10_center(d):
     _price_block(c, L, y + 14, d, size=76)
     return c
 
+
+def _photo_card(c, path, box, r=30):
+    """Card with the whole bike when it fits; otherwise a normal cover crop (details)."""
+    import story_a2
+    x0, y0, x1, y1 = box
+    if story_a2.main_score(path)[0] > 0.2:
+        p, _ = story_a2.photo_whole(path, x1 - x0, y1 - y0, y1 - y0)
+    else:
+        p = _photo(path, x1 - x0, y1 - y0)
+    c.paste(p, (x0, y0), _round(p, r))
+
+
+def v11_stack(d):
+    """09.11 (2): model at the very top, three photos of the same size (like the main one)
+    stacked in the middle, the info block at the very bottom."""
+    import story_a2
+    c = Image.new("RGB", (W, H), BG); dr = ImageDraw.Draw(c)
+    L, R = 64, W - 64
+    y = _title(c, d, L, 140, size=62)
+    ph = _gallery(d, 3)
+    uniq = list(dict.fromkeys(ph))
+    ph = story_a2.order_for_main(uniq) + ph[len(uniq):]
+    ticks = ["Растаможка и ЭПТС включены", "Доставка до Москвы/Санкт-Петербурга включена"]
+    bottom = 1800
+    block = 104 + 18 + len(ticks) * 52 + 10 + 50 + 114
+    top = y + 12; gap = 14
+    ph_h = (bottom - block - 26 - top - 2 * gap) // 3
+    for k in range(3):
+        yy = top + k * (ph_h + gap)
+        _photo_card(c, ph[k], (L, yy, R, yy + ph_h), 30)
+    y = bottom - block
+    y = _spec_cards(c, L, y, R, [("Год", d["year"]), ("Пробег", mileage_text(d["mileage"])), ("Срок", "до 45 дней")], h=104)
+    y += 18
+    for txt in ticks:
+        _rr(c, (L, y + 4, L + 44, y + 48), 22, ACCENT); _put_icon(c, "check", L + 6, y + 10, 32, (255, 255, 255))
+        dr.text((L + 64, y + 4), txt, font=_fit(txt, F_BOLD, 36, R - L - 64), fill=INK); y += 52
+    _price_block(c, L, y + 10, d, size=76)
+    return c
+
 VARIANTS.update({"5_catalog": v5_catalog, "6_sheet": v6_sheet, "7_tiles": v7_tiles,
-                 "8_offer": v8_offer, "9_panel": v9_panel, "10_center": v10_center})
+                 "8_offer": v8_offer, "9_panel": v9_panel, "10_center": v10_center, "11_stack": v11_stack})
 
 
 def build_b(variant, main, second, title, year, mileage, price_in_group, out, photos=None, description="", post_id=0):
