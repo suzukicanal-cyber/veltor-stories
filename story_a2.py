@@ -288,24 +288,31 @@ def build_a2(variant, glow, photos, title_, year, mileage, price_, out, descript
 
 # ---------------------------------------------------- whole bike on the main photo
 def main_score(path):
-    """Prefer the photo where ONE motorcycle is large and NOT cut by the frame."""
+    """Main photo rule: the bike from the SIDE (or the view showing the most of it), whole,
+    not a close-up. Front/rear views have a narrow box (width/height < ~0.9) and score low;
+    close-ups fill the frame or touch its edges and score lowest."""
     import detect
     boxes = detect.motorcycle_boxes(path)
     if not boxes:
         return 0.0, None
+    iw, ih = Image.open(path).size
     b = max(boxes, key=lambda b: (b[2] - b[0]) * (b[3] - b[1]) * b[4])
-    cut = sum([b[0] < 0.01, b[1] < 0.01, b[2] > 0.99, b[3] > 0.99])
     area = (b[2] - b[0]) * (b[3] - b[1])
-    return b[4] * min(1.0, area / 0.35) * (0.35 ** cut), b
+    aspect = (b[2] - b[0]) * iw / max(1e-6, (b[3] - b[1]) * ih)
+    cut = sum([b[0] < 0.01, b[1] < 0.01, b[2] > 0.99, b[3] > 0.99])
+    side = min(1.0, max(0.0, (aspect - 0.75) / (1.45 - 0.75)))   # 0 = front/rear, 1 = side
+    size = min(1.0, area / 0.25)
+    close = 0.08 if area >= 0.9 else 1.0                          # bike fills the frame: close-up
+    return b[4] * size * (0.12 + 0.88 * side) * (0.6 ** cut) * close, b
 
 
 def order_for_main(photos):
-    """Main photo = the one showing the whole bike best (an earlier one wins a near tie)."""
+    """Main photo = side view / most of the bike visible (an earlier one wins a near tie)."""
     scored = [(p, main_score(p)[0]) for p in photos]
     best = scored[0]
-    for s in scored[1:]:
-        if s[1] > best[1] + 0.08:
-            best = s
+    for sc in scored[1:]:
+        if sc[1] > best[1] + 0.03:
+            best = sc
     return [best[0]] + [p for p, _ in scored if p != best[0]]
 
 
@@ -321,7 +328,8 @@ def photo_whole(path, w, h_min, h_max, margin=0.06):
         p = sb._photo(path, w, h_min, focus=False); return p, h_min
     bx0, by0, bx1, by1 = box[0] * iw, box[1] * ih, box[2] * iw, box[3] * ih
     mx, my = (bx1 - bx0) * margin, (by1 - by0) * margin
-    bx0, bx1, by0, by1 = bx0 - mx, bx1 + mx, by0 - my, by1 + my
+    # margin only where the photo has it: a bike touching the frame edge gets no blurred strip
+    bx0, bx1, by0, by1 = max(0, bx0 - mx), min(iw, bx1 + mx), max(0, by0 - my), min(ih, by1 + my)
     bw, bh = bx1 - bx0, by1 - by0
     cx, cy = (bx0 + bx1) / 2, (by0 + by1) / 2
     for h in range(h_min, h_max + 1, 10):
@@ -366,7 +374,8 @@ def _showcase_top(d, glow, h_min, h_max, thumb_h=190):
     if len(ph) > 1:
         y = thumbs(c, ph[1:4], y + 16, thumb_h)
     y = specs(c, d, y + 40)
-    y = facts(c, d, y + 22)
+    if d.get("show_facts"):
+        y = facts(c, d, y + 22)
     return c, y
 
 

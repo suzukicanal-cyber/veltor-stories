@@ -105,7 +105,11 @@ GALLERY_SIZE = 4   # photos for format B: the main one, other angles of the bike
 def save_gallery(main, rest, dest):
     """Format B uses more photos: main first, then the bike from other angles, then details
     (tyres and near-duplicates are already excluded). Format A does not use these files."""
-    order = [main] + [c for c in rest if c[2] > 0] + [c for c in rest if c[2] <= 0]
+    import story_a2                       # main = side view / most of the bike, never rear or close-up
+    pool = [main] + rest
+    best = max(pool, key=lambda c: (story_a2.main_score(c[1])[0], -c[0]))
+    others = [c for c in pool if c is not best]
+    order = [best] + [c for c in others if c[2] > 0] + [c for c in others if c[2] <= 0]
     out = []
     for k, c in enumerate(order[:GALLERY_SIZE], start=1):
         g = dest.with_name(f"{dest.stem}_g{k}{dest.suffix}")

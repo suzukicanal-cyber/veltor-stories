@@ -371,16 +371,18 @@ def v5_catalog(d):
     ph = _gallery(d, 4)
     uniq = list(dict.fromkeys(ph))
     ph = story_a2.order_for_main(uniq) + ph[len(uniq):]
-    p, mh = story_a2.photo_whole(ph[0], R - L, 510, 550)     # taller card only if the bike needs it
+    p, mh = story_a2.photo_whole(ph[0], R - L, 510, 600)     # taller card only if the bike needs it
     c.paste(p, (L, y + 10), _round(p, 34))
-    th = 170 - (mh - 510)                                    # thumbnails give the extra height back
+    extra = mh - 510                                         # given back by thumbnails, then the 3rd tick line
+    th = 170 - min(50, extra)
+    drop_fact = extra > 50
     y0 = y + 10 + mh + 16
     tw = (R - L - 2 * 16) // 3
     for k in range(3):
         _pic(c, ph[k + 1], (L + k * (tw + 16), y0, L + k * (tw + 16) + tw, y0 + th), 24)
     y = _spec_cards(c, L, y0 + th + 20, R, [("Год", d["year"]), ("Пробег", mileage_text(d["mileage"])), ("Срок", "до 45 дней")], h=112)
     y += 22
-    for k, txt in enumerate(["Растаможка и ЭПТС включены", "Доставка до Москвы/Санкт-Петербурга включена"] + d.get("facts", [])[:1]):
+    for k, txt in enumerate(["Растаможка и ЭПТС включены", "Доставка до Москвы/Санкт-Петербурга включена"] + ([] if drop_fact else d.get("facts", [])[:1])):
         _rr(c, (L, y + 4, L + 44, y + 48), 22, ACCENT); _put_icon(c, "check", L + 6, y + 10, 32, (255, 255, 255))
         dr.text((L + 64, y + 4), txt, font=_fit(txt, F_BOLD, 36, R - L - 64), fill=INK); y += 56
     px, py = _price_block(c, L, y + 14, d, size=76)
