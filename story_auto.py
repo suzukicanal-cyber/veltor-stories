@@ -32,9 +32,11 @@ def parse_car(text_):
          "gearbox": g(r"Коробка\s*[:\-–]?\s*([^\n]+)"),
          "no_accident": bool(re.search(r"без\s+дтп", blob, re.I)),
          "price_label": "ЦЕНА ПОД КЛЮЧ В МОСКВЕ" if re.search(r"под\s+ключ\s+в\s+москв", blob, re.I) else "ЦЕНА ПОД КЛЮЧ",
-         "util": bool(re.search(r"утилизационн\w*\s+сбор\s+уже\s+включ", blob, re.I))}
+         }
     if d["mileage"]:
         d["mileage"] = re.sub(r"\s+", "", d["mileage"])
+    # recycling fee is included only for cars up to 160 hp (above that it is not, whatever the text says)
+    d["util"] = bool(d["hp"]) and int(d["hp"]) <= 160
     if d["gearbox"]:
         gb = d["gearbox"].lower()
         d["gearbox_short"] = "DSG" if "dsg" in gb else "робот" if "робот" in gb else \
@@ -136,6 +138,18 @@ def note(c, s, y, center=True):
     text(c, (L, y), s, fit(s, M5, 24, R - L, tracking=4), SOFT, tracking=4, center=center)
 
 
+REG = "ПОМОЖЕМ С УЧЁТОМ В РФ, РБ ИЛИ КЫРГЫЗСТАНЕ"
+UTIL = "УТИЛЬСБОР ВКЛЮЧЁН — БЕЗ СКРЫТЫХ ДОПЛАТ"
+
+
+def footer(c, d, y):
+    """Quiet lines under the price: registration help (always), recycling fee (≤160 hp only)."""
+    lines = ([UTIL] if d.get("util") else []) + [REG]
+    for k, s in enumerate(lines):
+        note(c, s, y + 26 + k * 40)
+    return y + 26 + len(lines) * 40
+
+
 def head(c, d, y=300):
     return a2.title(c, d, y, size=70)
 
@@ -155,7 +169,8 @@ def c1_showcase(d, glow="white"):
     y = main_card(c, ph[0], y + 24, 620, 680)
     y = a2.thumbs(c, ph[1:4], y + 16, 220)
     y = specs_row(c, spec_items(d), y + 40)
-    price_pill(c, d, y + 34, glow)
+    y = price_pill(c, d, y + 34, glow)
+    footer(c, d, y)
     return c
 
 
@@ -164,15 +179,16 @@ def c2_equipment(d, glow="white"):
     c = _base(glow)
     y = head(c, d)
     ph = d["photos"]
-    y = main_card(c, ph[0], y + 24, 580, 640)
+    y = main_card(c, ph[0], y + 24, 540, 600)
     hw = (R - L - 14) // 2
-    sb._pic(c, ph[2] if len(ph) > 2 else ph[1], (L, y + 14, L + hw, y + 264), 22)
-    sb._pic(c, ph[3] if len(ph) > 3 else ph[1], (L + hw + 14, y + 14, R, y + 264), 22)
-    y = specs_row(c, spec_items(d), y + 304)
+    sb._pic(c, ph[2] if len(ph) > 2 else ph[1], (L, y + 14, L + hw, y + 244), 22)
+    sb._pic(c, ph[3] if len(ph) > 3 else ph[1], (L + hw + 14, y + 14, R, y + 244), 22)
+    y = specs_row(c, spec_items(d), y + 284)
     eq = d.get("equipment") or []
     if eq:
         y = a2.facts(c, {"facts": eq}, y + 22)
-    price_pill(c, d, y + 34, glow, h=120, size=84)
+    y = price_pill(c, d, y + 34, glow, h=120, size=84)
+    footer(c, d, y)
     return c
 
 
@@ -181,13 +197,14 @@ def c3_interior(d, glow="white"):
     c = _base(glow, center=0.5)
     y = head(c, d)
     ph = d["photos"]
-    y = main_card(c, ph[0], y + 24, 560, 620)
+    y = main_card(c, ph[0], y + 24, 520, 580)
     inner = ph[2] if len(ph) > 2 else ph[1]
-    sb._pic(c, inner, (L, y + 14, R, y + 444), 30)
-    y += 444 + 40
+    sb._pic(c, inner, (L, y + 14, R, y + 404), 30)
+    y += 404 + 40
     line = "  ·  ".join(v for _, v in spec_items(d, 4))
     text(c, (L, y), line, fit(line, M6, 36, R - L), WHITE, center=True)
-    price_pill(c, d, y + 70, glow, h=120, size=84)
+    y = price_pill(c, d, y + 70, glow, h=120, size=84)
+    footer(c, d, y)
     return c
 
 
@@ -207,7 +224,8 @@ def c4_grid(d, glow="white"):
             sb._pic(c, ph[k], (x, yy, x + gw, yy + gh), 24)
     y += 24 + 2 * gh + 14
     y = specs_row(c, spec_items(d), y + 40)
-    price_pill(c, d, y + 34, glow)
+    y = price_pill(c, d, y + 34, glow)
+    footer(c, d, y)
     return c
 
 
@@ -235,8 +253,7 @@ def c5_details(d, glow="white"):
         dr.line([(x, yy + rh - 4), (x + cw, yy + rh - 4)], fill=(60, 60, 66), width=1)
     y += ((len(rows) + 1) // 2) * rh + 30
     y = price_pill(c, d, y, glow)
-    if d.get("util"):
-        note(c, "УТИЛЬСБОР ВКЛЮЧЁН — БЕЗ СКРЫТЫХ ДОПЛАТ", y + 30)
+    footer(c, d, y)
     return c
 
 
