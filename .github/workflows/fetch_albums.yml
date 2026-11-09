@@ -29,7 +29,7 @@ jobs:
           out = Path("albums"); out.mkdir(exist_ok=True)
           for pid in map(int, sys.argv[1:]):
               photos, caption = r.fetch_album(pid, via)
-              for n, (_, fid) in enumerate(photos, 1):
+              for n, (_, fid) in enumerate(photos[:10], 1):
                   f.download_photo(fid, out / f"{pid}_{n}.jpg")
               (out / f"{pid}.txt").write_text(caption or "", encoding="utf-8")
               print(pid, len(photos), "photos")
