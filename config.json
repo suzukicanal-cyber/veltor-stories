@@ -25,10 +25,5 @@
   "format_auto": {
     "variant": "c5_details",
     "glow": "white"
-  },
-  "vk_feed": {
-    "days": 14,
-    "file": "vk/moto.yml",
-    "category": "Мотоциклы"
   }
 }

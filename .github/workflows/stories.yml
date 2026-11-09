@@ -50,10 +50,6 @@ jobs:
           PUBLISH_KEY: ${{ secrets.PUBLISH_KEY }}
         run: python rebuild_post.py ${{ inputs.post_ids }} ${{ inputs.layout == 'collage' && '--collage' || '' }}
 
-      - name: VK products feed (YML)
-        continue-on-error: true
-        run: python vk_feed.py
-
       - name: Commit results
         run: |
           git config user.name "veltor-stories-bot"
@@ -62,7 +58,6 @@ jobs:
           git add stories_b 2>/dev/null || true
           git add photos.json 2>/dev/null || true
           git add seen_chats.json diag.json 2>/dev/null || true
-          git add vk 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "nothing to commit"
           else
