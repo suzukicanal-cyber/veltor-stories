@@ -12,7 +12,7 @@ from PIL import Image, ImageDraw, ImageFont
 import make_story as ms
 
 W, H = ms.W, ms.H
-PRICE_ADD = 50_000
+PRICE_ADD = 100_000   # since 09.11.2026 (was 50 000)
 F_BOLD = ms.F_VALUE
 F_REG = ms.F_LABEL
 F_ITALIC = ms.F_MODEL
@@ -517,8 +517,42 @@ def v9_panel(d):
     return c
 
 
+
+def v10_center(d):
+    """09.11: no logo / no «из Южной Кореи» / no button. Model on top, three big photos
+    in the middle (whole bike on the main one), the info block pushed to the bottom."""
+    import story_a2
+    c = Image.new("RGB", (W, H), BG); dr = ImageDraw.Draw(c)
+    L, R = 64, W - 64
+    y = _title(c, d, L, 196, size=64)
+    ph = _gallery(d, 3)
+    uniq = list(dict.fromkeys(ph))
+    ph = story_a2.order_for_main(uniq) + ph[len(uniq):]
+    p, mh = story_a2.photo_whole(ph[0], R - L, 540, 600)
+    c.paste(p, (L, y + 14), _round(p, 34))
+    y0 = y + 14 + mh + 16
+    hw = (R - L - 16) // 2
+    sh = 330 - (mh - 540)                       # the two lower photos give back the extra height
+    _pic(c, ph[1], (L, y0, L + hw, y0 + sh), 28)
+    _pic(c, ph[2], (L + hw + 16, y0, R, y0 + sh), 28)
+    # info block, bottom-aligned so it ends right above the reply bar
+    ticks = ["Растаможка и ЭПТС включены", "Доставка до Москвы/Санкт-Петербурга включена"]
+    bottom = 1730
+    block = 112 + 22 + len(ticks) * 56 + 14 + 50 + 114
+    room = bottom - (y0 + sh + 30)
+    if d.get("facts") and room >= block + 56:
+        ticks.append(d["facts"][0]); block += 56
+    y = bottom - block
+    y = _spec_cards(c, L, y, R, [("Год", d["year"]), ("Пробег", mileage_text(d["mileage"])), ("Срок", "до 45 дней")], h=112)
+    y += 22
+    for txt in ticks:
+        _rr(c, (L, y + 4, L + 44, y + 48), 22, ACCENT); _put_icon(c, "check", L + 6, y + 10, 32, (255, 255, 255))
+        dr.text((L + 64, y + 4), txt, font=_fit(txt, F_BOLD, 36, R - L - 64), fill=INK); y += 56
+    _price_block(c, L, y + 14, d, size=76)
+    return c
+
 VARIANTS.update({"5_catalog": v5_catalog, "6_sheet": v6_sheet, "7_tiles": v7_tiles,
-                 "8_offer": v8_offer, "9_panel": v9_panel})
+                 "8_offer": v8_offer, "9_panel": v9_panel, "10_center": v10_center})
 
 
 def build_b(variant, main, second, title, year, mileage, price_in_group, out, photos=None, description="", post_id=0):

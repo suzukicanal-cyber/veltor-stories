@@ -6,7 +6,7 @@
   "restore_photos": true,
   "send_video": false,
   "format_b": {
-    "variant": "5_catalog",
+    "variant": "10_center",
     "deliver_to_chat_ids": [
       -5232919083
     ],
