@@ -2,7 +2,7 @@
   "bot_rights": {
     "status": "administrator",
     "can_delete_messages": true,
-    "checked": "2026-11-09T08:11:58+00:00"
+    "checked": "2026-11-09T08:46:26+00:00"
   },
   "service_seen": [
     "new_chat_members"
