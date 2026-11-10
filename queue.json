@@ -10931,5 +10931,51 @@
     "video": false,
     "delivered_at": "2026-11-10T01:03:35+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9243,
+    "file": "stories/20261110-0627_9243.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      4
+    ],
+    "source": "sources/9243.jpg",
+    "source2": "sources/9243_2.jpg",
+    "gallery": [
+      "sources/9243_g1.jpg",
+      "sources/9243_g2.jpg",
+      "sources/9243_g3.jpg",
+      "sources/9243_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.194
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.352
+      }
+    ],
+    "title": "Honda Motocompo",
+    "year": "1981",
+    "mileage": "1’000",
+    "price": "646 000",
+    "created": "2026-11-10T06:27:20+00:00",
+    "posted": "2026-11-10T06:26:05+00:00",
+    "status": "delivered",
+    "description": "Honda Motocompo\nГод: 1981\nПробег: 1’000 km\nЦена под ключ:\n646 000₽\n\nРедкий коллекционный Honda Motocompo. Без ДТП, пробег по одометру 1’000 км. Продавец указывает, что возможен торг. Модель представляет особый интерес для коллекционеров и любителей японской мототехники.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-10T06:28:29+00:00",
+    "status_b": "delivered"
   }
 ]
