@@ -11069,5 +11069,51 @@
     "video": false,
     "delivered_at": "2026-11-10T07:57:56+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9256,
+    "file": "stories/20261110-1302_9256.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9256.jpg",
+    "source2": "sources/9256_2.jpg",
+    "gallery": [
+      "sources/9256_g1.jpg",
+      "sources/9256_g2.jpg",
+      "sources/9256_g3.jpg",
+      "sources/9256_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.895
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.64
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Kawasaki Ninja ZX-6R",
+    "year": "2026",
+    "mileage": "NEW",
+    "price": "1 728 000",
+    "created": "2026-11-10T13:02:19+00:00",
+    "posted": "2026-11-10T13:01:09+00:00",
+    "status": "delivered",
+    "description": "Kawasaki Ninja ZX-6R\nГод: 2026\nПробег: NEW\nЦена под ключ:\n1 728 000₽\n\nНовый мотоцикл, зелёный цвет, двигатель 636 см³. Без ДТП, состояние нового мотоцикла.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-10T13:02:51+00:00",
+    "status_b": "delivered"
   }
 ]
