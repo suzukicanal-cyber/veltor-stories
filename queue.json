@@ -10701,5 +10701,51 @@
     "video": false,
     "delivered_at": "2026-11-10T00:36:03+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9219,
+    "file": "stories/20261110-0038_9219.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/9219.jpg",
+    "source2": "sources/9219_2.jpg",
+    "gallery": [
+      "sources/9219_g1.jpg",
+      "sources/9219_g2.jpg",
+      "sources/9219_g3.jpg",
+      "sources/9219_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.619
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.403
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.854
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.937
+      }
+    ],
+    "title": "Honda Gold Wing Tour DCT Airbag",
+    "year": "2025",
+    "mileage": "15’210",
+    "price": "2 877 000",
+    "created": "2026-11-10T00:38:48+00:00",
+    "posted": "2026-11-10T00:37:39+00:00",
+    "status": "delivered",
+    "description": "Honda Gold Wing Tour DCT Airbag\nГод: 2025\nПробег: 15’210 km\nЦена под ключ:\n2 877 000₽\n\nHonda Gold Wing Tour в серебристом цвете, двигатель 1 833 cc, автоматическая трансмиссия DCT, заводская система Airbag. Без ДТП. Богатая комплектация: подогрев, Power Outlet, дополнительное багажное оснащение, аудиосистема, подлокотники и защитные элементы.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-10T00:39:51+00:00",
+    "status_b": "delivered"
   }
 ]
