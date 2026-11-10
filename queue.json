@@ -10977,5 +10977,51 @@
     "video": false,
     "delivered_at": "2026-11-10T06:28:29+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9247,
+    "file": "stories/20261110-0641_9247.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      4
+    ],
+    "source": "sources/9247.jpg",
+    "source2": "sources/9247_2.jpg",
+    "gallery": [
+      "sources/9247_g1.jpg",
+      "sources/9247_g2.jpg",
+      "sources/9247_g3.jpg",
+      "sources/9247_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.285
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.876
+      }
+    ],
+    "title": "Honda Gold Wing 1800 Sidecar",
+    "year": "2015",
+    "mileage": "11’500",
+    "price": "5 572 000",
+    "created": "2026-11-10T06:41:16+00:00",
+    "posted": "2026-11-10T06:32:55+00:00",
+    "status": "delivered",
+    "description": "Honda Gold Wing 1800 Sidecar\nГод: 2015\nПробег: 11’500 km\nЦена под ключ:\n5 572 000₽\n\nHonda Gold Wing 1800 в комплектации с боковой коляской Sidecar немецкого производителя EML. Полная комплектация (по заявлению продавца), отличное состояние, реальный пробег 11’500 км, без ДТП. Редкая версия для коллекционеров и любителей дальних путешествий. Возможен торг.\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-10T06:42:10+00:00",
+    "status_b": "delivered"
   }
 ]
