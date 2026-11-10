@@ -11023,5 +11023,51 @@
     "video": false,
     "delivered_at": "2026-11-10T06:42:10+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9251,
+    "file": "stories/20261110-0757_9251.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9251.jpg",
+    "source2": "sources/9251_2.jpg",
+    "gallery": [
+      "sources/9251_g1.jpg",
+      "sources/9251_g2.jpg",
+      "sources/9251_g3.jpg",
+      "sources/9251_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.593
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.402
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.471
+      }
+    ],
+    "title": "BMW M1000RR Full Carbon",
+    "year": "2023",
+    "mileage": "11’000",
+    "price": "2 518 000",
+    "created": "2026-11-10T07:57:25+00:00",
+    "posted": "2026-11-10T07:56:16+00:00",
+    "status": "delivered",
+    "description": "BMW M1000RR Full Carbon\nГод: 2023\nПробег: 11’000 km\nЦена под ключ:\n2 518 000₽\n\nBMW M1000RR в исполнении Full Carbon. Заявлено полностью бесаварийное состояние, без падений и ДТП. Полная оклейка PPF, установлен видеорегистратор Black Box с двумя камерами, оригинальные зеркала Rizoma. Выхлопная система доработана, конструкция выхлопа официально зарегистрирована. Установлена цепь M-Chain, нижняя защита выхлопной системы. \n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-10T07:57:56+00:00",
+    "status_b": "delivered"
   }
 ]
