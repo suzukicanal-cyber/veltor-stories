@@ -11335,5 +11335,51 @@
     "video": false,
     "delivered_at": "2026-11-11T02:08:29+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9279,
+    "file": "stories/20261111-0210_9279.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9279.jpg",
+    "source2": "sources/9279_2.jpg",
+    "gallery": [
+      "sources/9279_g1.jpg",
+      "sources/9279_g2.jpg",
+      "sources/9279_g3.jpg",
+      "sources/9279_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.845
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.312
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.629
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.928
+      }
+    ],
+    "title": "BMW S1000R",
+    "year": "2026",
+    "mileage": "2’800",
+    "price": "1 847 000",
+    "created": "2026-11-11T02:10:32+00:00",
+    "posted": "2026-11-11T02:09:09+00:00",
+    "status": "delivered",
+    "description": "BMW S1000R\nГод: 2026\nПробег: 2’800 km\nЦена под ключ:\n1 847 000₽\n\nПрактически новый мотоцикл. Первый сервис пройден на 1’000 km. Состояние близкое к новому. Установлены оригинальные BMW передние и задние слайдеры вилки, оригинальные крепёжные крюки для подката, оригинальная защита радиатора, USB-порт, ветровое стекло, подогрев ручек, два быстрых зарядных устройства Type-C, накладки EPIC на бак для фиксации коленей.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-11T02:11:47+00:00",
+    "status_b": "delivered"
   }
 ]
