@@ -11611,5 +11611,51 @@
     "video": false,
     "delivered_at": "2026-11-11T11:29:29+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9304,
+    "file": "stories/20261111-1130_9304.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9304.jpg",
+    "source2": "sources/9304_2.jpg",
+    "gallery": [
+      "sources/9304_g1.jpg",
+      "sources/9304_g2.jpg",
+      "sources/9304_g3.jpg",
+      "sources/9304_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.881
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.759
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.818
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.587
+      }
+    ],
+    "title": "Yamaha YZF-R1",
+    "year": "2023",
+    "mileage": "5’800",
+    "price": "1 800 000",
+    "created": "2026-11-11T11:30:38+00:00",
+    "posted": "2026-11-11T11:28:35+00:00",
+    "status": "delivered",
+    "description": "Yamaha YZF-R1\nГод: 2023\nПробег: 5’800 km\nЦена под ключ:\n1 800 000₽\n\nYamaha YZF-R1 2023 года с небольшим пробегом, ездил только по дорогам общего пользования, без трека. Тюнинг: передние, задние и рамные слайдеры Gilles Tooling, болты-крючки под стойку, крышка маслозаливной горловины и подножки Gilles Tooling, держатель SP Connect, защита двигателя GB Racing, карбоновые накладки на раму Carbonin, наколенные грипы, ветровое стекло Puig, кронштейн номера R&G, алюминиевая защита радиатора COX, тормозная машинка Brembo 19RCS Corsa Corta, рычаг сцепления Zeta. Обслуживание: на прошлой неделе заменены моторное масло, масляный фильтр, воздушный фильтр, аккумулятор и тормозная жидкость, после этого мотоцикл стоит на хранении\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-11T11:32:11+00:00",
+    "status_b": "delivered"
   }
 ]
