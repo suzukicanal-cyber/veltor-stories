@@ -11381,5 +11381,97 @@
     "video": false,
     "delivered_at": "2026-11-11T02:11:47+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9284,
+    "file": "stories/20261111-0704_9284.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9284.jpg",
+    "source2": "sources/9284_2.jpg",
+    "gallery": [
+      "sources/9284_g1.jpg",
+      "sources/9284_g2.jpg",
+      "sources/9284_g3.jpg",
+      "sources/9284_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.639
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.351
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW K1600 GT",
+    "year": "2017",
+    "mileage": "27’000",
+    "price": "1 555 000",
+    "created": "2026-11-11T07:04:31+00:00",
+    "posted": "2026-11-11T07:00:50+00:00",
+    "status": "delivered",
+    "description": "BMW K1600 GT\nГод: 2017\nПробег: 27’000 km\nЦена под ключ:\n1 555 000₽\n\nМотоцикл без ДТП, в аккуратном и ухоженном состоянии, пластик оригинальный. Есть всё нужное для туринга, а ещё задняя передача и смарт-ключ\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*18.9",
+    "video": false,
+    "delivered_at": "2026-11-11T07:06:50+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 9288,
+    "file": "stories/20261111-0705_9288.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/9288.jpg",
+    "source2": "sources/9288_2.jpg",
+    "gallery": [
+      "sources/9288_g1.jpg",
+      "sources/9288_g2.jpg",
+      "sources/9288_g3.jpg",
+      "sources/9288_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.329
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.56
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.799
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.352
+      }
+    ],
+    "title": "BMW K1600 GT",
+    "year": "2015",
+    "mileage": "44’702",
+    "price": "1 346 000",
+    "created": "2026-11-11T07:05:40+00:00",
+    "posted": "2026-11-11T07:03:13+00:00",
+    "status": "delivered",
+    "description": "BMW K1600 GT\nГод: 2015\nПробег: 44’702 km\nЦена под ключ:\n1 346 000₽\n\nBMW K1600 GT 2015 года в аккуратном состоянии. Мотоцикл без ДТП и падений, обклеен толстой защитной плёнкой\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*15.8",
+    "video": false,
+    "delivered_at": "2026-11-11T07:06:51+00:00",
+    "status_b": "delivered"
   }
 ]
