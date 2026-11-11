@@ -11565,5 +11565,51 @@
     "video": false,
     "delivered_at": "2026-11-11T07:10:25+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9300,
+    "file": "stories/20261111-1128_9300.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9300.jpg",
+    "source2": "sources/9300_2.jpg",
+    "gallery": [
+      "sources/9300_g1.jpg",
+      "sources/9300_g2.jpg",
+      "sources/9300_g3.jpg",
+      "sources/9300_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.627
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.912
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.896
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.557
+      }
+    ],
+    "title": "Yamaha YZF-R1",
+    "year": "2020",
+    "mileage": "7’145",
+    "price": "1 480 000",
+    "created": "2026-11-11T11:28:08+00:00",
+    "posted": "2026-11-11T11:26:54+00:00",
+    "status": "delivered",
+    "description": "Yamaha YZF-R1\nГод: 2020\nПробег: 7’145 km\nЦена под ключ:\n1 480 000₽\n\nYamaha YZF-R1 2020 года в синем цвете с небольшим пробегом. Тюнинг: выхлоп Akrapovic, изменение конструкции официально зарегистрировано, держатель телефона, двухканальный видеорегистратор. Была низкоскоростная слайд-падение на левый бок, всё отремонтировано. Обслуживание: дилер делает полную проверку и обслуживание при поступлении мотоцикла и ещё раз перед выдачей\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*18",
+    "video": false,
+    "delivered_at": "2026-11-11T11:29:29+00:00",
+    "status_b": "delivered"
   }
 ]
