@@ -509,8 +509,11 @@ def enhance(img):
     img = Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
     img = ImageEnhance.Color(img).enhance(1.18)
     img = ImageEnhance.Brightness(img).enhance(1.06)
-    img = img.filter(ImageFilter.UnsharpMask(radius=max(img.size) // 40, percent=22, threshold=0))  # clarity
-    img = img.filter(ImageFilter.UnsharpMask(radius=1.4, percent=65, threshold=3))                  # sharpness
+    img = img.filter(ImageFilter.UnsharpMask(radius=max(img.size) // 40, percent=14, threshold=0))  # clarity
+    # sharpen relative to the photo size: on large (restored) photos a 1.4 px radius looked
+    # like halos once the photo was scaled; softer and scaled now
+    r = max(1.0, 1.2 * max(img.size) / 1280)
+    img = img.filter(ImageFilter.UnsharpMask(radius=r, percent=40, threshold=3))                   # sharpness
     return img
 
 
