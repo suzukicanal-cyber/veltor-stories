@@ -11795,5 +11795,51 @@
     "video": false,
     "delivered_at": "2026-11-12T02:43:39+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9335,
+    "file": "stories/20261112-0250_9335.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9335.jpg",
+    "source2": "sources/9335_2.jpg",
+    "gallery": [
+      "sources/9335_g1.jpg",
+      "sources/9335_g2.jpg",
+      "sources/9335_g3.jpg",
+      "sources/9335_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.744
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.508
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.666
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.744
+      }
+    ],
+    "title": "Yamaha R9",
+    "year": "2027",
+    "mileage": "1’800",
+    "price": "1 514 000",
+    "created": "2026-11-12T02:50:03+00:00",
+    "posted": "2026-11-12T02:48:44+00:00",
+    "status": "delivered",
+    "description": "Yamaha R9\nГод: 2027\nПробег: 1’800 km\nЦена под ключ:\n1 514 000₽\n\nYamaha R9 в состоянии нового мотоцикла. Без ДТП, Электроника работает исправно, двигатель в отличном состоянии, запуск с пол-оборота. Внешнее состояние соответствует фотографиям.\nУстановлены дополнительные аксессуары: рычаги тормоза и сцепления RCB, клипса боковой подставки RCB, держатель телефона SP Connect, USB-разъём, видеорегистратор MVR M1 с двумя камерами.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-12T02:51:48+00:00",
+    "status_b": "delivered"
   }
 ]
