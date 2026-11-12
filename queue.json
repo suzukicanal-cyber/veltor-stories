@@ -11841,5 +11841,51 @@
     "video": false,
     "delivered_at": "2026-11-12T02:51:48+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9339,
+    "file": "stories/20261112-0557_9339.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/9339.jpg",
+    "source2": "sources/9339_2.jpg",
+    "gallery": [
+      "sources/9339_g1.jpg",
+      "sources/9339_g2.jpg",
+      "sources/9339_g3.jpg",
+      "sources/9339_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.629
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.824
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.765
+      }
+    ],
+    "title": "BMW R1250 GS",
+    "year": "2023",
+    "mileage": "12’796",
+    "price": "1 800 000",
+    "created": "2026-11-12T05:57:42+00:00",
+    "posted": "2026-11-12T05:56:38+00:00",
+    "status": "delivered",
+    "description": "BMW R1250 GS\nГод: 2023\nПробег: 12’796 km\nЦена под ключ:\n1 800 000₽ \n\nБез ДТП\nКуплен у официального дилера BMW в 2023 году.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-12T05:58:56+00:00",
+    "status_b": "delivered"
   }
 ]
