@@ -11887,5 +11887,51 @@
     "video": false,
     "delivered_at": "2026-11-12T05:58:56+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9343,
+    "file": "stories/20261112-0601_9343.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/9343.jpg",
+    "source2": "sources/9343_2.jpg",
+    "gallery": [
+      "sources/9343_g1.jpg",
+      "sources/9343_g2.jpg",
+      "sources/9343_g3.jpg",
+      "sources/9343_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.349
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.627
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.298
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2025",
+    "mileage": "13’000",
+    "price": "2 616 000",
+    "created": "2026-11-12T06:01:31+00:00",
+    "posted": "2026-11-12T06:00:21+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR M Package\nГод: 2025\nПробег: 13’000 km\nЦена под ключ:\n2 616 000₽\n\nВерсия M Package, однотонная версия. Мотоцикл с тюнингом под M1000RR Full Cowl. Установлен полный комплект оригинального обвеса M1000RR, включая карбоновые элементы. Продавец оценивает стоимость одного обвеса более чем в 10 млн вон. Без ДТП\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-12T06:02:47+00:00",
+    "status_b": "delivered"
   }
 ]
