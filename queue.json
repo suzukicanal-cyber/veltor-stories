@@ -11979,5 +11979,51 @@
     "video": false,
     "delivered_at": "2026-11-12T06:14:31+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9351,
+    "file": "stories/20261112-1251_9351.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9351.jpg",
+    "source2": "sources/9351_2.jpg",
+    "gallery": [
+      "sources/9351_g1.jpg",
+      "sources/9351_g2.jpg",
+      "sources/9351_g3.jpg",
+      "sources/9351_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.799
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.559
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW M1000XR",
+    "year": "2026",
+    "mileage": "930",
+    "price": "2 804 000",
+    "created": "2026-11-12T12:51:26+00:00",
+    "posted": "2026-11-12T12:50:20+00:00",
+    "status": "delivered",
+    "description": "BMW M1000XR\nГод: 2026\nПробег: 930 km\nЦена под ключ:\n2 804 000₽\n\nНовый BMW M1000XR 2026 года с пробегом всего 930 km. Мотоцикл в идеальном состоянии: без ДТП и даже без мелких царапин. По запросу можно установить дополнительные опции\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*38",
+    "video": false,
+    "delivered_at": "2026-11-12T12:52:16+00:00",
+    "status_b": "delivered"
   }
 ]
