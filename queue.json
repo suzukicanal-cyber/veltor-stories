@@ -12439,5 +12439,51 @@
     "video": false,
     "delivered_at": "2026-11-13T09:24:34+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9398,
+    "file": "stories/20261113-0926_9398.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9398.jpg",
+    "source2": "sources/9398_2.jpg",
+    "gallery": [
+      "sources/9398_g1.jpg",
+      "sources/9398_g2.jpg",
+      "sources/9398_g3.jpg",
+      "sources/9398_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.848
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.345
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.61
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.588
+      }
+    ],
+    "title": "BMW K1600GTL",
+    "year": "2026",
+    "mileage": "4’142",
+    "price": "2 616 000",
+    "created": "2026-11-13T09:26:10+00:00",
+    "posted": "2026-11-13T09:24:54+00:00",
+    "status": "delivered",
+    "description": "BMW K1600GTL\nГод: 2026\nПробег: 4’142 km\nЦена под ключ:\n2 616 000₽\n\nЦвет Gravity Blue Metallic. Минимальный пробег, отличное состояние. Оригинальный пробег. Мотоцикл приобретён у официального дилера.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-13T09:27:11+00:00",
+    "status_b": "delivered"
   }
 ]
