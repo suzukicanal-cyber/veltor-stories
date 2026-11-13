@@ -12255,5 +12255,51 @@
     "video": false,
     "delivered_at": "2026-11-13T01:25:00+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9380,
+    "file": "stories/20261113-0127_9380.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9380.jpg",
+    "source2": "sources/9380_2.jpg",
+    "gallery": [
+      "sources/9380_g1.jpg",
+      "sources/9380_g2.jpg",
+      "sources/9380_g3.jpg",
+      "sources/9380_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.648
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.908
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.852
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.606
+      }
+    ],
+    "title": "Harley-Davidson Street Bob",
+    "year": "2020",
+    "mileage": "7’361",
+    "price": "1 293 000",
+    "created": "2026-11-13T01:27:15+00:00",
+    "posted": "2026-11-13T01:26:11+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Street Bob\nГод: 2020\nПробег: 7’361 km\nЦена под ключ:\n1 293 000₽\n\nМотоцикл в отличном состоянии, небольшой пробег относительно года выпуска. Без ДТП и падений Установлены оригинальные аксессуары Screamin’ Eagle: подножки, рычаг переключения передач, крышка воздушного фильтра, накладка выпускной системы, рукоятки руля, крышка таймера и теплозащитные экраны. Дополнительно установлены боковые кожаные сумки Swingarm, поворотники C-Tech, защита двигателя, двухканальный видеорегистратор GNET Blackbox. Проведено обслуживание: заменены оригинальный аккумулятор, моторное масло, первичное масло трансмиссии и фильтры\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-13T01:28:32+00:00",
+    "status_b": "delivered"
   }
 ]
