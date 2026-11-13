@@ -12071,5 +12071,51 @@
     "video": false,
     "delivered_at": "2026-11-13T01:13:18+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9364,
+    "file": "stories/20261113-0114_9364.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9364.jpg",
+    "source2": "sources/9364_2.jpg",
+    "gallery": [
+      "sources/9364_g1.jpg",
+      "sources/9364_g2.jpg",
+      "sources/9364_g3.jpg",
+      "sources/9364_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.613
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.327
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.318
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.647
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2025",
+    "mileage": "10’000",
+    "price": "1 996 000",
+    "created": "2026-11-13T01:14:35+00:00",
+    "posted": "2026-11-13T01:13:24+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR\nГод: 2025\nПробег: 10’000 km\nЦена под ключ:\n1 996 000₽\n\nМотоцикл в отличном состоянии, без ДТП и падений.\n Установлены двухканальный видеорегистратор GNET, выхлоп Austin Racing Slip-on (переоборудование официально зарегистрировано), держатель телефона, USB-разъём для зарядки и защита двигателя. Выполнена специальная заводская окраска облицовочных элементов. Проведено обслуживание: заменены моторное масло и масляный фильтр.\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-13T01:15:03+00:00",
+    "status_b": "delivered"
   }
 ]
