@@ -12117,5 +12117,51 @@
     "video": false,
     "delivered_at": "2026-11-13T01:15:03+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9368,
+    "file": "stories/20261113-0117_9368.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9368.jpg",
+    "source2": "sources/9368_2.jpg",
+    "gallery": [
+      "sources/9368_g1.jpg",
+      "sources/9368_g2.jpg",
+      "sources/9368_g3.jpg",
+      "sources/9368_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.89
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.693
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2025",
+    "mileage": "2’126",
+    "price": "2 386 000",
+    "created": "2026-11-13T01:17:49+00:00",
+    "posted": "2026-11-13T01:16:14+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR M Package\nГод: 2025\nПробег: 2’126 km\nЦена под ключ:\n2 386 000₽\n\nКомплектация M Package. Без ДТП и падений. Установлен выхлоп SC Project Race Version \nПолный карбоновый обвес Fullsix: крышки рамы, защита маятника, переднее и заднее крылья, защита цепи, аэродинамические элементы и колесные накладки. Дополнительно установлены слайдеры рамы и вилки, колесные слайдеры, алюминиевые фрезерованные защитные крышки двигателя с обеих сторон, крепёжные элементы Hook Bolt, видеорегистратор GNET, держатель SP Connect, держатель телефона. Выполнена полная оклейка PPF плёнкой\nУстановлены защитные элементы двигателя.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-13T01:19:31+00:00",
+    "status_b": "delivered"
   }
 ]
