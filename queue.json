@@ -12209,5 +12209,51 @@
     "video": false,
     "delivered_at": "2026-11-13T01:21:11+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9376,
+    "file": "stories/20261113-0123_9376.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9376.jpg",
+    "source2": "sources/9376_2.jpg",
+    "gallery": [
+      "sources/9376_g1.jpg",
+      "sources/9376_g2.jpg",
+      "sources/9376_g3.jpg",
+      "sources/9376_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.822
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha YZF-R6",
+    "year": "2020",
+    "mileage": "13’844",
+    "price": "1 324 000",
+    "created": "2026-11-13T01:23:21+00:00",
+    "posted": "2026-11-13T01:21:36+00:00",
+    "status": "delivered",
+    "description": "Yamaha YZF-R6\nГод: 2020\nПробег: 13’844 km\nЦена под ключ:\n1 324 000₽\n\nМотоцикл в хорошем техническом состоянии. Установлены рычаги XRT, защита рычагов, слайдеры рамы и переднего колеса, крепёж Hook Bolt, боковая подставка R&G Side Stand Pad, двухканальный видеорегистратор, беспроводной держатель для зарядки телефона, литиевая аккумуляторная батарея 12V. Установлен Akrapovič Slip-on с официальной регистрацией изменений. Заменены моторное масло и масляный фильтр. По словам продавца, максимальная скорость составляет 280 км/ч, отсечка — 16 500 об/мин.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-13T01:25:00+00:00",
+    "status_b": "delivered"
   }
 ]
