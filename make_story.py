@@ -502,18 +502,24 @@ def enhance(img):
     means = a.reshape(-1, 3).mean(0) + 1e-6
     gains = np.clip(1 + 0.5 * (means.mean() / means - 1), 0.88, 1.12)
     a = a * gains
-    # levels: stretch 0.5..99.5 percentiles, 60 % strength
+    # levels (13.11.2026: highlight-safe): lift the black point, stretch whites only on dull
+    # photos and never past 245, so bright/white backgrounds are not blown out
     lo, hi = np.percentile(a, 0.5), np.percentile(a, 99.5)
-    if hi - lo > 40:
-        a = 0.4 * a + 0.6 * (a - lo) * (255.0 / (hi - lo))
+    top = 245.0 if hi < 235 else hi
+    if top - lo > 40:
+        a = 0.4 * a + 0.6 * (a - lo) * ((top - 0) / (top - lo))
     img = Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
-    img = ImageEnhance.Color(img).enhance(1.18)
-    img = ImageEnhance.Brightness(img).enhance(1.06)
+    img = ImageEnhance.Color(img).enhance(1.15)
+    mean = float(np.asarray(img.convert("L")).mean())
+    img = ImageEnhance.Brightness(img).enhance(1 + 0.06 * min(1.0, max(0.0, (110 - mean) / 40)))  # dark photos only
     img = img.filter(ImageFilter.UnsharpMask(radius=max(img.size) // 40, percent=14, threshold=0))  # clarity
-    # sharpen relative to the photo size: on large (restored) photos a 1.4 px radius looked
-    # like halos once the photo was scaled; softer and scaled now
     r = max(1.0, 1.2 * max(img.size) / 1280)
     img = img.filter(ImageFilter.UnsharpMask(radius=r, percent=40, threshold=3))                   # sharpness
+    # soft shoulder: values above 215 roll off smoothly towards 252 instead of clipping
+    x = np.arange(256, dtype=np.float32)
+    k = 215.0
+    lut = np.where(x <= k, x, k + (252 - k) * (1 - np.exp(-(x - k) / (252 - k))))
+    img = img.point(list(np.clip(lut, 0, 255).astype("uint8")) * 3)
     return img
 
 
