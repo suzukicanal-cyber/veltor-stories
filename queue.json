@@ -13050,5 +13050,51 @@
     "video": false,
     "delivered_at": "2026-11-14T04:16:16+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9463,
+    "file": "stories/20261114-1140_9463.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/9463.jpg",
+    "source2": "sources/9463_2.jpg",
+    "gallery": [
+      "sources/9463_g1.jpg",
+      "sources/9463_g2.jpg",
+      "sources/9463_g3.jpg",
+      "sources/9463_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.596
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.9
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Yamaha MT-09 SP",
+    "year": "2024",
+    "mileage": "NEW",
+    "price": "1 460 000",
+    "created": "2026-11-14T11:40:29+00:00",
+    "posted": "2026-11-14T11:38:53+00:00",
+    "status": "delivered",
+    "description": "Yamaha MT-09 SP\nГод: 2024\nПробег: NEW\nЦена под ключ:\n1 460 000₽\n\nНовый мотоцикл, версия SP, объём двигателя 890 см³. Специальная расцветка.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-14T11:41:31+00:00",
+    "status_b": "delivered"
   }
 ]
