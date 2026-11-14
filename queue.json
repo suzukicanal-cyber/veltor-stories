@@ -12692,5 +12692,51 @@
     "video": false,
     "delivered_at": "2026-11-14T02:50:32+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9433,
+    "file": "stories/20261114-0251_9433.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/9433.jpg",
+    "source2": "sources/9433_2.jpg",
+    "gallery": [
+      "sources/9433_g1.jpg",
+      "sources/9433_g2.jpg",
+      "sources/9433_g3.jpg",
+      "sources/9433_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.892
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.642
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.874
+      }
+    ],
+    "title": "Honda Gold Wing Tour DCT Airbag",
+    "year": "2018",
+    "mileage": "18’000",
+    "price": "2 486 000",
+    "created": "2026-11-14T02:51:55+00:00",
+    "posted": "2026-11-14T02:50:47+00:00",
+    "status": "delivered",
+    "description": "Honda Gold Wing Tour DCT Airbag\nГод: 2018\nПробег: 18’000 km\nЦена под ключ:\n2 486 000₽\n\nОдин владелец, без ДТП, состояние отличное.\n 7-ступенчатая автоматическая трансмиссия DCT. Комплектация: заводская система Airbag, электронное ветровое стекло, круиз-контроль, электрическая регулировка подвески, ABS, трекшн-контроль, TPMS, Hill Start Assist, режимы движения Tour/Rain/Sport/Econ, подогрев сидений и рукояток, Apple CarPlay, Android Auto, 7-дюймовая TFT-панель, аудиосистема Bluetooth, навигация, LED-оптика. Два ключа, сервисная книжка. Двигатель работает тихо, без посторонних шумов и утечек. Коробка переключается плавно, электроника полностью исправна. Заменены моторное масло, масляный фильтр, фильтр DCT и аккумулятор. Выполнена профессиональная полировка и защитное покрытие. \n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-14T02:53:05+00:00",
+    "status_b": "delivered"
   }
 ]
