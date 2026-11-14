@@ -12554,5 +12554,51 @@
     "video": false,
     "delivered_at": "2026-11-14T01:21:13+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9421,
+    "file": "stories/20261114-0241_9421.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9421.jpg",
+    "source2": "sources/9421_2.jpg",
+    "gallery": [
+      "sources/9421_g1.jpg",
+      "sources/9421_g2.jpg",
+      "sources/9421_g3.jpg",
+      "sources/9421_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.867
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.289
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.591
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R1300GS Adventure Trophy",
+    "year": "2025",
+    "mileage": "16’371",
+    "price": "2 681 000",
+    "created": "2026-11-14T02:41:18+00:00",
+    "posted": "2026-11-14T02:40:03+00:00",
+    "status": "delivered",
+    "description": "BMW R1300GS Adventure Trophy\nГод: 2025 \nПробег: 16’371 km\nЦена под ключ:\n2 681 000₽\n\nBMW R1300GS Adventure Trophy в оригинальном цвете Trophy, без ДТП. Модель с системой автоматической регулировки высоты мотоцикла (Automatic Ride Height Control). Установлены выхлоп Akrapovič, полная защитная оклейка MMX (установлена около месяца назад), 4 противотуманные фары, защита передней фары, Android Auto, двухканальный видеорегистратор, сумка на бак и боковые передние сумки. Установлены низкое сиденье и занижающий комплект (Low Seat / Low Kit).\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-14T02:42:32+00:00",
+    "status_b": "delivered"
   }
 ]
