@@ -12646,5 +12646,51 @@
     "video": false,
     "delivered_at": "2026-11-14T02:48:30+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9429,
+    "file": "stories/20261114-0249_9429.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9429.jpg",
+    "source2": "sources/9429_2.jpg",
+    "gallery": [
+      "sources/9429_g1.jpg",
+      "sources/9429_g2.jpg",
+      "sources/9429_g3.jpg",
+      "sources/9429_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.869
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.893
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Honda CBR650R E-Clutch",
+    "year": "2026",
+    "mileage": "NEW",
+    "price": "1 264 000",
+    "created": "2026-11-14T02:49:32+00:00",
+    "posted": "2026-11-14T02:47:27+00:00",
+    "status": "delivered",
+    "description": "Honda CBR650R E-Clutch\nГод: 2026\nПробег: NEW\nЦена под ключ:\n1 264 000₽\n\nНовый Honda CBR650R E-Clutch в красном цвете Электронное сцепление E-Clutch, позволяющее переключать передачи без использования рычага сцепления.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-14T02:50:32+00:00",
+    "status_b": "delivered"
   }
 ]
