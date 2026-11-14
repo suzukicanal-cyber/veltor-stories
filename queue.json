@@ -12738,5 +12738,51 @@
     "video": false,
     "delivered_at": "2026-11-14T02:53:05+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9437,
+    "file": "stories/20261114-0254_9437.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/9437.jpg",
+    "source2": "sources/9437_2.jpg",
+    "gallery": [
+      "sources/9437_g1.jpg",
+      "sources/9437_g2.jpg",
+      "sources/9437_g3.jpg",
+      "sources/9437_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.578
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.591
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Honda CBR650R ABS",
+    "year": "2023",
+    "mileage": "16’300",
+    "price": "1 013 000",
+    "created": "2026-11-14T02:54:21+00:00",
+    "posted": "2026-11-14T02:53:15+00:00",
+    "status": "delivered",
+    "description": "Honda CBR650R ABS\nГод: 2023\nПробег: 16’300 km\nЦена под ключ:\n1 013 000₽\n\nБез ДТП, падений и скользячек, 3-й владелец. Установлены противотуманные фары, Android Auto / Apple CarPlay, защитные дуги, защита двигателя, двухканальный видеорегистратор и квикшифтер Up. Пробег небольшой для данного года. По словам продавца, мотоцикл эксплуатировался аккуратно, технически исправен.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*9",
+    "video": false,
+    "delivered_at": "2026-11-14T02:55:42+00:00",
+    "status_b": "delivered"
   }
 ]
