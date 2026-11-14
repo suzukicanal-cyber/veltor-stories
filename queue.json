@@ -13142,5 +13142,97 @@
     "video": false,
     "delivered_at": "2026-11-14T11:44:35+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9471,
+    "file": "stories/20261114-1853_9471.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9471.jpg",
+    "source2": "sources/9471_2.jpg",
+    "gallery": [
+      "sources/9471_g1.jpg",
+      "sources/9471_g2.jpg",
+      "sources/9471_g3.jpg",
+      "sources/9471_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.351
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.353
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.369
+      }
+    ],
+    "title": "Kawasaki Ninja 400 ABS",
+    "year": "2023",
+    "mileage": "10’800",
+    "price": "762 000",
+    "created": "2026-11-14T18:53:38+00:00",
+    "posted": "2026-11-14T14:07:29+00:00",
+    "status": "delivered",
+    "description": "Kawasaki Ninja 400 ABS\nГод: 2023\nПробег: 10’800 km\nЦена под ключ:\n762 000₽\n\nKawasaki Ninja 400 2023 года. Передняя и задняя шины в хорошем состоянии, ресурса ещё много. Нынешний владелец взял байк сразу после 10 000 km и почти не ездил на нём. Внешне в хорошем состоянии, могут быть небольшие царапины. Сиденье родное. Тюнинг: держатель для телефона, видеорегистратор, подогрев ручек, слайдеры рамы. Обслуживание: прошлый владелец прошёл ТО на 10 000 km в официальном сервисе Kawasaki, на 9 400–9 500 km заменено моторное масло\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*6.3",
+    "video": false,
+    "delivered_at": "2026-11-14T18:57:02+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 9475,
+    "file": "stories/20261114-1855_9475.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9475.jpg",
+    "source2": "sources/9475_2.jpg",
+    "gallery": [
+      "sources/9475_g1.jpg",
+      "sources/9475_g2.jpg",
+      "sources/9475_g3.jpg",
+      "sources/9475_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.866
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.519
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.857
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Honda CBR500R",
+    "year": "2023",
+    "mileage": "8’100",
+    "price": "755 000",
+    "created": "2026-11-14T18:55:24+00:00",
+    "posted": "2026-11-14T14:41:22+00:00",
+    "status": "delivered",
+    "description": "Honda CBR500R\nГод: 2023\nПробег: 8’100 km\nЦена под ключ:\n755 000₽\n\nHonda CBR500R 2023 года. Владелец взял байк у хорошего прошлого хозяина, чтобы начать ездить. Ездил без проблем, а продаёт, потому что быстро захотел пересесть на другой мотоцикл. Отличный вариант для новичка. Тюнинг: держатель для телефона. Обслуживание: по словам владельца, сейчас ничего не нужно обслуживать или менять\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*6.2",
+    "video": false,
+    "delivered_at": "2026-11-14T18:57:06+00:00",
+    "status_b": "delivered"
   }
 ]
