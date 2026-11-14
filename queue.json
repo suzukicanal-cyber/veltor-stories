@@ -13004,5 +13004,51 @@
     "video": false,
     "delivered_at": "2026-11-14T04:12:11+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9459,
+    "file": "stories/20261114-0415_9459.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9459.jpg",
+    "source2": "sources/9459_2.jpg",
+    "gallery": [
+      "sources/9459_g1.jpg",
+      "sources/9459_g2.jpg",
+      "sources/9459_g3.jpg",
+      "sources/9459_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.831
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.87
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.478
+      }
+    ],
+    "title": "Triumph Tiger 1200 Rally Explorer",
+    "year": "2025",
+    "mileage": "3’300",
+    "price": "1 604 000",
+    "created": "2026-11-14T04:15:18+00:00",
+    "posted": "2026-11-14T04:14:06+00:00",
+    "status": "delivered",
+    "description": "Triumph Tiger 1200 Rally Explorer\nГод: 2025\nПробег: 3’300 km\nЦена под ключ:\n1 604 000₽\n\nБез ДТП и падений. Первая регистрация — февраль 2025 года. Состояние отличное, мотоцикл на гарантии. Установлены оригинальный выхлоп Akrapovič, боковые кофры и центральный кофр Triumph, защитные дуги, защита фары, противотуманные фары, защита радиатора, трёхпозиционные защитные элементы и другие дополнительные аксессуары.\n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-14T04:16:16+00:00",
+    "status_b": "delivered"
   }
 ]
