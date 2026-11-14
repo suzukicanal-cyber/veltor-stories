@@ -12968,5 +12968,41 @@
     "video": false,
     "delivered_at": "2026-11-14T04:10:31+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9457,
+    "file": "stories/20261114-0411_9457.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9457.jpg",
+    "source2": "sources/9457_2.jpg",
+    "gallery": [
+      "sources/9457_g1.jpg",
+      "sources/9457_g2.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.355
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW R12 nineT Option 719",
+    "year": "2024",
+    "mileage": "4’400",
+    "price": "1 635 000",
+    "created": "2026-11-14T04:11:26+00:00",
+    "posted": "2026-11-14T04:10:16+00:00",
+    "status": "delivered",
+    "description": "BMW R12 nineT Option 719\nГод: 2024\nПробег: 4’400 km\nЦена под ключ:\n1 635 000₽\n\nВерсия Option 719 в цвете Grün (зелёный).Без ДТП и падений. Установлены оригинальные аксессуары BMW: окрашенная оригинальная крышка рамы (Rocket Cowl), зеркала Option 719 Bar-End, оригинальный держатель SP для смартфона.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-14T04:12:11+00:00",
+    "status_b": "delivered"
   }
 ]
