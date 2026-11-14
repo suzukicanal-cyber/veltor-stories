@@ -12784,5 +12784,51 @@
     "video": false,
     "delivered_at": "2026-11-14T02:55:42+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9441,
+    "file": "stories/20261114-0257_9441.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9441.jpg",
+    "source2": "sources/9441_2.jpg",
+    "gallery": [
+      "sources/9441_g1.jpg",
+      "sources/9441_g2.jpg",
+      "sources/9441_g3.jpg",
+      "sources/9441_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.755
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.878
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.153
+      }
+    ],
+    "title": "Honda CBR650R ABS",
+    "year": "2024",
+    "mileage": "7’565",
+    "price": "1 000 000",
+    "created": "2026-11-14T02:57:11+00:00",
+    "posted": "2026-11-14T02:55:57+00:00",
+    "status": "delivered",
+    "description": "Honda CBR650R ABS\nГод: 2024\nПробег: 7’565 km\nЦена под ключ:\n1 000 000₽\n\nHonda CBR650R ABS в чёрном цвете с красными акцентами. Было левое боковое скольжение \nПосле происшествия выполнен ремонт в официальном дилерском центре Honda, включая восстановление геометрии руля и баланса мотоцикла. Повреждённый пластик заменён на оригинальные детали Honda. Установлены кофр Bonamici, держатель телефона на руле и USB-порт. Шины и расходные материалы практически в новом состоянии. Основное техническое обслуживание выполнено, мотоцикл готов к эксплуатации. \n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-14T02:58:41+00:00",
+    "status_b": "delivered"
   }
 ]
