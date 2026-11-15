@@ -13764,5 +13764,51 @@
     "video": false,
     "delivered_at": "2026-11-15T21:42:38+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9582,
+    "file": "stories/20261115-2349_9582.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9582.jpg",
+    "source2": "sources/9582_2.jpg",
+    "gallery": [
+      "sources/9582_g1.jpg",
+      "sources/9582_g2.jpg",
+      "sources/9582_g3.jpg",
+      "sources/9582_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.721
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2023",
+    "mileage": "2’500",
+    "price": "1 865 000",
+    "created": "2026-11-15T23:49:44+00:00",
+    "posted": "2026-11-15T23:47:58+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR\nГод: 2023\nПробег: 2’500 km\nЦена под ключ:\n1 865 000₽\n\nВерсия с Race Package и дополнительными M-компонентами. Установлены защитные дуги, M-рычаги и кованые диски M Racing. Без ДТП, небольшой пробег. Мотоцикл выпущен в октябре 2023 года.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-15T23:50:20+00:00",
+    "status_b": "delivered"
   }
 ]
