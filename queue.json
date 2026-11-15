@@ -13810,5 +13810,51 @@
     "video": false,
     "delivered_at": "2026-11-15T23:50:20+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9586,
+    "file": "stories/20261115-2357_9586.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/9586.jpg",
+    "source2": "sources/9586_2.jpg",
+    "gallery": [
+      "sources/9586_g1.jpg",
+      "sources/9586_g2.jpg",
+      "sources/9586_g3.jpg",
+      "sources/9586_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.563
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.597
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Ducati Panigale V4S",
+    "year": "2026",
+    "mileage": "2",
+    "price": "3 562 000",
+    "created": "2026-11-15T23:57:19+00:00",
+    "posted": "2026-11-15T23:55:57+00:00",
+    "status": "delivered",
+    "description": "Ducati Panigale V4S\nГод: 2026\nПробег: 2 km\nЦена под ключ:\n3 562 000₽\n\nНовый Ducati Panigale V4 S в красном цвете, двигатель 1103 cc, 6-ступенчатая коробка передач. Производство — февраль 2026 года. Полностью без пробега, состояние нового мотоцикла. Без ДТП и повреждений.Шины, тормозная система и привод — 100%. Полностью в заводском состоянии.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*50",
+    "video": false,
+    "delivered_at": "2026-11-15T23:58:20+00:00",
+    "status_b": "delivered"
   }
 ]
