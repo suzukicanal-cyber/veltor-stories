@@ -13464,5 +13464,51 @@
     "video": false,
     "delivered_at": "2026-11-15T03:08:23+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9534,
+    "file": "stories/20261115-0314_9534.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9534.jpg",
+    "source2": "sources/9534_2.jpg",
+    "gallery": [
+      "sources/9534_g1.jpg",
+      "sources/9534_g2.jpg",
+      "sources/9534_g3.jpg",
+      "sources/9534_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.321
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.652
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.562
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.316
+      }
+    ],
+    "title": "Kawasaki Ninja 1000SX (Z1000SX)",
+    "year": "2021",
+    "mileage": "22’725",
+    "price": "1 075 000",
+    "created": "2026-11-15T03:14:45+00:00",
+    "posted": "2026-11-15T03:13:23+00:00",
+    "status": "delivered",
+    "description": "Kawasaki Ninja 1000SX (Z1000SX)\nГод: 2021\nПробег: 22’725 km\nЦена под ключ:\n1 075 000₽\n\nЗаводское оснащение включает круиз-контроль, двусторонний Quickshifter KQS, Cornering ABS (KIBS), трёхуровневую систему контроля тяги KTRC, режимы езды Sport/Road/Rain/Rider, цветную TFT-панель, Bluetooth-соединение со смартфоном через приложение Rideology, светодиодную оптику. Установлен выхлоп Yoshimura с изменённой конструкцией, боковые кофры, защита GB Racing, защита рамы, слайдеры вилки и держатель смартфона. Зелёный цвет. По информации продавца, мотоцикл без ДТП.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-15T03:15:21+00:00",
+    "status_b": "delivered"
   }
 ]
