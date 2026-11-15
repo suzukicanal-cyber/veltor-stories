@@ -13694,5 +13694,51 @@
     "video": false,
     "delivered_at": "2026-11-15T12:45:29+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9555,
+    "file": "stories/20261115-1248_9555.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9555.jpg",
+    "source2": "sources/9555_2.jpg",
+    "gallery": [
+      "sources/9555_g1.jpg",
+      "sources/9555_g2.jpg",
+      "sources/9555_g3.jpg",
+      "sources/9555_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.918
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.877
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.91
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.655
+      }
+    ],
+    "title": "BMW S1000R",
+    "year": "2026",
+    "mileage": "5’300",
+    "price": "1 865 000",
+    "created": "2026-11-15T12:48:34+00:00",
+    "posted": "2026-11-15T12:46:57+00:00",
+    "status": "delivered",
+    "description": "BMW S1000R\nГод: 2026\nПробег: 5’300 km\nЦена под ключ:\n1 865 000₽\n\nБез ДТП, падений и скользячек. Богатый дополнительный тюнинг: выхлоп SC Project Slip-on двухканальный видеорегистратор G-Net G1, оригинальная защита радиатора BMW, оригинальная защита двигателя GB Racing, слайдеры рамы, вилки и маятника Evotech, оригинальный буксировочный болт BMW, USB Type-C Komine, оригинальное ветровое стекло BMW, накладки Eazi-Grip на бак и колени. На глянцевые чёрные элементы и светотехнику нанесена защитная плёнка PPF, экран также защищён плёнкой.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-15T12:49:57+00:00",
+    "status_b": "delivered"
   }
 ]
