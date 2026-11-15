@@ -13740,5 +13740,29 @@
     "video": false,
     "delivered_at": "2026-11-15T12:49:57+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 2606,
+    "file": "stories/20261115-2142_2606.jpg",
+    "layout": "single",
+    "photo_no": 1,
+    "source": "sources/2606.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.775
+      }
+    ],
+    "title": "BMW R nine T",
+    "year": "2026",
+    "mileage": "1’000",
+    "price": "1 783 000",
+    "created": "2026-11-15T21:42:26+00:00",
+    "posted": "2026-06-01T05:51:57+00:00",
+    "status": "delivered",
+    "description": "BMW R nine T \nГод: 2026\nПробег: 1’000 km \nЦена под ключ:\n1 783 000₽\n\nБайк только прошел обкатку\n Состояние нового мотоцикла \n Расходники без расхода \n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-15T21:42:38+00:00",
+    "status_b": "delivered"
   }
 ]
