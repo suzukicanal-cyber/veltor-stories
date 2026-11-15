@@ -13602,5 +13602,51 @@
     "video": false,
     "delivered_at": "2026-11-15T03:22:14+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9546,
+    "file": "stories/20261115-0324_9546.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9546.jpg",
+    "source2": "sources/9546_2.jpg",
+    "gallery": [
+      "sources/9546_g1.jpg",
+      "sources/9546_g2.jpg",
+      "sources/9546_g3.jpg",
+      "sources/9546_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.356
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.64
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.603
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Harley-Davidson Breakout 117",
+    "year": "2024",
+    "mileage": "16’002",
+    "price": "1 823 000",
+    "created": "2026-11-15T03:24:07+00:00",
+    "posted": "2026-11-15T03:22:54+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Breakout 117\nГод: 2024\nПробег: 16’002 km\nЦена под ключ:\n1 823 000₽\n\nЧёрный цвет. По информации продавца, мотоцикл без ДТП. Дополнительное оснащение и установленные опции представлены на фотографиях объявления. Фотографии сделаны до мойки. \n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-15T03:24:52+00:00",
+    "status_b": "delivered"
   }
 ]
