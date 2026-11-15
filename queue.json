@@ -13556,5 +13556,51 @@
     "video": false,
     "delivered_at": "2026-11-15T03:19:12+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9542,
+    "file": "stories/20261115-0321_9542.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9542.jpg",
+    "source2": "sources/9542_2.jpg",
+    "gallery": [
+      "sources/9542_g1.jpg",
+      "sources/9542_g2.jpg",
+      "sources/9542_g3.jpg",
+      "sources/9542_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.636
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.655
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Road Glide Special",
+    "year": "2023",
+    "mileage": "14’000",
+    "price": "2 355 000",
+    "created": "2026-11-15T03:21:31+00:00",
+    "posted": "2026-11-15T03:19:43+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Road Glide Special\nГод: 2023\nПробег: 14’000 km\nЦена под ключ:\n2 355 000₽\n\nЧёрный цвет, внешний вид в хорошем состоянии, остаток расходных материалов около 70%. Установлен выхлоп S&S \nДополнительное оснащение: руль 16 дюймов, обтекатель, поворотники, ветровое стекло, алюминиевый держатель смартфона, дополнительные подножки Highway Pegs, мультифункциональные элементы и подогрев рукояток. По информации продавца, мотоцикл без ДТП.\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-15T03:22:14+00:00",
+    "status_b": "delivered"
   }
 ]
