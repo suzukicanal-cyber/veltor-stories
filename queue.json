@@ -14109,5 +14109,51 @@
     "video": false,
     "delivered_at": "2026-11-16T06:46:23+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9644,
+    "file": "stories/20261116-0708_9644.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9644.jpg",
+    "source2": "sources/9644_2.jpg",
+    "gallery": [
+      "sources/9644_g1.jpg",
+      "sources/9644_g2.jpg",
+      "sources/9644_g3.jpg",
+      "sources/9644_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.854
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.369
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.314
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.282
+      }
+    ],
+    "title": "Ducati Diavel 1260 S",
+    "year": "2020",
+    "mileage": "15’500",
+    "price": "1 458 000",
+    "created": "2026-11-16T07:08:53+00:00",
+    "posted": "2026-11-16T07:05:29+00:00",
+    "status": "delivered",
+    "description": "Ducati Diavel 1260 S\nГод: 2020\nПробег: 15’500 km\nЦена под ключ:\n1 458 000₽\n\nDucati Diavel 1260 S 2020 года без нареканий, ремонта не требует. В декабре пройдено ежегодное ТО. Тюнинг: Apple CarPlay и Android Auto, 2-канальный видеорегистратор, слип-он CS Racing, эмулятор сервопривода HealTech, защитная плёнка PPF на фаре, баке, переднем крыле и приборной панели, зеркала. С салона установлены рычаги Rizoma, защита Evotech и USB-зарядка. Штатные зеркала и глушитель в комплекте. Из дефектов только вмятина и царапины на подножке пассажира.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*17.3",
+    "video": false,
+    "delivered_at": "2026-11-16T07:10:19+00:00",
+    "status_b": "delivered"
   }
 ]
