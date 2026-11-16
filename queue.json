@@ -13856,5 +13856,51 @@
     "video": false,
     "delivered_at": "2026-11-15T23:58:20+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9590,
+    "file": "stories/20261116-0000_9590.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/9590.jpg",
+    "source2": "sources/9590_2.jpg",
+    "gallery": [
+      "sources/9590_g1.jpg",
+      "sources/9590_g2.jpg",
+      "sources/9590_g3.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.902
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0,
+        "tire": true
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.921
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Ducati Multistrada V4 Pikes Peak",
+    "year": "2023",
+    "mileage": "13’606",
+    "price": "2 584 000",
+    "created": "2026-11-16T00:00:49+00:00",
+    "posted": "2026-11-15T23:59:08+00:00",
+    "status": "delivered",
+    "description": "Ducati Multistrada V4 Pikes Peak\nГод: 2023\nПробег: 13’606 km\nЦена под ключ:\n2 584 000₽\n\nDucati Multistrada V4 Pikes Peak в красном цвете. Без ДТП, есть незначительные повреждения только на боковом кофре. Богатая комплектация дополнительным оборудованием: полный выхлоп Akrapovič, сухое сцепление Ducati Performance, карбоновые элементы, оригинальные аксессуары Ducati Performance, демпфер руля Öhlins, защита двигателя GIVI, защита радиатора, PPF-плёнка, USB-порт и крепление для смартфона. Мотоцикл с большим количеством дорогостоящего дополнительного оборудования.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-16T00:01:31+00:00",
+    "status_b": "delivered"
   }
 ]
