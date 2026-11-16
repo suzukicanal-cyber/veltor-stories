@@ -14535,6 +14535,8 @@
     },
     "video": false,
     "delivered_at": "2026-11-16T13:37:06+00:00",
-    "status_b": "delivered"
+    "status_b": "delivered",
+    "published_at": "2026-11-16T13:50:46+00:00",
+    "published_track": "track.mp3"
   }
 ]
