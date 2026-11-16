@@ -14538,5 +14538,55 @@
     "status_b": "delivered",
     "published_at": "2026-11-16T13:50:46+00:00",
     "published_track": "track.mp3"
+  },
+  {
+    "post_id": 9687,
+    "file": "stories/20261116-1854_9687.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9687.jpg",
+    "source2": "sources/9687_2.jpg",
+    "gallery": [
+      "sources/9687_g1.jpg",
+      "sources/9687_g2.jpg",
+      "sources/9687_g3.jpg",
+      "sources/9687_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.583
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.798
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Kawasaki ZX-6R 636",
+    "year": "2025",
+    "mileage": "440",
+    "price": "1 376 000",
+    "created": "2026-11-16T18:54:19+00:00",
+    "posted": "2026-11-16T16:08:24+00:00",
+    "status": "delivered",
+    "description": "Kawasaki ZX-6R 636\nГод: 2025\nПробег: 440 km\nЦена под ключ:\n1 376 000₽\n\nKawasaki ZX-6R 2025 года с пробегом всего 440 км. Без аварий и падений. После покупки на езду не было времени, мотоцикл просто стоял — по состоянию практически новый. Из обслуживания: заменён аккумулятор\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*16",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 940
+    },
+    "video": false,
+    "delivered_at": "2026-11-16T18:55:21+00:00",
+    "status_b": "delivered"
   }
 ]
