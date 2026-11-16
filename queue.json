@@ -14458,7 +14458,7 @@
   },
   {
     "post_id": 9681,
-    "file": "stories/20261116-1230_9681.jpg",
+    "file": "stories/20261116-1337_9681_v3.jpg",
     "layout": "collage",
     "photo_no": [
       1,
@@ -14499,9 +14499,42 @@
     "status": "delivered",
     "description": "BMW F900GS Adventure\nГод: 2026\nПробег: 1’635 km\nЦена под ключ:\n1 418 000₽\n\nСостояние практически нового мотоцикла, без ДТП и падений. Установлены противотуманные фары, крепление для навигации и подогрев ручек. Недавно пройдена проверка и оформлена регистрация. Заказан оригинальный комплект из трёх кофров BMW Motorrad (установка запланирована на конец ноября).Дополнительно можно купить кофры \n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
     "video": false,
-    "delivered_at": "2026-11-16T12:31:40+00:00",
+    "delivered_at": "2026-11-16T13:37:48+00:00",
     "status_b": "delivered",
     "published_at": "2026-11-16T13:27:16+00:00",
-    "published_track": "track.mp3"
+    "published_track": "track.mp3",
+    "rebuilt": true,
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 939
+    }
+  },
+  {
+    "post_id": 4342,
+    "file": "stories/20261116-1336_4342.jpg",
+    "layout": "single",
+    "photo_no": 1,
+    "source": "sources/4342.jpg",
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.879
+      }
+    ],
+    "title": "BMW R12 nineT Option 719",
+    "year": "2026",
+    "mileage": "2’773",
+    "price": "1 925 000",
+    "created": "2026-11-16T13:36:51+00:00",
+    "posted": "2026-07-23T08:38:50+00:00",
+    "status": "delivered",
+    "description": "BMW R12 nineT Option 719\nГод: 2026\nПробег: 2’773 km \nЦена под ключ:\n1 925 000₽\n\nВ очень дорого комплектации 719\nСостояние соответствует пробегу и году \nБез ДТП и падений \n\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 937
+    },
+    "video": false,
+    "delivered_at": "2026-11-16T13:37:06+00:00",
+    "status_b": "delivered"
   }
 ]
