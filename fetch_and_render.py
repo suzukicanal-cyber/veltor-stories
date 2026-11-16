@@ -177,6 +177,11 @@ def render(entry, out):
     story_args(entry, None)                                  # applies the photo-restoration setting
     photos = [str(ROOT / g) for g in entry.get("gallery") or []] or \
              [str(ROOT / entry[k]) for k in ("source", "source2") if entry.get(k)]
+    if fa.get("engine") == "a3":                             # 16.11.2026 designs (story_a3.py)
+        import story_a3
+        story_a3.build_a3(fa["variant"], photos, entry["title"], entry["year"], entry["mileage"],
+                          entry["price"], out)
+        return
     story_a2.build_a2(fa.get("variant", "3_column"), fa.get("glow", "white"), photos, entry["title"],
                       entry["year"], entry["mileage"], entry["price"], out, description=entry.get("description", ""))
 

@@ -10,7 +10,7 @@ on:
         required: false
         default: ""
       layout:
-        description: "Формат пересборки: auto (как обычно) или collage (всегда коллаж)"
+        description: "auto (как обычно), collage, rerender (перерисовать по сохранённым фото, без повторной отправки в DA)"
         required: false
         default: "auto"
 
@@ -48,7 +48,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           PUBLISH_KEY: ${{ secrets.PUBLISH_KEY }}
-        run: python rebuild_post.py ${{ inputs.post_ids }} ${{ inputs.layout == 'collage' && '--collage' || '' }}
+        run: python rebuild_post.py ${{ inputs.post_ids }} ${{ inputs.layout == 'collage' && '--collage' || '' }} ${{ inputs.layout == 'rerender' && '--rerender' || '' }}
 
       - name: Commit results
         run: |

@@ -13,8 +13,8 @@
     "since": "2026-11-04T19:40:00+00:00"
   },
   "format_a": {
-    "variant": "s3_price_pill",
-    "glow": "white"
+    "engine": "a3",
+    "variant": "m1_magazine"
   },
   "publish": {
     "enabled": true,

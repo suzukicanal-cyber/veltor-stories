@@ -52,7 +52,7 @@ def fetch_album(first_id, via_chat):
     return photos, caption
 
 
-def main(ids, force_collage=False):
+def main(ids, force_collage=False, rerender=False):
     queue = f.load(f.QUEUE, [])
     cfg = f.load(f.CONFIG, {})
     via = cfg.get("forward_via_chat_id") or (cfg.get("deliver_to_chat_ids") or [None])[0]
@@ -61,6 +61,20 @@ def main(ids, force_collage=False):
     f.TMP.mkdir(exist_ok=True); f.SOURCES.mkdir(exist_ok=True); f.STORIES.mkdir(exist_ok=True)
     for pid in ids:
         print(f"post {pid}")
+        old = next((i for i in queue if str(i["post_id"]) == str(pid)), None)
+        if rerender:
+            # re-draw from the photos already saved (new design), no album fetch;
+            # DA Motors copy is NOT sent again (status_b kept)
+            if not old or old.get("kind") == "auto":
+                print("  no saved moto story, skipped"); continue
+            stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M")
+            out = f.STORIES / f"{stamp}_{pid}_v3.jpg"
+            entry = dict(old, file=f"stories/{out.name}", status="new", rebuilt=True,
+                         created=old.get("created"))
+            f.render(entry, out)
+            queue[queue.index(old)] = entry
+            print(f"  re-rendered {out.name}")
+            continue
         photos, caption = fetch_album(pid, via)
         print(f"  album: {len(photos)} photos")
         old = next((i for i in queue if str(i["post_id"]) == str(pid)), None)
@@ -102,5 +116,6 @@ def main(ids, force_collage=False):
 
 
 if __name__ == "__main__":
-    argv = " ".join(a for a in sys.argv[1:] if a != "--collage")
-    main([int(x) for x in argv.replace(",", " ").split()], force_collage="--collage" in sys.argv)
+    argv = " ".join(a for a in sys.argv[1:] if a not in ("--collage", "--rerender"))
+    main([int(x) for x in argv.replace(",", " ").split()], force_collage="--collage" in sys.argv,
+         rerender="--rerender" in sys.argv)
