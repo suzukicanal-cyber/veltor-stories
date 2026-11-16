@@ -26,6 +26,14 @@ jobs:
           python-version: "3.12"
       - run: pip install pillow==11.* numpy onnxruntime telethon
       - run: which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Decrypt music
+        env:
+          PUBLISH_KEY: ${{ secrets.PUBLISH_KEY }}
+        run: |
+          for f in music/*.enc; do [ -e "$f" ] || continue
+            openssl enc -d -aes-256-cbc -pbkdf2 -in "$f" -out "${f%.enc}" -pass env:PUBLISH_KEY
+          done
+          ls -la music
       - name: Publish
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

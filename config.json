@@ -19,8 +19,9 @@
   "publish": {
     "enabled": true,
     "peer": "koreamotocycles_veltor",
-    "seconds": 12,
-    "worker": "https://veltor-guard.suzuki-canal.workers.dev"
+    "seconds": 15,
+    "worker": "https://veltor-guard.suzuki-canal.workers.dev",
+    "music_start": 0
   },
   "format_auto": {
     "variant": "c5_details",
