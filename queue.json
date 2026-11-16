@@ -14455,5 +14455,51 @@
     "video": false,
     "delivered_at": "2026-11-16T12:28:57+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9681,
+    "file": "stories/20261116-1230_9681.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9681.jpg",
+    "source2": "sources/9681_2.jpg",
+    "gallery": [
+      "sources/9681_g1.jpg",
+      "sources/9681_g2.jpg",
+      "sources/9681_g3.jpg",
+      "sources/9681_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.86
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW F900GS Adventure",
+    "year": "2026",
+    "mileage": "1’635",
+    "price": "1 418 000",
+    "created": "2026-11-16T12:30:39+00:00",
+    "posted": "2026-11-16T12:29:19+00:00",
+    "status": "delivered",
+    "description": "BMW F900GS Adventure\nГод: 2026\nПробег: 1’635 km\nЦена под ключ:\n1 418 000₽\n\nСостояние практически нового мотоцикла, без ДТП и падений. Установлены противотуманные фары, крепление для навигации и подогрев ручек. Недавно пройдена проверка и оформлена регистрация. Заказан оригинальный комплект из трёх кофров BMW Motorrad (установка запланирована на конец ноября).Дополнительно можно купить кофры \n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "video": false,
+    "delivered_at": "2026-11-16T12:31:40+00:00",
+    "status_b": "delivered"
   }
 ]
