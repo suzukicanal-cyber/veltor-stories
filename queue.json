@@ -14363,5 +14363,51 @@
     "video": false,
     "delivered_at": "2026-11-16T11:14:25+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9672,
+    "file": "stories/20261116-1124_9672.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9672.jpg",
+    "source2": "sources/9672_2.jpg",
+    "gallery": [
+      "sources/9672_g1.jpg",
+      "sources/9672_g2.jpg",
+      "sources/9672_g3.jpg",
+      "sources/9672_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.689
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.636
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.333
+      }
+    ],
+    "title": "BMW M1000R",
+    "year": "2025",
+    "mileage": "1’900",
+    "price": "2 226 000",
+    "created": "2026-11-16T11:24:02+00:00",
+    "posted": "2026-11-16T11:22:16+00:00",
+    "status": "delivered",
+    "description": "BMW M1000R\nГод: 2025\nПробег: 1’900 km\nЦена под ключ:\n2 226 000₽\n\nBMW M1000R 2025 года в белом цвете с пробегом всего 1 900 км. Без аварий, скольжений и падений, состояние нового мотоцикла. Тюнинг: тонированное спортивное ветровое стекло, сумка на бак Wunderlich Elephant, держатель телефона с беспроводной зарядкой, слайдеры Evotech на вилку и заднюю ось, 2-канальный видеорегистратор Gnet G1 Pro, короткий глушитель в стиле Akrapovič (внесён в документы), контроллер заслонки выхлопа Play\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*29",
+    "video": false,
+    "delivered_at": "2026-11-16T11:24:56+00:00",
+    "status_b": "delivered"
   }
 ]
