@@ -14293,5 +14293,51 @@
     "delivered_at": "2026-11-16T10:04:31+00:00",
     "status_b": "delivered",
     "rebuilt": true
+  },
+  {
+    "post_id": 9661,
+    "file": "stories/20261116-1038_9661.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9661.jpg",
+    "source2": "sources/9661_2.jpg",
+    "gallery": [
+      "sources/9661_g1.jpg",
+      "sources/9661_g2.jpg",
+      "sources/9661_g3.jpg",
+      "sources/9661_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.87
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.776
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.19
+      }
+    ],
+    "title": "BMW S1000R M Package",
+    "year": "2026",
+    "mileage": "2’500",
+    "price": "2 009 000",
+    "created": "2026-11-16T10:38:29+00:00",
+    "posted": "2026-11-16T10:37:09+00:00",
+    "status": "delivered",
+    "description": "BMW S1000R M Package\nГод: 2026\nПробег: 2’500 km\nЦена под ключ:\n2 009 000₽\n\nBMW S1000R 2026 года в комплектации M Package, куплен в салоне BMW Motorrad Gangnam. Один владелец, хранение в подземном паркинге. Без аварий и падений, заправлялся только премиальным бензином, состояние нового мотоцикла. Эксплуатировался по выходным в спокойном режиме на загородных извилистых дорогах. Тюнинг: слайдеры Evotech на вилку, маятник и раму, защита радиатора, видеорегистратор Gnet, USB-розетка\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*23.5",
+    "video": false,
+    "delivered_at": "2026-11-16T10:40:00+00:00",
+    "status_b": "delivered"
   }
 ]
