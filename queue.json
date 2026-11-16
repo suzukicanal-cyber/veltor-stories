@@ -14237,5 +14237,51 @@
     "video": false,
     "delivered_at": "2026-11-16T08:04:28+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9655,
+    "file": "stories/20261116-0840_9655.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9655.jpg",
+    "source2": "sources/9655_2.jpg",
+    "gallery": [
+      "sources/9655_g1.jpg",
+      "sources/9655_g2.jpg",
+      "sources/9655_g3.jpg",
+      "sources/9655_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.329
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.819
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.617
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.575
+      }
+    ],
+    "title": "BMW S1000R",
+    "year": "2022",
+    "mileage": "1’700",
+    "price": "1 502 000",
+    "created": "2026-11-16T08:40:53+00:00",
+    "posted": "2026-11-16T08:39:36+00:00",
+    "status": "delivered",
+    "description": "BMW S1000R\nГод: 2022\nПробег: 1’700 km\nЦена под ключ:\n1 502 000₽\n\nBMW S1000R 2022 года с пробегом всего 1 700 км с момента покупки в салоне. Без аварий и падений, состояние нового мотоцикла\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*18",
+    "video": false,
+    "delivered_at": "2026-11-16T08:41:41+00:00",
+    "status_b": "delivered"
   }
 ]
