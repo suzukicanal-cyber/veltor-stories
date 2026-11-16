@@ -14201,5 +14201,41 @@
     "video": false,
     "delivered_at": "2026-11-16T07:36:02+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9653,
+    "file": "stories/20261116-0804_9653.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9653.jpg",
+    "source2": "sources/9653_2.jpg",
+    "gallery": [
+      "sources/9653_g1.jpg",
+      "sources/9653_g2.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.363
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.84
+      }
+    ],
+    "title": "Kawasaki Ninja ZX-6R",
+    "year": "2024",
+    "mileage": "15’000",
+    "price": "1 439 000",
+    "created": "2026-11-16T08:04:02+00:00",
+    "posted": "2026-11-16T08:02:02+00:00",
+    "status": "delivered",
+    "description": "Kawasaki Ninja ZX-6R\nГод: 2024\nПробег: 15’000 km\nЦена под ключ:\n1 439 000₽\n\nKawasaki Ninja ZX-6R 2024 года в фирменной зелёной расцветке Kawasaki Racing Team, пробег 15 000 км.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*17",
+    "video": false,
+    "delivered_at": "2026-11-16T08:04:28+00:00",
+    "status_b": "delivered"
   }
 ]
