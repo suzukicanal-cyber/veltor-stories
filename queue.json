@@ -13902,5 +13902,74 @@
     "video": false,
     "delivered_at": "2026-11-16T00:01:31+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9594,
+    "kind": "auto",
+    "file": "stories/20261116-0004_9594_auto.jpg",
+    "gallery": [
+      "sources/9594_a1.jpg",
+      "sources/9594_a2.jpg",
+      "sources/9594_a3.jpg",
+      "sources/9594_a4.jpg"
+    ],
+    "source": "sources/9594_a1.jpg",
+    "title": "Kia Seltos 1.6 Diesel 2WD Prestige",
+    "year": "2021",
+    "mileage": "104071",
+    "price": "1 750 000",
+    "hp": "136",
+    "created": "2026-11-16T00:04:02+00:00",
+    "posted": "2026-11-16T00:00:42+00:00",
+    "status": "delivered",
+    "description": "Kia Seltos 1.6 Diesel 2WD Prestige\nЦена под ключ в Москве:\n1 750 000 ₽\nГод: 2021\nПробег: 104 071 км\nДвигатель: 136 л.с.\nКоробка: Автомат\n\nКомплектация:\nКожаные сиденья\nПодогрев передних сидений\nВентиляция передних сидений\nПодогрев руля\nАдаптивный круиз-контроль\nПредупреждение о выходе из полосы (LDWS)\nПарктроники (передние, задние)\nКамера заднего вида\nЭлектронный стояночный тормоз (EPB)\nБесключевой доступ (Smart Key)\nНавигация\nМультимедийный экран\nBluetooth\nUSB\nАвтосвет\nЭлектроскладывающиеся зеркала\nЛитые диски\nМультируль\nДатчик давления в шинах (TPMS)\nПодушки безопасности (водитель, пассажир, боковые, шторки)\nABS\nTCS\nESC\nЭлектростеклоподъёмники\nЦентральный замок\nЭлектроусилитель руля\nDrive Wise\n\n\n@veltor_kor — автомобили из Южной Кореи под ключ.",
+    "video": false,
+    "delivered_at": "2026-11-16T00:05:18+00:00"
+  },
+  {
+    "post_id": 9605,
+    "file": "stories/20261116-0004_9605.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/9605.jpg",
+    "source2": "sources/9605_2.jpg",
+    "gallery": [
+      "sources/9605_g1.jpg",
+      "sources/9605_g2.jpg",
+      "sources/9605_g3.jpg",
+      "sources/9605_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.901
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.874
+      }
+    ],
+    "title": "Ducati Diavel V4",
+    "year": "2023",
+    "mileage": "9’515",
+    "price": "1 996 000",
+    "created": "2026-11-16T00:04:13+00:00",
+    "posted": "2026-11-16T00:02:38+00:00",
+    "status": "delivered",
+    "description": "Ducati Diavel V4\nГод: 2023\nПробег: 9’515 km\nЦена под ключ:\n1 996 000₽\n\nDucati Diavel V4 в красном цвете. Без ДТП и падений, состояние близкое к новому. Установлены двухканальный видеорегистратор Mio, слайдеры рамы Evotech, защита радиатора, крепление SP Connect для смартфона и USB-зарядка Komine. Остались дополнительные расходные материалы.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*26",
+    "video": false,
+    "delivered_at": "2026-11-16T00:05:19+00:00",
+    "status_b": "delivered"
   }
 ]
