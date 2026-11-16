@@ -269,9 +269,7 @@ def deliver_pending(queue):
         if item.get("status") != "new" or not chats:
             continue
         button = publish_button(item["post_id"])
-        caption = f"{item['title']} — {item['price']}₽\n" + (
-            "Нажмите кнопку — сторис с музыкой выйдет в группе VELTOR." if button else
-            "Готово для сторис: сохраните файл, добавьте музыку и опубликуйте.")
+        caption = f"{item['title']} — {item['price']} ₽"      # 16.11.2026: only model and price
         try:
             video_path = None
             if item.get("layout") == "collage" and load(CONFIG, {}).get("send_video", False):
