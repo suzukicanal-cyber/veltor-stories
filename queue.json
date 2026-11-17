@@ -15041,7 +15041,9 @@
     },
     "video": false,
     "delivered_at": "2026-11-17T14:03:26+00:00",
-    "status_b": "delivered"
+    "status_b": "delivered",
+    "published_at": "2026-11-17T14:37:22+00:00",
+    "published_track": "track.mp3"
   },
   {
     "post_id": 9733,
