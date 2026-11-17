@@ -14588,5 +14588,55 @@
     "video": false,
     "delivered_at": "2026-11-16T18:55:21+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9694,
+    "file": "stories/20261117-0059_9694.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9694.jpg",
+    "source2": "sources/9694_2.jpg",
+    "gallery": [
+      "sources/9694_g1.jpg",
+      "sources/9694_g2.jpg",
+      "sources/9694_g3.jpg",
+      "sources/9694_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.835
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.576
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.642
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.727
+      }
+    ],
+    "title": "BMW R1300RT",
+    "year": "2026",
+    "mileage": "11’519",
+    "price": "1 376 000",
+    "created": "2026-11-17T00:59:00+00:00",
+    "posted": "2026-11-17T00:57:10+00:00",
+    "status": "delivered",
+    "description": "BMW R1300RT\nГод: 2026\nПробег: 11’519 km\nЦена под ключ:\n1 376 000₽\n\nBMW R1300RT нового поколения. Без ДТП. Передняя и задняя шины заменены на новые. Установлен двухканальный Blackbox и отдельная экранная навигация. Все проверки пройдены, расходные материалы с большим остаточным ресурсом. Двигатель работает ровно, посторонние шумы отсутствуют, ходовая часть в отличном состоянии. Мотоцикл полностью готов к эксплуатации.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*33",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 942
+    },
+    "video": false,
+    "delivered_at": "2026-11-17T00:59:38+00:00",
+    "status_b": "delivered"
   }
 ]
