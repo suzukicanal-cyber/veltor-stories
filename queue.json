@@ -14738,5 +14738,55 @@
     "video": false,
     "delivered_at": "2026-11-17T01:10:28+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9706,
+    "file": "stories/20261117-0111_9706.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/9706.jpg",
+    "source2": "sources/9706_2.jpg",
+    "gallery": [
+      "sources/9706_g1.jpg",
+      "sources/9706_g2.jpg",
+      "sources/9706_g3.jpg",
+      "sources/9706_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.739
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.886
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Ducati Panigale V4 Speciale",
+    "year": "2018",
+    "mileage": "14’650",
+    "price": "4 085 000",
+    "created": "2026-11-17T01:11:46+00:00",
+    "posted": "2026-11-17T01:10:02+00:00",
+    "status": "delivered",
+    "description": "Ducati Panigale V4 Speciale\nГод: 2018\nПробег: 14’650 km\nЦена под ключ:\n4 085 000₽\n\nЛимитированная версия Ducati Panigale V4 Speciale, выпущенная тиражом 1 500 экземпляров по всему миру. Без ДТП. Установлен полный титановый выхлоп Termignoni с заводской прошивкой, изменение конструкции официально оформлено. Полный карбоновый обвес Fullsix со специальной окраской, карбоновые детали LiteTek, CNC Racing и Termignoni, карбоновое заднее крыло, крышки двигателя и другие компоненты. Установлены квикшифтер, прозрачная крышка сцепления и демпфер Ohlins. Плавающие тормозные диски TK. Перед сезоном заменены моторное масло, цепь EK525 и обе шины Pirelli Diablo Supercorsa V4. Литиевая батарея обслужена и заряжена специальным устройством. Оригинальные обтекатели и боковые зеркала сохранены. Отличное состояние.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 948
+    },
+    "video": false,
+    "delivered_at": "2026-11-17T01:12:45+00:00",
+    "status_b": "delivered"
   }
 ]
