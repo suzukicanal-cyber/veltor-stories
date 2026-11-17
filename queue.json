@@ -14638,5 +14638,55 @@
     "video": false,
     "delivered_at": "2026-11-17T00:59:38+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9698,
+    "file": "stories/20261117-0101_9698.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9698.jpg",
+    "source2": "sources/9698_2.jpg",
+    "gallery": [
+      "sources/9698_g1.jpg",
+      "sources/9698_g2.jpg",
+      "sources/9698_g3.jpg",
+      "sources/9698_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.361
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.338
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000XR",
+    "year": "2023",
+    "mileage": "16’000",
+    "price": "1 365 000",
+    "created": "2026-11-17T01:01:52+00:00",
+    "posted": "2026-11-17T01:00:20+00:00",
+    "status": "delivered",
+    "description": "BMW S1000XR\nГод: 2023\nПробег: 16’000 km\nЦена под ключ:\n1 365 000₽\n\nBMW S1000XR в чёрном цвете. Без ДТП, приобретён через программу BMW Certified Used и обслуживался исключительно у официального дилера BMW. Двигатель и коробка передач работают отлично, расходные материалы в хорошем состоянии. Установлен дополнительный круиз-контроль, держатель телефона, боковая сумка, защита двигателя и двухканальный Blackbox. Электроника полностью исправна. После поступления проведены проверка и тест-драйв.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 944
+    },
+    "video": false,
+    "delivered_at": "2026-11-17T01:02:54+00:00",
+    "status_b": "delivered"
   }
 ]
