@@ -15042,5 +15042,55 @@
     "video": false,
     "delivered_at": "2026-11-17T14:03:26+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9733,
+    "file": "stories/20261117-1409_9733.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9733.jpg",
+    "source2": "sources/9733_2.jpg",
+    "gallery": [
+      "sources/9733_g1.jpg",
+      "sources/9733_g2.jpg",
+      "sources/9733_g3.jpg",
+      "sources/9733_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.768
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.899
+      }
+    ],
+    "title": "BMW S1000RR M",
+    "year": "2024",
+    "mileage": "16’000",
+    "price": "1 948 000",
+    "created": "2026-11-17T14:09:21+00:00",
+    "posted": "2026-11-17T14:07:23+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR M\nГод: 2024\nПробег: 16’000 km\nЦена под ключ:\n1 948 000₽\n\nBMW S1000RR M в бело-синей гоночной расцветке. Установлен выхлоп SC Project. В комплекте различные дополнительные детали и тюнинг. Мотоцикл без ДТП и падений. Оригинальный выхлоп, пассажирское сиденье, нижний обтекатель и другие штатные детали сохранены и передаются новому владельцу.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 960
+    },
+    "video": false,
+    "delivered_at": "2026-11-17T14:10:29+00:00",
+    "status_b": "delivered"
   }
 ]
