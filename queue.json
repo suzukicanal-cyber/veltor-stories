@@ -15092,5 +15092,55 @@
     "video": false,
     "delivered_at": "2026-11-17T14:10:29+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9737,
+    "file": "stories/20261117-1412_9737.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9737.jpg",
+    "source2": "sources/9737_2.jpg",
+    "gallery": [
+      "sources/9737_g1.jpg",
+      "sources/9737_g2.jpg",
+      "sources/9737_g3.jpg",
+      "sources/9737_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.816
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.313
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.321
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.526
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2025",
+    "mileage": "1’000",
+    "price": "2 014 000",
+    "created": "2026-11-17T14:12:42+00:00",
+    "posted": "2026-11-17T14:11:13+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR M Package\nГод: 2025\nПробег: 1’000 km\nЦена под ключ:\n2 014 000₽\n\nМотоцикл в комплектации M Package. Карбоновые элементы выполнены по индивидуальному заказу. Установлен выхлоп Austin Racing Slip-on с изменением конструкции\nМотоцикл без технических дефектов, состояние близкое к новому.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 962
+    },
+    "video": false,
+    "delivered_at": "2026-11-17T14:14:02+00:00",
+    "status_b": "delivered"
   }
 ]
