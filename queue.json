@@ -15807,6 +15807,8 @@
     },
     "video": false,
     "delivered_at": "2026-11-18T08:58:34+00:00",
-    "status_b": "delivered"
+    "status_b": "delivered",
+    "published_at": "2026-11-18T09:00:06+00:00",
+    "published_track": "track.mp3"
   }
 ]
