@@ -15500,5 +15500,55 @@
     "video": false,
     "delivered_at": "2026-11-18T04:23:00+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9772,
+    "file": "stories/20261118-0426_9772.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9772.jpg",
+    "source2": "sources/9772_2.jpg",
+    "gallery": [
+      "sources/9772_g1.jpg",
+      "sources/9772_g2.jpg",
+      "sources/9772_g3.jpg",
+      "sources/9772_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.36
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.348
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.359
+      }
+    ],
+    "title": "Harley-Davidson Low Rider ST",
+    "year": "2024",
+    "mileage": "2’900",
+    "price": "2 184 000",
+    "created": "2026-11-18T04:26:53+00:00",
+    "posted": "2026-11-18T04:25:12+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Low Rider ST\nГод: 2024\nПробег: 2’900 km\nЦена под ключ:\n2 184 000₽\n\nHarley-Davidson Low Rider ST 2024 модельного года, но с завода выпущен в мае 2026, поэтому заводская гарантия ещё долго действует. Мотор Milwaukee-Eight 117 (1923 см³). Без ДТП, все документы в порядке. Тюнинг: двухканальный видеорегистратор\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*28.5",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 978
+    },
+    "video": false,
+    "delivered_at": "2026-11-18T04:28:01+00:00",
+    "status_b": "delivered"
   }
 ]
