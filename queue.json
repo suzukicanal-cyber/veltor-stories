@@ -15196,5 +15196,55 @@
     "video": false,
     "delivered_at": "2026-11-18T00:45:07+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9748,
+    "file": "stories/20261118-0048_9748.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      4
+    ],
+    "source": "sources/9748.jpg",
+    "source2": "sources/9748_2.jpg",
+    "gallery": [
+      "sources/9748_g1.jpg",
+      "sources/9748_g2.jpg",
+      "sources/9748_g3.jpg",
+      "sources/9748_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.831
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.347
+      }
+    ],
+    "title": "Honda Gold Wing GL1800",
+    "year": "2024",
+    "mileage": "12’500",
+    "price": "2 714 000",
+    "created": "2026-11-18T00:48:52+00:00",
+    "posted": "2026-11-18T00:47:32+00:00",
+    "status": "delivered",
+    "description": "Honda Gold Wing GL1800\nГод: 2024\nПробег: 12’500 km\nЦена под ключ:\n2 714 000₽\n\nДвигатель 1833 cc. Цвет Metallic Gray. Без ДТП. Следов падений с обеих сторон нет, на левом боковом кофре имеется царапина. В комплекте два ключа и полный комплект документов.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 966
+    },
+    "video": false,
+    "delivered_at": "2026-11-18T00:50:07+00:00",
+    "status_b": "delivered"
   }
 ]
