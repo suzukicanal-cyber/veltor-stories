@@ -15146,5 +15146,55 @@
     "status_b": "delivered",
     "published_at": "2026-11-17T14:35:11+00:00",
     "published_track": "track.mp3"
+  },
+  {
+    "post_id": 9744,
+    "file": "stories/20261118-0044_9744.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9744.jpg",
+    "source2": "sources/9744_2.jpg",
+    "gallery": [
+      "sources/9744_g1.jpg",
+      "sources/9744_g2.jpg",
+      "sources/9744_g3.jpg",
+      "sources/9744_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.897
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.627
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.919
+      }
+    ],
+    "title": "BMW HP4",
+    "year": "2014",
+    "mileage": "17’798",
+    "price": "1 040 000",
+    "created": "2026-11-18T00:44:36+00:00",
+    "posted": "2026-11-18T00:43:02+00:00",
+    "status": "delivered",
+    "description": "BMW HP4\nГод: 2014\nПробег: 17’798 km\nЦена под ключ:\n1 040 000₽\n\nЛимитированная высокопроизводительная модель на базе BMW S1000RR. Отличается повышенной мощностью и крутящим моментом. Без ДТП по заявлению продавца. Двигатель без посторонних шумов, стабильный баланс при движении. Все проверки пройдены, остаток расходных материалов хороший. Отличное техническое состояние, готов к эксплуатации.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 964
+    },
+    "video": false,
+    "delivered_at": "2026-11-18T00:45:07+00:00",
+    "status_b": "delivered"
   }
 ]
