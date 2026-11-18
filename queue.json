@@ -15450,5 +15450,55 @@
     "video": false,
     "delivered_at": "2026-11-18T04:07:51+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9768,
+    "file": "stories/20261118-0421_9768.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9768.jpg",
+    "source2": "sources/9768_2.jpg",
+    "gallery": [
+      "sources/9768_g1.jpg",
+      "sources/9768_g2.jpg",
+      "sources/9768_g3.jpg",
+      "sources/9768_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.877
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.904
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.328
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.555
+      }
+    ],
+    "title": "Harley-Davidson Low Rider ST",
+    "year": "2023",
+    "mileage": "8’900",
+    "price": "1 854 000",
+    "created": "2026-11-18T04:21:44+00:00",
+    "posted": "2026-11-18T04:20:18+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Low Rider ST\nГод: 2023\nПробег: 8’900 km\nЦена под ключ:\n1 854 000₽\n\nHarley-Davidson Low Rider ST 2023 года в лимитированной расцветке Fast Johnnie. Байк в очень хорошем состоянии. Обслуживание: заменены моторное масло, масляный фильтр, воздушный фильтр и масло в трансмиссии. Тюнинг: держатель для телефона и защитные дуги двигателя\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*23.5",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 976
+    },
+    "video": false,
+    "delivered_at": "2026-11-18T04:23:00+00:00",
+    "status_b": "delivered"
   }
 ]
