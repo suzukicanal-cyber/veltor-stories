@@ -15350,5 +15350,55 @@
     "video": false,
     "delivered_at": "2026-11-18T03:56:40+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9760,
+    "file": "stories/20261118-0359_9760.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9760.jpg",
+    "source2": "sources/9760_2.jpg",
+    "gallery": [
+      "sources/9760_g1.jpg",
+      "sources/9760_g2.jpg",
+      "sources/9760_g3.jpg",
+      "sources/9760_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.863
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.889
+      }
+    ],
+    "title": "BMW K1600GTL",
+    "year": "2025",
+    "mileage": "2’900",
+    "price": "2 448 000",
+    "created": "2026-11-18T03:59:01+00:00",
+    "posted": "2026-11-18T03:57:41+00:00",
+    "status": "delivered",
+    "description": "BMW K1600GTL\nГод: 2025\nПробег: 2’900 km\nЦена под ключ:\n2 448 000₽\n\nBMW K1600GTL 2025 года в чёрном цвете. Один владелец с нового, без смены собственников. Без ДТП, ни разу не падал и не скользил, состояние как у нового. Тюнинг: двухканальный видеорегистратор, держатель для телефона, полная оклейка защитной плёнкой PPF.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*32.5",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 972
+    },
+    "video": false,
+    "delivered_at": "2026-11-18T04:00:20+00:00",
+    "status_b": "delivered"
   }
 ]
