@@ -15758,5 +15758,55 @@
     "video": false,
     "delivered_at": "2026-11-18T08:45:31+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9792,
+    "file": "stories/20261118-0857_9792.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9792.jpg",
+    "source2": "sources/9792_2.jpg",
+    "gallery": [
+      "sources/9792_g1.jpg",
+      "sources/9792_g2.jpg",
+      "sources/9792_g3.jpg",
+      "sources/9792_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.871
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.632
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "MV Agusta Turismo Veloce RC SCS",
+    "year": "2021",
+    "mileage": "8’263",
+    "price": "1 247 000",
+    "created": "2026-11-18T08:57:53+00:00",
+    "posted": "2026-11-18T08:56:34+00:00",
+    "status": "delivered",
+    "description": "MV Agusta Turismo Veloce RC SCS\nГод: 2021\nПробег: 8’263 km\nЦена под ключ:\n1 247 000₽\n\nMV Agusta Turismo Veloce RC SCS 2021 года, 798 см³, чёрный. Это спортивный турер в топовой версии RC (Reparto Corse) со сцеплением SCS: трогаться и останавливаться можно без рычага сцепления. Без ДТП, в чистом и ухоженном состоянии\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*14",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 988
+    },
+    "video": false,
+    "delivered_at": "2026-11-18T08:58:34+00:00",
+    "status_b": "delivered"
   }
 ]
