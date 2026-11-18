@@ -15195,7 +15195,9 @@
     },
     "video": false,
     "delivered_at": "2026-11-18T00:45:07+00:00",
-    "status_b": "delivered"
+    "status_b": "delivered",
+    "published_at": "2026-11-18T00:55:16+00:00",
+    "published_track": "track.mp3"
   },
   {
     "post_id": 9748,
