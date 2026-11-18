@@ -50,8 +50,15 @@ async def post_story(video, seconds, peer_name):
         media = types.InputMediaUploadedDocument(
             file=uploaded, mime_type="video/mp4",
             attributes=[types.DocumentAttributeVideo(duration=seconds, w=1080, h=1920, supports_streaming=True)])
-        await client(functions.stories.SendStoryRequest(
-            peer=peer, media=media, privacy_rules=[types.InputPrivacyValueAllowAll()], period=86400))
+        # pinned=True: the story stays in the group's profile after 24 h (18.11.2026)
+        res = await client(functions.stories.SendStoryRequest(
+            peer=peer, media=media, privacy_rules=[types.InputPrivacyValueAllowAll()], period=86400,
+            pinned=True))
+        for u in getattr(res, "updates", []):
+            st = getattr(u, "story", None)
+            if st is not None and getattr(st, "id", None):
+                return st.id
+        return None
 
 
 def mark_message(item, text):
@@ -80,13 +87,14 @@ def main(post_id):
                        start=float(cfg.get("music_start", 0)))
     print(f"video {video.name}: {seconds} s, melody: {track.name if track else 'нет (тишина)'}")
     try:
-        asyncio.run(post_story(video, seconds, cfg.get("peer", f.CHAT_USERNAME)))
+        story_id = asyncio.run(post_story(video, seconds, cfg.get("peer", f.CHAT_USERNAME)))
     except Exception as e:
         item["publish_error"] = str(e)[:300]
         f.QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
         mark_message(item, f"⚠️ Не удалось опубликовать: {str(e)[:150]}")
         raise
     item["published_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    item["story_id"] = story_id
     item["published_track"] = track.name if track else None
     item.pop("publish_error", None)
     f.QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
