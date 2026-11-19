@@ -16462,7 +16462,10 @@
     },
     "video": false,
     "delivered_at": "2026-11-19T04:37:22+00:00",
-    "status_b": "delivered"
+    "status_b": "delivered",
+    "published_at": "2026-11-19T05:07:00+00:00",
+    "story_id": 358,
+    "published_track": "track.mp3"
   },
   {
     "post_id": 9850,
