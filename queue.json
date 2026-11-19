@@ -16886,5 +16886,55 @@
     "video": false,
     "delivered_at": "2026-11-19T09:52:23+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9890,
+    "file": "stories/20261119-0955_9890.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9890.jpg",
+    "source2": "sources/9890_2.jpg",
+    "gallery": [
+      "sources/9890_g1.jpg",
+      "sources/9890_g2.jpg",
+      "sources/9890_g3.jpg",
+      "sources/9890_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.88
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.603
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.875
+      }
+    ],
+    "title": "Honda Gold Wing 1800",
+    "year": "2017",
+    "mileage": "15’000",
+    "price": "2 013 000",
+    "created": "2026-11-19T09:55:51+00:00",
+    "posted": "2026-11-19T09:54:17+00:00",
+    "status": "delivered",
+    "description": "Honda Gold Wing 1800\nГод: 2017\nПробег: 15’000 km\nЦена под ключ:\n2 013 000₽\n\nHonda Gold Wing 1800 2017 года в белом цвете. Один владелец с нового, смены собственника не было. Для своего года пробег маленький. Без ДТП, подскользов и падений. За байком хорошо ухаживали, состояние отличное. В феврале 2026 пройден плановый техосмотр. Тюнинг: защитные дуги двигателя, хайвей-подножки, LED-подсветка, хромированные детали Kuryakyn, держатель для телефона. Для пассажира есть спинка и подлокотники\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*25.9",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1034
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T09:57:15+00:00",
+    "status_b": "delivered"
   }
 ]
