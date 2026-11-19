@@ -16663,5 +16663,55 @@
     "video": false,
     "delivered_at": "2026-11-19T04:50:07+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9866,
+    "file": "stories/20261119-0459_9866.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9866.jpg",
+    "source2": "sources/9866_2.jpg",
+    "gallery": [
+      "sources/9866_g1.jpg",
+      "sources/9866_g2.jpg",
+      "sources/9866_g3.jpg",
+      "sources/9866_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.597
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.772
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.833
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Sportster S",
+    "year": "2023",
+    "mileage": "7’827",
+    "price": "1 240 000",
+    "created": "2026-11-19T04:59:55+00:00",
+    "posted": "2026-11-19T04:58:25+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Sportster S\nГод: 2023\nПробег: 7’827 km\nЦена под ключ:\n1 240 000₽\n\nМотоцикл без ДТП. Установлены держатель для телефона, двухканальный видеорегистратор и защита двигателя\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1024
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T05:01:49+00:00",
+    "status_b": "delivered"
   }
 ]
