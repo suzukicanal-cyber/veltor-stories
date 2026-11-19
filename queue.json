@@ -15910,5 +15910,55 @@
     "video": false,
     "delivered_at": "2026-11-18T13:56:03+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9806,
+    "file": "stories/20261119-0002_9806.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9806.jpg",
+    "source2": "sources/9806_2.jpg",
+    "gallery": [
+      "sources/9806_g1.jpg",
+      "sources/9806_g2.jpg",
+      "sources/9806_g3.jpg",
+      "sources/9806_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.909
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.874
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.611
+      }
+    ],
+    "title": "BMW R nineT",
+    "year": "2015",
+    "mileage": "17’000",
+    "price": "1 189 000",
+    "created": "2026-11-19T00:02:46+00:00",
+    "posted": "2026-11-19T00:01:24+00:00",
+    "status": "delivered",
+    "description": "BMW R nineT\nГод: 2015\nПробег: 17’000 km\nЦена под ключ:\n1 189 000₽\n\nКлассический BMW R nineT в чёрном цвете. Двигатель 1200 cc, экологический стандарт Euro 3. Хорошее состояние, без ДТП. Износ расходных материалов — 80%. Полный комплект оригинальных деталей, включая заводские запчасти. Установлен кастом стоимостью более 25 000 000 KRW. Мотоцикл с большим объёмом доработок.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 994
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T00:04:00+00:00",
+    "status_b": "delivered"
   }
 ]
