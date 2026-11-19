@@ -16613,5 +16613,55 @@
     "video": false,
     "delivered_at": "2026-11-19T04:39:56+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9862,
+    "file": "stories/20261119-0448_9862.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9862.jpg",
+    "source2": "sources/9862_2.jpg",
+    "gallery": [
+      "sources/9862_g1.jpg",
+      "sources/9862_g2.jpg",
+      "sources/9862_g3.jpg",
+      "sources/9862_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.641
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.838
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.832
+      }
+    ],
+    "title": "Harley-Davidson Low Rider S 117",
+    "year": "2025",
+    "mileage": "142",
+    "price": "1 951 000",
+    "created": "2026-11-19T04:48:17+00:00",
+    "posted": "2026-11-19T04:46:49+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Low Rider S 117\nГод: 2025\nПробег: 142 km\nЦена под ключ:\n1 951 000₽\n\nПрактически новый Harley-Davidson Low Rider S 117. По заявлению продавца, без ДТП и падений. Пробег всего 142 км. Установлен двухканальный видеорегистратор BlackVue.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1022
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T04:50:07+00:00",
+    "status_b": "delivered"
   }
 ]
