@@ -16160,5 +16160,205 @@
     "video": false,
     "delivered_at": "2026-11-19T00:16:11+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9826,
+    "file": "stories/20261119-0030_9826.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/9826.jpg",
+    "source2": "sources/9826_2.jpg",
+    "gallery": [
+      "sources/9826_g1.jpg",
+      "sources/9826_g2.jpg",
+      "sources/9826_g3.jpg",
+      "sources/9826_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.891
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.611
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha MT-09 SP",
+    "year": "2022",
+    "mileage": "18’554",
+    "price": "1 114 000",
+    "created": "2026-11-19T00:30:44+00:00",
+    "posted": "2026-11-19T00:16:27+00:00",
+    "status": "delivered",
+    "description": "Yamaha MT-09 SP\nГод: 2022\nПробег: 18’554 km\nЦена под ключ:\n1 114 000₽\n\nВерсия SP в серебристом цвете. \nБез ДТП. Хорошее техническое и внешнее состояние, ухоженный мотоцикл. Дополнительно установлены видеорегистратор, защита двигателя XRT, слайдер задней вилки и другие аксессуары.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1004
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T00:33:25+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 9830,
+    "file": "stories/20261119-0031_9830.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9830.jpg",
+    "source2": "sources/9830_2.jpg",
+    "gallery": [
+      "sources/9830_g1.jpg",
+      "sources/9830_g2.jpg",
+      "sources/9830_g3.jpg",
+      "sources/9830_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.179
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.486
+      }
+    ],
+    "title": "Yamaha YZF-R7",
+    "year": "2022",
+    "mileage": "5’990",
+    "price": "876 000",
+    "created": "2026-11-19T00:31:32+00:00",
+    "posted": "2026-11-19T00:19:13+00:00",
+    "status": "delivered",
+    "description": "Yamaha YZF-R7\nГод: 2022\nПробег: 5’990 km\nЦена под ключ:\n876 000₽\n\nБез ДТП. Дополнительное оборудование: подогрев рукояток, боковые сумки, защитные дуги. Установлен двухканальный видеорегистратор и беспроводное зарядное устройство для телефона. Передняя и задняя шины Michelin заменены на пробеге около 5 000 km. Мотоцикл без следов падений, в ухоженном состоянии.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1005
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T00:33:27+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 9834,
+    "file": "stories/20261119-0032_9834.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9834.jpg",
+    "source2": "sources/9834_2.jpg",
+    "gallery": [
+      "sources/9834_g1.jpg",
+      "sources/9834_g2.jpg",
+      "sources/9834_g3.jpg",
+      "sources/9834_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.91
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.631
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.907
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.88
+      }
+    ],
+    "title": "Suzuki GSX-S1000",
+    "year": "2019",
+    "mileage": "17’740",
+    "price": "833 000",
+    "created": "2026-11-19T00:32:05+00:00",
+    "posted": "2026-11-19T00:21:55+00:00",
+    "status": "delivered",
+    "description": "Suzuki GSX-S1000\nГод: 2019\nПробег: 17’740 km\nЦена под ключ:\n833 000₽\n\nЛитровый нейкед с рядным 4-цилиндровым двигателем объёмом 999 cc. Бело-чёрный цвет. Без ДТП, в хорошем общем состоянии. Установлены дополнительные компоненты: регулируемые рычаги XRT, слайдеры рамы XRT, короткое ветровое стекло, держатель телефона RAM Mount X-Grip, накладки на бак R&G для защиты от контакта с коленями, крепёжные крюки. В комплекте 2 оригинальных ключа. Следов повреждений от падений нет. Рекомендуется замена накладки R (по информации продавца).\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1006
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T00:33:29+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 9838,
+    "file": "stories/20261119-0032_9838.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/9838.jpg",
+    "source2": "sources/9838_2.jpg",
+    "gallery": [
+      "sources/9838_g1.jpg",
+      "sources/9838_g2.jpg",
+      "sources/9838_g3.jpg",
+      "sources/9838_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.939
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.915
+      }
+    ],
+    "title": "Ducati Streetfighter V4 S",
+    "year": "2021",
+    "mileage": "13’186",
+    "price": "1 594 000",
+    "created": "2026-11-19T00:32:51+00:00",
+    "posted": "2026-11-19T00:29:53+00:00",
+    "status": "delivered",
+    "description": "Ducati Streetfighter V4 S\nГод: 2021\nПробег: 13’186 km\nЦена под ключ:\n1 594 000₽\n\nУстановлен выхлоп Termignoni, тормозная система Brembo RCS Corsa Corta, CNC Racing подножки, карбоновые элементы: передний обтекатель, винглеты, крышка аккумулятора и защита фары. Дополнительно установлены Ducati Performance Knee Grip и Tank Pad, крепление SP Connect, USB-розетка, защита радиатора, сумка на бак и зеркала в торцах руля.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1007
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T00:33:31+00:00",
+    "status_b": "delivered"
   }
 ]
