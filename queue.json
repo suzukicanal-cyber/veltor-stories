@@ -16360,5 +16360,55 @@
     "video": false,
     "delivered_at": "2026-11-19T00:33:31+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9842,
+    "file": "stories/20261119-0042_9842.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9842.jpg",
+    "source2": "sources/9842_2.jpg",
+    "gallery": [
+      "sources/9842_g1.jpg",
+      "sources/9842_g2.jpg",
+      "sources/9842_g3.jpg",
+      "sources/9842_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.904
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.63
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.611
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.508
+      }
+    ],
+    "title": "MV Agusta Brutale 1000RR",
+    "year": "2021",
+    "mileage": "17’000",
+    "price": "2 501 000",
+    "created": "2026-11-19T00:42:51+00:00",
+    "posted": "2026-11-19T00:41:25+00:00",
+    "status": "delivered",
+    "description": "MV Agusta Brutale 1000RR\nГод: 2021\nПробег: 17’000 km\nЦена под ключ:\n2 501 000₽\n\nЧёрно-флуоресцентная двухцветная расцветка. Без ДТП. Установлен выхлоп Arrowю\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1012
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T00:44:01+00:00",
+    "status_b": "delivered"
   }
 ]
