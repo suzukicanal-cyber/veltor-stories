@@ -16513,5 +16513,105 @@
     "video": false,
     "delivered_at": "2026-11-19T04:37:23+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9854,
+    "file": "stories/20261119-0438_9854.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9854.jpg",
+    "source2": "sources/9854_2.jpg",
+    "gallery": [
+      "sources/9854_g1.jpg",
+      "sources/9854_g2.jpg",
+      "sources/9854_g3.jpg",
+      "sources/9854_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.875
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.634
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.813
+      }
+    ],
+    "title": "BMW S1000RR Race Package",
+    "year": "2022",
+    "mileage": "6’700",
+    "price": "1 983 000",
+    "created": "2026-11-19T04:38:30+00:00",
+    "posted": "2026-11-19T04:35:38+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR Race Package\nГод: 2022\nПробег: 6’700 km\nЦена под ключ:\n1 983 000₽\n\nМотоцикл в комплектации Race Package с большим количеством премиального тюнинга. Установлены карбоновые детали M1000RR, карбоновая защита цепи и крышка звезды, передние картриджи M1000RR, задний амортизатор Öhlins TTX, сиденье M, одноместный задний подрамник, ветровое стекло Puig, защитные элементы Gilles Tooling, слайдеры Gilles Tooling, электронная ручка газа Jetprime, оригинальный задний фонарь TFT Stealth и дополнительная защита двигателя GB Racing. Установлена система Akrapovič. Дополнительно в комплекте полная титановая выхлопная система Akrapovič Evolution (заявленная стоимость около 4,6 млн KRW), снятая из-за жалоб соседей на шум. По состоянию: имеется след от падения на правую сторону на слайдере рамы, визуально практически незаметный. При замене слайдера повреждений не обнаружено.Полная выхлопная система Evolution \n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1018
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T04:39:55+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 9858,
+    "file": "stories/20261119-0439_9858.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9858.jpg",
+    "source2": "sources/9858_2.jpg",
+    "gallery": [
+      "sources/9858_g1.jpg",
+      "sources/9858_g2.jpg",
+      "sources/9858_g3.jpg",
+      "sources/9858_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.35
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.346
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.938
+      }
+    ],
+    "title": "Harley-Davidson Low Rider ST",
+    "year": "2026",
+    "mileage": "800",
+    "price": "2 728 000",
+    "created": "2026-11-19T04:39:18+00:00",
+    "posted": "2026-11-19T04:38:11+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Low Rider ST\nГод: 2026\nПробег: 800 km\nЦена под ключ:\n2 728 000₽\n\nПрактически новый Harley-Davidson Low Rider ST, первая регистрация — октябрь 2026 года. По заявлению продавца, полностью безаварийный, без падений и скользящих повреждений. Пробег всего 800 км.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*37",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1019
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T04:39:56+00:00",
+    "status_b": "delivered"
   }
 ]
