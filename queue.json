@@ -16413,5 +16413,105 @@
     "video": false,
     "delivered_at": "2026-11-19T00:44:01+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9846,
+    "file": "stories/20261119-0435_9846.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9846.jpg",
+    "source2": "sources/9846_2.jpg",
+    "gallery": [
+      "sources/9846_g1.jpg",
+      "sources/9846_g2.jpg",
+      "sources/9846_g3.jpg",
+      "sources/9846_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.627
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.499
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.318
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.396
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2026",
+    "mileage": "1’700",
+    "price": "2 400 000",
+    "created": "2026-11-19T04:35:43+00:00",
+    "posted": "2026-11-19T04:28:49+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR M Package\nГод: 2026\nПробег: 1’700 km\nЦена под ключ:\n2 400 000₽\n\nПрактически новый мотоцикл в комплектации M Package. Заявлено полностью безаварийное состояние, без падений и скользящих повреждений\nУстановлены дополнительные аксессуары: накладки на бак для коленей, защита радиатора, крепление SP Connect, USB Type-C, защита двигателя GB Racing, слайдеры Gilles и видеорегистратор BlackVue. Мотоцикл хранился под чехлом на подземной парковке. Только дополнительные опции, без серьёзного тюнинга.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1014
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T04:37:22+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 9850,
+    "file": "stories/20261119-0436_9850.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9850.jpg",
+    "source2": "sources/9850_2.jpg",
+    "gallery": [
+      "sources/9850_g1.jpg",
+      "sources/9850_g2.jpg",
+      "sources/9850_g3.jpg",
+      "sources/9850_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.711
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.875
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.6
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.633
+      }
+    ],
+    "title": "BMW S1000XR",
+    "year": "2021",
+    "mileage": "25’000",
+    "price": "1 659 000",
+    "created": "2026-11-19T04:36:39+00:00",
+    "posted": "2026-11-19T04:33:03+00:00",
+    "status": "delivered",
+    "description": "BMW S1000XR\nГод: 2021\nПробег: 25’000 km\nЦена под ключ:\n1 659 000₽\n\nМотоцикл переделан в M1000XR с использованием оригинальных заводских деталей BMW. Базовая комплектация — S1000XR M Package с Carbon Package. Установлены оригинальные компоненты M1000XR, карбоновые элементы нижней части, кованые диски M Forged Wheels, детали M Package и выхлоп Akrapovič. Крылышки (winglets) — неоригинальные карбоновые. Все снятые оригинальные детали передаются вместе с мотоциклом. Задняя часть сохранена с возможностью установки боковых кофров. По истории: у предыдущего владельца было незначительное падение на правую сторону, следов на мотоцикле не осталось, имеются царапины на боковом кофре.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1015
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T04:37:23+00:00",
+    "status_b": "delivered"
   }
 ]
