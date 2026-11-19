@@ -16836,5 +16836,55 @@
     "video": false,
     "delivered_at": "2026-11-19T09:48:03+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9886,
+    "file": "stories/20261119-0950_9886.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9886.jpg",
+    "source2": "sources/9886_2.jpg",
+    "gallery": [
+      "sources/9886_g1.jpg",
+      "sources/9886_g2.jpg",
+      "sources/9886_g3.jpg",
+      "sources/9886_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.886
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.685
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.63
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.915
+      }
+    ],
+    "title": "Honda CBR1000RR-R Fireblade SP",
+    "year": "2021",
+    "mileage": "41’000",
+    "price": "1 561 000",
+    "created": "2026-11-19T09:50:45+00:00",
+    "posted": "2026-11-19T09:47:19+00:00",
+    "status": "delivered",
+    "description": "Honda CBR1000RR-R Fireblade SP\nГод: 2021\nПробег: 41’000 km\nЦена под ключ:\n1 561 000₽\n\nHonda CBR1000RR-R Fireblade SP 2021 года. Технически всё в порядке, можно сразу заправлять и ехать. У текущего владельца без ДТП и падений, при прошлом владельце байк падал. Тюнинг: винглеты Puig, ветровое стекло Puig, верхний обтекатель, защитные дуги двигателя, слайдеры рамы, защитная плёнка на фарах, грипсы Domino, регулируемые подножки, карбоновые накладки на раму, цепь 3D, укороченный хвост (fender eliminator), рычаг переключения передач, USB-зарядка. Обслуживание: заменены моторное масло, масляный и воздушный фильтры, тормозные колодки, тормозная жидкость, цепь, шины и аккумулятор\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*19",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1032
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T09:52:23+00:00",
+    "status_b": "delivered"
   }
 ]
