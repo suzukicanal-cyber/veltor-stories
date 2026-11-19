@@ -16986,5 +16986,105 @@
     "video": false,
     "delivered_at": "2026-11-19T10:04:44+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9899,
+    "file": "stories/20261119-1319_9899.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9899.jpg",
+    "source2": "sources/9899_2.jpg",
+    "gallery": [
+      "sources/9899_g1.jpg",
+      "sources/9899_g2.jpg",
+      "sources/9899_g3.jpg",
+      "sources/9899_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.262
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Honda Gold Wing Tour DCT Airbag",
+    "year": "2019",
+    "mileage": "5’506",
+    "price": "2 409 000",
+    "created": "2026-11-19T13:19:25+00:00",
+    "posted": "2026-11-19T13:17:53+00:00",
+    "status": "delivered",
+    "description": "Honda Gold Wing Tour DCT Airbag\nГод: 2019\nПробег: 5’506 km\nЦена под ключ:\n2 409 000₽\n\nHonda Gold Wing Tour 2019 года в белом цвете, версия с роботом DCT и подушкой безопасности, двигатель 1833 см³. Пробег реальный и очень маленький. Без ДТП. Двигатель, коробка, электрика и расходники в хорошем состоянии, байк в отличной форме. Тюнинг: двухканальный видеорегистратор и держатель для телефона. В комплекте оба ключа\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1038
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T13:21:15+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 9903,
+    "file": "stories/20261119-1320_9903.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9903.jpg",
+    "source2": "sources/9903_2.jpg",
+    "gallery": [
+      "sources/9903_g1.jpg",
+      "sources/9903_g2.jpg",
+      "sources/9903_g3.jpg",
+      "sources/9903_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.875
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.847
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.551
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Honda Gold Wing Tour DCT Airbag",
+    "year": "2021",
+    "mileage": "22’800",
+    "price": "2 409 000",
+    "created": "2026-11-19T13:20:32+00:00",
+    "posted": "2026-11-19T13:18:33+00:00",
+    "status": "delivered",
+    "description": "Honda Gold Wing Tour DCT Airbag\nГод: 2021\nПробег: 22’800 km\nЦена под ключ:\n2 409 000₽\n\nHonda Gold Wing Tour 2021 года в бордовом цвете, версия с роботом DCT и подушкой безопасности, двигатель 1833 см³. Без ДТП. Байк в отличном состоянии. Владелец продаёт только потому, что не хватает времени на езду\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*32",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1039
+    },
+    "video": false,
+    "delivered_at": "2026-11-19T13:21:17+00:00",
+    "status_b": "delivered"
   }
 ]
