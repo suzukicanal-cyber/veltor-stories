@@ -17985,5 +17985,55 @@
     "video": false,
     "delivered_at": "2026-11-20T00:47:15+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9980,
+    "file": "stories/20261120-0048_9980.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/9980.jpg",
+    "source2": "sources/9980_2.jpg",
+    "gallery": [
+      "sources/9980_g1.jpg",
+      "sources/9980_g2.jpg",
+      "sources/9980_g3.jpg",
+      "sources/9980_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.619
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.869
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.351
+      }
+    ],
+    "title": "Harley-Davidson Nightster 975",
+    "year": "2022",
+    "mileage": "2’000",
+    "price": "1 039 000",
+    "created": "2026-11-20T00:48:24+00:00",
+    "posted": "2026-11-20T00:46:41+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Nightster 975\nГод: 2022\nПробег: 2’000 km\nЦена под ключ:\n1 039 000₽\n\nHarley-Davidson Nightster 975 в индивидуальном розовом цвете. Двигатель Revolution Max 975T, объём 975 cc. Без ДТП. Всего один владелец с момента покупки. Мотоцикл приобретался новым и использовался преимущественно для редких поездок на работу, поэтому имеет очень небольшой пробег. Техника в отличном состоянии, близком к новой. Топливный бак оклеен плёнкой — при желании её можно снять. Установлено дополнительное оборудование: двухканальный видеорегистратор, крепление для телефона и оригинальные боковые кофры Harley-Davidson (продавец указывает, что они доступны за дополнительную плату от 300 000 KRW за каждый).\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1079
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T00:49:00+00:00",
+    "status_b": "delivered"
   }
 ]
