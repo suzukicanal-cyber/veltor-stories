@@ -17835,5 +17835,55 @@
     "video": false,
     "delivered_at": "2026-11-20T00:34:36+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9968,
+    "file": "stories/20261120-0035_9968.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9968.jpg",
+    "source2": "sources/9968_2.jpg",
+    "gallery": [
+      "sources/9968_g1.jpg",
+      "sources/9968_g2.jpg",
+      "sources/9968_g3.jpg",
+      "sources/9968_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.898
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.804
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.889
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.56
+      }
+    ],
+    "title": "Harley-Davidson Road Glide 117",
+    "year": "2025",
+    "mileage": "1’690",
+    "price": "2 728 000",
+    "created": "2026-11-20T00:35:50+00:00",
+    "posted": "2026-11-20T00:35:32+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Road Glide 117\nГод: 2025\nПробег: 1’690 km\nЦена под ключ:\n2 728 000₽\n\nПрактически новый Harley-Davidson Road Glide 117 в цвете Brilliant Red. Без ДТП. Состояние нового мотоцикла. Установлено дополнительное оборудование: высокая ветровая защита, двухканальный видеорегистратор G-NET, средняя рамка с аэродефлектором, защита задней части, крепление для телефона с беспроводной зарядкой, педали переключения передач и комплект туристических кофров с креплением.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1073
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T00:36:22+00:00",
+    "status_b": "delivered"
   }
 ]
