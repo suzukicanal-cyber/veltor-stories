@@ -17935,5 +17935,55 @@
     "video": false,
     "delivered_at": "2026-11-20T00:41:50+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9976,
+    "file": "stories/20261120-0046_9976.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      4
+    ],
+    "source": "sources/9976.jpg",
+    "source2": "sources/9976_2.jpg",
+    "gallery": [
+      "sources/9976_g1.jpg",
+      "sources/9976_g2.jpg",
+      "sources/9976_g3.jpg",
+      "sources/9976_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.351
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Road King Special",
+    "year": "2021",
+    "mileage": "12’753",
+    "price": "3 117 000",
+    "created": "2026-11-20T00:46:02+00:00",
+    "posted": "2026-11-20T00:44:33+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Road King Special\nГод: 2021\nПробег: 12’753 km\nЦена под ключ:\n3 117 000₽\n\nHarley-Davidson Road King Special в чёрном цвете, с двигателем Milwaukee-Eight 114 (1868 cc). Без ДТП. Мотоцикл в исполнении MC Bagger, в очень хорошем техническом и визуальном состоянии, с минимальными следами эксплуатации. Установлено большое количество дополнительного оборудования: система Easy Clutch, пневмоподвеска Legend Air Suspension, переднее колесо 23 дюйма, руль Carlini 16 дюймов, выхлоп SuperTrapp, передняя акустика Rockford, задняя аудиосистема JL Audio, площадки для ног Arlen Ness, дополнительные подножки Highway Pegs, декоративные колпачки осей и другие элементы тюнинга.\n\nМотоцикл построен на базе MC Bagger. Продавец рекомендует при покупке заменить моторное масло и расходные материалы по индивидуальному интервалу обслуживания. \n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1077
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T00:47:15+00:00",
+    "status_b": "delivered"
   }
 ]
