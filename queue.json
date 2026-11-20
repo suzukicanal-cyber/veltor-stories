@@ -18439,5 +18439,55 @@
     "video": false,
     "delivered_at": "2026-11-20T14:01:25+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10033,
+    "file": "stories/20261120-1402_10033.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10033.jpg",
+    "source2": "sources/10033_2.jpg",
+    "gallery": [
+      "sources/10033_g1.jpg",
+      "sources/10033_g2.jpg",
+      "sources/10033_g3.jpg",
+      "sources/10033_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.798
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.165
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.743
+      }
+    ],
+    "title": "BMW S1000R",
+    "year": "2024",
+    "mileage": "12’000",
+    "price": "1 493 000",
+    "created": "2026-11-20T14:02:57+00:00",
+    "posted": "2026-11-20T14:01:22+00:00",
+    "status": "delivered",
+    "description": "BMW S1000R\nГод: 2024\nПробег: 12’000 km\nЦена под ключ:\n1 493 000₽\n\nМотоцикл выпущен в ноябре 2024 года. Обслуживался в Namseoul Motorrad, имеются подтверждающие документы. При последнем ТО заменены моторное масло и масляный фильтр. 17 октября заменена передняя шина Michelin Road 5. Установлены держатель телефона, видеорегистратор, USB-порт, ветровое стекло, подогрев ручек и слайдеры вилки. Есть небольшие царапины в районе глушителя от предыдущего владельца.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1099
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T14:04:37+00:00",
+    "status_b": "delivered"
   }
 ]
