@@ -17885,5 +17885,55 @@
     "video": false,
     "delivered_at": "2026-11-20T00:36:22+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9972,
+    "file": "stories/20261120-0040_9972.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9972.jpg",
+    "source2": "sources/9972_2.jpg",
+    "gallery": [
+      "sources/9972_g1.jpg",
+      "sources/9972_g2.jpg",
+      "sources/9972_g3.jpg",
+      "sources/9972_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.633
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.614
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Ultra Limited",
+    "year": "2017",
+    "mileage": "6’945",
+    "price": "1 900 000",
+    "created": "2026-11-20T00:40:53+00:00",
+    "posted": "2026-11-20T00:39:14+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Ultra Limited\nГод: 2017\nПробег: 6’945 km\nЦена под ключ:\n1 900 000₽\n\nТуринговый Harley-Davidson Ultra Limited в цвете серый металлик. Двигатель Milwaukee-Eight 107 (1745 cc). Один владелец с момента покупки у официального дилера. Без ДТП. Небольшой пробег для своего года — всего 6’945 km. Проведено техническое обслуживание: заменены шины, аккумулятор и моторное масло. Установлен выхлоп S&S (изменение конструкции не оформлено), оригинальный комплект охлаждающих вентиляторов, двухканальный видеорегистратор и штатные подогреваемые ручки. Регулярный техосмотр пройден.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1075
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T00:41:50+00:00",
+    "status_b": "delivered"
   }
 ]
