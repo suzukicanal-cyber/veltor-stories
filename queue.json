@@ -18035,5 +18035,55 @@
     "video": false,
     "delivered_at": "2026-11-20T00:49:00+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9984,
+    "file": "stories/20261120-0058_9984.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9984.jpg",
+    "source2": "sources/9984_2.jpg",
+    "gallery": [
+      "sources/9984_g1.jpg",
+      "sources/9984_g2.jpg",
+      "sources/9984_g3.jpg",
+      "sources/9984_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.593
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.64
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.613
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.299
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2022",
+    "mileage": "14’000",
+    "price": "1 537 000",
+    "created": "2026-11-20T00:58:22+00:00",
+    "posted": "2026-11-20T00:56:19+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR M Package\nГод: 2022\nПробег: 14’000 km\nЦена под ключ:\n1 537 000₽\n\nBMW S1000RR в комплектации M Package. Указано падение со скольжением на правую сторону — этот момент необходимо учитывать при осмотре. Установлено дополнительное оборудование: защита двигателя GB Racing, выхлоп Akrapovič Slip-On, регулируемые рычаги M, задние регулируемые подножки, передний и задний видеорегистраторы, слайдеры рамы Gilles. Основные элементы тюнинга уже установлены, поэтому дополнительных вложений в базовое оснащение не требуется.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1081
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T00:59:12+00:00",
+    "status_b": "delivered"
   }
 ]
