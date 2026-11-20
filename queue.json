@@ -17685,5 +17685,155 @@
     "video": false,
     "delivered_at": "2026-11-20T00:31:07+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9956,
+    "file": "stories/20261120-0032_9956.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/9956.jpg",
+    "source2": "sources/9956_2.jpg",
+    "gallery": [
+      "sources/9956_g1.jpg",
+      "sources/9956_g2.jpg",
+      "sources/9956_g3.jpg",
+      "sources/9956_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.9
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.887
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.854
+      }
+    ],
+    "title": "Yamaha R1 ABS",
+    "year": "2023",
+    "mileage": "22’000",
+    "price": "1 691 000",
+    "created": "2026-11-20T00:32:34+00:00",
+    "posted": "2026-11-20T00:26:48+00:00",
+    "status": "delivered",
+    "description": "Yamaha R1 ABS\nГод: 2023\nПробег: 22’000 km\nЦена под ключ:\n1 691 000₽\n\nЧёрный Yamaha YZF-R1 ABS. Без ДТП по информации продавца. Оригинальный заводской пластик Yamaha. Установлен оригинальный выхлоп Akrapovič Slip-On с оформленным изменением конструкции. Дополнительное оснащение: двухканальный видеорегистратор G-NET (передняя и задняя камеры), слайдеры рамы Lightake и Evotech, слайдер маятника Evotech, регулируемый тормозной рычаг XRT, крепление для телефона SP Connect, скоростная USB-зарядка Komine.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1067
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T00:34:34+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 9960,
+    "file": "stories/20261120-0033_9960.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/9960.jpg",
+    "source2": "sources/9960_2.jpg",
+    "gallery": [
+      "sources/9960_g1.jpg",
+      "sources/9960_g2.jpg",
+      "sources/9960_g3.jpg",
+      "sources/9960_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.901
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.872
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Suzuki GSX8R",
+    "year": "2025",
+    "mileage": "10’490",
+    "price": "854 000",
+    "created": "2026-11-20T00:33:16+00:00",
+    "posted": "2026-11-20T00:29:38+00:00",
+    "status": "delivered",
+    "description": "Suzuki GSX8R\nГод: 2025\nПробег: 10’490 km\nЦена под ключ:\n854 000₽\n\nСиний Suzuki GSX-8R в отличном состоянии, визуально близком к новому. По информации продавца, мотоцикл содержался в хорошем состоянии и регулярно обслуживался. Без ДТП. Установлено дополнительное оборудование: слайдеры передней вилки, защита двигателя, задние слайдеры, двухканальный видеорегистратор, беспроводное зарядное устройство для телефона и накладки на бак. Отличный вариант для знакомства со спортивными мотоциклами.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1068
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T00:34:35+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 9964,
+    "file": "stories/20261120-0033_9964.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/9964.jpg",
+    "source2": "sources/9964_2.jpg",
+    "gallery": [
+      "sources/9964_g1.jpg",
+      "sources/9964_g2.jpg",
+      "sources/9964_g3.jpg",
+      "sources/9964_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.353
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.523
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Suzuki GSX-S1000GT",
+    "year": "2025",
+    "mileage": "1’600",
+    "price": "1 532 000",
+    "created": "2026-11-20T00:33:59+00:00",
+    "posted": "2026-11-20T00:32:04+00:00",
+    "status": "delivered",
+    "description": "Suzuki GSX-S1000GT\nГод: 2025\nПробег: 1’600 km\nЦена под ключ:\n1 532 000₽\n\nПрактически новый Suzuki GSX-S1000GT в сером цвете. Без ДТП. Пробег всего 1’600 km.\nУстановлено дополнительное оборудование общей стоимостью около 2 500 000 KRW: слайдеры вилки, слайдеры рамы, крепление для телефона, буксировочные болты, защита радиатора и боковые кофры. Остаток ресурса шин — около 80–90%. Проведена диагностика по более чем 20 пунктам, выполнено базовое обслуживание двигателя и других узлов.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1069
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T00:34:36+00:00",
+    "status_b": "delivered"
   }
 ]
