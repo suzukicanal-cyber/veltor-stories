@@ -17286,5 +17286,155 @@
     "video": false,
     "delivered_at": "2026-11-20T00:13:42+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9924,
+    "file": "stories/20261120-0015_9924.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/9924.jpg",
+    "source2": "sources/9924_2.jpg",
+    "gallery": [
+      "sources/9924_g1.jpg",
+      "sources/9924_g2.jpg",
+      "sources/9924_g3.jpg",
+      "sources/9924_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.902
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.591
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R 1300 GS",
+    "year": "2024",
+    "mileage": "1’727",
+    "price": "1 983 000",
+    "created": "2026-11-20T00:15:02+00:00",
+    "posted": "2026-11-20T00:13:39+00:00",
+    "status": "delivered",
+    "description": "BMW R 1300 GS\nГод: 2024\nПробег: 1’727 km\nЦена под ключ:\n1 983 000₽\n\nBMW R 1300 GS, двигатель 1300 cc, чёрный цвет. Механическая коробка передач, 6 ступеней. небольшой пробег. Установлена защита двигателя. По объявлению — без ДТП.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1051
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T00:18:13+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 9928,
+    "file": "stories/20261120-0016_9928.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/9928.jpg",
+    "source2": "sources/9928_2.jpg",
+    "gallery": [
+      "sources/9928_g1.jpg",
+      "sources/9928_g2.jpg",
+      "sources/9928_g3.jpg",
+      "sources/9928_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.591
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.902
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R1300GS",
+    "year": "2024",
+    "mileage": "1’727",
+    "price": "1 983 000",
+    "created": "2026-11-20T00:16:00+00:00",
+    "posted": "2026-11-20T00:14:06+00:00",
+    "status": "delivered",
+    "description": "BMW R1300GS\nГод: 2024\nПробег: 1’727 km\nЦена под ключ:\n1 983 000₽\n\nBMW R 1300 GS, двигатель 1300 cc, чёрный цвет. Механическая коробка передач, 6 ступеней. небольшой пробег. Установлена защита двигателя. По объявлению — без ДТП.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1052
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T00:18:15+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 9932,
+    "file": "stories/20261120-0016_9932.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/9932.jpg",
+    "source2": "sources/9932_2.jpg",
+    "gallery": [
+      "sources/9932_g1.jpg",
+      "sources/9932_g2.jpg",
+      "sources/9932_g3.jpg",
+      "sources/9932_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.614
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.575
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.273
+      }
+    ],
+    "title": "BMW R12 nineT",
+    "year": "2024",
+    "mileage": "3’448",
+    "price": "1 471 000",
+    "created": "2026-11-20T00:16:59+00:00",
+    "posted": "2026-11-20T00:14:33+00:00",
+    "status": "delivered",
+    "description": "BMW R12 nineT\nГод: 2024\nПробег: 3’448 km\nЦена под ключ:\n1 471 000₽\n\nBMW R 12 nineT, двигатель 1170 cc, цвет зелёный металлик с серебристыми элементами. Первая регистрация — октябрь 2025 года. Небольшой пробег. Установлена защита двигателя. По объявлению — без ДТП.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1053
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T00:18:17+00:00",
+    "status_b": "delivered"
   }
 ]
