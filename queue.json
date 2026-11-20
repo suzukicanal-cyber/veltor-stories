@@ -18489,5 +18489,55 @@
     "video": false,
     "delivered_at": "2026-11-20T14:04:37+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10037,
+    "file": "stories/20261120-1407_10037.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10037.jpg",
+    "source2": "sources/10037_2.jpg",
+    "gallery": [
+      "sources/10037_g1.jpg",
+      "sources/10037_g2.jpg",
+      "sources/10037_g3.jpg",
+      "sources/10037_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.878
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.894
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.926
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.757
+      }
+    ],
+    "title": "BMW S1000R",
+    "year": "2026",
+    "mileage": "5’300",
+    "price": "1 850 000",
+    "created": "2026-11-20T14:07:17+00:00",
+    "posted": "2026-11-20T14:04:53+00:00",
+    "status": "delivered",
+    "description": "BMW S1000R\nГод: 2026\nПробег: 5’300 km\nЦена под ключ:\n1 850 000₽\n\nМотоцикл в отличном состоянии, без ДТП и падений. Первый учёт — 2026 год. \nУстановлен выхлоп SC Project \nДополнительно установлены двухканальный видеорегистратор Zinet G1, оригинальная защита радиатора BMW, защита двигателя GB Racing, слайдеры рамы, вилки и маятника Evotech, оригинальные BMW hook bolts, USB Type-C, оригинальное ветровое стекло BMW, накладки Epi на бак и колени. На глянцевые чёрные элементы, фары и экран нанесена защитная PPF-плёнка.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1101
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T14:08:03+00:00",
+    "status_b": "delivered"
   }
 ]
