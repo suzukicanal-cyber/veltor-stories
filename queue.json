@@ -17186,5 +17186,105 @@
     "video": false,
     "delivered_at": "2026-11-19T13:25:34+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 9916,
+    "file": "stories/20261120-0011_9916.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9916.jpg",
+    "source2": "sources/9916_2.jpg",
+    "gallery": [
+      "sources/9916_g1.jpg",
+      "sources/9916_g2.jpg",
+      "sources/9916_g3.jpg",
+      "sources/9916_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.613
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.632
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.593
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.905
+      }
+    ],
+    "title": "BMW S1000RR M Package Carbon Wheels",
+    "year": "2026",
+    "mileage": "0",
+    "price": "2 663 000",
+    "created": "2026-11-20T00:11:08+00:00",
+    "posted": "2026-11-20T00:08:46+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR M Package Carbon Wheels\nГод: 2026\nПробег: 0km NEW\nЦена под ключ:\n2 663 000₽\n\nBMW S1000RR M Package 2026 года, новый мотоцикл, объём двигателя 999 cc. Белый цвет, без ДТП. Богатая комплектация: карбоновые колёса, выхлоп Akrapovič, M-сиденье с пассажирским сиденьем, M-рычаги, M-подножки, M-защита ремня со стороны тормоза и M-тормозная система. Дополнительно: подогрев ручек, розетка питания, сигнализация, тюнинг выхлопной системы и тормозов. Продавец заявляет полную комплектацию, отличающуюся от стандартных вариантов.\n\nЦена в Корее: 36 500 000 KRW +5% обязательная регистрация перед экспортом !\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1047
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T00:13:40+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 9920,
+    "file": "stories/20261120-0012_9920.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/9920.jpg",
+    "source2": "sources/9920_2.jpg",
+    "gallery": [
+      "sources/9920_g1.jpg",
+      "sources/9920_g2.jpg",
+      "sources/9920_g3.jpg",
+      "sources/9920_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.614
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.273
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.575
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R 12 nineT",
+    "year": "2024",
+    "mileage": "3’448",
+    "price": "1 471 000",
+    "created": "2026-11-20T00:12:27+00:00",
+    "posted": "2026-11-20T00:11:01+00:00",
+    "status": "delivered",
+    "description": "BMW R 12 nineT\nГод: 2024\nПробег: 3’448 km\nЦена под ключ:\n1 471 000₽\n\nBMW R 12 nineT, двигатель 1170 cc, цвет зелёный металлик с серебристыми элементами. Первая регистрация — октябрь 2025 года. Небольшой пробег. Установлена защита двигателя. По объявлению — без ДТП.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1048
+    },
+    "video": false,
+    "delivered_at": "2026-11-20T00:13:42+00:00",
+    "status_b": "delivered"
   }
 ]
