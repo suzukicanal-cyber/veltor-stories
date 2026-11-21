@@ -19180,5 +19180,121 @@
     "video": false,
     "delivered_at": "2026-11-21T10:52:55+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10108,
+    "file": "stories/20261121-1055_10108.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10108.jpg",
+    "source2": "sources/10108_2.jpg",
+    "gallery": [
+      "sources/10108_g1.jpg",
+      "sources/10108_g2.jpg",
+      "sources/10108_g3.jpg",
+      "sources/10108_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.866
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.558
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.607
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.503
+      }
+    ],
+    "title": "BMW R 1300 RT OPTION 719",
+    "year": "2026",
+    "mileage": "7’500",
+    "price": "2 663 000",
+    "created": "2026-11-21T10:55:06+00:00",
+    "posted": "2026-11-21T10:53:38+00:00",
+    "status": "delivered",
+    "description": "BMW R 1300 RT OPTION 719\nГод: 2026\nПробег: 7’500 km\nЦена под ключ:\n2 663 000₽\n\nBMW R 1300 RT в комплектации Option 719. Без ДТП и падений, согласно заявлению продавца. Оснащён автоматизированной трансмиссией ASA и премиальной аудиосистемой. Продавец заявляет полную комплектацию. Установлена защита двигателя, остальное оборудование заявлено в оригинальном состоянии. Мотоцикл оснащён боковыми кофрами и верхним багажным кофром. Техническое обслуживание проводилось в Songjeong Motorrad на пробегах 1 000 и 5 000 км.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\n\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1127
+    },
+    "video": false,
+    "delivered_at": "2026-11-21T10:58:12+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10117,
+    "file": "stories/20261121-1056_10117.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10117.jpg",
+    "source2": "sources/10117_2.jpg",
+    "gallery": [
+      "sources/10117_g1.jpg",
+      "sources/10117_g2.jpg",
+      "sources/10117_g3.jpg",
+      "sources/10117_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.866
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.558
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.607
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.503
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R 1300 RT OPTION 719",
+    "year": "2026",
+    "mileage": "7’500",
+    "price": "2 663 000",
+    "created": "2026-11-21T10:56:40+00:00",
+    "posted": "2026-11-21T10:54:14+00:00",
+    "status": "delivered",
+    "description": "BMW R 1300 RT OPTION 719\nГод: 2026\nПробег: 7’500 km\nЦена под ключ:\n2 663 000₽\n\nBMW R 1300 RT в комплектации Option 719. Без ДТП и падений, согласно заявлению продавца. Оснащён автоматизированной трансмиссией ASA и премиальной аудиосистемой. Продавец заявляет полную комплектацию. Установлена защита двигателя, остальное оборудование заявлено в оригинальном состоянии. Мотоцикл оснащён боковыми кофрами и верхним багажным кофром. Техническое обслуживание проводилось в Songjeong Motorrad на пробегах 1 000 и 5 000 км.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1128
+    },
+    "video": false,
+    "delivered_at": "2026-11-21T10:58:13+00:00",
+    "status_b": "delivered"
   }
 ]
