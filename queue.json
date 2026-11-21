@@ -18692,5 +18692,55 @@
     "video": false,
     "delivered_at": "2026-11-21T05:47:06+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10055,
+    "file": "stories/20261121-0548_10055.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10055.jpg",
+    "source2": "sources/10055_2.jpg",
+    "gallery": [
+      "sources/10055_g1.jpg",
+      "sources/10055_g2.jpg",
+      "sources/10055_g3.jpg",
+      "sources/10055_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.742
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.305
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.898
+      }
+    ],
+    "title": "BMW S1000XR",
+    "year": "2025",
+    "mileage": "15’000",
+    "price": "2 092 000",
+    "created": "2026-11-21T05:48:40+00:00",
+    "posted": "2026-11-21T05:47:09+00:00",
+    "status": "delivered",
+    "description": "BMW S1000XR\nГод: 2025\nПробег: 15’000 km\nЦена под ключ:\n2 092 000₽\n\nBMW S1000XR 2025 года, на учёт поставлен в октябре 2025. Байк падал на стоянке на левый и правый бок, поэтому есть царапины на боковых кофрах и противотуманках. Тюнинг: держатель для телефона, видеорегистратор, USB-зарядка, ветровое стекло, защита двигателя. Обслуживание: заменено моторное масло\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*27",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1109
+    },
+    "video": false,
+    "delivered_at": "2026-11-21T05:50:24+00:00",
+    "status_b": "delivered"
   }
 ]
