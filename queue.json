@@ -18788,5 +18788,55 @@
     "video": false,
     "delivered_at": "2026-11-21T06:52:04+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10062,
+    "file": "stories/20261121-0659_10062.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10062.jpg",
+    "source2": "sources/10062_2.jpg",
+    "gallery": [
+      "sources/10062_g1.jpg",
+      "sources/10062_g2.jpg",
+      "sources/10062_g3.jpg",
+      "sources/10062_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.641
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.399
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.559
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.634
+      }
+    ],
+    "title": "BMW K 1600 GTL 719",
+    "year": "2021",
+    "mileage": "20’300",
+    "price": "2 534 000",
+    "created": "2026-11-21T06:59:54+00:00",
+    "posted": "2026-11-21T06:58:22+00:00",
+    "status": "delivered",
+    "description": "BMW K 1600 GTL 719\nГод: 2021\nПробег: 20’300 km\nЦена под ключ:\n2 534 000₽\n\nBMW K 1600 GTL в исполнении 719. Без ДТП, состояние A-grade. Двигатель 1649 cc, рядный 6-цилиндровый. Богатая комплектация 719, эксклюзивная отделка и коричневое сиденье. Установлен выхлоп Akrapovič с оформленным конструктивным изменением, защитный декор задней части и держатель смартфона SP Connect. Оснащён боковыми кофрами, центральным кофром и спинкой пассажира.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1113
+    },
+    "video": false,
+    "delivered_at": "2026-11-21T07:00:56+00:00",
+    "status_b": "delivered"
   }
 ]
