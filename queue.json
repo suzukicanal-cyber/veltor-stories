@@ -19064,5 +19064,63 @@
     "video": false,
     "delivered_at": "2026-11-21T10:42:34+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10094,
+    "file": "stories/20261121-1047_10094.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10094.jpg",
+    "source2": "sources/10094_2.jpg",
+    "gallery": [
+      "sources/10094_g1.jpg",
+      "sources/10094_g2.jpg",
+      "sources/10094_g3.jpg",
+      "sources/10094_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.879
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.872
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.464
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R 1300 GS ADVENTURE OPTION 719",
+    "year": "2025",
+    "mileage": "16’000",
+    "price": "2 716 000",
+    "created": "2026-11-21T10:47:20+00:00",
+    "posted": "2026-11-21T10:45:47+00:00",
+    "status": "delivered",
+    "description": "BMW R 1300 GS ADVENTURE OPTION 719\nГод: 2025\nПробег: 16’000 km\nЦена под ключ:\n2 716 000₽\n\nBMW R 1300 GS Adventure в цвете Aurelius Green Metallic, комплектация Option 719 Shadow. Выпущен в сентябре 2025 года, без ДТП. Оснащён Dynamic Package с автоматической трансмиссией ASA, Riding Modes Pro и спортивной тормозной системой, Touring Package, Riding Assistant с ACC, FCW и LCW, системой Adaptive Height Control Comfort и Headlight Pro. Золотые колёса Cross Spoke, аккумулятор M Battery. Пакет Option 719 Shadow включает фрезерованные элементы управления и декоративные компоненты. Дополнительно установлены аксессуары Wunderlich: ветровое стекло Marathon, защита фары, защита рук, защита радиатора, расширение боковой подножки. Имеются боковые кофры, крепление для верхнего багажа, дополнительные съёмные фары, двухканальный видеорегистратор, USB-порты A/C мощностью 100W и отдельный блок предохранителей. В комплекте также предусмотрено оригинальное низкое сиденье (-30 мм). Есть небольшие царапины на защитных элементах боковых кофров. Пробег может увеличиваться. Камера Chigee Android Auto и экшн-камера с креплением в стоимость не входят.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1123
+    },
+    "video": false,
+    "delivered_at": "2026-11-21T10:48:24+00:00",
+    "status_b": "delivered"
   }
 ]
