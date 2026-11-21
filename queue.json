@@ -18642,5 +18642,55 @@
     "video": false,
     "delivered_at": "2026-11-21T02:29:04+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10051,
+    "file": "stories/20261121-0545_10051.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/10051.jpg",
+    "source2": "sources/10051_2.jpg",
+    "gallery": [
+      "sources/10051_g1.jpg",
+      "sources/10051_g2.jpg",
+      "sources/10051_g3.jpg",
+      "sources/10051_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.902
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.301
+      }
+    ],
+    "title": "BMW S1000XR",
+    "year": "2025",
+    "mileage": "4’150",
+    "price": "2 072 000",
+    "created": "2026-11-21T05:45:52+00:00",
+    "posted": "2026-11-21T05:44:26+00:00",
+    "status": "delivered",
+    "description": "BMW S1000XR\nГод: 2025\nПробег: 4’150 km\nЦена под ключ:\n2 072 000₽\n\nЧёрный цвет, двигатель 1000 cc. Без ДТП\nУстановлены подогрев ручек, противотуманные фары, крепление для навигатора, сигнализация, розетка Power Outlet и оригинальные кронштейны для трёх кофров. \n\n\n🇰🇷 Купить мотоцикл из Южной Кореи\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1107
+    },
+    "video": false,
+    "delivered_at": "2026-11-21T05:47:06+00:00",
+    "status_b": "delivered"
   }
 ]
