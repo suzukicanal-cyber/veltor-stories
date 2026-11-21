@@ -18748,5 +18748,45 @@
     "published_at": "2026-11-21T06:46:50+00:00",
     "story_id": 360,
     "published_track": "track.mp3"
+  },
+  {
+    "post_id": 10059,
+    "file": "stories/20261121-0651_10059.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10059.jpg",
+    "source2": "sources/10059_2.jpg",
+    "gallery": [
+      "sources/10059_g1.jpg",
+      "sources/10059_g2.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.754
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.85
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2023",
+    "mileage": "1’742",
+    "price": "2 158 000",
+    "created": "2026-11-21T06:51:31+00:00",
+    "posted": "2026-11-21T06:50:05+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR\nГод: 2023\nПробег: 1’742 km\nЦена под ключ:\n2 158 000₽\n\nBMW S1000RR 2023 модельного года, поставлен на учёт в 2024 году. Байк в состоянии нового, пробег всего 1 742 km. Без ДТП и без слайдов. Других дефектов нет, байк просто немного запылился. Тюнинг: ручка газа Jetprime с электронным газом, оригинальные крышки двигателя GB Racing, защита рычага тормоза Gilles Tooling, болты-крючки Gilles Tooling, слайдеры на раму Gilles, рычаги M слева и справа, сиденье M, подножки M, глушитель Ixil MK1B Black slash-cut (официально зарегистрирован), карбоновый нижний обтекатель\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*28",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1111
+    },
+    "video": false,
+    "delivered_at": "2026-11-21T06:52:04+00:00",
+    "status_b": "delivered"
   }
 ]
