@@ -18954,5 +18954,65 @@
     "video": false,
     "delivered_at": "2026-11-21T10:35:25+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10083,
+    "file": "stories/20261121-1039_10083.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10083.jpg",
+    "source2": "sources/10083_2.jpg",
+    "gallery": [
+      "sources/10083_g1.jpg",
+      "sources/10083_g2.jpg",
+      "sources/10083_g3.jpg",
+      "sources/10083_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.859
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.848
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0,
+        "tire": true
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0,
+        "tire": true
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2023",
+    "mileage": "1’742",
+    "price": "2 145 000",
+    "created": "2026-11-21T10:39:05+00:00",
+    "posted": "2026-11-21T10:37:24+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR M Package\nГод: 2023\nПробег: 1’742 km\nЦена под ключ:\n2 145 000₽\n\nBMW S1000RR в комплектации M Package. Мотоцикл приобретён и выдан в 2024 году. Очень маленький пробег, состояние близкое к новому. Без ДТП, падений и скользящих повреждений. Продавец заявляет об отсутствии дефектов. Установлены оригинальные аксессуары: электронная ручка газа Jetprime, защитные крышки двигателя GB Racing, компоненты Gilles Tooling, M-рычаги, M-сиденье, M-подножки, слайдеры рамы, карбоновый нижний обтекатель. Выхлоп Ixil MK1B Black Slash Cut, Замена моторного масла проводилась 3 раза.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1119
+    },
+    "video": false,
+    "delivered_at": "2026-11-21T10:39:37+00:00",
+    "status_b": "delivered"
   }
 ]
