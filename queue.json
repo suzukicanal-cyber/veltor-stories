@@ -20325,5 +20325,121 @@
     "video": false,
     "delivered_at": "2026-11-22T11:45:32+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10255,
+    "file": "stories/20261122-1216_10255.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10255.jpg",
+    "source2": "sources/10255_2.jpg",
+    "gallery": [
+      "sources/10255_g1.jpg",
+      "sources/10255_g2.jpg",
+      "sources/10255_g3.jpg",
+      "sources/10255_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.876
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.87
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.88
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.902
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.358
+      }
+    ],
+    "title": "Harley-Davidson Iron 883",
+    "year": "2020",
+    "mileage": "2’500",
+    "price": "1 363 000",
+    "created": "2026-11-22T12:16:44+00:00",
+    "posted": "2026-11-22T12:15:20+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Iron 883\nГод: 2020\nПробег: 2’500 km\nЦена под ключ:\n1 363 000₽\n\nСостояние как у нового, один владелец, без ДТП. Мотоцикл полностью стоковый, без доработок. Из допов только фирменная сумка Harley-Davidson на вилке и беспроводная зарядка-держатель для смартфона ALUS. Перед продажей прошёл диагностику\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1169
+    },
+    "video": false,
+    "delivered_at": "2026-11-22T12:18:35+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10265,
+    "file": "stories/20261122-1217_10265.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10265.jpg",
+    "source2": "sources/10265_2.jpg",
+    "gallery": [
+      "sources/10265_g1.jpg",
+      "sources/10265_g2.jpg",
+      "sources/10265_g3.jpg",
+      "sources/10265_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.611
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW R1300RS",
+    "year": "2026",
+    "mileage": "5’300",
+    "price": "2 217 000",
+    "created": "2026-11-22T12:17:48+00:00",
+    "posted": "2026-11-22T12:16:21+00:00",
+    "status": "delivered",
+    "description": "BMW R1300RS\nГод: 2026\nПробег: 5’300 km\nЦена под ключ:\n2 217 000₽\n\nBMW R1300RS в практически новом состоянии. Один владелец с момента покупки, без ДТП и падений, заводская гарантия действует, полный комплект обязательных опций. Оснащён системой ASA (Automated Shift Assistant) — переключение передач в автоматическом и ручном режимах без использования рычага сцепления, Riding Assistant с адаптивным круиз-контролем ACC, предупреждением о фронтальном столкновении FCW и контролем смены полосы, электронной подвеской DSA с динамической регулировкой демпфирования и жёсткости пружин. Дополнительно установлены оригинальные боковые кофры BMW, двухканальный видеорегистратор, защита двигателя и рамы, держатель телефона.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1170
+    },
+    "video": false,
+    "delivered_at": "2026-11-22T12:18:37+00:00",
+    "status_b": "delivered"
   }
 ]
