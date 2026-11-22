@@ -20039,5 +20039,55 @@
     "video": false,
     "delivered_at": "2026-11-22T09:38:22+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10221,
+    "file": "stories/20261122-1104_10221.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10221.jpg",
+    "source2": "sources/10221_2.jpg",
+    "gallery": [
+      "sources/10221_g1.jpg",
+      "sources/10221_g2.jpg",
+      "sources/10221_g3.jpg",
+      "sources/10221_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.356
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.335
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.374
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.305
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2025",
+    "mileage": "6’150",
+    "price": "2 059 000",
+    "created": "2026-11-22T11:04:03+00:00",
+    "posted": "2026-11-22T11:02:57+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR\nГод: 2025\nПробег: 6’150 km\nЦена под ключ:\n2 059 000₽\n\nBMW S1000RR 2025 года, срочная продажа по семейным обстоятельствам. Без ДТП, без падений и слайдов, без царапин. Байк в отличном состоянии, владелец за ним тщательно ухаживал\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*26,5",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1158
+    },
+    "video": false,
+    "delivered_at": "2026-11-22T11:05:44+00:00",
+    "status_b": "delivered"
   }
 ]
