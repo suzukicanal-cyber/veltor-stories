@@ -19815,5 +19815,63 @@
     "video": false,
     "delivered_at": "2026-11-22T05:48:55+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10197,
+    "file": "stories/20261122-0925_10197.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/10197.jpg",
+    "source2": "sources/10197_2.jpg",
+    "gallery": [
+      "sources/10197_g1.jpg",
+      "sources/10197_g2.jpg",
+      "sources/10197_g3.jpg",
+      "sources/10197_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.346
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.314
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.579
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.627
+      }
+    ],
+    "title": "BMW R1300GS",
+    "year": "2024",
+    "mileage": "1’727",
+    "price": "2 013 000",
+    "created": "2026-11-22T09:25:33+00:00",
+    "posted": "2026-11-22T09:24:21+00:00",
+    "status": "delivered",
+    "description": "BMW R1300GS\nГод: 2024\nПробег: 1’727 km\nЦена под ключ:\n2 013 000₽\n\nBMW R1300GS в чёрном цвете, механическая 6-ступенчатая коробка передач, двигатель 1300 cc. Установлена защита двигателя (Engine Guard). По объявлению — без ДТП.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1150
+    },
+    "video": false,
+    "delivered_at": "2026-11-22T09:26:33+00:00",
+    "status_b": "delivered"
   }
 ]
