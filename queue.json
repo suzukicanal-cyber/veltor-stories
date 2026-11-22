@@ -20441,5 +20441,90 @@
     "video": false,
     "delivered_at": "2026-11-22T12:18:37+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10280,
+    "file": "stories/20261122-1223_10280.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10280.jpg",
+    "source2": "sources/10280_2.jpg",
+    "gallery": [
+      "sources/10280_g1.jpg",
+      "sources/10280_g2.jpg",
+      "sources/10280_g3.jpg",
+      "sources/10280_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.612
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.827
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Honda CBR1000RR-R Fireblade SP",
+    "year": "2025",
+    "mileage": "11’000",
+    "price": "2 323 000",
+    "created": "2026-11-22T12:23:15+00:00",
+    "posted": "2026-11-22T12:21:57+00:00",
+    "status": "delivered",
+    "description": "Honda CBR1000RR-R Fireblade SP\nГод: 2025\nПробег: 11’000 km\nЦена под ключ:\n2 323 000₽\n\nСтоят слайдеры и защита, держатель телефона с зарядкой, ветровое стекло и сиденье из алькантары. Установлено несколько оригинальных аксессуаров Honda.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1173
+    },
+    "video": false,
+    "delivered_at": "2026-11-22T12:24:44+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10289,
+    "kind": "auto",
+    "file": "stories/20261122-1224_10289_auto.jpg",
+    "gallery": [
+      "sources/10289_a1.jpg",
+      "sources/10289_a2.jpg",
+      "sources/10289_a3.jpg",
+      "sources/10289_a4.jpg"
+    ],
+    "source": "sources/10289_a1.jpg",
+    "title": "MINI Cooper Classic Plus Launch Pack",
+    "year": "2023",
+    "mileage": "13’550",
+    "price": "2 631 000",
+    "hp": "136",
+    "created": "2026-11-22T12:24:27+00:00",
+    "posted": "2026-11-22T12:22:49+00:00",
+    "status": "delivered",
+    "description": "MINI Cooper Classic Plus Launch Pack\nГод: 2023\nПробег: 13’550 km\nДвигатель: 136 л.с.\nКоробка: робот\nПривод: передний\nЦена под ключ в Москве:\n2 631 000₽\n\nКомплектация:\nЛюк\nLED-фары\nЭлектроскладывание зеркал\nЛитые диски\nКнопки управления на руле\nАвтозатемняющееся зеркало заднего вида\nHi-Pass\nЦентральный замок\nУсилитель руля\nЭлектростеклоподъёмники\nФронтальные подушки безопасности\nБоковые подушки безопасности\nШторки безопасности\nABS\nАнтипробуксовочная система (TCS)\nСистема стабилизации (ESC)\nДатчики давления в шинах\nСистема контроля полосы (LDWS)\nПарктроники передние и задние\nКамера заднего вида\nКруиз-контроль\nКлимат-контроль\nСмарт-ключ\nЦентральный замок с ДУ\nДатчик дождя\nАвтоматический свет фар\nМультимедийный экран\nBluetooth\nUSB\nКожаный салон\nПодогрев передних сидений\n\n@veltor_kor — автомобили из Южной Кореи под ключ.",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1174
+    },
+    "video": false,
+    "delivered_at": "2026-11-22T12:24:45+00:00"
   }
 ]
