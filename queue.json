@@ -19704,5 +19704,63 @@
     "video": false,
     "delivered_at": "2026-11-22T04:33:56+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10182,
+    "file": "stories/20261122-0502_10182.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10182.jpg",
+    "source2": "sources/10182_2.jpg",
+    "gallery": [
+      "sources/10182_g1.jpg",
+      "sources/10182_g2.jpg",
+      "sources/10182_g3.jpg",
+      "sources/10182_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.557
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.378
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.556
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.672
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.865
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.909
+      }
+    ],
+    "title": "BMW S1000RR",
+    "year": "2026",
+    "mileage": "2",
+    "price": "2 364 000",
+    "created": "2026-11-22T05:02:43+00:00",
+    "posted": "2026-11-22T05:00:07+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR\nГод: 2026\nПробег: 2 km\nЦена под ключ:\n2 364 000₽\n\nПрактически новый мотоцикл, состояние нового из коробки. Первая регистрация — июнь 2026 года. ДТП и падений не было.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1146
+    },
+    "video": false,
+    "delivered_at": "2026-11-22T05:04:07+00:00",
+    "status_b": "delivered"
   }
 ]
