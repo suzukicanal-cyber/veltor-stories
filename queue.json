@@ -19931,5 +19931,59 @@
     "video": false,
     "delivered_at": "2026-11-22T09:29:43+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10211,
+    "file": "stories/20261122-0932_10211.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10211.jpg",
+    "source2": "sources/10211_2.jpg",
+    "gallery": [
+      "sources/10211_g1.jpg",
+      "sources/10211_g2.jpg",
+      "sources/10211_g3.jpg",
+      "sources/10211_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.337
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.603
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.355
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.639
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.332
+      }
+    ],
+    "title": "MV Agusta Superveloce 800",
+    "year": "2024",
+    "mileage": "10",
+    "price": "2 113 000",
+    "created": "2026-11-22T09:32:58+00:00",
+    "posted": "2026-11-22T09:31:49+00:00",
+    "status": "delivered",
+    "description": "MV Agusta Superveloce 800\nГод: 2024\nПробег: 10 km\nЦена под ключ:\n2 113 000₽\n\nMV Agusta Superveloce 800 в эффектном красно-белом исполнении. Двигатель 798 cc. Практически новый мотоцикл, пробег всего 10 km. По объявлению — без ДТП, состояние нового мотоцикла.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1154
+    },
+    "video": false,
+    "delivered_at": "2026-11-22T09:34:08+00:00",
+    "status_b": "delivered"
   }
 ]
