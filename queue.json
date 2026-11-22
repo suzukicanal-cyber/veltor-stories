@@ -19873,5 +19873,63 @@
     "video": false,
     "delivered_at": "2026-11-22T09:26:33+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10203,
+    "file": "stories/20261122-0928_10203.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10203.jpg",
+    "source2": "sources/10203_2.jpg",
+    "gallery": [
+      "sources/10203_g1.jpg",
+      "sources/10203_g2.jpg",
+      "sources/10203_g3.jpg",
+      "sources/10203_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.824
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.349
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Triumph Street Triple 765 RS Moto2 Edition",
+    "year": "2024",
+    "mileage": "1’278",
+    "price": "1 610 000",
+    "created": "2026-11-22T09:28:55+00:00",
+    "posted": "2026-11-22T09:27:38+00:00",
+    "status": "delivered",
+    "description": "Triumph Street Triple 765 RS Moto2 Edition\nГод: 2024\nПробег: 1’278 km\nЦена под ключ:\n1 610 000₽\n\nЛимитированная версия Moto2 Edition — выпущена ограниченной серией 765 экземпляров по всему миру. Двигатель 765 cc. Мотоцикл 2024 года, пробег около 1 278 km. По объявлению — без ДТП.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1152
+    },
+    "video": false,
+    "delivered_at": "2026-11-22T09:29:43+00:00",
+    "status_b": "delivered"
   }
 ]
