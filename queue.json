@@ -20611,5 +20611,63 @@
     },
     "video": false,
     "delivered_at": "2026-11-22T12:48:38+00:00"
+  },
+  {
+    "post_id": 10319,
+    "file": "stories/20261122-1249_10319.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10319.jpg",
+    "source2": "sources/10319_2.jpg",
+    "gallery": [
+      "sources/10319_g1.jpg",
+      "sources/10319_g2.jpg",
+      "sources/10319_g3.jpg",
+      "sources/10319_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.619
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.877
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.354
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.649
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.354
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.585
+      }
+    ],
+    "title": "Harley-Davidson Breakout",
+    "year": "2017",
+    "mileage": "10’900",
+    "price": "1 860 000",
+    "created": "2026-11-22T12:49:44+00:00",
+    "posted": "2026-11-22T12:48:04+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Breakout\nГод: 2017\nПробег: 10’900 km\nЦена под ключ:\n1 860 000₽\n\nМотор 103 (1690 куб. см), ременной привод, ABS, бесключевой доступ, инжектор, дисковые тормоза спереди и сзади. Перед продажей салон проверил двигатель, коробку, ходовую и электрику, а также состояние расходников. Из доп. оборудования: ветровое стекло, дуги, кожаные кофры, кожаная накладка сбоку, спинка пассажира и светодиодная фара.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1179
+    },
+    "video": false,
+    "delivered_at": "2026-11-22T12:51:33+00:00",
+    "status_b": "delivered"
   }
 ]
