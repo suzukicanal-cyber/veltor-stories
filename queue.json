@@ -19646,5 +19646,63 @@
     "video": false,
     "delivered_at": "2026-11-22T04:31:04+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10173,
+    "file": "stories/20261122-0433_10173.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10173.jpg",
+    "source2": "sources/10173_2.jpg",
+    "gallery": [
+      "sources/10173_g1.jpg",
+      "sources/10173_g2.jpg",
+      "sources/10173_g3.jpg",
+      "sources/10173_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.651
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.919
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.848
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.915
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.464
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.903
+      }
+    ],
+    "title": "Ducati 959 Panigale Corse",
+    "year": "2016",
+    "mileage": "23’000",
+    "price": "1 135 000",
+    "created": "2026-11-22T04:33:18+00:00",
+    "posted": "2026-11-22T04:31:54+00:00",
+    "status": "delivered",
+    "description": "Ducati 959 Panigale Corse\nГод: 2016\nПробег: 23’000 km\nЦена под ключ:\n1 135 000₽\n\nСпортивный мотоцикл с двигателем объёмом 955 cc и премиальным комплектом технических доработок. Установлено дополнительное оборудование общей заявленной стоимостью около 15 млн KRW: тормозная система Brembo с главным цилиндром Corsa Corta 19 RCS и суппортами M50, передняя и задняя подвеска Öhlins высшей комплектации, кованые колёсные диски Marchesini, гидравлическое сцепление Brembo, двухтрубный выхлоп Akrapovič, предназначенный для версии Corse, с официально оформленным изменением конструкции, прозрачная крышка сцепления.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1144
+    },
+    "video": false,
+    "delivered_at": "2026-11-22T04:33:56+00:00",
+    "status_b": "delivered"
   }
 ]
