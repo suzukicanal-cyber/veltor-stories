@@ -20275,5 +20275,55 @@
     },
     "video": false,
     "delivered_at": "2026-11-22T11:29:14+00:00"
+  },
+  {
+    "post_id": 10251,
+    "file": "stories/20261122-1144_10251.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10251.jpg",
+    "source2": "sources/10251_2.jpg",
+    "gallery": [
+      "sources/10251_g1.jpg",
+      "sources/10251_g2.jpg",
+      "sources/10251_g3.jpg",
+      "sources/10251_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.516
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.925
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.915
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.88
+      }
+    ],
+    "title": "BMW S 1000 RR",
+    "year": "2020",
+    "mileage": "20’682",
+    "price": "1 489 000",
+    "created": "2026-11-22T11:44:59+00:00",
+    "posted": "2026-11-22T11:43:44+00:00",
+    "status": "delivered",
+    "description": "BMW S 1000 RR\nГод: 2020\nПробег: 20’682 km\nЦена под ключ:\n1 489 000₽\n\nСостояние и комплектацию уточним у продавца по запросу\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1167
+    },
+    "video": false,
+    "delivered_at": "2026-11-22T11:45:32+00:00",
+    "status_b": "delivered"
   }
 ]
