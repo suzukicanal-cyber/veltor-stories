@@ -20139,5 +20139,64 @@
     "video": false,
     "delivered_at": "2026-11-22T11:09:38+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10229,
+    "file": "stories/20261122-1111_10229.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10229.jpg",
+    "source2": "sources/10229_2.jpg",
+    "gallery": [
+      "sources/10229_g1.jpg",
+      "sources/10229_g2.jpg",
+      "sources/10229_g3.jpg",
+      "sources/10229_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.617
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.613
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0,
+        "tire": true
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R 1250 GS Triple Black",
+    "year": "2023",
+    "mileage": "14’000",
+    "price": "1 992 000",
+    "created": "2026-11-22T11:11:23+00:00",
+    "posted": "2026-11-22T11:09:57+00:00",
+    "status": "delivered",
+    "description": "BMW R 1250 GS Triple Black\nГод: 2023\nПробег: 14’000km\nЦена под ключ:\n1 992 000₽\n\nБез ДТП,следов на байке почти нет, состояние близко к новому. Свежая резина спереди и сзади, заменены моторное масло, масло в редукторе и аккумулятор. Стоит выхлоп Akrapovič, двухканальный видеорегистратор и беспроводная зарядка для телефона Peak Design.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1162
+    },
+    "video": false,
+    "delivered_at": "2026-11-22T11:12:10+00:00",
+    "status_b": "delivered"
   }
 ]
