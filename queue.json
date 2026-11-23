@@ -22282,5 +22282,109 @@
     "video": false,
     "delivered_at": "2026-11-23T12:53:27+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10602,
+    "file": "stories/20261123-1456_10602.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10602.jpg",
+    "source2": "sources/10602_2.jpg",
+    "gallery": [
+      "sources/10602_g1.jpg",
+      "sources/10602_g2.jpg",
+      "sources/10602_g3.jpg",
+      "sources/10602_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.368
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.644
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.274
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.329
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW S 1000 RR M Package",
+    "year": "2024",
+    "mileage": "5’000",
+    "price": "2 091 000",
+    "created": "2026-11-23T14:56:56+00:00",
+    "posted": "2026-11-23T14:18:15+00:00",
+    "status": "delivered",
+    "description": "BMW S 1000 RR M Package\nГод: 2024\nПробег: 5’000 km\nЦена под ключ:\n2 091 000₽\n\nБез ДТП и падений, состояние нового: мотоцикл только обкатан, на приборке до сих пор заводская плёнка. Стоит выхлоп SC-Project, есть защитные слайдеры и USB-порт. Карбоновые диски M. На ноябрь запланирована замена деталей по отзывной кампании и осмотр у официального дилера BMW.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1239
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T14:59:38+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10607,
+    "file": "stories/20261123-1458_10607.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10607.jpg",
+    "source2": "sources/10607_2.jpg",
+    "gallery": [
+      "sources/10607_g1.jpg",
+      "sources/10607_g2.jpg",
+      "sources/10607_g3.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.607
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0,
+        "tire": true
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Honda Gold Wing",
+    "year": "2023",
+    "mileage": "19’000",
+    "price": "2 066 000",
+    "created": "2026-11-23T14:58:44+00:00",
+    "posted": "2026-11-23T14:54:07+00:00",
+    "status": "delivered",
+    "description": "Honda Gold Wing \nГод: 2023\nПробег: 19’000 km\nЦена под ключ:\n2 066 000₽\n\nHonda Gold Wing 2023 года, двигатель 1800 см³, цвет серый. Механическая коробка. Без ДТП и без падений. Второй владелец, недавно прошёл техосмотр. Есть сервисная книжка, оригинальное ветровое стекло лежит в комплекте, два смарт-ключа. У шин ещё большой запас. Опции: подогрев, розетка питания, кофры, аудиосистема, сигнализация, противотуманные фары. Тюнинг: тонированное ветровое стекло, беспроводная зарядка, спинки для водителя и пассажира, багажник\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*27",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1240
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T14:59:40+00:00",
+    "status_b": "delivered"
   }
 ]
