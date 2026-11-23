@@ -21412,5 +21412,63 @@
     "video": false,
     "delivered_at": "2026-11-23T01:29:38+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10458,
+    "file": "stories/20261123-0144_10458.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10458.jpg",
+    "source2": "sources/10458_2.jpg",
+    "gallery": [
+      "sources/10458_g1.jpg",
+      "sources/10458_g2.jpg",
+      "sources/10458_g3.jpg",
+      "sources/10458_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.634
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.368
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.218
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.879
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW K 1600 B",
+    "year": "2022",
+    "mileage": "8’700",
+    "price": "2 257 000",
+    "created": "2026-11-23T01:44:51+00:00",
+    "posted": "2026-11-23T01:43:25+00:00",
+    "status": "delivered",
+    "description": "BMW K 1600 B\nГод: 2022\nПробег: 8’700 km\nЦена под ключ:\n2 257 000₽\n\nБез ДТП, состояние близко к новому. Мотоцикл после рестайлинга: TFT-приборка и обновлённая передняя часть. Из опций стоят тонированное ветровое стекло, держатель для телефона и заниженное сиденье. Шины Metzeler Roadtec 01 спереди и сзади, остаток 60–70%, по расходникам вложений не требует. Пройдена проверка по 20+ пунктам: реальный пробег, отсутствие ДТП\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1208
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T01:45:24+00:00",
+    "status_b": "delivered"
   }
 ]
