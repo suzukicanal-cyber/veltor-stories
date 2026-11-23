@@ -21242,5 +21242,59 @@
     "video": false,
     "delivered_at": "2026-11-23T01:09:59+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10433,
+    "file": "stories/20261123-0114_10433.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10433.jpg",
+    "source2": "sources/10433_2.jpg",
+    "gallery": [
+      "sources/10433_g1.jpg",
+      "sources/10433_g2.jpg",
+      "sources/10433_g3.jpg",
+      "sources/10433_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.431
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.617
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.617
+      }
+    ],
+    "title": "Harley-Davidson Sportster Roadster",
+    "year": "2018",
+    "mileage": "13’020",
+    "price": "997 000",
+    "created": "2026-11-23T01:14:33+00:00",
+    "posted": "2026-11-23T01:09:56+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Sportster Roadster\nГод: 2018\nПробег: 13’020 km\nЦена под ключ:\n997 000₽\n\nБез ДТП и падений, состояние хорошее, перед продажей полностью обслужен, по расходникам вложений не требует. В августе поменяны масло Iron Master и шины, после этого проехал меньше 200 км. Стоит выхлоп Vance & Hines 2-into-1 (узаконен), оригинальный обтекатель Harley-Davidson Club Style, райзеры Milwaukee, удлинённое двухместное сиденье от Azit Motor Shop и пассажирский кронштейн Redline. Заменены поворотники, стоп-сигнал, сигнал и впуск, есть провод для зарядки CTEK\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1202
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T01:15:32+00:00",
+    "status_b": "delivered"
   }
 ]
