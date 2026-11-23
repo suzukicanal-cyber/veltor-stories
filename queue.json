@@ -22112,5 +22112,63 @@
     "published_at": "2026-11-23T10:04:17+00:00",
     "story_id": 365,
     "published_track": "track.mp3"
+  },
+  {
+    "post_id": 10581,
+    "file": "stories/20261123-1237_10581.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10581.jpg",
+    "source2": "sources/10581_2.jpg",
+    "gallery": [
+      "sources/10581_g1.jpg",
+      "sources/10581_g2.jpg",
+      "sources/10581_g3.jpg",
+      "sources/10581_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.349
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.866
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.363
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.366
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.264
+      }
+    ],
+    "title": "Harley-Davidson Fat Bob 114",
+    "year": "2018",
+    "mileage": "25’225",
+    "price": "1 173 000",
+    "created": "2026-11-23T12:37:28+00:00",
+    "posted": "2026-11-23T12:35:51+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Fat Bob 114\nГод: 2018\nПробег: 25’225 km\nЦена под ключ:\n1 173 000₽\n\nБез ДТП. Установлен выхлоп Vance\nПротивотуманные фары, защита двигателя, держатель телефона и стакана, защита рук, топливная крышка, axle caps и боковые зеркала.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1232
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T12:38:44+00:00",
+    "status_b": "delivered"
   }
 ]
