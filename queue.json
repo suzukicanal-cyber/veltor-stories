@@ -20808,5 +20808,148 @@
     "video": false,
     "delivered_at": "2026-11-23T00:05:46+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10357,
+    "file": "stories/20261123-0007_10357.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10357.jpg",
+    "source2": "sources/10357_2.jpg",
+    "gallery": [
+      "sources/10357_g1.jpg",
+      "sources/10357_g2.jpg",
+      "sources/10357_g3.jpg",
+      "sources/10357_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.353
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.341
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.322
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.343
+      }
+    ],
+    "title": "Harley-Davidson Fat Bob 114",
+    "year": "2021",
+    "mileage": "9’323",
+    "price": "1 407 000",
+    "created": "2026-11-23T00:07:11+00:00",
+    "posted": "2026-11-23T00:03:15+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Fat Bob 114\nГод: 2021\nПробег: 9’323 km\nЦена под ключ:\n1 407 000₽\n\nИз повреждений только мелкие царапины на дуге безопасности. Стоит выхлоп Vance & Hines, переоборудование официально оформлено. Двигатель доработан по Stage от Screamin' Eagle: впуск, высоковольтные провода и крышка сцепления (derby cover) Screamin' Eagle. Есть штатный подогрев ручек Harley-Davidson, дуги безопасности, двухканальный видеорегистратор и держатель телефона Alus. Масло в двигателе свежее, после покупки менять не нужно.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1187
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T00:09:00+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10367,
+    "file": "stories/20261123-0008_10367.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10367.jpg",
+    "source2": "sources/10367_2.jpg",
+    "gallery": [
+      "sources/10367_g1.jpg",
+      "sources/10367_g2.jpg",
+      "sources/10367_g3.jpg",
+      "sources/10367_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.896
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.665
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.897
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.781
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Honda CBR650R E-Clutch",
+    "year": "2025",
+    "mileage": "6’900",
+    "price": "1 142 000",
+    "created": "2026-11-23T00:08:03+00:00",
+    "posted": "2026-11-23T00:03:55+00:00",
+    "status": "delivered",
+    "description": "Honda CBR650R E-Clutch\nГод: 2025\nПробег: 6’900 km\nЦена под ключ:\n1 142 000₽\n\nБез ДТП и падений, состояние близко к новому, всё чисто и аккуратно. Пластик оригинальный Honda, цвет чёрный. Установлены крепление для телефона SP Connect, регулируемые рычаги и ветровое стекло PUIG. Стоят слайдеры Evotech на раме, а также слайдеры на вилке и маятнике.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1188
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T00:09:01+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10377,
+    "kind": "auto",
+    "file": "stories/20261123-0008_10377_auto.jpg",
+    "gallery": [
+      "sources/10377_a1.jpg",
+      "sources/10377_a2.jpg",
+      "sources/10377_a3.jpg",
+      "sources/10377_a4.jpg"
+    ],
+    "source": "sources/10377_a1.jpg",
+    "title": "Chevrolet Trailblazer 1.3 Premier",
+    "year": "2022",
+    "mileage": "56’177",
+    "price": "1 697 000",
+    "hp": "156",
+    "created": "2026-11-23T00:08:46+00:00",
+    "posted": "2026-11-23T00:06:28+00:00",
+    "status": "delivered",
+    "description": "Chevrolet Trailblazer 1.3 Premier\nГод: 2022\nПробег: 56’177 km\nДвигатель: 156 л.с.\nКоробка: вариатор\nПривод: передний\nЦена под ключ в Москве:\n1 697 000₽\n\nКомплектация:\nLED-фары\nЭлектропривод багажника\nЭлектроскладывание зеркал\nЛитые диски\nРейлинги на крыше\nПодогрев руля\nКнопки управления на руле\nАвтозатемняющееся зеркало заднего вида\nHi-Pass\nЦентральный замок\nУсилитель руля\nЭлектростеклоподъёмники\nФронтальные подушки безопасности\nБоковые подушки безопасности\nШторки безопасности\nABS\nАнтипробуксовочная система (TCS)\nСистема стабилизации (ESC)\nДатчики давления в шинах\nСистема контроля полосы (LDWS)\nЗадние парктроники\nКонтроль слепых зон\nКамера заднего вида\nАдаптивный круиз-контроль\nЭлектронный ручник\nКлимат-контроль\nСмарт-ключ\nЦентральный замок с ДУ\nАвтоматический свет фар\nМультимедийный экран\nBluetooth\nUSB\nAUX\nКожаный салон\nЭлектрорегулировка водительского сиденья\nВентиляция передних сидений\n\n@veltor_kor — автомобили из Южной Кореи под ключ.",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1189
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T00:09:03+00:00"
   }
 ]
