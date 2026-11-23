@@ -20951,5 +20951,63 @@
     },
     "video": false,
     "delivered_at": "2026-11-23T00:09:03+00:00"
+  },
+  {
+    "post_id": 10387,
+    "file": "stories/20261123-0028_10387.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10387.jpg",
+    "source2": "sources/10387_2.jpg",
+    "gallery": [
+      "sources/10387_g1.jpg",
+      "sources/10387_g2.jpg",
+      "sources/10387_g3.jpg",
+      "sources/10387_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.315
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.89
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.638
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.643
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.366
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha MT-09 SP",
+    "year": "2023",
+    "mileage": "13’000",
+    "price": "1 117 000",
+    "created": "2026-11-23T00:28:06+00:00",
+    "posted": "2026-11-23T00:27:29+00:00",
+    "status": "delivered",
+    "description": "Yamaha MT-09 SP\nГод: 2023\nПробег: 13’000 km\nЦена под ключ:\n1 117 000₽\n\nМелкое ТО сделано, после покупки достаточно поменять масло. Стоит полная система SC-Project (оригинал), катализатор и штатный глушитель сняты, но в комплекте, можно вернуть на место. Рулевой демпфер Matris, наклейки на бак и наколенники. Двухканальный видеорегистратор. Защита рук стоит только слева, вторая прилагается. Отдаются также имеющиеся в запасе расходники\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1192
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T00:29:47+00:00",
+    "status_b": "delivered"
   }
 ]
