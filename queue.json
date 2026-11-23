@@ -21586,5 +21586,63 @@
     "video": false,
     "delivered_at": "2026-11-23T02:33:38+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10484,
+    "file": "stories/20261123-0236_10484.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10484.jpg",
+    "source2": "sources/10484_2.jpg",
+    "gallery": [
+      "sources/10484_g1.jpg",
+      "sources/10484_g2.jpg",
+      "sources/10484_g3.jpg",
+      "sources/10484_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.623
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.154
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.211
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.604
+      }
+    ],
+    "title": "Honda NT1100 DCT",
+    "year": "2024",
+    "mileage": "5’988",
+    "price": "1 475 000",
+    "created": "2026-11-23T02:36:04+00:00",
+    "posted": "2026-11-23T02:34:44+00:00",
+    "status": "delivered",
+    "description": "Honda NT1100 DCT\nГод: 2024\nПробег: 5’988 km\nЦена под ключ:\n1 475 000₽\n\nМотоцикл с автоматической трансмиссией DCT, цвет Silver. Объём двигателя 1100 cc. Ранее имелись повреждения вследствие падения\nДля восстановления внешнего состояния заменены повреждённые элементы. Проведена проверка масла и всех расходных материалов. Установлен двухканальный видеорегистратор Black Box (передняя и задняя камеры). Возможна установка дополнительных опций.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1214
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T02:36:53+00:00",
+    "status_b": "delivered"
   }
 ]
