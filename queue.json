@@ -21993,5 +21993,63 @@
     "video": false,
     "delivered_at": "2026-11-23T04:14:48+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10549,
+    "file": "stories/20261123-0651_10549.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10549.jpg",
+    "source2": "sources/10549_2.jpg",
+    "gallery": [
+      "sources/10549_g1.jpg",
+      "sources/10549_g2.jpg",
+      "sources/10549_g3.jpg",
+      "sources/10549_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.901
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.617
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.812
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.352
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha YZF-R1",
+    "year": "2024",
+    "mileage": "10’866",
+    "price": "1 661 000",
+    "created": "2026-11-23T06:51:42+00:00",
+    "posted": "2026-11-23T06:50:16+00:00",
+    "status": "delivered",
+    "description": "Yamaha YZF-R1\nГод: 2024\nПробег: 10’866 km\nЦена под ключ:\n1 661 000₽\n\nПо гарантии решили проблему с зарядкой: заменили АКБ, генератор, прокладки и штатные болты. Гарантия до апреля 2027. Стоит слип-он SC-Project без дБ-киллера, ветровое Puig, карбоновые винглеты, обогрев ручек Koso, хвост Lightech (сток в комплекте), видеорегистратор Gnet M1, Type-C зарядка и крепление SP Connect. Резина больше 80%, масло меняли на ~9700 км.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1228
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T06:52:33+00:00",
+    "status_b": "delivered"
   }
 ]
