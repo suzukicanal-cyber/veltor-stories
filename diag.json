@@ -2,17 +2,12 @@
   "bot_rights": {
     "status": "administrator",
     "can_delete_messages": true,
-    "checked": "2026-11-22T19:29:06+00:00"
+    "checked": "2026-11-23T00:02:52+00:00"
   },
   "service_seen": [
-    "new_chat_members"
+    "boost_added"
   ],
   "boost": [
-    {
-      "id": 8791,
-      "ok": false,
-      "error": "HTTP Error 400: Bad Request"
-    },
     {
       "id": 8793,
       "ok": false,
@@ -99,6 +94,11 @@
     },
     {
       "id": 9129,
+      "ok": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "id": 10341,
       "ok": false,
       "error": "HTTP Error 400: Bad Request"
     }
