@@ -21935,5 +21935,63 @@
     "video": false,
     "delivered_at": "2026-11-23T03:48:54+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10539,
+    "file": "stories/20261123-0413_10539.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10539.jpg",
+    "source2": "sources/10539_2.jpg",
+    "gallery": [
+      "sources/10539_g1.jpg",
+      "sources/10539_g2.jpg",
+      "sources/10539_g3.jpg",
+      "sources/10539_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.857
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.18
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.327
+      }
+    ],
+    "title": "Yamaha YZF-R6",
+    "year": "2020",
+    "mileage": "13’844",
+    "price": "1 332 000",
+    "created": "2026-11-23T04:13:58+00:00",
+    "posted": "2026-11-23T04:12:39+00:00",
+    "status": "delivered",
+    "description": "Yamaha YZF-R6\nГод: 2020\nПробег: 13’844 km\nЦена под ключ:\n1 332 000₽\n\nСостояние хорошее \nБез ДТП\nТюнинг на фото\n \nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1226
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T04:14:48+00:00",
+    "status_b": "delivered"
   }
 ]
