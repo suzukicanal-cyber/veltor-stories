@@ -21125,5 +21125,122 @@
     "video": false,
     "delivered_at": "2026-11-23T01:06:28+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10415,
+    "file": "stories/20261123-0107_10415.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10415.jpg",
+    "source2": "sources/10415_2.jpg",
+    "gallery": [
+      "sources/10415_g1.jpg",
+      "sources/10415_g2.jpg",
+      "sources/10415_g3.jpg",
+      "sources/10415_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.917
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.891
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.907
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.827
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.579
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Harley-Davidson Street Glide Special",
+    "year": "2016",
+    "mileage": "8’200",
+    "price": "1 694 000",
+    "created": "2026-11-23T01:07:56+00:00",
+    "posted": "2026-11-23T01:04:05+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Street Glide Special\nГод: 2016\nПробег: 8’200 km\nЦена под ключ:\n1 694 000₽\n\nОдин владелец, без ДТП и падений. Мотор Twin Cam 103, цвет матовый чёрный. Заводские опции: мультимедиа Boom Box 6.5GT с сенсорным экраном, тормоза Brembo с четырёхпоршневыми суппортами и ABS, 19-дюймовые литые диски Enforcer, задняя подвеска с ручной регулировкой, иммобилайзер со смарт-ключом. Из тюнинга: светодиодная фара 7\", светодиодные противотуманки 4,5\", нижние обтекатели, хромированные дуги на двигатель с подножками для трассы и дуги кофров.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1198
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T01:09:57+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10425,
+    "file": "stories/20261123-0108_10425.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10425.jpg",
+    "source2": "sources/10425_2.jpg",
+    "gallery": [
+      "sources/10425_g1.jpg",
+      "sources/10425_g2.jpg",
+      "sources/10425_g3.jpg",
+      "sources/10425_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.593
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.719
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.196
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.586
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0,
+        "tire": true
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Honda CBR600RR",
+    "year": "2025",
+    "mileage": "5’500",
+    "price": "1 376 000",
+    "created": "2026-11-23T01:08:38+00:00",
+    "posted": "2026-11-23T01:04:48+00:00",
+    "status": "delivered",
+    "description": "Honda CBR600RR\nГод: 2025\nПробег: 5’500 km\nЦена под ключ:\n1 376 000₽\n\nБез ДТП и падений. На 2 декабря записан к официальному дилеру Honda на работы по отзывной кампании.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1199
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T01:09:59+00:00",
+    "status_b": "delivered"
   }
 ]
