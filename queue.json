@@ -22224,5 +22224,63 @@
     "video": false,
     "delivered_at": "2026-11-23T12:47:54+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10594,
+    "file": "stories/20261123-1252_10594.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10594.jpg",
+    "source2": "sources/10594_2.jpg",
+    "gallery": [
+      "sources/10594_g1.jpg",
+      "sources/10594_g2.jpg",
+      "sources/10594_g3.jpg",
+      "sources/10594_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.608
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.658
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.22
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson XL1200CB Sportster 1200 Custom Limited B",
+    "year": "2013",
+    "mileage": "4’458",
+    "price": "1 409 000",
+    "created": "2026-11-23T12:52:22+00:00",
+    "posted": "2026-11-23T12:50:44+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson XL1200CB Sportster 1200 Custom Limited B\nГод: 2013\nПробег: 4’458 km\nЦена под ключ:\n1 409 000₽\n\nРедкая лимитированная версия Sportster 1200 Custom Limited B, официально импортированная в Южную Корею. По информации продавца, в Корее было официально ввезено всего 2 экземпляра данной версии. Двигатель 1200 cc, чёрный цвет, без ДТП. Очень небольшой пробег для своего года. Установлены защита двигателя, спинка пассажира, боковая сумка и индикатор CTEK для контроля состояния аккумулятора. Классический дизайн Harley-Davidson с характерным стилем Sportster.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1236
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T12:53:27+00:00",
+    "status_b": "delivered"
   }
 ]
