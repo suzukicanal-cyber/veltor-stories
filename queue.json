@@ -21296,5 +21296,63 @@
     "video": false,
     "delivered_at": "2026-11-23T01:15:32+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10438,
+    "file": "stories/20261123-0124_10438.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10438.jpg",
+    "source2": "sources/10438_2.jpg",
+    "gallery": [
+      "sources/10438_g1.jpg",
+      "sources/10438_g2.jpg",
+      "sources/10438_g3.jpg",
+      "sources/10438_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.895
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.576
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.355
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.903
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.216
+      }
+    ],
+    "title": "Harley-Davidson Street Rod 750",
+    "year": "2018",
+    "mileage": "11’500",
+    "price": "651 000",
+    "created": "2026-11-23T01:24:45+00:00",
+    "posted": "2026-11-23T01:23:30+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Street Rod 750\nГод: 2018\nПробег: 11’500 km\nЦена под ключ:\n651 000₽\n\nБыло лёгкое падение, на пассажирском сиденье потёртость и облезшее покрытие. В остальном состояние очень хорошее, ошибок на приборке нет. Масло и расходники заменены. Стоит литиевый аккумулятор, к нему есть родное зарядное. Из доп. оборудования: зеркала в торцы руля, держатель для телефона, боковые сумки и дуги.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1204
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T01:25:28+00:00",
+    "status_b": "delivered"
   }
 ]
