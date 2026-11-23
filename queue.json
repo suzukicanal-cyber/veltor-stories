@@ -21877,5 +21877,63 @@
     "video": false,
     "delivered_at": "2026-11-23T03:20:35+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10529,
+    "file": "stories/20261123-0346_10529.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10529.jpg",
+    "source2": "sources/10529_2.jpg",
+    "gallery": [
+      "sources/10529_g1.jpg",
+      "sources/10529_g2.jpg",
+      "sources/10529_g3.jpg",
+      "sources/10529_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.615
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.347
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.338
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.465
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.147
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Low Rider ST",
+    "year": "2024",
+    "mileage": "5’339",
+    "price": "2 290 000",
+    "created": "2026-11-23T03:46:12+00:00",
+    "posted": "2026-11-23T03:44:44+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Low Rider ST\nГод: 2024\nПробег: 5’339 km\nЦена под ключ:\n2 290 000₽\n\nБез ДТП и падений.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1224
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T03:48:54+00:00",
+    "status_b": "delivered"
   }
 ]
