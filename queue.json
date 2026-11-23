@@ -21761,5 +21761,121 @@
     "video": false,
     "delivered_at": "2026-11-23T03:17:19+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10510,
+    "file": "stories/20261123-0318_10510.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10510.jpg",
+    "source2": "sources/10510_2.jpg",
+    "gallery": [
+      "sources/10510_g1.jpg",
+      "sources/10510_g2.jpg",
+      "sources/10510_g3.jpg",
+      "sources/10510_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.866
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.366
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.643
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.624
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.502
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.644
+      }
+    ],
+    "title": "Yamaha YZF-R7",
+    "year": "2022",
+    "mileage": "14’000",
+    "price": "865 000",
+    "created": "2026-11-23T03:18:36+00:00",
+    "posted": "2026-11-23T03:15:58+00:00",
+    "status": "delivered",
+    "description": "Yamaha YZF-R7\nГод: 2022\nПробег: 14’000 km\nЦена под ключ:\n865 000₽\n\nСостояние хорошее\nБез ДТП \nБолее детально по запросу \n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1220
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T03:20:33+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10519,
+    "file": "stories/20261123-0320_10519.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10519.jpg",
+    "source2": "sources/10519_2.jpg",
+    "gallery": [
+      "sources/10519_g1.jpg",
+      "sources/10519_g2.jpg",
+      "sources/10519_g3.jpg",
+      "sources/10519_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.403
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.366
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.379
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.885
+      }
+    ],
+    "title": "Harley-Davidson Street Glide 117",
+    "year": "2025",
+    "mileage": "10’500",
+    "price": "3 217 000",
+    "created": "2026-11-23T03:20:12+00:00",
+    "posted": "2026-11-23T03:17:07+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Street Glide 117\nГод: 2025\nПробег: 10’500 km\nЦена под ключ:\n3 217 000₽\n\nСостояние и комплектацию уточним у продавца по запросу.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1221
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T03:20:35+00:00",
+    "status_b": "delivered"
   }
 ]
