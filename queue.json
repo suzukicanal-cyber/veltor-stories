@@ -21703,5 +21703,63 @@
     "video": false,
     "delivered_at": "2026-11-23T02:38:44+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10500,
+    "file": "stories/20261123-0315_10500.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10500.jpg",
+    "source2": "sources/10500_2.jpg",
+    "gallery": [
+      "sources/10500_g1.jpg",
+      "sources/10500_g2.jpg",
+      "sources/10500_g3.jpg",
+      "sources/10500_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.377
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.893
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.613
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.649
+      }
+    ],
+    "title": "BMW M 1000 RR",
+    "year": "2022",
+    "mileage": "9’800",
+    "price": "2 128 000",
+    "created": "2026-11-23T03:15:55+00:00",
+    "posted": "2026-11-23T03:14:37+00:00",
+    "status": "delivered",
+    "description": "BMW M 1000 RR\nГод: 2022\nПробег: 9’800 km\nЦена под ключ:\n2 128 000₽\n\nСостояние и комплектацию уточним у продавца по запросу.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1218
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T03:17:19+00:00",
+    "status_b": "delivered"
   }
 ]
