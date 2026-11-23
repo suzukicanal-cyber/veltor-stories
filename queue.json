@@ -21009,5 +21009,121 @@
     "video": false,
     "delivered_at": "2026-11-23T00:29:47+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10397,
+    "file": "stories/20261123-0104_10397.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10397.jpg",
+    "source2": "sources/10397_2.jpg",
+    "gallery": [
+      "sources/10397_g1.jpg",
+      "sources/10397_g2.jpg",
+      "sources/10397_g3.jpg",
+      "sources/10397_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.859
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.482
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.902
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Honda CBR600RR",
+    "year": "2025",
+    "mileage": "9’100",
+    "price": "1 661 000",
+    "created": "2026-11-23T01:04:07+00:00",
+    "posted": "2026-11-23T01:02:48+00:00",
+    "status": "delivered",
+    "description": "Honda CBR600RR\nГод: 2025\nПробег: 9’100 km\nЦена под ключ:\n1 661 000₽\n\nБез падений и ДТП. Из косметики: небольшой скол краски на правом винглете от камня (есть подкраска в цвет), царапина на зеркале от задевания колонны на парковке и мелкие бытовые потёртости на баке. В остальном состояние хорошее, ездил аккуратно, без жёсткой эксплуатации. Летом прошёл отзывную кампанию у официального дилера Honda: двигатель в отличном состоянии, замена не потребовалась, есть подтверждающий документ\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1194
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T01:06:26+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10405,
+    "file": "stories/20261123-0105_10405.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10405.jpg",
+    "source2": "sources/10405_2.jpg",
+    "gallery": [
+      "sources/10405_g1.jpg",
+      "sources/10405_g2.jpg",
+      "sources/10405_g3.jpg",
+      "sources/10405_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.91
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.867
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.854
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.306
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.161
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Fat Bob 114",
+    "year": "2022",
+    "mileage": "3’720",
+    "price": "1 628 000",
+    "created": "2026-11-23T01:05:45+00:00",
+    "posted": "2026-11-23T01:03:26+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Fat Bob 114\nГод: 2022\nПробег: 3’720 km\nЦена под ключ:\n1 628 000₽\n\nБез ДТП и падений.\nПройдено полное обслуживание, заменены все расходники. Установлены видеорегистратор, держатель для телефона, защитные дуги двигателя, спинка пассажира (sissy bar) и боковая кожаная сумка.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1195
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T01:06:28+00:00",
+    "status_b": "delivered"
   }
 ]
