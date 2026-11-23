@@ -21644,5 +21644,64 @@
     "video": false,
     "delivered_at": "2026-11-23T02:36:53+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10490,
+    "file": "stories/20261123-0238_10490.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10490.jpg",
+    "source2": "sources/10490_2.jpg",
+    "gallery": [
+      "sources/10490_g1.jpg",
+      "sources/10490_g2.jpg",
+      "sources/10490_g3.jpg",
+      "sources/10490_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.811
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.772
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.826
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.717
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0,
+        "tire": true
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW S 1000 RR M Package",
+    "year": "2022",
+    "mileage": "8’700",
+    "price": "1 694 000",
+    "created": "2026-11-23T02:38:15+00:00",
+    "posted": "2026-11-23T02:36:56+00:00",
+    "status": "delivered",
+    "description": "BMW S 1000 RR M Package\nГод: 2022\nПробег: 8’700 km\nЦена под ключ:\n1 694 000₽\n\nБез ДТП и падений, состояние отличное. Стоит оригинальный слип-он SC-Project в карбоне. На двигателе защитные крышки GBRacing.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1216
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T02:38:44+00:00",
+    "status_b": "delivered"
   }
 ]
