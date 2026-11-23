@@ -22051,5 +22051,63 @@
     "video": false,
     "delivered_at": "2026-11-23T06:52:33+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10569,
+    "file": "stories/20261123-0956_10569.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10569.jpg",
+    "source2": "sources/10569_2.jpg",
+    "gallery": [
+      "sources/10569_g1.jpg",
+      "sources/10569_g2.jpg",
+      "sources/10569_g3.jpg",
+      "sources/10569_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.869
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.617
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.772
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.653
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.647
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2023",
+    "mileage": "6’633",
+    "price": "1 891 000",
+    "created": "2026-11-23T09:56:57+00:00",
+    "posted": "2026-11-23T09:55:25+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR M Package\nГод: 2023\nПробег: 6’633 km\nЦена под ключ:\n1 891 000₽\n\nBMW S1000RR в комплектации M Package с карбоновыми колёсами. Без ДТП и падений. Установлен спортивный выхлоп Öhlins Racing с официально оформленным изменением конструкции. Полная оклейка кузова PPF, матовое антискользящее покрытие. Комплектация M Package включает сиденье M, подножки M, карбоновые элементы и другие заводские опции. Состояние близкое к новому, небольшой пробег, отличное состояние двигателя и расходных компонентов.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1230
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T09:58:04+00:00",
+    "status_b": "delivered"
   }
 ]
