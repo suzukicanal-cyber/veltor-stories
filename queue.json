@@ -22386,5 +22386,117 @@
     "video": false,
     "delivered_at": "2026-11-23T14:59:40+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10611,
+    "file": "stories/20261123-2021_10611.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10611.jpg",
+    "source2": "sources/10611_2.jpg",
+    "gallery": [
+      "sources/10611_g1.jpg",
+      "sources/10611_g2.jpg",
+      "sources/10611_g3.jpg",
+      "sources/10611_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.769
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.803
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.075
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.719
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.89
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.57
+      }
+    ],
+    "title": "Honda Gold Wing F6B",
+    "year": "2016",
+    "mileage": "36’900",
+    "price": "1 615 000",
+    "created": "2026-11-23T20:21:17+00:00",
+    "posted": "2026-11-23T14:57:37+00:00",
+    "status": "delivered",
+    "description": "Honda Gold Wing F6B\nГод: 2016\nПробег: 36’900 km\nЦена под ключ:\n1 615 000₽\n\nБез ДТП и падений.\nДля своего года пробег небольшой, двигатель в отличном состоянии. По расходникам вложений не требуется — можно сразу ехать. Установлены противотуманки, хайвей-пеги, педаль переключения пятка-носок, LED-свет и LED-зеркала. Также стоят увеличенные подножки-платформы и двухканальный видеорегистратор.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1243
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T20:22:24+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10621,
+    "file": "stories/20261123-2021_10621.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/10621.jpg",
+    "source2": "sources/10621_2.jpg",
+    "gallery": [
+      "sources/10621_g1.jpg",
+      "sources/10621_g2.jpg",
+      "sources/10621_g3.jpg",
+      "sources/10621_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.611
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.79
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.459
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.855
+      }
+    ],
+    "title": "Honda Gold Wing F6B",
+    "year": "2017",
+    "mileage": "16’000",
+    "price": "1 860 000",
+    "created": "2026-11-23T20:21:54+00:00",
+    "posted": "2026-11-23T15:00:11+00:00",
+    "status": "delivered",
+    "description": "Honda Gold Wing F6B\nГод: 2017\nПробег: 16’000 km\nЦена под ключ:\n1 860 000₽\n\nБез ДТП и падений.\nПоставлена новая резина. Внешне в аккуратном состоянии. Есть спинка пассажира, багажник на кофре и держатель для телефона на руле\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1244
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T20:22:25+00:00",
+    "status_b": "delivered"
   }
 ]
