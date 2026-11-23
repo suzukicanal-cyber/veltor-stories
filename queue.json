@@ -21470,5 +21470,121 @@
     "video": false,
     "delivered_at": "2026-11-23T01:45:24+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10468,
+    "file": "stories/20261123-0231_10468.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10468.jpg",
+    "source2": "sources/10468_2.jpg",
+    "gallery": [
+      "sources/10468_g1.jpg",
+      "sources/10468_g2.jpg",
+      "sources/10468_g3.jpg",
+      "sources/10468_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.856
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.613
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.602
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.81
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.879
+      }
+    ],
+    "title": "Harley-Davidson Breakout 117",
+    "year": "2025",
+    "mileage": "9",
+    "price": "2 389 000",
+    "created": "2026-11-23T02:31:50+00:00",
+    "posted": "2026-11-23T02:28:57+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Breakout 117\nГод: 2025\nПробег: 9 km\nЦена под ключ:\n2 389 000₽\n\nБез ДТП, по сути новый мотоцикл. Установлены двухканальный видеорегистратор и держатель для телефона Alus с беспроводной зарядкой.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1210
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T02:33:36+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10478,
+    "file": "stories/20261123-0233_10478.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10478.jpg",
+    "source2": "sources/10478_2.jpg",
+    "gallery": [
+      "sources/10478_g1.jpg",
+      "sources/10478_g2.jpg",
+      "sources/10478_g3.jpg",
+      "sources/10478_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.909
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.636
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.326
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.639
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.925
+      }
+    ],
+    "title": "BMW M1000XR Competition Package",
+    "year": "2025",
+    "mileage": "9’583",
+    "price": "2 965 000",
+    "created": "2026-11-23T02:33:02+00:00",
+    "posted": "2026-11-23T02:30:30+00:00",
+    "status": "delivered",
+    "description": "BMW M1000XR Competition Package\nГод: 2025\nПробег: 9’583 km\nЦена под ключ:\n2 965 000₽\n\n2025 модельный год, первая регистрация — сентябрь 2025 года. Один владелец. Мотоцикл без ДТП, падений и повреждений. Хранился в помещении под чехлом, внешнее состояние отличное. \nШины, цепь и тормозные колодки в хорошем состоянии. Установлен пакет Competition. Дополнительные опции: Power Outlet, багажные аксессуары.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1211
+    },
+    "video": false,
+    "delivered_at": "2026-11-23T02:33:38+00:00",
+    "status_b": "delivered"
   }
 ]
