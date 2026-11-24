@@ -24115,5 +24115,64 @@
     "video": false,
     "delivered_at": "2026-11-24T10:57:07+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10879,
+    "file": "stories/20261124-1401_10879.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10879.jpg",
+    "source2": "sources/10879_2.jpg",
+    "gallery": [
+      "sources/10879_g1.jpg",
+      "sources/10879_g2.jpg",
+      "sources/10879_g3.jpg",
+      "sources/10879_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.641
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.599
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0,
+        "tire": true
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "BMW R1300GS Triple Black",
+    "year": "2024",
+    "mileage": "12’300",
+    "price": "2 040 000",
+    "created": "2026-11-24T14:01:14+00:00",
+    "posted": "2026-11-24T13:59:32+00:00",
+    "status": "delivered",
+    "description": "BMW R1300GS Triple Black\nГод: 2024\nПробег: 12’300 km\nЦена под ключ:\n2 040 000₽\n\nПолная комплектация, один владелец с момента покупки, гарантия ещё действует. Автоматическое опускание подвески при остановке и возвращение к стандартной высоте при движении. ACC Adaptive Cruise Control, электронное ветровое стекло с регулировкой на ходу. Установлены оригинальные боковые кофры BMW, алюминиевый центральный кофр LOBU с пассажирской спинкой, рамки боковых кофров Ronalder и двухканальный видеорегистратор. По истории — небольшое падение на левую сторону при попытке удержать мотоцикл.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1306
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T14:02:35+00:00",
+    "status_b": "delivered"
   }
 ]
