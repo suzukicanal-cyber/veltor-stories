@@ -23806,5 +23806,63 @@
     "video": false,
     "delivered_at": "2026-11-24T09:08:14+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10832,
+    "file": "stories/20261124-1024_10832.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10832.jpg",
+    "source2": "sources/10832_2.jpg",
+    "gallery": [
+      "sources/10832_g1.jpg",
+      "sources/10832_g2.jpg",
+      "sources/10832_g3.jpg",
+      "sources/10832_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.913
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.915
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.532
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.624
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.362
+      }
+    ],
+    "title": "Harley-Davidson Fat Boy",
+    "year": "2026",
+    "mileage": "994",
+    "price": "2 522 000",
+    "created": "2026-11-24T10:24:56+00:00",
+    "posted": "2026-11-24T10:23:20+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Fat Boy\nГод: 2026\nПробег: 994 km\nЦена под ключ:\n2 522 000₽\n\n\nБез ДТП и падений.\nСостояние нового мотоцикла. Установлены дуги безопасности, хайвей-педали, держатель телефона с беспроводной зарядкой и двухканальный видеорегистратор GNET. Также стоит двойной лягушачий переключатель передач (пятка-носок) и регулируемая спинка\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1294
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T10:25:21+00:00",
+    "status_b": "delivered"
   }
 ]
