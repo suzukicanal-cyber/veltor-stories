@@ -24174,5 +24174,63 @@
     "video": false,
     "delivered_at": "2026-11-24T14:02:35+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10885,
+    "file": "stories/20261124-1430_10885.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10885.jpg",
+    "source2": "sources/10885_2.jpg",
+    "gallery": [
+      "sources/10885_g1.jpg",
+      "sources/10885_g2.jpg",
+      "sources/10885_g3.jpg",
+      "sources/10885_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.923
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.884
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.88
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.934
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.878
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Breakout",
+    "year": "2014",
+    "mileage": "20’000",
+    "price": "1 388 000",
+    "created": "2026-11-24T14:30:19+00:00",
+    "posted": "2026-11-24T14:28:18+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Breakout\nГод: 2014\nПробег: 20’000 km\nЦена под ключ:\n1 388 000₽\n\nКрасно-чёрный окрас, вживую смотрится ещё эффектнее, чем на фото. Состояние очень хорошее. Стоит выхлоп Vance & Hines, родной глушитель в комплекте. Аккуратный тюнинг: открытый воздушный фильтр, сиденье с ромбовидной прострочкой, сумка на маятнике, держатель для телефона. Все снятые родные детали сохранены. Звук отличный.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1308
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T14:31:12+00:00",
+    "status_b": "delivered"
   }
 ]
