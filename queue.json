@@ -22758,5 +22758,63 @@
     "video": false,
     "delivered_at": "2026-11-24T00:48:21+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10665,
+    "file": "stories/20261124-0049_10665.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10665.jpg",
+    "source2": "sources/10665_2.jpg",
+    "gallery": [
+      "sources/10665_g1.jpg",
+      "sources/10665_g2.jpg",
+      "sources/10665_g3.jpg",
+      "sources/10665_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.843
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.354
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.363
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.3
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha MT-09",
+    "year": "2026",
+    "mileage": "NEW",
+    "price": "1 405 000",
+    "created": "2026-11-24T00:49:37+00:00",
+    "posted": "2026-11-24T00:45:57+00:00",
+    "status": "delivered",
+    "description": "Yamaha MT-09\nГод: 2026\nПробег: NEW\nЦена под ключ:\n1 405 000₽\n\nНовый Yamaha MT-09 в чёрно-серебристом исполнении с фирменными синими колёсными дисками. Двигатель CP3 объёмом 890 cc. Без ДТП. Мотоцикл предлагается дилером в новом состоянии.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1256
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T00:50:18+00:00",
+    "status_b": "delivered"
   }
 ]
