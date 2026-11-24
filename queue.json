@@ -22525,5 +22525,64 @@
     },
     "video": false,
     "delivered_at": "2026-11-24T00:17:32+00:00"
+  },
+  {
+    "post_id": 10637,
+    "file": "stories/20261124-0029_10637.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10637.jpg",
+    "source2": "sources/10637_2.jpg",
+    "gallery": [
+      "sources/10637_g1.jpg",
+      "sources/10637_g2.jpg",
+      "sources/10637_g3.jpg",
+      "sources/10637_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.898
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.823
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.898
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.554
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0,
+        "tire": true
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.678
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2022",
+    "mileage": "8’700",
+    "price": "1 674 000",
+    "created": "2026-11-24T00:29:55+00:00",
+    "posted": "2026-11-24T00:28:29+00:00",
+    "status": "delivered",
+    "description": "BMW S1000RR M Package\nГод: 2022\nПробег: 8’700 km\nЦена под ключ:\n1 674 000₽\n\nBMW S1000RR в комплектации M Package, оригинальный цвет Racing Blue. Без ДТП. Богатая комплектация: карбоновые колёса M Carbon Wheels, спортивное сиденье M Sport Seat, комплект M Chassis Kit, облегчённая батарея M Lightweight Battery. Установлены оригинальный выхлоп SC Project Slip-On (оформлен в Корее), слайдеры рамы Gilles Tooling, задний крепёжный болт Gilles Tooling и удлинённое ветровое стекло MRA. Небольшой пробег, отличное состояние.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1248
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T00:31:05+00:00",
+    "status_b": "delivered"
   }
 ]
