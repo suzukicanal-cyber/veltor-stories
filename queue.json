@@ -24232,5 +24232,63 @@
     "video": false,
     "delivered_at": "2026-11-24T14:31:12+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10894,
+    "file": "stories/20261124-1432_10894.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10894.jpg",
+    "source2": "sources/10894_2.jpg",
+    "gallery": [
+      "sources/10894_g1.jpg",
+      "sources/10894_g2.jpg",
+      "sources/10894_g3.jpg",
+      "sources/10894_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.635
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.645
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Harley-Davidson Breakout",
+    "year": "2015",
+    "mileage": "25’400",
+    "price": "1 470 000",
+    "created": "2026-11-24T14:32:45+00:00",
+    "posted": "2026-11-24T14:30:28+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Breakout\nГод: 2015\nПробег: 25’400 km\nЦена под ключ:\n1 470 000₽\n\nБез ДТП. Цвет чёрный. Стоит выхлоп Freedom Performance.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1310
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T14:33:03+00:00",
+    "status_b": "delivered"
   }
 ]
