@@ -22816,5 +22816,349 @@
     "video": false,
     "delivered_at": "2026-11-24T00:50:18+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10671,
+    "file": "stories/20261124-0104_10671.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10671.jpg",
+    "source2": "sources/10671_2.jpg",
+    "gallery": [
+      "sources/10671_g1.jpg",
+      "sources/10671_g2.jpg",
+      "sources/10671_g3.jpg",
+      "sources/10671_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.546
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.312
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.614
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.58
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Suzuki GSX-R1000",
+    "year": "2019",
+    "mileage": "14’728",
+    "price": "1 049 000",
+    "created": "2026-11-24T01:04:19+00:00",
+    "posted": "2026-11-24T00:49:58+00:00",
+    "status": "delivered",
+    "description": "Suzuki GSX-R1000\nГод: 2019\nПробег: 14’728 km\nЦена под ключ:\n1 049 000₽\n\nSuzuki GSX-R1000 в синем цвете. Литровый спортивный мотоцикл с двигателем 1000 cc. В объявлении указана аварийная история\nПродавец — специализированный мотосалон \nВозможен торг\nДополнительная информация о характере повреждений и проведённом ремонте предоставляется при запросе.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1258
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T01:08:47+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10677,
+    "file": "stories/20261124-0105_10677.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10677.jpg",
+    "source2": "sources/10677_2.jpg",
+    "gallery": [
+      "sources/10677_g1.jpg",
+      "sources/10677_g2.jpg",
+      "sources/10677_g3.jpg",
+      "sources/10677_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.586
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.352
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.164
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.582
+      }
+    ],
+    "title": "Suzuki GSX-S1000",
+    "year": "2027",
+    "mileage": "NEW",
+    "price": "1 606 000",
+    "created": "2026-11-24T01:05:15+00:00",
+    "posted": "2026-11-24T00:53:36+00:00",
+    "status": "delivered",
+    "description": "Suzuki GSX-S1000\nГод: 2027\nПробег: NEW\nЦена под ключ:\n1 606 000₽\n\nНовый Suzuki GSX-S1000 в синем цвете. Литровый нейкед с двигателем объёмом 1000 cc. Без ДТП. Современный агрессивный дизайн, перевёрнутая передняя вилка золотистого цвета, синие колёсные диски и мощная тормозная система Brembo. Новый мотоцикл от мотосалона Suzuki Moto Plaza.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1259
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T01:08:49+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10683,
+    "file": "stories/20261124-0106_10683.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/10683.jpg",
+    "source2": "sources/10683_2.jpg",
+    "gallery": [
+      "sources/10683_g1.jpg",
+      "sources/10683_g2.jpg",
+      "sources/10683_g3.jpg",
+      "sources/10683_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.87
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.345
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.353
+      }
+    ],
+    "title": "Kawasaki Z H2",
+    "year": "2020",
+    "mileage": "24’807",
+    "price": "1 362 000",
+    "created": "2026-11-24T01:06:09+00:00",
+    "posted": "2026-11-24T00:56:48+00:00",
+    "status": "delivered",
+    "description": "Kawasaki Z H2\nГод: 2020\nПробег: 24’807 km\nЦена под ключ:\n1 362 000₽\n\nKawasaki Z H2 в чёрном цвете. Без ДТП. Проведено комплексное обслуживание на пробеге 24’000 km: заменены моторное масло, свечи зажигания, передняя и задняя резина Pirelli Diablo Rosso. В ноябре 2026 года заменены тормозные колодки, звёзды и цепь. После обслуживания мотоцикл проехал менее 1’000 km и находится на хранении в мотосалоне.\n\nДополнительное оснащение: оригинальные зеркала сохранены, установлен выхлоп Akrapovič Slip-On с оформлением в Корее, регулируемые рычаги Puig, карбоновые воздуховоды, карбоновые накладки задней части и боковые крышки, слайдеры рамы XRT, защита двигателя, USB-зарядка, двухканальный видеорегистратор и задний крепёжный болт. Имеется небольшая царапина на задней части и следы контакта на слайдере рамы. Пробег не увеличивается, мотоцикл хранится в помещении.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1260
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T01:08:51+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10691,
+    "file": "stories/20261124-0107_10691.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10691.jpg",
+    "source2": "sources/10691_2.jpg",
+    "gallery": [
+      "sources/10691_g1.jpg",
+      "sources/10691_g2.jpg",
+      "sources/10691_g3.jpg",
+      "sources/10691_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.925
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.578
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.342
+      }
+    ],
+    "title": "Kawasaki Ninja 400",
+    "year": "2023",
+    "mileage": "9’900",
+    "price": "737 000",
+    "created": "2026-11-24T01:07:04+00:00",
+    "posted": "2026-11-24T00:59:46+00:00",
+    "status": "delivered",
+    "description": "Kawasaki Ninja 400\nГод: 2023\nПробег: 9’900 km\nЦена под ключ:\n737 000₽\n\nKawasaki Ninja 400 в кастомном исполнении. Без ДТП. Установлен выхлоп Two Brothers Racing Slip-On\nПо информации продавца, мотоцикл имеет одно падение. Возможен торг.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR —организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1261
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T01:08:53+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10696,
+    "file": "stories/20261124-0107_10696.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10696.jpg",
+    "source2": "sources/10696_2.jpg",
+    "gallery": [
+      "sources/10696_g1.jpg",
+      "sources/10696_g2.jpg",
+      "sources/10696_g3.jpg",
+      "sources/10696_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.882
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.633
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.893
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Suzuki GSX-S1000GT",
+    "year": "2023",
+    "mileage": "7’800",
+    "price": "1 187 000",
+    "created": "2026-11-24T01:07:44+00:00",
+    "posted": "2026-11-24T01:01:05+00:00",
+    "status": "delivered",
+    "description": "Suzuki GSX-S1000GT\nГод: 2023\nПробег: 7’800 km\nЦена под ключ:\n1 187 000₽\n\nТёмно-синий, без ДТП. Две недели назад поставил новую резину Michelin на оба колеса, заодно сделал полную диагностику в сервисе Suzuki: по состоянию и трансмиссии замечаний нет. Почти сток, лишнего тюнинга нет: видеорегистратор, грузики руля, держатель телефона, слайдеры рамы, тонированное ветровое стекло. После лёгких опрокидываний на обе стороны небольшие следы есть только на слайдерах, кофры и руль чистые.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1262
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T01:08:55+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10705,
+    "file": "stories/20261124-0108_10705.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10705.jpg",
+    "source2": "sources/10705_2.jpg",
+    "gallery": [
+      "sources/10705_g1.jpg",
+      "sources/10705_g2.jpg",
+      "sources/10705_g3.jpg",
+      "sources/10705_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.897
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.896
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.78
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Harley-Davidson Street Bob 117",
+    "year": "2025",
+    "mileage": "2’990",
+    "price": "1 740 000",
+    "created": "2026-11-24T01:08:14+00:00",
+    "posted": "2026-11-24T01:03:22+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Street Bob 117\nГод: 2025\nПробег: 2’990 km\nЦена под ключ:\n1 740 000₽\n\nHarley-Davidson Street Bob 117 в сером цвете. Без ДТП. Двигатель Milwaukee-Eight 117 объёмом 1 923 cc. Практически новый мотоцикл, сохранён в отличном состоянии.\n\nДополнительное оснащение: защита двигателя, беспроводная зарядка для смартфона на площадке держателя, двухканальный видеорегистратор GNET, изменённый руль с официальным оформлением, подлокотник для пассажира, боковые кофры Swingarm Bag, подогрев ручек, декоративная накладка на домик сцепления и площадки переключения передач. Состояние нового мотоцикла.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1263
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T01:08:57+00:00",
+    "status_b": "delivered"
   }
 ]
