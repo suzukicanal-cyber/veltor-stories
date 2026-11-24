@@ -23218,5 +23218,63 @@
     "video": false,
     "delivered_at": "2026-11-24T01:10:58+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10722,
+    "file": "stories/20261124-0113_10722.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10722.jpg",
+    "source2": "sources/10722_2.jpg",
+    "gallery": [
+      "sources/10722_g1.jpg",
+      "sources/10722_g2.jpg",
+      "sources/10722_g3.jpg",
+      "sources/10722_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.35
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.327
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.357
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.855
+      }
+    ],
+    "title": "Indian Scout",
+    "year": "2023",
+    "mileage": "8’749",
+    "price": "1 216 000",
+    "created": "2026-11-24T01:13:17+00:00",
+    "posted": "2026-11-24T01:11:53+00:00",
+    "status": "delivered",
+    "description": "Indian Scout\nГод: 2023\nПробег: 8’749 km\nЦена под ключ:\n1 216 000₽\n\nIndian Scout в серебристом цвете. Без ДТП, состояние A-grade. Мотоцикл предлагается специализированным дилером Harley-Davidson и Indian. По заявлению продавца, техника находится в отличном состоянии и готова к эксплуатации.\n\nПродавец — профессиональная компания, специализирующаяся на Harley-Davidson.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1272
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T01:14:16+00:00",
+    "status_b": "delivered"
   }
 ]
