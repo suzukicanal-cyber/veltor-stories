@@ -23748,5 +23748,63 @@
     },
     "video": false,
     "delivered_at": "2026-11-24T08:40:18+00:00"
+  },
+  {
+    "post_id": 10815,
+    "file": "stories/20261124-0907_10815.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10815.jpg",
+    "source2": "sources/10815_2.jpg",
+    "gallery": [
+      "sources/10815_g1.jpg",
+      "sources/10815_g2.jpg",
+      "sources/10815_g3.jpg",
+      "sources/10815_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.319
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.246
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.292
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.66
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Harley-Davidson Fat Bob 114",
+    "year": "2024",
+    "mileage": "5’894",
+    "price": "1 596 000",
+    "created": "2026-11-24T09:07:24+00:00",
+    "posted": "2026-11-24T09:05:31+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Fat Bob 114\nГод: 2024\nПробег: 5’894 km\nЦена под ключ:\n1 596 000₽\n\nЦвет чёрный. Техническое состояние хорошее, двигатель, коробка и электрика без замечаний. Установлены защитные дуги, спинка пассажира с багажником и держатель для телефона на руле.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1291
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T09:08:14+00:00",
+    "status_b": "delivered"
   }
 ]
