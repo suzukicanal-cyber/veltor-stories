@@ -23663,5 +23663,63 @@
     "video": false,
     "delivered_at": "2026-11-24T06:20:58+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10795,
+    "file": "stories/20261124-0635_10795.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10795.jpg",
+    "source2": "sources/10795_2.jpg",
+    "gallery": [
+      "sources/10795_g1.jpg",
+      "sources/10795_g2.jpg",
+      "sources/10795_g3.jpg",
+      "sources/10795_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.343
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.58
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.577
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.33
+      }
+    ],
+    "title": "BMW S 1000 RR M Package",
+    "year": "2026",
+    "mileage": "972",
+    "price": "2 408 000",
+    "created": "2026-11-24T06:35:47+00:00",
+    "posted": "2026-11-24T06:34:22+00:00",
+    "status": "delivered",
+    "description": "BMW S 1000 RR M Package\nГод: 2026\nПробег: 972 km\nЦена под ключ:\n2 408 000₽\n\nБайк в состоянии нового\nБез ДТП и замен\nЕще на обкатке \n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1288
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T06:36:16+00:00",
+    "status_b": "delivered"
   }
 ]
