@@ -23279,5 +23279,103 @@
     "video": false,
     "delivered_at": "2026-11-24T01:14:16+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10728,
+    "file": "stories/20261124-0217_10728.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      3
+    ],
+    "source": "sources/10728.jpg",
+    "source2": "sources/10728_2.jpg",
+    "gallery": [
+      "sources/10728_g1.jpg",
+      "sources/10728_g2.jpg",
+      "sources/10728_g3.jpg",
+      "sources/10728_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.647
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Harley-Davidson Nightster",
+    "year": "2023",
+    "mileage": "1’048",
+    "price": "1 218 000",
+    "created": "2026-11-24T02:17:06+00:00",
+    "posted": "2026-11-24T02:15:32+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Nightster\nГод: 2023\nПробег: 1’048 km\nЦена под ключ:\n1 218 000₽\n\nБазовое обслуживание сделано. Передняя и задняя резина остались больше чем на 70%.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1274
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T02:20:39+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10734,
+    "file": "stories/20261124-0219_10734.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10734.jpg",
+    "source2": "sources/10734_2.jpg",
+    "gallery": [
+      "sources/10734_g1.jpg",
+      "sources/10734_g2.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.462
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.61
+      }
+    ],
+    "title": "Harley-Davidson Low Rider ST",
+    "year": "2024",
+    "mileage": "2’900",
+    "price": "2 290 000",
+    "created": "2026-11-24T02:19:58+00:00",
+    "posted": "2026-11-24T02:16:10+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Low Rider ST\nГод: 2024\nПробег: 2’900 km\nЦена под ключ:\n2 290 000₽\n\nСостояние как у нового, полностью сток без переделок.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1275
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T02:20:41+00:00",
+    "status_b": "delivered"
   }
 ]
