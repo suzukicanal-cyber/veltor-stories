@@ -24003,5 +24003,63 @@
     },
     "video": false,
     "delivered_at": "2026-11-24T10:38:09+00:00"
+  },
+  {
+    "post_id": 10867,
+    "file": "stories/20261124-1044_10867.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10867.jpg",
+    "source2": "sources/10867_2.jpg",
+    "gallery": [
+      "sources/10867_g1.jpg",
+      "sources/10867_g2.jpg",
+      "sources/10867_g3.jpg",
+      "sources/10867_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.376
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.9
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.357
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Fat Boy 117",
+    "year": "2025",
+    "mileage": "1’264",
+    "price": "2 467 000",
+    "created": "2026-11-24T10:44:29+00:00",
+    "posted": "2026-11-24T10:42:19+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Fat Boy 117\nГод: 2025\nПробег: 1’264 km\nЦена под ключ:\n2 467 000₽\n\nHarley-Davidson Fat Boy 117 2025 года в состоянии нового мотоцикла, без ДТП. Хранился только на подземной парковке и ни разу не был под дождём. Из тюнинга стоят спинка пассажира (sissy bar), видеорегистратор и боковые кофры, есть защитные дуги\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑\n*33",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1301
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T10:45:13+00:00",
+    "status_b": "delivered"
   }
 ]
