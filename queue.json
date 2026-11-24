@@ -23462,5 +23462,63 @@
     "video": false,
     "delivered_at": "2026-11-24T03:01:33+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10757,
+    "file": "stories/20261124-0507_10757.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10757.jpg",
+    "source2": "sources/10757_2.jpg",
+    "gallery": [
+      "sources/10757_g1.jpg",
+      "sources/10757_g2.jpg",
+      "sources/10757_g3.jpg",
+      "sources/10757_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.915
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.869
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.541
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.838
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.624
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.915
+      }
+    ],
+    "title": "BMW S 1000 RR",
+    "year": "2026",
+    "mileage": "2",
+    "price": "2 310 000",
+    "created": "2026-11-24T05:07:54+00:00",
+    "posted": "2026-11-24T05:06:18+00:00",
+    "status": "delivered",
+    "description": "BMW S 1000 RR\nГод: 2026\nПробег: 2 km\nЦена под ключ:\n2 310 000₽\n\nБез ДТП и падений.\nФактически новый мотоцикл без пробега: при получении на одометре было 2 км, после этого не ездил. Хранился один на отдельном месте в подземном паркинге. Есть два ключа и руководство по эксплуатации.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1281
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T05:08:38+00:00",
+    "status_b": "delivered"
   }
 ]
