@@ -23864,5 +23864,117 @@
     "video": false,
     "delivered_at": "2026-11-24T10:25:21+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10842,
+    "file": "stories/20261124-1027_10842.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/10842.jpg",
+    "source2": "sources/10842_2.jpg",
+    "gallery": [
+      "sources/10842_g1.jpg",
+      "sources/10842_g2.jpg",
+      "sources/10842_g3.jpg",
+      "sources/10842_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.258
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.553
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.265
+      }
+    ],
+    "title": "Harley-Davidson Fat Boy 114",
+    "year": "2024",
+    "mileage": "9’000",
+    "price": "2 158 000",
+    "created": "2026-11-24T10:27:00+00:00",
+    "posted": "2026-11-24T10:24:59+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Fat Boy 114\nГод: 2024\nПробег: 9’000 km\nЦена под ключ:\n2 158 000₽\n\nВнешне в очень хорошем состоянии, чистый. Двигатель и расходники в порядке, можно сразу ехать. На фото видно доп. оборудование: высокий руль, боковые кофры, спинка пассажира, защитные дуги и кожаная сумка.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1296
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T10:28:51+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10847,
+    "file": "stories/20261124-1028_10847.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10847.jpg",
+    "source2": "sources/10847_2.jpg",
+    "gallery": [
+      "sources/10847_g1.jpg",
+      "sources/10847_g2.jpg",
+      "sources/10847_g3.jpg",
+      "sources/10847_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.89
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.405
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.593
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.357
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Harley-Davidson Fat Boy 114",
+    "year": "2023",
+    "mileage": "2’821",
+    "price": "2 025 000",
+    "created": "2026-11-24T10:28:09+00:00",
+    "posted": "2026-11-24T10:26:04+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Fat Boy 114\nГод: 2023\nПробег: 2’821 km\nЦена под ключ:\n2 025 000₽\n\nБез ДТП и падений.\nСостояние как у нового, без особых замечаний, полностью на ходу. Официальная гарантия Harley-Davidson действует до мая 2028 года, остались купоны на замену масла до 8000 км. Стоят прямоток Khrome Werks, спортивный воздушный фильтр, подогрев ручек, переключатель передач пятка-носок, боковой кофр, многопозиционная спинка с багажником и двухканальный видеорегистратор.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1297
+    },
+    "video": false,
+    "delivered_at": "2026-11-24T10:28:52+00:00",
+    "status_b": "delivered"
   }
 ]
