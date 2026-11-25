@@ -24540,5 +24540,103 @@
     },
     "video": false,
     "delivered_at": "2026-11-25T00:07:48+00:00"
+  },
+  {
+    "post_id": 10941,
+    "file": "stories/20261125-0031_10941.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      4
+    ],
+    "source": "sources/10941.jpg",
+    "source2": "sources/10941_2.jpg",
+    "gallery": [
+      "sources/10941_g1.jpg",
+      "sources/10941_g2.jpg",
+      "sources/10941_g3.jpg",
+      "sources/10941_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.273
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha YZF-R6",
+    "year": "2020",
+    "mileage": "608",
+    "price": "1 959 000",
+    "created": "2026-11-25T00:31:47+00:00",
+    "posted": "2026-11-25T00:30:14+00:00",
+    "status": "delivered",
+    "description": "Yamaha YZF-R6\nГод: 2020\nПробег: 608 km\nЦена под ключ:\n1 959 000₽\n\nБез ДТП и падений.\nМотоцикл в состоянии нового. Доп. оборудование ставили из оригинального каталога Yamaha: подножки Gilles Tooling, рулевой демпфер Öhlins, выхлоп Akrapovič, ветровое стекло, защита радиатора, тюнинговый задний фонарь. Также установлен видеорегистратор G1 Pro. Резина Pirelli Diablo Supercorsa SP. Стоковые детали отдаются вместе с мотоциклом.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1321
+    },
+    "video": false,
+    "delivered_at": "2026-11-25T00:33:10+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10948,
+    "file": "stories/20261125-0032_10948.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10948.jpg",
+    "source2": "sources/10948_2.jpg",
+    "gallery": [
+      "sources/10948_g1.jpg",
+      "sources/10948_g2.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.916
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.361
+      }
+    ],
+    "title": "Harley-Davidson Sportster 883 SuperLow",
+    "year": "2016",
+    "mileage": "9’000",
+    "price": "966 000",
+    "created": "2026-11-25T00:32:29+00:00",
+    "posted": "2026-11-25T00:30:49+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Sportster 883 SuperLow\nГод: 2016\nПробег: 9’000 km\nЦена под ключ:\n966 000₽\n\nПолностью стоковый, без ДТП и падений, в чистом состоянии. В комплекте дуги безопасности, штатные зеркала, а также два глушителя — штатный и ещё один дополнительный.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1322
+    },
+    "video": false,
+    "delivered_at": "2026-11-25T00:33:11+00:00",
+    "status_b": "delivered"
   }
 ]
