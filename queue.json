@@ -25118,5 +25118,63 @@
     "video": false,
     "delivered_at": "2026-11-25T13:30:09+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 11019,
+    "file": "stories/20261125-1331_11019.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/11019.jpg",
+    "source2": "sources/11019_2.jpg",
+    "gallery": [
+      "sources/11019_g1.jpg",
+      "sources/11019_g2.jpg",
+      "sources/11019_g3.jpg",
+      "sources/11019_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.867
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.769
+      }
+    ],
+    "title": "Ducati 1198 S Corse Special Edition",
+    "year": "2010",
+    "mileage": "15’200",
+    "price": "1 330 000",
+    "created": "2026-11-25T13:31:32+00:00",
+    "posted": "2026-11-25T13:29:46+00:00",
+    "status": "delivered",
+    "description": "Ducati 1198 S Corse Special Edition\nГод: 2010\nПробег: 15’200 km\nЦена под ключ:\n1 330 000₽\n\nDucati 1198 S Corse Special Edition — лимитированная версия с легендарным двухцилиндровым двигателем L-Twin объёмом 1198 cc и сухим сцеплением. Последнее поколение двухцилиндровых Ducati с сухим сцеплением. Красно-белая заводская расцветка Corse.\n\nПо заявлению продавца, без ДТП и утечек технических жидкостей. Установлены компоненты Brembo, Öhlins, Marchesini и полный выхлоп Termignoni с оформленным разрешением на изменение конструкции. Также установлены рычаги и подножки Ducati Performance. Модель оснащена SBK ECU. Продавец утверждает, что дополнительный тюнинг не требуется. Пробег может незначительно увеличиваться. Мотоцикл долгое время находится у владельца, продаётся с сожалением. Возможен небольшой торг.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1343
+    },
+    "video": false,
+    "delivered_at": "2026-11-25T13:32:21+00:00",
+    "status_b": "delivered"
   }
 ]
