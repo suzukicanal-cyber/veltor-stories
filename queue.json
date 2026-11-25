@@ -24750,5 +24750,121 @@
     "video": false,
     "delivered_at": "2026-11-25T01:29:35+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10964,
+    "file": "stories/20261125-0354_10964.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      5
+    ],
+    "source": "sources/10964.jpg",
+    "source2": "sources/10964_2.jpg",
+    "gallery": [
+      "sources/10964_g1.jpg",
+      "sources/10964_g2.jpg",
+      "sources/10964_g3.jpg",
+      "sources/10964_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.93
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Yamaha YZF-R6",
+    "year": "2020",
+    "mileage": "13’600",
+    "price": "1 388 000",
+    "created": "2026-11-25T03:54:11+00:00",
+    "posted": "2026-11-25T03:52:32+00:00",
+    "status": "delivered",
+    "description": "Yamaha YZF-R6\nГод: 2020\nПробег: 13’600 km\nЦена под ключ:\n1 388 000₽\n\nСлип-он Akrapovič, рычаги XRT, подножки Arashi, слайдеры LighTech на раму и вилку, регистратор INNOVV на 2 камеры, SP Connect, USB Komine, наколенники TechSpec. Белый пластик, стоковый чёрный в комплекте, плюс винглеты и 2 новых стекла. Масло и фильтр по регламенту, новый АКБ, Pirelli Rosso Corsa 4 — проехано около 3 тыс. км. Было падение на месте: защиту глушителя, слайдеры и подножку заменили, на крышке маслозаливной горловины вмятина, внутренний пластик у радиатора треснут\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1329
+    },
+    "video": false,
+    "delivered_at": "2026-11-25T03:56:34+00:00",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 10974,
+    "file": "stories/20261125-0355_10974.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10974.jpg",
+    "source2": "sources/10974_2.jpg",
+    "gallery": [
+      "sources/10974_g1.jpg",
+      "sources/10974_g2.jpg",
+      "sources/10974_g3.jpg",
+      "sources/10974_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.854
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.762
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.23
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Honda CBR1000RR-R Fireblade SP",
+    "year": "2026",
+    "mileage": "5’550",
+    "price": "2 489 000",
+    "created": "2026-11-25T03:55:40+00:00",
+    "posted": "2026-11-25T03:53:45+00:00",
+    "status": "delivered",
+    "description": "Honda CBR1000RR-R Fireblade SP\nГод: 2026\nПробег: 5’550 km\nЦена под ключ:\n2 489 000₽\n\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1330
+    },
+    "video": false,
+    "delivered_at": "2026-11-25T03:56:36+00:00",
+    "status_b": "delivered"
   }
 ]
