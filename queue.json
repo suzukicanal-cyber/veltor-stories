@@ -24692,5 +24692,63 @@
     "video": false,
     "delivered_at": "2026-11-25T01:12:59+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10955,
+    "file": "stories/20261125-0128_10955.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/10955.jpg",
+    "source2": "sources/10955_2.jpg",
+    "gallery": [
+      "sources/10955_g1.jpg",
+      "sources/10955_g2.jpg",
+      "sources/10955_g3.jpg",
+      "sources/10955_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.862
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.622
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.888
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.835
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.909
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.881
+      }
+    ],
+    "title": "Harley-Davidson Road Glide",
+    "year": "2025",
+    "mileage": "3",
+    "price": "2 985 000",
+    "created": "2026-11-25T01:28:39+00:00",
+    "posted": "2026-11-25T01:27:08+00:00",
+    "status": "delivered",
+    "description": "Harley-Davidson Road Glide\nГод: 2025\nПробег: 3 km\nЦена под ключ:\n2 985 000₽\n\nНовый мотоцикл: пройдена только предпродажная подготовка с тестовым выездом. Без падений и без следов эксплуатации. На вилку и боковые накладки крыльев наклеена защитная плёнка PPF.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1327
+    },
+    "video": false,
+    "delivered_at": "2026-11-25T01:29:35+00:00",
+    "status_b": "delivered"
   }
 ]
