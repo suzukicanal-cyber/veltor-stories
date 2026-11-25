@@ -25060,5 +25060,63 @@
     "video": false,
     "delivered_at": "2026-11-25T13:27:23+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 11009,
+    "file": "stories/20261125-1329_11009.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/11009.jpg",
+    "source2": "sources/11009_2.jpg",
+    "gallery": [
+      "sources/11009_g1.jpg",
+      "sources/11009_g2.jpg",
+      "sources/11009_g3.jpg",
+      "sources/11009_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.835
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.88
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.538
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Ducati Diavel V4 Black",
+    "year": "2024",
+    "mileage": "60",
+    "price": "4 875 000",
+    "created": "2026-11-25T13:29:30+00:00",
+    "posted": "2026-11-25T13:26:43+00:00",
+    "status": "delivered",
+    "description": "Ducati Diavel V4 Black\n⭐️EXCLUSIVE⭐️\nГод: 2024\nПробег: 60 km\nЦена под ключ:\n4 875 000₽\n\nDucati Diavel V4 Black в состоянии нового мотоцикла, первая регистрация — декабрь 2024 года. По заявлению продавца, без ДТП, проверка и техническая диагностика выполнены. Мотоцикл находится на комиссии у официального дилера\n\nВыполнен масштабный премиальный тюнинг с использованием компонентов Motocorse, AEM Factory, CNC Racing, Rizoma, Ducati Performance и других производителей. Стоимость дополнительного оборудования по заявлению продавца — около 60 000 000 KRW.\n\nУстановлены:\n\nВыхлопная система Termignoni 4 Uscite Racing Silencer Dragster Edition\nТормозные суппорты Brembo Racing GP4-MS Monoblock\nПередняя вилка Marzocchi 108 mm с радиальным креплением суппортов\nКомпоненты Motocorse из титана и алюминия\nКарбоновые элементы CNC Racing и Ducati Performance\nЗеркала Rizoma Stealth Naked\nКомплект сухого сцепления Ducati Performance\nЦепь DID 525 ZVMX2 Black\nКомпоненты AEM Factory для трансмиссии\nДополнительные элементы управления, защиты и отделки\n\nМотоцикл прошёл предпродажную проверку и обслуживание.\n\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1341
+    },
+    "video": false,
+    "delivered_at": "2026-11-25T13:30:09+00:00",
+    "status_b": "delivered"
   }
 ]
