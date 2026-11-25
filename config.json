@@ -1,7 +1,5 @@
 {
-  "deliver_to_chat_ids": [
-    -5170079498
-  ],
+  "deliver_to_chat_ids": [],
   "forward_via_chat_id": 922889444,
   "restore_photos": true,
   "send_video": false,
