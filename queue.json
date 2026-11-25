@@ -25179,5 +25179,63 @@
     "published_at": "2026-11-25T13:34:11+00:00",
     "story_id": 370,
     "published_track": "track.mp3"
+  },
+  {
+    "post_id": 11025,
+    "file": "stories/20261125-1420_11025.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/11025.jpg",
+    "source2": "sources/11025_2.jpg",
+    "gallery": [
+      "sources/11025_g1.jpg",
+      "sources/11025_g2.jpg",
+      "sources/11025_g3.jpg",
+      "sources/11025_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.638
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.626
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "Ducati 1299 Superleggera",
+    "year": "2017",
+    "mileage": "2’436",
+    "price": "5 915 000",
+    "created": "2026-11-25T14:20:52+00:00",
+    "posted": "2026-11-25T14:19:10+00:00",
+    "status": "delivered",
+    "description": "Ducati 1299 Superleggera\n⭐️EXCLUSIVE ⭐️\nГод: 2017\nПробег: 2’436 km\nЦена под ключ:\n5 915 000₽\n\nDucati 1299 Superleggera — лимитированная серия, всего 500 экземпляров по всему миру. Атмосферный 1285 cc Superquadro L-Twin мощностью 215 л.с. Карбоновый монокок, карбоновый маятник и колёса. Титановое внутреннее оснащение двигателя, подвеска Öhlins и тормозная система Brembo. Дополнительно установлены тормозные суппорты и шланги Brembo GP4-RX, защита радиатора Moto Corse и карбоновая защита пятки Lightech. По объявлению — без ДТП.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1345
+    },
+    "video": false,
+    "delivered_at": "2026-11-25T14:21:45+00:00",
+    "status_b": "delivered"
   }
 ]
