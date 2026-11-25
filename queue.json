@@ -24638,5 +24638,59 @@
     "video": false,
     "delivered_at": "2026-11-25T00:33:11+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 10950,
+    "file": "stories/20261125-0111_10950.jpg",
+    "layout": "collage",
+    "photo_no": [
+      3,
+      1
+    ],
+    "source": "sources/10950.jpg",
+    "source2": "sources/10950_2.jpg",
+    "gallery": [
+      "sources/10950_g1.jpg",
+      "sources/10950_g2.jpg",
+      "sources/10950_g3.jpg",
+      "sources/10950_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.636
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.585
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.876
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.778
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "Honda CBR600RR",
+    "year": "2025",
+    "mileage": "2’427",
+    "price": "1 344 000",
+    "created": "2026-11-25T01:11:47+00:00",
+    "posted": "2026-11-25T01:10:13+00:00",
+    "status": "delivered",
+    "description": "Honda CBR600RR\nГод: 2025\nПробег: 2’427 km\nЦена под ключ:\n1 344 000₽\n\nИспользуется для поездок на работу. Масло меняли на 1855 км и через месяц ещё раз на 2212 км: Motul 7100 10W-40 вместе с фильтром. На 1790 км прошёл отзывную кампанию по двигателю (картер), это сделал ещё прошлый владелец. Выше 8000 об/мин не крутили. Мастер при замене масла отметил, что мотор звучит хорошо. В комплекте два ключа.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "tg_message": {
+      "chat_id": -5170079498,
+      "message_id": 1325
+    },
+    "video": false,
+    "delivered_at": "2026-11-25T01:12:59+00:00",
+    "status_b": "delivered"
   }
 ]
