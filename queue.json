@@ -25237,5 +25237,57 @@
     "video": false,
     "delivered_at": "2026-11-25T14:21:45+00:00",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 11035,
+    "file": "stories/20261126-0014_11035.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/11035.jpg",
+    "source2": "sources/11035_2.jpg",
+    "gallery": [
+      "sources/11035_g1.jpg",
+      "sources/11035_g2.jpg",
+      "sources/11035_g3.jpg",
+      "sources/11035_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.638
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.618
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.638
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.612
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.05
+      }
+    ],
+    "title": "BMW S1000RR M Package",
+    "year": "2026",
+    "mileage": "100",
+    "price": "2 287 000",
+    "created": "2026-11-26T00:14:37+00:00",
+    "posted": "2026-11-26T00:13:07+00:00",
+    "status": "new",
+    "description": "BMW S1000RR M Package\nГод: 2026\nПробег: 100 km\nЦена под ключ:\n2 287 000₽\n\nBMW S1000RR в комплектации M Package. Практически новый мотоцикл, первая регистрация в 2026 году, пробег всего 100 km. Полностью безаварийный, состояние нового мотоцикла.\n\nУстановлено дополнительное оборудование: штатный глушитель Akrapovič, видеорегистратор GNET MVR G1 PRO 2-канальный, защита двигателя GB Racing, SP Connect, защитные элементы рычагов сцепления и тормоза M, задние подножки Gilles Tooling, слайдеры рамы Gilles Tooling и другие опции.\n\nВ наличии оригинальный тормозной рычаг, два ключа и заводская документация. Все расходные материалы и техническое обслуживание в порядке.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "status_b": "delivered"
   }
 ]
