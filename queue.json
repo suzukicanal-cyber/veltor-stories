@@ -25622,5 +25622,109 @@
     "status": "new",
     "description": "BMW R12 Option 719\nГод: 2024\nПробег: 588 km\nЦена под ключ:\n1 484 000₽\n\nBMW R12 в эксклюзивном исполнении Option 719. Мотоцикл в отличном состоянии, без ДТП и падений.\n\nДополнительное оборудование: держатель смартфона SP Connect, боковая сумка SW-Motech.\n\nМотоцикл прошёл проверку состояния перед продажей.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
     "status_b": "delivered"
+  },
+  {
+    "post_id": 11101,
+    "file": "stories/20261126-0106_11101.jpg",
+    "layout": "collage",
+    "photo_no": [
+      2,
+      1
+    ],
+    "source": "sources/11101.jpg",
+    "source2": "sources/11101_2.jpg",
+    "gallery": [
+      "sources/11101_g1.jpg",
+      "sources/11101_g2.jpg",
+      "sources/11101_g3.jpg",
+      "sources/11101_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.621
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.917
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.883
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.621
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "KTM 1290 Super Adventure S",
+    "year": "2024",
+    "mileage": "1’904",
+    "price": "1 892 000",
+    "created": "2026-11-26T01:06:11+00:00",
+    "posted": "2026-11-26T01:03:44+00:00",
+    "status": "new",
+    "description": "KTM 1290 Super Adventure S\nГод: 2024\nПробег: 1’904 km\nЦена под ключ:\n1 892 000₽\n\nБез ДТП и падений.\nУстановлен мотоплеер Chigee с поддержкой зеркалирования смартфона и двухканальный видеорегистратор Chigee. В комплекте оригинальная задняя сумка KTM. Из опций: подогрев ручек, противотуманные фары, ветровое стекло.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "status_b": "delivered"
+  },
+  {
+    "post_id": 11111,
+    "file": "stories/20261126-0106_11111.jpg",
+    "layout": "collage",
+    "photo_no": [
+      1,
+      2
+    ],
+    "source": "sources/11111.jpg",
+    "source2": "sources/11111_2.jpg",
+    "gallery": [
+      "sources/11111_g1.jpg",
+      "sources/11111_g2.jpg",
+      "sources/11111_g3.jpg",
+      "sources/11111_g4.jpg"
+    ],
+    "checked": [
+      {
+        "photo": 1,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 2,
+        "whole_bike": 0.05
+      },
+      {
+        "photo": 3,
+        "whole_bike": 0.0
+      },
+      {
+        "photo": 4,
+        "whole_bike": 0.42
+      },
+      {
+        "photo": 5,
+        "whole_bike": 0.282
+      },
+      {
+        "photo": 6,
+        "whole_bike": 0.0
+      }
+    ],
+    "title": "KTM 1290 Super Adventure S",
+    "year": "2021",
+    "mileage": "8’000",
+    "price": "1 727 000",
+    "created": "2026-11-26T01:06:44+00:00",
+    "posted": "2026-11-26T01:04:50+00:00",
+    "status": "new",
+    "description": "KTM 1290 Super Adventure S\nГод: 2021\nПробег: 8’000 km\nЦена под ключ:\n1 727 000₽\n\nБез ДТП и падений.\nОдин владелец, байк с 2023 года, ездил только на работу и обратно. Хранится в помещении. Кофры сняты, рамки под них остались на мотоцикле. Из опций: подогрев ручек, розетка, сигнализация, противотуманки, защитные дуги, LED-свет и ветровое стекло.\n\nКупить мотоцикл из Южной Кореи 🇰🇷\nПиши @VELTOR_KOR — организуем доставку под 🔑",
+    "status_b": "delivered"
   }
 ]
